@@ -68,6 +68,17 @@ counts.
 - **Fact-check what the user supplies too.** "Canada is the 7th best economy" was wrong: IMF
   Oct 2025 ranks it 10th; it is a G7 member. Say so plainly, then use the true version.
 - Facts and sources for NCA live in `docs/NCA_WEB_RESEARCH_2026-10-06.md`.
+- **Reference build: Data Protection wave 4 (stems 101 to 112, "email face").** Each reader is
+  split by job title from a parent cell that already priced cheap (hospital staff 0.70x, KYC
+  0.52x, cyber lawyers 0.85x), and each one's job already touches personal data. The face is a
+  dramatised email from a peer: the call-out names the reader, a "You keep saying..." line
+  mirrors their complaint, and the subject line "You'd make a great <role>" names the prize. One
+  highlighted sentence defines the role, and the close is a soft "Join me?". It is labelled
+  "Dramatised email. Not a real learner." The law date is framed as demand ("when businesses
+  start buying this work, not what happens to anybody who is late"). Pay ladders appear on the
+  page only, each with its AmbitionBox salary count and date. Weak spots to avoid copying: hype
+  words on the face ("huge shortage, big hikes, out of turn promotions"), dates on the face, one
+  template across all 12, and 48 to 67% sentence overlap between pages.
 
 ## House style for anything written here
 
