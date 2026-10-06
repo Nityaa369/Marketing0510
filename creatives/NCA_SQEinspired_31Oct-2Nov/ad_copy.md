@@ -47,3 +47,24 @@ live only. Rebuild: `python3 build.py <this folder>`.
 - **Headline:** You already draft under common law
 - **Primary text:** A corporate or contract lawyer? You already draft under common law, and Canada is a common-law country. Qualify to practise there: clear the NCA exams from India, pass the bar licensing, then practise in Canada. On Day 3 you review a Canadian contract, live. In our 3-day live bootcamp, we explain each step and build your 12-month plan with you. Live only, no recordings. Rs 10 incl. GST, refundable anytime.
 - **Check:** Day 3 contract review is from the April 2024 script (a non-compete under Canadian law). Confirm in the 2026 script. The clause on the face is an illustrative sample, not a real client document.
+
+## Landing pages (`landing_pages/lp_<ad stem>.html`, built by `build_lps.py`)
+Ruchika's 21-step order, one page per ad, each in its ad's palette: 1,675 to 1,997 words, no sentence
+over 34 words, no heading over 16, 34 to 41% sentence overlap between pages (blocks at 80%). The only
+disclaimer is at the very end. First fold: who-question, qualifier row, the ad's promise, NCA defined,
+3 deliverables, dates, times, price, button.
+
+**Blockers before any spend:**
+1. **Pay buttons are placeholders** (`#PAYMENT_LINK_PENDING`). Create the four GrowthX funnels
+   (`nca-oct-s01-experienced`, `-s02-eligibility`, `-s03-newly-enrolled`, `-s04-contract-lawyers`),
+   put the real URLs in `PAY`, and test-buy each in a browser.
+2. **Learner stories** (Hezal Shah, Shashwat Jindal, Navkaran Singh, Yashika Malhotra, Harshmir
+   Swaitch) are as told in the April 2024 script summary, worded "in our bootcamp's own account".
+   Confirm each person's current facts and consent with Abhishek Pareek before publishing.
+3. **Confirm in the 2026 script:** the Day 1 to 3 content, "about 2 hours a day / six months", the
+   2026-rules session, the WhatsApp joining message, and that Abhishek Pareek leads.
+4. **Sourced facts used:** IMF Oct 2025 (Canada 10th largest economy, G7), IRCC 2026 to 2028 levels
+   plan (380,000 PR a year, 64% economic), IRCC 2024 (India 127,320 new PRs), nca.legal (fees,
+   monthly exams, 10 months best case, about 2 years average, 5-year window, JD tuition), Job Bank
+   NOC 41101 Ontario (CAD 65.21 median an hour, labelled market data, page only). "Canada is the 7th
+   best economy" was checked and is wrong (10th), so it is not used.

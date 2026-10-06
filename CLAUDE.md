@@ -42,6 +42,33 @@ counts.
   call needs Ramanuj (audience choice, routing, budgets) rather than pretending it is settled.
 - Only Ramanuj's approval is approval. Ruchika's or an in-house label is not.
 
+## Learned with Ruchika, 6 Oct 2026 (NCA Canada work)
+
+- **One reader, one direct message per ad.** No layered messages. The call-out names the reader
+  plainly; the head names the one prize.
+- **Numbers on the call-out** ("5+ years", "0 to 2 years"): Ruchika may ask for them. Build it, but
+  always flag the evidence: viewer-describing numbers lose (ID "15+ years" 1.90x par, SQE
+  `seniors_15plus` 1.29x) and SQE's cheapest ad (`sqe_h_secondact`, 0.63x) kept the number off the
+  face. Offer a no-number twin ("Experienced advocates?", "Newly enrolled advocates?").
+- **NCA ads always show the route:** NCA exams (written from India), then bar licensing, then
+  practise in Canada. Never "the only route" (a Canadian JD exists) and never "bar exam scrapped"
+  (Ontario reform is pending).
+- **Mine SQE first for any foreign-qualification product.** Winners: "without pausing your
+  practice", eligibility check (Ramanuj approved), editorial design, jurisdiction match. Target IELTS
+  and English interests; avoid bar-exam interest (1.84x) and LLM interest (1.37x). Say "eligible to
+  apply", never "automatic".
+- **Formats Ruchika wants explored:** WhatsApp chat, notice, meme, editorial, checklist, planner,
+  redlined document, search, nameplate, route map, calendar, broadsheet. A notice is always
+  "Issued by LawSikho": no state emblem, no NCA or Law Society name or seal (impersonation).
+- **Landing pages follow her 21-step order** (name the buyer, symptom, outcome, three failed
+  alternatives, reframe as positioning not effort, cost of staying unclear, offer, 3-step mechanism,
+  first artifact, longer-term change, two real proofs, the work, implementation, cost comparison,
+  risk removal, buyer language, next step, stop selling). **The only disclaimer goes at the very end**
+  (Ruchika and Ramanuj Rule 5 agree: nothing hedges above a pay button).
+- **Fact-check what the user supplies too.** "Canada is the 7th best economy" was wrong: IMF
+  Oct 2025 ranks it 10th; it is a G7 member. Say so plainly, then use the true version.
+- Facts and sources for NCA live in `docs/NCA_WEB_RESEARCH_2026-10-06.md`.
+
 ## House style for anything written here
 
 Plain technical English. No em or en dashes (write "3 to 5 Oct").
