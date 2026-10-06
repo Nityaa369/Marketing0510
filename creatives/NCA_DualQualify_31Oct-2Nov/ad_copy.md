@@ -31,3 +31,22 @@ Every face has a different device, one reader, the route as chips, no dates, its
 - **ICP:** Corporate and contract lawyers · **Objection:** "My skills only work in India"
 - **Headline:** Same drafting. Dual-qualify in two countries
 - **Primary text:** Corporate or contract lawyer? The shareholders' agreements, service contracts, NDAs and privacy policies you draft now are the same documents Canadian clients need. Canada is common law, like India, so your drafting carries over. Clear the NCA exams from India, then the bar licensing, then practise in Canada. Try the route in our 3-day live bootcamp. Live only, no recordings. Rs 10 incl. GST, refundable anytime.
+
+## Landing pages (`landing_pages/lp_<ad stem>.html`, built by `build_lps.py`)
+Ruchika's 21-step order, reusing the page engine from `../NCA_SQEinspired_31Oct-2Nov/build_lps.py`.
+The first fold repeats each ad's headline in the same words, and the button repeats the ad's "Try
+the route for Rs 10". Each page argues from its own ad's objection:
+- 01: add a licence, do not swap one
+- 02: three myths, each answered with a sourced fact
+- 03: try before you commit
+- 04: document by document, India today against Canada next
+
+Over 1,600 words each, no sentence over 34 words, 38 to 43% sentence overlap. The disclaimer is at
+the end only.
+
+**Blockers before spend:**
+1. **The pay links are `#PAYMENT_LINK_PENDING`.** Create the funnels and test-buy each in a
+   browser. Slugs: `nca-oct-d01-dual-experienced`, `-d02-myth-fact`, `-d03-try-route`,
+   `-d04-same-drafting`.
+2. **Confirm the learner stories and consent with Abhishek Pareek.**
+3. **Confirm the Day 1 to 3 content in the 2026 script.**
