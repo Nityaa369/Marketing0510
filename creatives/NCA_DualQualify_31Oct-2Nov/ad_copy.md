@@ -50,3 +50,19 @@ the end only.
    `-d04-same-drafting`.
 2. **Confirm the learner stories and consent with Abhishek Pareek.**
 3. **Confirm the Day 1 to 3 content in the 2026 script.**
+
+## Landing pages v2 (`build_lps2.py`, 6 Oct, overwrites landing_pages/)
+Rebuilt on Tailwind CSS v4 (standalone CLI, compiled and inlined: one file, no CDN scripts, fast
+first paint; page speed is a live launch criterion, TechLaw BC lost 67% of clicks to it).
+Ruchika's 21 steps compressed into 10 numbered sections so the argument reads as a chain, plus the
+elements the account's history says convert:
+- Rule 2 first-fold order from the 7/7-approved CF kit; first fold and buttons repeat the ad (Rule 3).
+- Counted-list sections (SOP/05 "argument, not brochure"): "Three ways lawyers get Canada wrong",
+  "Four facts that make 2026 the year to decide", both sourced.
+- Now/after two-column map per reader (the DP donor-page pattern, 14.7 to 18.7% results/LPV).
+- 5 CTAs per page, each stating the full exchange (never a deposit-read button).
+- Closing fold names the reader first with a self-contained lede (closing_reader rules); an h2 names
+  the reader (L6); sentences <= 34 words (L7); no dashes; disclaimer at the end only.
+- Per-page FAQ answering that reader's top three objections.
+Checks: 1,561 to 1,600 words; 0 long sentences; max 59% sentence overlap (warn 65, block 80).
+Blockers unchanged: pay links pending, learner stories to confirm with Abhishek Pareek, 2026 script.
