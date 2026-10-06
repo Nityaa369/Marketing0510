@@ -19,9 +19,9 @@ Rebuild: `python3 build.py <this folder>`.
 - **Primary text:** An Indian lawyer who wants to practise in Canada? Here is the route. One: clear the NCA exams, Canada's check on your Indian law degree, written from India. Two: pass the bar licensing. Three: practise law in Canada. In our 3-day live bootcamp, we explain each step and build your 12-month plan with you. Live only, no recordings. Rs 10 incl. GST, refundable anytime.
 - **Notes:** issued by LawSikho, styled like a notice. No government emblem, no NCA or Law Society name or logo, no notice number, so it cannot be read as an official order.
 
-## nca_f_03_meme_lawyers_0to2yrs (two-panel meme)
-- **ICP:** Lawyers with 0 to 2 years of practice
+## nca_f_03_meme_lawyers_5plus (two-panel meme)
+- **ICP:** Lawyers practising for 5 years or more
 - **Message:** Your Indian LLB is enough to start.
 - **Headline:** Your Indian LLB is enough to start
-- **Primary text:** A lawyer in your first two years of practice, thinking about Canada? You do not need a foreign law degree to start. Your Indian LLB goes through the NCA exams, written from India, then the bar licensing, then you practise in Canada. In our 3-day live bootcamp, we explain each step and build your 12-month plan with you. Live only, no recordings. Rs 10 incl. GST, refundable anytime.
-- **Risk, recorded:** "0 to 2 years" on the face is a viewer-describing number. Ramanuj's rule: these "KILLS AD PERFORMANCE"; "15+ years experience" ID ads ran 1.90x par. Kept at Ruchika's request (6 Oct). Judge at 7 days and 20+ buyers against the no-number faces.
+- **Primary text:** A lawyer with five or more years of practice, thinking about Canada? You do not need a foreign law degree to start. Your Indian LLB goes through the NCA exams, written from India, then the bar licensing, then you practise in Canada. In our 3-day live bootcamp, we explain each step and build your 12-month plan with you. Live only, no recordings. Rs 10 incl. GST, refundable anytime.
+- **Risk, recorded:** "5+ years" on the face is a viewer-describing number. Ramanuj's rule: these "KILLS AD PERFORMANCE"; "15+ years experience" ID ads ran 1.90x par with 0 of 4 beating it, the closest precedent to this cell. Kept at Ruchika's request (6 Oct). Judge at 7 days and 20+ buyers against the no-number faces. Do not add any claim that practice years exempt articling until the Law Society of Ontario rule is checked.

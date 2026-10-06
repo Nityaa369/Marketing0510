@@ -84,7 +84,7 @@ def meme():
 .s{background:%(ac)s;color:#fff;border-radius:8px;font-size:27px;font-weight:900;padding:8px 12px}
 .ar{font-weight:900;color:%(ac)s;font-size:26px}
 .wm{font-size:30px;font-weight:900;color:#fff;background:#111;text-align:center;padding:14px}"""
-    body = RAIL + """<div class="callout">Lawyers with 0 to 2 years of practice?</div>
+    body = RAIL + """<div class="callout">Lawyers practising for 5+ years?</div>
 <div class="memebox">
 <div class="pn"><div class="face">😩</div><div><div class="cap">Me, a year ago</div><div class="say">"Practise in Canada? I would need a foreign law degree."</div></div></div>
 <div class="pn p2"><div class="face">😎</div><div><div class="cap">Me, after the bootcamp</div><div class="say">"My Indian LLB is enough to start."</div>
@@ -94,7 +94,7 @@ def meme():
 <div class="grow"></div>""" + FOOT
     return page(css, body, pal)
 
-for stem, fn in [("nca_f_01_chat_final_year", chat), ("nca_f_02_notice_canada_lawyers", notice), ("nca_f_03_meme_lawyers_0to2yrs", meme)]:
+for stem, fn in [("nca_f_01_chat_final_year", chat), ("nca_f_02_notice_canada_lawyers", notice), ("nca_f_03_meme_lawyers_5plus", meme)]:
     h = os.path.join(OUT, "html", stem + ".html"); open(h, "w").write(fn())
     subprocess.run([HS, "--no-sandbox", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=2",
                     "--window-size=1080,1350", "--screenshot=" + os.path.join(OUT, "ads", stem + ".png"), "file://" + h],
