@@ -22,7 +22,7 @@ DEFAULTS = dict(
     prize_max_height=108, prize_max_px=68,
     # FIXED FOR THE WAVE. Three route pillars: NCA exams, then bar licensing, then practise.
     pillars=[
-        ("icon_nca.png", "NCA exams", "Canada's check on your Indian law degree. Written <em>online, from India.</em> Every month."),
+        ("icon_nca.png", "NCA exams", "Canada's check on your Indian law degree. <em>You pick the month.</em> Open book, written online from India."),
         ("icon_bar.png", "Canadian bar", "Then bar licensing. You become eligible to apply."),
         ("icon_laptop.png", "Practise in Canada", "Same craft, Canadian clients and courts."),
     ],
