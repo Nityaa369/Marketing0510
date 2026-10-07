@@ -32,19 +32,25 @@ Writes `html/<stem>.html` and `ads/<stem>.png` (1080 x 1350, rendered at 2x). Ne
 Chromium headless shell and the Inter font. Any default in `template.py` `DEFAULTS` can be
 overridden per entry, but do not do that inside one wave: one look, two moving lines.
 
-## The five ads in this folder
+## The ten ads in this folder: one per ICP cell
 
-| Stem | Hook | Prize |
-|---|---|---|
-| nca_sky_01_final_year | A final-year law student? | You could practise law in Canada. |
-| nca_sky_02_thinking_about_canada | A lawyer who keeps thinking about Canada? | You could practise law in Canada. |
-| nca_sky_03_newly_enrolled | A newly enrolled advocate? | You could practise law in Canada too. |
-| nca_sky_04_experienced_advocate | An experienced advocate? | You could practise law in Canada too. |
-| nca_sky_05_in_court_weekly | In court every week? | You could practise law in Canada as well. |
+One ad per cell of the wave 3 shortlist (`docs/ICPs_NCA_Wave3_31Oct-2Nov2026.md`). Each has
+its own validation hook (the call-out names the reader's situation in their words) and its own
+offer-specific prize line (the "Value proposition (plain head)" column, with the same-desk heads
+on cells 8 and 10 replaced as that table records). Numbers for cells 4 and 5 stay in targeting.
 
-Hooks 01 to 04 are the ones supplied. 05 is from `docs/HOOKS_NCA_QUESTION_TYPE_2026-10-07.md`
-(hook 6). Ad 03's supplied prize line "You could build a Canada option too" was replaced: "a
-Canada option" does not name a job (Ramanuj, 21 Sep: "where does it say ... the prize is").
+| Stem | ICP | Hook | Prize |
+|---|---|---|---|
+| nca_sky_01_broad_thinking_about_canada | Lawyers who want to practise in Canada (broad capture) | A lawyer who keeps thinking about Canada? | You could practise law in Canada with your Indian LLB. |
+| nca_sky_02_final_year_student | Final-year law students | A final-year law student? | Graduate in India. Start a Canadian law career. |
+| nca_sky_03_fresh_graduate | Fresh law graduates (LLB done, not yet practising) | LLB done, not yet practising? | Your Indian LLB can take you to practise in Canada. |
+| nca_sky_04_newly_enrolled_advocate | Newly enrolled advocates (0 to 2 years in targeting, never on the face) | A newly enrolled advocate? | You could qualify for Canada alongside your first years in court. |
+| nca_sky_05_experienced_advocate | Experienced advocates (5+ years in targeting, never on the face) | An experienced advocate? | Keep your practice. Add a Canadian licence. |
+| nca_sky_06_litigator | Litigators and court lawyers | In court every week? | You could qualify to serve Canadian clients from India. |
+| nca_sky_07_corporate_contract_lawyer | Corporate and contract lawyers | A corporate or contract lawyer? | Qualify in Canada. Draft for Canadian clients too. |
+| nca_sky_08_law_firm_associate | Law firm associates | A law firm associate? | You could qualify as a Canadian lawyer. |
+| nca_sky_09_moving_to_canada | Lawyers planning to move abroad (IELTS, PR plans) | A lawyer planning to move to Canada? | Take your law career with you. |
+| nca_sky_10_in_house_counsel | In-house counsel | In-house counsel at an Indian company? | You could become a Canada-qualified lawyer. |
 
 ## Critique of the supplied design, against Ramanuj's record
 
@@ -82,5 +88,5 @@ decision.
 **Verdict: fix first.** Top fixes: (1) decide which hooks go live (occupation cells first),
 (2) five landing pages, (3) confirm dates on or off the face.
 
-Half-asleep test on nca_sky_04: in 3 seconds, who is it for (an experienced advocate), what
+Half-asleep test on nca_sky_05_experienced_advocate: in 3 seconds, who is it for (an experienced advocate), what
 job (practise law in Canada), why say yes (Rs 10, refundable, we show you how). Pass.

@@ -9,7 +9,7 @@ SRC = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "ads.json")
 HS = glob.glob("/opt/pw-browsers/chromium_headless_shell-*/*/headless_shell")[0]
 ads = json.load(open(SRC))
 for ad in ads:
-    stem = ad.pop("stem")
+    stem = ad.pop("stem"); ad.pop("icp", None)
     h = os.path.join(HERE, "html", stem + ".html")
     open(h, "w").write(render(ad))
     png = os.path.join(HERE, "ads", stem + ".png")
