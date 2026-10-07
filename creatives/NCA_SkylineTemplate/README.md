@@ -90,3 +90,17 @@ decision.
 
 Half-asleep test on nca_sky_05_experienced_advocate: in 3 seconds, who is it for (an experienced advocate), what
 job (practise law in Canada), why say yes (Rs 10, refundable, we show you how). Pass.
+
+## Landing pages (added 7 Oct 2026)
+
+`landing/build_lp.py` builds one page per ad on the 21-step spine from
+`creatives/NCA_LandingTemplate_31Oct-2Nov/template.py`, with a skyline first fold that repeats
+the ad's hook and prize word for word, the route pillars in the ad's words, and the ad palette.
+`landing/pages/` is the launch copy; `landing/preview/` highlights open items; `landing/GAPS.md`
+lists them. The pay link is `#PAYMENT_LINK_PENDING` everywhere and blocks launch.
+
+**No disclaimer, on instruction (7 Oct).** The launch pages end with a live-only sign-off, not
+the legal block. Flag for Ramanuj: Ruchika's 21-step order and his Rule 5 both place the one
+disclaimer at the very end of the page, and the dropped block carried "we do not promise
+admission, a licence, a job or an income". Dropping it entirely is a legal exposure call that
+only he can clear. The preview copies keep every open-item marker.
