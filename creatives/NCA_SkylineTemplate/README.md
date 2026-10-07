@@ -3,16 +3,19 @@
 Built 7 Oct 2026 from the supplied "A lawyer who keeps thinking about Canada?" face
 (`reference/original.webp`). Status: DRAFT for Ramanuj. Not approved.
 
-## What stays fixed (layout v2, centered, 7 Oct)
+## What stays fixed (layout v4, the reference format exactly, 7 Oct)
 
-Header (LawSikho logo, NCA Canada Bootcamp mark), the complete maple leaf skyscape (a full
-maple leaf silhouette filled with the reference ad's sunset skyline photo, flanked by fading
-red rules), the three route pillars (NCA exams, then Canadian bar, then practise in Canada),
-the "We show you how." sticker, the terms band (Rs 10 refundable; 3 days, 9 hours, live
-online), the JOIN NOW button with the Rs 10 burst, and the footer (dates, live online, Rs 10
-incl. GST). Hook and prize sit centered above the leaf, so the face stays balanced for any
-hook length; the reference's cropped right-edge leaf is replaced by the complete one.
-Logo and icons are cut from the reference ad into `assets/`.
+Header (LawSikho logo, NCA Canada Bootcamp mark), the maple leaf skyline art bleeding off
+the right edge as in the reference, the pillar row in the reference order (NCA, Online
+Exams, Canadian Bar), the "We show you how." sticker, the band (Canada's legal market left,
+3 days 9 hours right), the JOIN NOW button with the Rs 10 burst, and the footer. The art is
+shortened so the pillar row always clears it on the 4:5 canvas (the reference is 2:3), and
+a fitter shrinks hook and prize before anything can clip. Departures from the reference,
+decided on 7 Oct: the market figure is the sourced ~CAD 22B, about Rs 1.4 lakh crore at
+roughly Rs 63 per CAD (IBISWorld via docs/NCA_MARKET_FACTS_2026-10-07.md; VERIFY both before
+launch), not the unverified 38B; dates use "to", not an en dash. The standing flag remains:
+a market stat on the face scored lowest with blind readers, and the one-line swap back to
+the "Rs 10. Refundable." cell lives in template.py DEFAULTS.
 
 ## Spelling and the NCA pillar line (decided 7 Oct 2026)
 

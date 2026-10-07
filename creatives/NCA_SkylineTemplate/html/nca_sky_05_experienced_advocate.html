@@ -1,68 +1,68 @@
 <!doctype html><html><head><meta charset='utf-8'><style>
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{width:1080px;height:1350px;overflow:hidden}
-body{font-family:Inter,sans-serif;background:#FEFDF7;color:#15121A;display:flex;flex-direction:column;padding:34px 44px 30px}
+body{font-family:Inter,sans-serif;background:#FEFDF7;color:#15121A;position:relative;display:flex;flex-direction:column;padding:34px 48px 24px}
 em{font-style:normal;color:#F2371D}
-.hdr{display:flex;align-items:center;gap:26px;height:92px;flex:none}
-.hdr img{height:92px;width:auto}
+.hdr{display:flex;align-items:center;gap:26px;height:94px;flex:none}
+.hdr img{height:94px;width:auto}
 .hdr .div{width:3px;height:84px;background:#2B2A33;opacity:.75}
-.hero{flex:1;min-height:360px;display:flex;align-items:center;gap:30px;margin-top:16px}
-.copy{flex:1;text-align:left}
-.hook{font-size:104px;font-weight:900;line-height:1.0;letter-spacing:-.04em;word-spacing:-.03em}
-.prize{font-size:72px;font-weight:900;line-height:1.04;letter-spacing:-.035em;margin-top:24px}
-.leafwrap{height:100%;max-height:470px;aspect-ratio:1/1;position:relative;flex:none;align-self:center}
-.leafwrap svg{position:absolute;inset:0;width:100%;height:100%;filter:drop-shadow(0 10px 22px rgba(242,55,29,.22))}
-.pillars{display:flex;flex:none;margin-top:10px}
-.pil{flex:1;text-align:center;padding:0 14px}
+.art{position:absolute;right:0;top:112px;height:524px;width:auto;z-index:0}
+.copy{position:relative;z-index:1;width:712px;margin-top:30px;flex:none}
+.hook{font-size:100px;font-weight:900;line-height:.98;letter-spacing:-.045em;word-spacing:-.04em}
+.prize{font-size:68px;font-weight:900;line-height:1.02;letter-spacing:-.04em;margin-top:26px;width:660px}
+.grow{flex:1;min-height:0}
+.pillars{position:relative;z-index:1;display:flex;flex:none;margin-top:12px}
+.pil{flex:1;text-align:center;padding:0 12px}
 .pil+.pil{border-left:3px solid #E6E2DB}
-.pil img{height:104px;width:auto}
-.pt{font-size:32px;font-weight:900;letter-spacing:-.02em;margin-top:6px}
-.pd{font-size:23px;font-weight:600;line-height:1.22;margin-top:4px;color:#2A2730}
+.pil img{height:128px;width:auto}
+.pt{font-size:38px;font-weight:900;letter-spacing:-.02em;margin-top:8px}
+.pd{font-size:24px;font-weight:600;line-height:1.22;margin-top:5px;color:#2A2730}
 .pd em{font-weight:800}
-.sticker{align-self:flex-start;margin-left:12px;background:#FFF04A;font-size:34px;font-weight:900;letter-spacing:-.02em;padding:6px 22px 8px;border-radius:8px;transform:rotate(-2deg);margin-top:12px;box-shadow:0 6px 14px rgba(0,0,0,.10)}
-.band{display:flex;flex:none;background:#FEECE7;border-radius:16px;margin-top:12px;padding:16px 28px}
-.cell{flex:1;display:flex;align-items:center;gap:22px}
+.sticker{position:relative;z-index:2;align-self:flex-start;background:#FFF04A;font-size:36px;font-weight:900;letter-spacing:-.02em;padding:7px 22px 9px;border-radius:8px;transform:rotate(-2.5deg);margin:10px 0 0 8px;box-shadow:0 6px 14px rgba(0,0,0,.10)}
+.band{display:flex;flex:none;background:#FEECE7;border-radius:16px;margin-top:12px;padding:15px 30px}
+.cell{flex:1;display:flex;align-items:center;gap:24px}
 .cell+.cell{border-left:3px solid #E9CFC7;padding-left:30px}
-.cell img{height:84px;width:auto}
-.cb{font-size:38px;font-weight:900;line-height:1.02;letter-spacing:-.03em}
-.cb.red{color:#F2371D;text-transform:uppercase}
-.cs{font-size:23px;font-weight:600;color:#2A2730;margin-top:6px;line-height:1.2}
-.cs.caps{font-weight:800;letter-spacing:.02em;text-transform:uppercase;color:#15121A;font-size:25px}
+.cell img{height:100px;width:auto}
+.clabel{font-size:30px;font-weight:900;line-height:1.08;letter-spacing:-.02em}
+.cbig{font-size:58px;font-weight:900;letter-spacing:-.03em;color:#F2371D;line-height:1.02}
+.csmall{font-size:24px;font-weight:600;color:#4A443C;margin-top:2px}
+.cb{font-size:42px;font-weight:900;line-height:1.04;letter-spacing:-.03em;color:#F2371D;text-transform:uppercase}
+.cs{font-size:26px;font-weight:800;letter-spacing:.02em;text-transform:uppercase;margin-top:5px}
 .btnrow{position:relative;flex:none;margin-top:18px}
 .btn{background:#F2371D;color:#fff;border-radius:60px;height:104px;display:flex;align-items:center;padding:0 44px;box-shadow:0 10px 24px rgba(242,55,29,.35)}
 .bt{font-size:56px;font-weight:900;letter-spacing:-.02em;flex:1;text-align:center;padding-right:140px}
 .arrow{font-size:70px;font-weight:900;margin-left:auto}
-.burst{position:absolute;right:160px;top:-34px;width:210px;height:172px;background:url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 230 190%22><polygon fill=%22%23FFE64A%22 stroke=%22%23F2371D%22 stroke-width=%226%22 points=%22115,6 135,30 165,14 172,44 206,40 198,72 228,88 206,112 224,142 190,148 190,182 158,168 140,186 115,160 88,186 70,168 38,182 38,148 6,142 24,112 2,88 32,72 24,40 58,44 65,14 95,30%22/></svg>') no-repeat center/contain;display:flex;align-items:center;justify-content:center;text-align:center;font-size:40px;font-weight:900;line-height:.95;color:#15121A;transform:rotate(6deg)}
-.burst b{color:#F2371D}
-.foot{display:flex;justify-content:space-between;align-items:center;margin-top:18px;flex:none;font-size:25px;font-weight:800;letter-spacing:.03em;text-transform:uppercase}
+.burst{position:absolute;right:160px;top:-36px;width:216px;height:178px;background:url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 230 190%22><polygon fill=%22%23FFE64A%22 stroke=%22%23F2371D%22 stroke-width=%226%22 points=%22115,6 135,30 165,14 172,44 206,40 198,72 228,88 206,112 224,142 190,148 190,182 158,168 140,186 115,160 88,186 70,168 38,182 38,148 6,142 24,112 2,88 32,72 24,40 58,44 65,14 95,30%22/></svg>') no-repeat center/contain;display:flex;align-items:center;justify-content:center;text-align:center;font-size:42px;font-weight:900;line-height:.95;color:#15121A;transform:rotate(6deg)}
+.foot{display:flex;justify-content:space-between;align-items:center;margin-top:14px;flex:none;font-size:26px;font-weight:800;letter-spacing:.03em;text-transform:uppercase}
 .foot div{display:flex;align-items:center;gap:16px}
-.foot img{height:42px;width:auto}
+.foot img{height:44px;width:auto}
 </style></head><body>
 <div class="hdr"><img src="../assets/logo_lawsikho.png"><div class="div"></div><img src="../assets/brand_nca.png"></div>
-<div class="hero"><div class="copy"><div class="hook">An experienced <em>advocate?</em></div><div class="prize">Keep your practice. <em>Add a Canadian licence.</em></div></div><div class="leafwrap"><svg viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><defs><clipPath id="leaf"><path d="M383.8 351.7c2.5-2.5 105.2-92.4 105.2-92.4l-17.5-7.5c-10-4.9-7.4-11.5-5-17.4 2.4-7.6 20.1-67.3 20.1-67.3s-47.7 10-57.7 12.5c-7.5 2.4-10-2.5-12.5-7.5s-15-32.4-15-32.4-52.6 59.9-55.1 62.3c-10 7.5-20.1 0-17.6-10 0-10 27.6-129.6 27.6-129.6s-30.1 17.4-40.1 22.4c-7.5 5-12.6 5-17.6-5C293.5 72.3 255.9 0 255.9 0s-37.5 72.3-42.5 79.8c-5 10-10 10-17.6 5-10-5-40.1-22.4-40.1-22.4s27.6 119.6 27.6 129.6c2.5 10-7.5 17.5-17.5 10-2.5-2.5-55.1-62.3-55.1-62.3s-12.5 27.5-15 32.4c-2.5 5.1-5 10-12.5 7.5-10-2.5-57.7-12.5-57.7-12.5s17.7 59.7 20.1 67.3c2.4 6 5 12.5-5 17.4L23 259.3s102.6 89.9 105.2 92.4c5.1 5 10 7.5 5.1 22.5-5.1 15-10.1 35.1-10.1 35.1s95.2-20.1 105.3-22.6c8.7-.9 18.3 2.5 18.3 12.5S241 512 241 512h30s-5.8-102.7-5.8-112.8 9.5-13.4 18.3-12.5c10 2.5 105.3 22.6 105.3 22.6s-5-20.1-10.1-35.1c-4.9-15 0-17.5 5.1-22.5z"/></clipPath></defs>
-<image href="../assets/skyline_fill.png" x="0" y="0" width="512" height="512" preserveAspectRatio="xMidYMid slice" clip-path="url(#leaf)"/>
-<path d="M383.8 351.7c2.5-2.5 105.2-92.4 105.2-92.4l-17.5-7.5c-10-4.9-7.4-11.5-5-17.4 2.4-7.6 20.1-67.3 20.1-67.3s-47.7 10-57.7 12.5c-7.5 2.4-10-2.5-12.5-7.5s-15-32.4-15-32.4-52.6 59.9-55.1 62.3c-10 7.5-20.1 0-17.6-10 0-10 27.6-129.6 27.6-129.6s-30.1 17.4-40.1 22.4c-7.5 5-12.6 5-17.6-5C293.5 72.3 255.9 0 255.9 0s-37.5 72.3-42.5 79.8c-5 10-10 10-17.6 5-10-5-40.1-22.4-40.1-22.4s27.6 119.6 27.6 129.6c2.5 10-7.5 17.5-17.5 10-2.5-2.5-55.1-62.3-55.1-62.3s-12.5 27.5-15 32.4c-2.5 5.1-5 10-12.5 7.5-10-2.5-57.7-12.5-57.7-12.5s17.7 59.7 20.1 67.3c2.4 6 5 12.5-5 17.4L23 259.3s102.6 89.9 105.2 92.4c5.1 5 10 7.5 5.1 22.5-5.1 15-10.1 35.1-10.1 35.1s95.2-20.1 105.3-22.6c8.7-.9 18.3 2.5 18.3 12.5S241 512 241 512h30s-5.8-102.7-5.8-112.8 9.5-13.4 18.3-12.5c10 2.5 105.3 22.6 105.3 22.6s-5-20.1-10.1-35.1c-4.9-15 0-17.5 5.1-22.5z" fill="none" stroke="#F2371D" stroke-width="6" stroke-linejoin="round"/></svg></div></div>
-<div class="pillars"><div class="pil"><img src="../assets/icon_nca.png"><div class="pt">NCA exams</div><div class="pd">A direct pathway toward Canadian bar eligibility. <em>Open book, written online from India.</em> A session every month.</div></div><div class="pil"><img src="../assets/icon_bar.png"><div class="pt">Canadian bar</div><div class="pd">Then bar licensing. You become eligible to apply.</div></div><div class="pil"><img src="../assets/icon_laptop.png"><div class="pt">Practice in Canada</div><div class="pd">Same craft, Canadian clients and courts.</div></div></div>
+<img class="art" src="../assets/art_leaf_skyline.png">
+<div class="copy"><div class="hook">An experienced <em>advocate?</em></div><div class="prize">Keep your practice. <em>Add a Canadian licence.</em></div></div>
+<div class="grow"></div>
+<div class="pillars"><div class="pil"><img src="../assets/icon_nca.png"><div class="pt">NCA</div><div class="pd">A direct pathway toward Canadian bar eligibility.</div></div><div class="pil"><img src="../assets/icon_laptop.png"><div class="pt">Online Exams</div><div class="pd">Give the NCA exams <em>from the comfort of your home.</em> Sessions 12 times a year.</div></div><div class="pil"><img src="../assets/icon_bar.png"><div class="pt">Canadian Bar</div><div class="pd">You become eligible for the Canadian bar exam.</div></div></div>
 <div class="sticker">We show you how.</div>
 <div class="band">
- <div class="cell"><img src="../assets/foot_card.png"><div><div class="cb">Rs 10. Refundable.</div><div class="cs">Rs 10 incl. GST. Refund anytime.</div></div></div>
- <div class="cell"><img src="../assets/icon_calendar.png"><div><div class="cb red">3 DAYS.<br>9 HOURS.</div><div class="cs caps">LIVE ONLINE</div></div></div>
+ <div class="cell"><img src="../assets/icon_chart.png"><div><div class="clabel">Canada's<br>legal market</div><div class="cbig">~CAD 22B</div><div class="csmall">(about &#8377;1.4 lakh crore)</div></div></div>
+ <div class="cell"><img src="../assets/icon_calendar.png"><div><div class="cb">3 DAYS.<br>9 HOURS.</div><div class="cs">LIVE ONLINE</div></div></div>
 </div>
 <div class="btnrow"><div class="btn"><div class="bt">JOIN NOW</div><div class="arrow">&#10140;</div></div><div class="burst">ONLY<br>&#8377;10 !!</div></div>
 <div class="foot"><div><img src="../assets/foot_calendar.png">31 Oct to 2 Nov</div><div><img src="../assets/foot_laptop.png">LIVE ONLINE</div><div><img src="../assets/foot_card.png">&#8377;10 INCL. GST</div></div>
 
 <script>
-// Grow or shrink the block to its height budget: short hooks get bigger type, long hooks
-// smaller, and the leaf keeps the leftover space, so the face stays balanced.
+// Fit hook and prize to their budgets, then shrink both until the whole column fits the
+// canvas, so no face ever clips the button or footer.
+function size(e){return parseFloat(getComputedStyle(e).fontSize)}
 function fit(sel,maxH,minPx,maxPx){var e=document.querySelector(sel);var s=maxPx;e.style.fontSize=s+'px';
 while(e.scrollHeight>maxH&&s>minPx){s-=2;e.style.fontSize=s+'px';}}
-fit('.hook',320,52,104);fit('.prize',190,40,72);
-// Then make sure hook + prize together fit the hero column, so copy never touches the pillars.
-(function(){var hero=document.querySelector('.hero'),copy=document.querySelector('.copy');
-var h=document.querySelector('.hook'),p=document.querySelector('.prize');
-for(var i=0;i<40&&copy.scrollHeight>hero.clientHeight-10;i++){
- var hs=parseFloat(getComputedStyle(h).fontSize),ps=parseFloat(getComputedStyle(p).fontSize);
- if(hs<=52&&ps<=40)break;
- if(hs>52)h.style.fontSize=(hs-2)+'px';
- if(ps>40)p.style.fontSize=(ps-2)+'px';}})();
+fit('.hook',350,52,100);fit('.prize',200,40,68);
+// Keep the pillar row clear of the leaf art (art bottom = 112 + 524).
+(function(){var pil=document.querySelector('.pillars'),g=document.querySelector('.grow');
+var need=648-pil.getBoundingClientRect().top;if(need>0)g.style.minHeight=need+'px';})();
+(function(){var h=document.querySelector('.hook'),p=document.querySelector('.prize');
+for(var i=0;i<40&&document.body.scrollHeight>1350;i++){
+ if(size(h)<=52&&size(p)<=40)break;
+ if(size(h)>52)h.style.fontSize=(size(h)-2)+'px';
+ if(size(p)>40)p.style.fontSize=(size(p)-2)+'px';}})();
 </script></body></html>
