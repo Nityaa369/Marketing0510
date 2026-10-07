@@ -1,0 +1,8 @@
+[
+ {"id":"online","theme":"exams","fact":"You can write the NCA exams online, from home in India, and they are offered every month.","src":"nca.legal","status":"provisional"},
+ {"id":"time","theme":"time","fact":"The fastest path to the NCA Certificate of Qualification is about 10 months. The average candidate takes about two years.","src":"nca.legal, costs and timelines","status":"provisional"},
+ {"id":"rules2026","theme":"2026","fact":"Since 1 March 2026 every NCA applicant gets English screening and an Indigenous law course.","src":"nca.legal; CIC News, March 2026","status":"provisional"},
+ {"id":"cert","theme":"certificate","fact":"The NCA Certificate of Qualification is not a licence to practise. A province's law society licenses lawyers.","src":"nca.legal","status":"provisional"},
+ {"id":"common","theme":"exams","fact":"Canada outside Quebec uses common law, like India, so the way of reasoning in the exams will feel familiar.","src":"Justice Canada","status":"provisional"},
+ {"id":"five","theme":"exams","fact":"Most applicants are assigned a handful of core exams: constitutional law, administrative law, criminal law, professional responsibility and foundations of Canadian law.","src":"nca.legal, assigned requirements","status":"provisional"}
+]

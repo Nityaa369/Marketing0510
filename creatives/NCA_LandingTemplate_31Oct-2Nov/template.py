@@ -66,6 +66,11 @@ ol.count small{display:block;color:var(--mut);font-size:13px;margin-top:5px}
 .story{background:#fff;border-left:6px solid var(--ac);border-radius:0 14px 14px 0;padding:16px 18px;margin:12px 0}
 .story .who{font-weight:900;font-size:20px}.story .tag{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--ac);margin:2px 0 8px}
 .story p{margin:0 0 8px;font-size:17px}
+/* did you know */
+.dyk{position:relative;background:#FFF6D6;border:3px solid #16130E;border-radius:16px;padding:20px 18px 16px;margin:20px 0 6px;box-shadow:5px 5px 0 var(--ac)}
+.dyk .tag{position:absolute;top:-14px;left:16px;background:var(--ac);color:#fff;font-weight:900;font-size:14px;letter-spacing:.1em;text-transform:uppercase;padding:5px 12px;border-radius:999px}
+.dyk .f{font-size:21px;line-height:1.35;font-weight:800;margin-top:4px}
+.dyk .s{font-size:12.5px;color:#4A4338;margin-top:8px}
 /* day cards + option cards (no tables) */
 .days{display:grid;gap:10px;margin:14px 0}
 .dc{display:flex;align-items:center;gap:14px;background:#fff;border:2px solid var(--ac);border-radius:14px;padding:12px 14px}
@@ -121,6 +126,15 @@ def li(items): return '<ul class="tick">%s</ul>' % "".join("<li>%s</li>" % i for
 def cards(items, cls="", tag=None):
     return '<div class="cards %s">%s</div>' % (cls, "".join('<div class="card %s">%s<h3>%s</h3><p>%s</p></div>' % ("fail" if tag else "", ('<div class="tag">%s</div>' % tag) if tag else "", t, b) for t, b in items))
 
+import json, os
+_DYK = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "dyk_facts.json")))
+def dyk(*ids):
+    out = ""
+    for i in ids:
+        f = next(x for x in _DYK if x["id"] == i)
+        flag = " [[VERIFY: re-open the source on launch day]]" if f.get("status") != "checked" else ""
+        out += '<div class="dyk"><div class="tag">Did you know?</div><div class="f">%s</div><div class="s">Source: %s.%s</div></div>' % (f["fact"], f["src"], flag)
+    return out
 def counted(items):
     return '<ol class="count">%s</ol>' % "".join("<li><b>%s</b>%s<small>%s</small></li>" % i for i in items)
 def stories(items):
@@ -189,6 +203,16 @@ def build(c):
     A('<section data-step="20"><div class="wrap"><div class="eyebrow">Next step</div><h2>%s</h2><p class="lead">Pay Rs 10. You get the live links for all 3 days.</p>%s%s</div></section>' % (c["next_h"], CTA, MICRO))
     # 21 stop selling + only disclaimer
     A('<section data-step="21" style="border-top:0"><div class="wrap"><p style="text-align:center;font-weight:800;font-size:20px">That is everything. See you on Saturday.</p><div class="end">LawSikho is not part of, or approved by, the National Committee on Accreditation, any Canadian law society or any government. Whether you can qualify depends on your own eligibility, your exam results and each province\'s rules, which change. We do not promise admission, a licence, a job or an income. Facts on this page were checked on 7 Oct 2026 from the sources named beside them.</div></div></section>')
+    ids = c.get("dyk", ["online", "time", "rules2026", "cert"])
+    def inject(step, extra):
+        for k, sec in enumerate(s):
+            if 'data-step="%s"' % step in sec[:40]:
+                s[k] = sec.rsplit("</div></section>", 1)[0] + extra + "</div></section>"
+                return
+    inject("2", dyk(ids[0]))
+    inject("10", dyk(ids[1]))
+    inject("16", dyk(ids[2]))
+    inject("18", dyk(ids[3]))
     body = "\n".join(s) + '\n<div class="sticky"><a href="%s">Join the Rs 10 bootcamp</a></div>' % PAY
     return "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>%s</title><style>%s</style></head><body>%s</body></html>" % (html.escape(c["title"]), CSS % c["theme"], body)
 
