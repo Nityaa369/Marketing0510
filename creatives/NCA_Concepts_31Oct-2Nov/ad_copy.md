@@ -13,3 +13,7 @@ Gloss on all: "NCA: Canada's check on your Indian law degree." Route chips: NCA 
 
 Open: claims "exams online, from India, every month" and "study around your cause list" need a check against the 2026 script.
 No kit gates or blind readers run yet. Pay link not wired. Ramanuj has not approved.
+
+## Rule added 7 Oct 2026 (Ruchika): bar is non negotiable
+Every face shows bar licensing twice: in the route chips (NCA exams, from India > Bar licensing > Practise in Canada, or the route map on face 6) and in the band "We show you how | NCA exams + bar licensing, in 3 live days | Rs 10".
+Never "the only route", never "bar exam scrapped".

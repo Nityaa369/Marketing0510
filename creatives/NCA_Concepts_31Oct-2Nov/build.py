@@ -16,10 +16,10 @@ body{font-family:Inter,'Noto Color Emoji',sans-serif;background:%(bg)s;color:#16
 .foot{display:flex;justify-content:space-between;margin-top:14px;font-size:24px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#3B352C}
 .how{flex:none;display:flex;align-items:stretch;margin-top:20px;border:4px solid %(ac)s;border-radius:14px;overflow:hidden;font-weight:900;text-align:center}
 .how div{display:flex;align-items:center;justify-content:center;padding:14px 10px;font-size:36px;line-height:1.05}
-.hw{flex:1.25;background:%(ac)s;color:#fff}.h3{flex:1;background:#fff;color:%(ac)s}.h10{flex:.8;background:#fff;color:%(ac)s;border-left:4px solid %(ac)s;font-size:42px!important}
+.hw{flex:.9;background:%(ac)s;color:#fff}.h3{flex:1.6;font-size:32px!important;background:#fff;color:%(ac)s}.h10{flex:.55;background:#fff;color:%(ac)s;border-left:4px solid %(ac)s;font-size:42px!important}
 .lbl{font-size:22px;font-weight:700;color:#5A5348;text-align:center;margin-top:10px}
 """
-FOOT = """<div class="how"><div class="hw">We show you how</div><div class="h3">in 3 live days</div><div class="h10">for Rs 10</div></div>
+FOOT = """<div class="how"><div class="hw">We show you how</div><div class="h3">NCA exams + bar licensing, in 3 live days</div><div class="h10">Rs 10</div></div>
 <div class="bigbtn">Join the Rs 10 bootcamp</div>
 <div class="foot"><div>3 days · Live only</div><div>Rs 10 incl. GST · Refundable</div></div>"""
 RAIL = '<div class="rail">LawSikho · Canada law bootcamp</div>'
@@ -72,11 +72,11 @@ tr.hi td{background:%(ac)s;color:#fff;font-weight:700;font-size:40px}"""
 
 def card():  # 4 fresh graduates
     pal = dict(bg="#FBEFE6", ac="#B2451E")
-    css = """.card{margin:34px auto 0;width:930px;flex:1;margin-bottom:10px;background:#fff;border-radius:18px;box-shadow:0 18px 40px rgba(120,60,20,.22);border-left:22px solid %(ac)s;padding:44px 52px;display:flex;flex-direction:column;justify-content:center;transform:rotate(-2deg)}
-.n{font-size:92px;font-weight:900;letter-spacing:-.02em}
-.d{font-size:44px;font-weight:700;color:#5A5348;margin-top:6px}
-.q{font-size:68px;font-weight:900;color:%(ac)s;line-height:1.1;margin-top:28px}
-.ip{font-size:36px;font-weight:700;color:#5A5348;margin-top:10px}"""
+    css = """.card{margin:34px auto 0;width:930px;flex:1;min-height:0;margin-bottom:10px;background:#fff;border-radius:18px;box-shadow:0 18px 40px rgba(120,60,20,.22);border-left:22px solid %(ac)s;padding:44px 52px;display:flex;flex-direction:column;justify-content:center;transform:rotate(-2deg)}
+.n{font-size:76px;font-weight:900;letter-spacing:-.02em}
+.d{font-size:38px;font-weight:700;color:#5A5348;margin-top:6px}
+.q{font-size:58px;font-weight:900;color:%(ac)s;line-height:1.1;margin-top:28px}
+.ip{font-size:32px;font-weight:700;color:#5A5348;margin-top:10px}"""
     body = RAIL + """<div class="callout">Fresh out of law school?</div>
 <div class="card"><div class="n">Your Name</div><div class="d">LLB (India)</div>
 <div class="q">Canada-qualified lawyer</div><div class="ip">In progress. One exam at a time, from India.</div></div>
@@ -102,16 +102,16 @@ def route():  # 6 planning to move
 
 def calendar():  # 8 associates
     pal = dict(bg="#F4EEFA", ac="#5B2C83")
-    css = """.cal{margin-top:24px;flex:1;grid-auto-rows:1fr;background:#fff;border:3px solid %(ac)s;border-radius:16px;padding:22px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
-.m{border:2px solid #CFC3DD;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-size:52px;font-weight:800;color:#4A3B5C}
-.m.on{background:%(ac)s;color:#fff;border-color:%(ac)s;font-size:40px;line-height:1.1;padding:8px 4px;box-shadow:0 0 0 6px #fff,0 0 0 10px %(ac)s}
+    css = """.cal{margin-top:24px;flex:1;min-height:0;grid-auto-rows:1fr;background:#fff;border:3px solid %(ac)s;border-radius:16px;padding:22px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.m{border:2px solid #CFC3DD;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-size:44px;font-weight:800;color:#4A3B5C}
+.m.on{background:%(ac)s;color:#fff;border-color:%(ac)s;font-size:32px;line-height:1.05;padding:6px 4px;box-shadow:0 0 0 6px #fff,0 0 0 10px %(ac)s}
 .sm{font-size:22px;font-weight:700;display:block;margin-top:4px}"""
     months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
     cells = "".join('<div class="m on">Your exam month<span class="sm">%s</span></div>' % m if m=="Mar" else '<div class="m">%s</div>' % m for m in months)
     body = RAIL + """<div class="callout">Law firm associates?</div>
 <div class="cal">""" + cells + """</div>
 <div class="lbl">Sample calendar</div>
-<div class="head">Pick the month. Qualify in Canada.</div><div class="gloss">The exams are online, from India. Choose them around your billable hours.</div>""" + GLOSS.replace('margin-top:12px','')  + FOOT
+<div class="head">Pick the month. Qualify in Canada.</div><div class="gloss">The exams are online, from India. Choose them around your billable hours.</div>""" + GLOSS.replace('margin-top:12px','') + CHIPS + FOOT
     return page(css, body, pal)
 
 for stem, fn in [("nca_c_01_chat_advocates", chat), ("nca_c_02_causelist_litigators", causelist), ("nca_c_04_card_fresh_grads", card),
