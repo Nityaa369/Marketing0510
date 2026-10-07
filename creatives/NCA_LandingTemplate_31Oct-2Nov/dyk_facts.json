@@ -1,8 +1,135 @@
 [
- {"id":"online","theme":"exams","fact":"You can write the NCA exams online, from home in India, and they are offered every month.","src":"nca.legal","status":"provisional"},
- {"id":"time","theme":"time","fact":"The fastest path to the NCA Certificate of Qualification is about 10 months. The average candidate takes about two years.","src":"nca.legal, costs and timelines","status":"provisional"},
- {"id":"rules2026","theme":"2026","fact":"Since 1 March 2026 every NCA applicant gets English screening and an Indigenous law course.","src":"nca.legal; CIC News, March 2026","status":"provisional"},
- {"id":"cert","theme":"certificate","fact":"The NCA Certificate of Qualification is not a licence to practise. A province's law society licenses lawyers.","src":"nca.legal","status":"provisional"},
- {"id":"common","theme":"exams","fact":"Canada outside Quebec uses common law, like India, so the way of reasoning in the exams will feel familiar.","src":"Justice Canada","status":"provisional"},
- {"id":"five","theme":"exams","fact":"Most applicants are assigned a handful of core exams: constitutional law, administrative law, criminal law, professional responsibility and foundations of Canadian law.","src":"nca.legal, assigned requirements","status":"provisional"}
+ {
+  "id": "online",
+  "theme": "exams",
+  "fact": "Every NCA exam is taken online, on your own computer at home, with a proctor watching. It is open book.",
+  "src": "nca.legal, assigned requirements",
+  "status": "web"
+ },
+ {
+  "id": "paperbooks",
+  "theme": "exams",
+  "fact": "You can bring books to an NCA exam, but only paper ones. Electronic copies are not allowed.",
+  "src": "nca.legal, online exam rules",
+  "status": "web"
+ },
+ {
+  "id": "pass50",
+  "theme": "exams",
+  "fact": "The pass mark for an NCA exam is 50 percent.",
+  "src": "nca.legal, exam information",
+  "status": "web"
+ },
+ {
+  "id": "session",
+  "theme": "exams",
+  "fact": "The NCA holds an exam session every month, but each core subject comes round only every third month. Plan around that.",
+  "src": "nca.legal, exam information, and the NCA 2026 and 2027 exam schedules",
+  "status": "checked"
+ },
+ {
+  "id": "three_hours",
+  "theme": "exams",
+  "fact": "Each NCA exam is three hours long and is typed on your computer.",
+  "src": "nca.legal, assigned requirements; NCA exam rules",
+  "status": "web"
+ },
+ {
+  "id": "cost",
+  "theme": "time",
+  "fact": "The NCA assessment costs CAD 400 and each exam costs CAD 500, plus Canadian taxes.",
+  "src": "nca.legal, costs and timelines",
+  "status": "web"
+ },
+ {
+  "id": "time",
+  "theme": "time",
+  "fact": "The fastest path to the NCA Certificate of Qualification is about 10 months. The usual path takes about two years.",
+  "src": "nca.legal, costs and timelines",
+  "status": "web"
+ },
+ {
+  "id": "five_years",
+  "theme": "time",
+  "fact": "You get five years from your assessment date to finish your NCA exams.",
+  "src": "nca.legal, assigned requirements",
+  "status": "web"
+ },
+ {
+  "id": "results",
+  "theme": "time",
+  "fact": "NCA results come about 10 to 12 weeks after the last exam of the session.",
+  "src": "nca.legal, exam information",
+  "status": "web"
+ },
+ {
+  "id": "rules2026",
+  "theme": "2026",
+  "fact": "Since 1 March 2026 every NCA applicant must pass a language screening before the assessment decision.",
+  "src": "nca.legal, FAQs; NCA Policy Manual 2026",
+  "status": "checked"
+ },
+ {
+  "id": "versant",
+  "theme": "2026",
+  "fact": "The English screening is one proctored test, with a score of 61 needed, equal to IELTS 7. You get one attempt, and its cost is inside the assessment fee.",
+  "src": "NCA Interpretive Statement on language",
+  "status": "checked"
+ },
+ {
+  "id": "ielts_skip",
+  "theme": "2026",
+  "fact": "A recent IELTS, CELPIP or PTE result, less than two years old, can replace the English screening.",
+  "src": "NCA Interpretive Statement on language",
+  "status": "checked"
+ },
+ {
+  "id": "indigenous",
+  "theme": "2026",
+  "fact": "A new Indigenous law requirement began on 1 March 2026. It is a six week online course from CPLED.",
+  "src": "NCA Policy Manual 2026; CPLED",
+  "status": "checked"
+ },
+ {
+  "id": "cert",
+  "theme": "certificate",
+  "fact": "The NCA Certificate of Qualification says your Canadian law knowledge is similar to a Canadian law graduate's.",
+  "src": "nca.legal, certificate of qualification",
+  "status": "web"
+ },
+ {
+  "id": "notdegree",
+  "theme": "certificate",
+  "fact": "The Certificate of Qualification is not a law degree and does not admit you to the bar. A provincial law society licenses lawyers.",
+  "src": "nca.legal, certificate of qualification and FAQs",
+  "status": "web"
+ },
+ {
+  "id": "lawsociety",
+  "theme": "after",
+  "fact": "After the NCA you apply to a provincial law society. This works in every common law province and territory, but not in Quebec.",
+  "src": "nca.legal, bar admissions",
+  "status": "web"
+ },
+ {
+  "id": "noexpiry",
+  "theme": "after",
+  "fact": "The Certificate of Qualification never expires, but each law society limits how long you can wait before you start its licensing process.",
+  "src": "nca.legal, FAQs",
+  "status": "web"
+ },
+ {
+  "id": "common",
+  "theme": "exams",
+  "fact": "Canada outside Quebec uses common law, like India, so the way of reasoning in the exams will feel familiar.",
+  "src": "Justice Canada",
+  "status": "web"
+ },
+ {
+  "id": "five",
+  "theme": "exams",
+  "fact": "The NCA assigns most applicants at least five core exams: constitutional law, administrative law, criminal law, professional responsibility and foundations of Canadian law. Your own list depends on your degree.",
+  "src": "nca.legal, assigned requirements",
+  "status": "web"
+ }
 ]

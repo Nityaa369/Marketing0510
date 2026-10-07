@@ -149,9 +149,9 @@ WHY = [
 ]
 HOW_FROM_INDIA = [
  ("Both systems are common law.", " Canada outside Quebec runs on common law, like India. The subjects will feel familiar, though you still have to learn Canadian law.", "Source: Justice Canada."),
- ("The exams are online and monthly.", " You write them from home, in India. You choose the month.", "Source: nca.legal."),
+ ("The exams are online, with a session every month.", " You write from home, in India, with a proctor watching. Each core subject comes round every third month, so you pick your sitting.", "Source: nca.legal, exam information, and the NCA 2026 and 2027 exam schedules."),
  ("The NCA decides your exams after it assesses your degree.", " Core subjects usually include Canadian constitutional law, administrative law, criminal law, professional responsibility and foundations of Canadian law. Your own list comes from the NCA.", "[[SCRIPT-CHECK: subjects and open book format from the April 2024 script; confirm for 2026]]"),
- ("The exams are open book.", " You are marked on applying concepts to a fact pattern, not on memory.", "[[SCRIPT-CHECK: confirm open book and 50% pass mark for 2026]]"),
+ ("The exams are open book, and 50 percent passes.", " You can bring paper books, not electronic copies. You are marked on applying concepts to a fact pattern, not on memory.", "Source: nca.legal, exam information and online exam rules."),
 ]
 
 def face(kind, c):
@@ -194,7 +194,7 @@ def build(c):
     # 16 implementation
     A('<section data-step="16"><div class="wrap"><div class="eyebrow">The details</div><h2>Where, when, what you need</h2>%s</div></section>' % li(c["impl"]))
     # 17 cost compare
-    A('<section data-step="17"><div class="wrap"><div class="eyebrow">What it costs to find out</div><h2>Rs 10 to see the whole route</h2><div class="opts"><div class="opt us"><div class="k">This bootcamp</div><div class="n">LawSikho Canada bootcamp, 3 live days</div><div class="c">Rs 10</div><div class="t">Including GST. Refundable.</div></div><div class="opt"><div class="k">Another route</div><div class="n">One NCA exam prep course from a commercial provider</div><div class="c">CAD 499</div><div class="t">Per course. OsgoodePD price page, 6 Oct 2026.</div></div><div class="opt"><div class="k">Another cost</div><div class="n">NCA assessment fee</div><div class="c">CAD 410</div><div class="t">[[VERIFY: confirm on nca.legal before launch]]</div></div></div><p class="src">Prices of other providers are theirs and change. We list them so you can see what a first step usually costs.</p></div></section>')
+    A('<section data-step="17"><div class="wrap"><div class="eyebrow">What it costs to find out</div><h2>Rs 10 to see the whole route</h2><div class="opts"><div class="opt us"><div class="k">This bootcamp</div><div class="n">LawSikho Canada bootcamp, 3 live days</div><div class="c">Rs 10</div><div class="t">Including GST. Refundable.</div></div><div class="opt"><div class="k">Another route</div><div class="n">One NCA exam prep course from a commercial provider</div><div class="c">CAD 499</div><div class="t">Per course. OsgoodePD price page, 6 Oct 2026.</div></div><div class="opt"><div class="k">Another cost</div><div class="n">NCA assessment, then each NCA exam</div><div class="c">CAD 400 + CAD 500 each</div><div class="t">Plus Canadian taxes. Source: nca.legal, costs and timelines.</div></div></div><p class="src">Prices of other providers are theirs and change. We list them so you can see what a first step usually costs.</p></div></section>')
     # 18 risk removal
     A('<section data-step="18"><div class="wrap"><div class="eyebrow">Your risk</div><h2>Rs 10. Refundable. Live only.</h2>%s%s</div></section>' % (li(["You pay Rs 10 including GST.", "It is refundable. [[VERIFY: refund steps and window, in one plain line]]", "It is live only, so you can ask your question on the day.", "You decide on the exams after you have seen the whole route."]), CTA))
     # 19 buyer language
