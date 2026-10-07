@@ -1,0 +1,17 @@
+[
+  {"stem": "nca_sky_01_final_year",
+   "hook": "A final-year <em>law student?</em>",
+   "prize": "You could <em>practise law in Canada.</em>"},
+  {"stem": "nca_sky_02_thinking_about_canada",
+   "hook": "A lawyer who keeps thinking <em>about Canada?</em>",
+   "prize": "You could <em>practise law in Canada.</em>"},
+  {"stem": "nca_sky_03_newly_enrolled",
+   "hook": "A newly enrolled <em>advocate?</em>",
+   "prize": "You could <em>practise law in Canada too.</em>"},
+  {"stem": "nca_sky_04_experienced_advocate",
+   "hook": "An experienced <em>advocate?</em>",
+   "prize": "You could <em>practise law in Canada too.</em>"},
+  {"stem": "nca_sky_05_in_court_weekly",
+   "hook": "In court <em>every week?</em>",
+   "prize": "You could <em>practise law in Canada</em> as well."}
+]
