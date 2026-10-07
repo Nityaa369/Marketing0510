@@ -3,13 +3,23 @@
 Built 7 Oct 2026 from the supplied "A lawyer who keeps thinking about Canada?" face
 (`reference/original.webp`). Status: DRAFT for Ramanuj. Not approved.
 
-## What stays fixed
+## What stays fixed (layout v2, centered, 7 Oct)
 
-Header (LawSikho logo, NCA Canada Bootcamp mark), the maple leaf skyline art, the three route
-pillars (NCA exams, then Canadian bar, then practise in Canada), the "We show you how." sticker,
-the terms band (Rs 10 refundable; 3 days, 9 hours, live online), the JOIN NOW button with the
-Rs 10 burst, and the footer (dates, live online, Rs 10 incl. GST). All cut from the reference ad
-into `assets/`.
+Header (LawSikho logo, NCA Canada Bootcamp mark), the complete maple leaf skyscape (a full
+maple leaf silhouette filled with the reference ad's sunset skyline photo, flanked by fading
+red rules), the three route pillars (NCA exams, then Canadian bar, then practise in Canada),
+the "We show you how." sticker, the terms band (Rs 10 refundable; 3 days, 9 hours, live
+online), the JOIN NOW button with the Rs 10 burst, and the footer (dates, live online, Rs 10
+incl. GST). Hook and prize sit centered above the leaf, so the face stays balanced for any
+hook length; the reference's cropped right-edge leaf is replaced by the complete one.
+Logo and icons are cut from the reference ad into `assets/`.
+
+## Spelling: practise vs practice
+
+Indian and Canadian legal English both use **practise** for the verb ("practise law in
+Canada", "not yet practising") and **practice** for the noun ("keep your practice"). Every
+line on these faces follows that rule. Do not flatten to one form; "practice law" on a face
+aimed at lawyers reads as an error to the reader we are naming.
 
 ## What changes per ad
 
