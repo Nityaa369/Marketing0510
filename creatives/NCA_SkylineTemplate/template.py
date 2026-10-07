@@ -6,8 +6,8 @@ band, JOIN NOW button, footer. Variable per ad: the hook (call-out question) and
 line (value proposition). Hook and prize sit centered above the leaf, so the face stays
 balanced for any hook length.
 
-Spelling rule (Indian English): "practise" is the verb (practise law in Canada), "practice"
-is the noun (keep your practice). Keep both; do not flatten to one form.
+Spelling: "practice"/"practicing" everywhere, on Ruchika's instruction of 7 Oct 2026 (the
+Indian-English verb form "practise" was flagged and overruled; see README).
 
 Canvas 1080 x 1350 (Meta 4:5). Fonts: Inter (installed). Assets in assets/ are cut from the
 reference ad in reference/original.webp.
@@ -16,15 +16,15 @@ reference ad in reference/original.webp.
 DEFAULTS = dict(
     # VARIABLE PER AD. Wrap the red part in <em>...</em>.
     hook="A lawyer who keeps thinking <em>about Canada?</em>",
-    prize="You could <em>practise law in Canada.</em>",
+    prize="You could <em>practice law in Canada.</em>",
     # Height budgets before the fitter shrinks the type (px).
     hook_max_height=196, hook_max_px=100,
     prize_max_height=108, prize_max_px=68,
-    # FIXED FOR THE WAVE. Three route pillars: NCA exams, then bar licensing, then practise.
+    # FIXED FOR THE WAVE. Three route pillars: NCA exams, then bar licensing, then practice.
     pillars=[
-        ("icon_nca.png", "NCA exams", "Canada's check on your Indian law degree. <em>Open book, written online from India.</em> A session every month."),
+        ("icon_nca.png", "NCA exams", "A direct pathway toward Canadian bar eligibility. <em>Open book, written online from India.</em> A session every month."),
         ("icon_bar.png", "Canadian bar", "Then bar licensing. You become eligible to apply."),
-        ("icon_laptop.png", "Practise in Canada", "Same craft, Canadian clients and courts."),
+        ("icon_laptop.png", "Practice in Canada", "Same craft, Canadian clients and courts."),
     ],
     sticker="We show you how.",
     band_left_big="Rs 10. Refundable.",

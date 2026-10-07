@@ -14,12 +14,18 @@ incl. GST). Hook and prize sit centered above the leaf, so the face stays balanc
 hook length; the reference's cropped right-edge leaf is replaced by the complete one.
 Logo and icons are cut from the reference ad into `assets/`.
 
-## Spelling: practise vs practice
+## Spelling and the NCA pillar line (decided 7 Oct 2026)
 
-Indian and Canadian legal English both use **practise** for the verb ("practise law in
-Canada", "not yet practising") and **practice** for the noun ("keep your practice"). Every
-line on these faces follows that rule. Do not flatten to one form; "practice law" on a face
-aimed at lawyers reads as an error to the reader we are naming.
+- **Spelling:** the faces use **practice / practicing** everywhere, on Ruchika's instruction.
+  For the record, the flag raised and overruled: Indian and Canadian legal English use
+  "practise" for the verb and "practice" for the noun, so "practice law" may read as a typo
+  to some lawyer readers. One sed over `ads.json` and `template.py` flips it back.
+- **NCA pillar line:** now "A direct pathway toward Canadian bar eligibility. Open book,
+  written online from India. A session every month.", on Ruchika's instruction. The flag
+  raised and overruled: this drops the standing plain gloss ("Canada's check on your Indian
+  law degree"), so no line on the face says what the NCA is, which is the pattern his
+  "cryptic" verdicts catch. "Eligibility" itself is safe (his approved wording is "eligible
+  to apply"). One config value flips it back if he flags it.
 
 ## What changes per ad
 
