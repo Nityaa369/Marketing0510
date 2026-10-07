@@ -12,11 +12,15 @@ body{font-family:Inter,'Noto Color Emoji',sans-serif;background:%(bg)s;color:#16
 .chips .s{flex:1;background:#fff;color:%(ac)s;border:3px solid %(ac)s;border-radius:8px;text-align:center;font-size:27px;font-weight:900;padding:10px 4px;line-height:1.1}
 .chips .a{font-weight:900;font-size:28px;color:%(ac)s}
 .grow{flex:1;min-height:12px}
-.bigbtn{margin-top:24px;background:%(ac)s;color:#fff;text-align:center;font-size:46px;font-weight:900;padding:20px 30px;border-radius:14px}
+.bigbtn{margin-top:16px;background:%(ac)s;color:#fff;text-align:center;font-size:46px;font-weight:900;padding:20px 30px;border-radius:14px}
 .foot{display:flex;justify-content:space-between;margin-top:14px;font-size:24px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#3B352C}
+.how{flex:none;display:flex;align-items:stretch;margin-top:20px;border:4px solid %(ac)s;border-radius:14px;overflow:hidden;font-weight:900;text-align:center}
+.how div{display:flex;align-items:center;justify-content:center;padding:14px 10px;font-size:36px;line-height:1.05}
+.hw{flex:1.25;background:%(ac)s;color:#fff}.h3{flex:1;background:#fff;color:%(ac)s}.h10{flex:.8;background:#fff;color:%(ac)s;border-left:4px solid %(ac)s;font-size:42px!important}
 .lbl{font-size:22px;font-weight:700;color:#5A5348;text-align:center;margin-top:10px}
 """
-FOOT = """<div class="bigbtn">Join the Rs 10 bootcamp</div>
+FOOT = """<div class="how"><div class="hw">We show you how</div><div class="h3">in 3 live days</div><div class="h10">for Rs 10</div></div>
+<div class="bigbtn">Join the Rs 10 bootcamp</div>
 <div class="foot"><div>3 days · Live only</div><div>Rs 10 incl. GST · Refundable</div></div>"""
 RAIL = '<div class="rail">LawSikho · Canada law bootcamp</div>'
 GLOSS = '<div class="gloss">NCA: Canada\'s check on your Indian law degree.</div>'
@@ -26,12 +30,12 @@ def page(css, body, pal):
 
 def chat():  # 1 experienced advocates
     pal = dict(bg="#F1ECE4", ac="#1D3A6B")
-    css = """.phone{margin-top:22px;border-radius:22px;overflow:hidden;box-shadow:0 14px 34px rgba(0,0,0,.16)}
-.top{background:#075E54;color:#fff;display:flex;align-items:center;gap:18px;padding:16px 24px}
+    css = """.phone{flex:none;margin-top:18px;border-radius:22px;overflow:hidden;box-shadow:0 14px 34px rgba(0,0,0,.16)}
+.top{background:#075E54;color:#fff;display:flex;align-items:center;gap:18px;padding:12px 24px}
 .av{width:58px;height:58px;border-radius:50%%;background:#C9D8D3;color:#075E54;font-weight:900;font-size:28px;display:flex;align-items:center;justify-content:center}
 .nm{font-size:31px;font-weight:800}.st{font-size:21px;opacity:.85}
 .wall{background:#ECE5DD;padding:18px 22px 20px;display:flex;flex-direction:column;gap:12px}
-.b{max-width:80%%;font-size:34px;line-height:1.22;padding:12px 20px 8px;border-radius:14px;box-shadow:0 1px 1px rgba(0,0,0,.12)}
+.b{max-width:80%%;font-size:31px;line-height:1.2;padding:10px 18px 6px;border-radius:14px;box-shadow:0 1px 1px rgba(0,0,0,.12)}
 .me{align-self:flex-end;background:#DCF8C6;border-top-right-radius:2px}
 .fr{align-self:flex-start;background:#fff;border-top-left-radius:2px}
 .t{display:block;text-align:right;font-size:19px;color:#6B7B74;margin-top:4px}"""
@@ -52,20 +56,18 @@ def causelist():  # 2 litigators
     css = """.paper{margin-top:22px;flex:1;background:#FFFEF8;border:3px solid #2A2A20;padding:30px 30px;display:flex;flex-direction:column;font-family:'Bitstream Charter',Caladea,serif}
 .ttl{text-align:center;font-size:36px;font-weight:700;letter-spacing:.08em;border-bottom:2px solid #2A2A20;padding-bottom:10px}
 .sub{text-align:center;font-family:Inter,sans-serif;font-size:22px;font-weight:700;color:#5A5A48;margin:8px 0 12px}
-table{width:100%%;flex:1;border-collapse:collapse;font-size:38px}
+table{width:100%%;flex:1;border-collapse:collapse;font-size:36px}
 td,th{border:2px solid #2A2A20;padding:10px 16px;text-align:left}
 th{font-family:Inter,sans-serif;font-size:22px;letter-spacing:.1em;text-transform:uppercase;background:#E8E8D8}
-tr.hi td{background:%(ac)s;color:#fff;font-weight:700;font-size:42px}"""
+tr.hi td{background:%(ac)s;color:#fff;font-weight:700;font-size:40px}"""
     body = RAIL + """<div class="callout">In court every week?</div>
 <div class="paper"><div class="ttl">CAUSE LIST</div><div class="sub">A dramatised list. Issued by LawSikho.</div>
 <table><tr><th>Item</th><th>Matter</th><th>Status</th></tr>
-<tr><td>11</td><td>Stay application</td><td>Listed</td></tr>
 <tr><td>12</td><td>Bail application</td><td>Listed</td></tr>
 <tr><td>13</td><td>Written statement</td><td>Listed</td></tr>
 <tr class="hi"><td>14</td><td>Canada qualification</td><td>Pick your exam month</td></tr>
-<tr><td>15</td><td>Final arguments</td><td>Listed</td></tr>
-<tr><td>16</td><td>Evidence</td><td>Listed</td></tr></table></div>
-<div class="head">Add Canada to your cause list.</div>""" + GLOSS + CHIPS + '<div class="grow"></div>' + FOOT
+<tr><td>15</td><td>Final arguments</td><td>Listed</td></tr></table></div>
+<div class="head">Add Canada to your cause list.</div>""" + GLOSS + CHIPS  + FOOT
     return page(css, body, pal)
 
 def card():  # 4 fresh graduates

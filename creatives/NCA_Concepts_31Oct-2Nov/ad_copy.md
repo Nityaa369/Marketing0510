@@ -1,6 +1,6 @@
 # NCA concept faces (5 of 10), 31 Oct to 2 Nov 2026
 
-Footer on all: Join the Rs 10 bootcamp. 3 days, live only. Rs 10 incl. GST, refundable.
+Footer on all: band "We show you how in 3 live days for Rs 10", button "Join the Rs 10 bootcamp", then 3 days, live only, Rs 10 incl. GST, refundable.
 Gloss on all: "NCA: Canada's check on your Indian law degree." Route chips: NCA exams, from India > Bar licensing > Practise in Canada (face 6 shows it as the map).
 
 | File | Call-out | Format | Head |
