@@ -6,7 +6,7 @@ Gloss on all: "NCA: Canada's check on your Indian law degree." Route chips: NCA 
 | File | Call-out | Format | Head |
 |---|---|---|---|
 | nca_c_01_chat_advocates | Experienced advocates? | WhatsApp chat, labelled dramatised | Practise law in Canada too. |
-| nca_c_02_causelist_litigators | In court every week? | Cause list, "Issued by LawSikho" | Practise law in Canada too. |
+| nca_c_02_causelist_litigators | In court every week? | Cause list, "Issued by LawSikho" | Pick your month. Practise in Canada. |
 | nca_c_04_card_fresh_grads | Fresh out of law school? | Visiting card, labelled sample | Qualify as a lawyer in Canada. |
 | nca_c_06_route_movers | Planning to move to Canada? | Route map | Start Canada's exams from India. |
 | nca_c_08_calendar_associates | Law firm associates? | Calendar, labelled sample | Pick the month. Qualify in Canada. |

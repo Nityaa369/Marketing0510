@@ -65,7 +65,7 @@ tr.hi td{background:%(ac)s;color:#fff;font-weight:700;font-size:42px}"""
 <tr class="hi"><td>14</td><td>Canada qualification</td><td>Pick your exam month</td></tr>
 <tr><td>15</td><td>Final arguments</td><td>Listed</td></tr>
 <tr><td>16</td><td>Evidence</td><td>Listed</td></tr></table></div>
-<div class="head">Practise law in Canada too.</div>""" + GLOSS + CHIPS + '<div class="grow"></div>' + FOOT
+<div class="head">Pick your month. Practise in Canada.</div>""" + GLOSS + CHIPS + '<div class="grow"></div>' + FOOT
     return page(css, body, pal)
 
 def card():  # 4 fresh graduates
