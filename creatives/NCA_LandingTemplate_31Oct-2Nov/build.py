@@ -97,7 +97,7 @@ CFG = {
   lang_q="The NCA exams are online, from India. I am finding out the whole route, from my LLB to practising in Canada, for Rs 10.",
   next_h="Start now. Pay Rs 10. Join on Saturday."),
 "lp_broad_lawyer": dict(
-  title="A lawyer who keeps thinking about Canada? You could practise law in Canada | LawSikho", face="pillars",
+  title="A lawyer who keeps thinking about Canada? You could practise law in Canada | LawSikho", face="pillars", fold="ad",
   theme=dict(ac="#E0352B", ac2="#FDE9E6", bg="#FFF8F6"),
   callout="A lawyer who keeps thinking about Canada?", head="You could practise law in Canada.", chat=None,
   dyk=['online','session','cost','notdegree'],
