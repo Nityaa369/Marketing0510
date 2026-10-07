@@ -66,10 +66,23 @@ ol.count small{display:block;color:var(--mut);font-size:13px;margin-top:5px}
 .story{background:#fff;border-left:6px solid var(--ac);border-radius:0 14px 14px 0;padding:16px 18px;margin:12px 0}
 .story .who{font-weight:900;font-size:20px}.story .tag{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--ac);margin:2px 0 8px}
 .story p{margin:0 0 8px;font-size:17px}
+/* day cards + option cards (no tables) */
+.days{display:grid;gap:10px;margin:14px 0}
+.dc{display:flex;align-items:center;gap:14px;background:#fff;border:2px solid var(--ac);border-radius:14px;padding:12px 14px}
+.dc .d{flex:none;background:var(--ac);color:#fff;border-radius:10px;padding:8px 10px;text-align:center;font-weight:900;line-height:1.05;min-width:64px}
+.dc .d b{display:block;font-size:26px}.dc .d span{font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.dc .w{font-weight:900;font-size:19px;line-height:1.2}.dc .w small{display:block;font-weight:700;color:var(--mut);font-size:15px;margin-top:2px}
+.opts{display:grid;gap:10px;margin:14px 0}
+.opt{background:#fff;border:2px solid var(--line);border-radius:14px;padding:14px 16px}
+.opt.us{border:3px solid var(--ac);background:var(--ac2)}
+.opt .k{font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--mut)}
+.opt .n{font-weight:900;font-size:19px;line-height:1.2;margin:2px 0}
+.opt .c{font-weight:900;font-size:24px;color:var(--ac)}.opt .t{font-size:15px;color:var(--mut);margin-top:2px}
 /* planner artifact */
 .paper{background:#fff;border:3px solid #2A2A20;border-radius:6px;padding:18px;font-family:'Bitstream Charter',Caladea,Georgia,serif}
 .paper .t{font-family:Inter,sans-serif;font-weight:900;letter-spacing:.08em;text-transform:uppercase;font-size:14px;border-bottom:2px solid #2A2A20;padding-bottom:8px;margin-bottom:10px}
-.paper .r{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px dashed rgba(0,0,0,.25);font-size:17px}
+.paper .r{display:flex;justify-content:space-between;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px dashed rgba(0,0,0,.25);font-size:17px}
+.paper .r span{flex:none;min-width:104px;white-space:nowrap}.paper .r b{text-align:right}
 /* fold faces */
 .face{margin:16px 0 6px}
 .phone{border-radius:18px;overflow:hidden;box-shadow:0 10px 26px rgba(0,0,0,.16)}
@@ -151,7 +164,7 @@ def build(c):
     # 8 cost of staying unclear + the big why
     A('<section data-step="8"><div class="wrap"><div class="eyebrow">Why now</div><h2>Why Canada, and why this year</h2>%s<h3 style="margin-top:22px">%s</h3>%s<p class="src">%s</p></div></section>' % (counted(WHY), c["cost_h"], "".join("<p>%s</p>" % p for p in c["cost_p"]), c["cost_src"]))
     # 9 offer + CTA
-    A('<section data-step="9"><div class="wrap"><div class="eyebrow">The bootcamp</div><h2>3 live days. Rs 10. We show you how.</h2><p class="lead">A live Canada law bootcamp from LawSikho. You see the full route from your Indian law degree to practising in Canada: the NCA exams, then bar licensing, then practice.</p>%s<table><tr><th>When</th><th>Time (IST)</th></tr><tr><td>Sat 31 Oct 2026</td><td>2 to 5 PM</td></tr><tr><td>Sun 1 Nov 2026</td><td>2 to 5 PM</td></tr><tr><td>Mon 2 Nov 2026</td><td>7 to 10 PM</td></tr></table>%s%s</div></section>' % (CHIPS, CTA, MICRO))
+    A('<section data-step="9"><div class="wrap"><div class="eyebrow">The bootcamp</div><h2>3 live days. Rs 10. We show you how.</h2><p class="lead">A live Canada law bootcamp from LawSikho. You see the full route from your Indian law degree to practising in Canada: the NCA exams, then bar licensing, then practice.</p>%s<div class="days"><div class="dc"><div class="d"><span>Sat</span><b>31</b><span>Oct</span></div><div class="w">Day 1<small>2 to 5 PM IST, live</small></div></div><div class="dc"><div class="d"><span>Sun</span><b>1</b><span>Nov</span></div><div class="w">Day 2<small>2 to 5 PM IST, live</small></div></div><div class="dc"><div class="d"><span>Mon</span><b>2</b><span>Nov</span></div><div class="w">Day 3<small>7 to 10 PM IST, live</small></div></div></div>%s%s</div></section>' % (CHIPS, CTA, MICRO))
     # 10 mechanism
     A('<section data-step="10"><div class="wrap"><div class="eyebrow">How it works</div><h2>The route, in 3 steps</h2><div class="steps">%s</div><h3 style="margin-top:22px">Why you can start from India</h3>%s</div></section>' % ("".join('<div class="step"><div class="n">%d</div><div><h3>%s</h3><p>%s</p></div></div>' % (i + 1, t, b) for i, (t, b) in enumerate(c["mech"])), counted(HOW_FROM_INDIA)))
     # 11 first artifact
@@ -167,7 +180,7 @@ def build(c):
     # 16 implementation
     A('<section data-step="16"><div class="wrap"><div class="eyebrow">The details</div><h2>Where, when, what you need</h2>%s</div></section>' % li(c["impl"]))
     # 17 cost compare
-    A('<section data-step="17"><div class="wrap"><div class="eyebrow">What it costs to find out</div><h2>Rs 10 to see the whole route</h2><table><tr><th>Option</th><th>Cost</th></tr><tr class="us"><td>LawSikho Canada bootcamp, 3 live days</td><td>Rs 10 incl. GST, refundable</td></tr><tr><td>One NCA exam prep course from a commercial provider</td><td>CAD 499 per course (OsgoodePD price page, 6 Oct 2026)</td></tr><tr><td>NCA assessment fee</td><td>CAD 410 [[VERIFY: confirm on nca.legal before launch]]</td></tr></table><p class="src">Prices of other providers are theirs and change. We list them so you can see what a first step usually costs.</p></div></section>')
+    A('<section data-step="17"><div class="wrap"><div class="eyebrow">What it costs to find out</div><h2>Rs 10 to see the whole route</h2><div class="opts"><div class="opt us"><div class="k">This bootcamp</div><div class="n">LawSikho Canada bootcamp, 3 live days</div><div class="c">Rs 10</div><div class="t">Including GST. Refundable.</div></div><div class="opt"><div class="k">Another route</div><div class="n">One NCA exam prep course from a commercial provider</div><div class="c">CAD 499</div><div class="t">Per course. OsgoodePD price page, 6 Oct 2026.</div></div><div class="opt"><div class="k">Another cost</div><div class="n">NCA assessment fee</div><div class="c">CAD 410</div><div class="t">[[VERIFY: confirm on nca.legal before launch]]</div></div></div><p class="src">Prices of other providers are theirs and change. We list them so you can see what a first step usually costs.</p></div></section>')
     # 18 risk removal
     A('<section data-step="18"><div class="wrap"><div class="eyebrow">Your risk</div><h2>Rs 10. Refundable. Live only.</h2>%s%s</div></section>' % (li(["You pay Rs 10 including GST.", "It is refundable. [[VERIFY: refund steps and window, in one plain line]]", "It is live only, so you can ask your question on the day.", "You decide on the exams after you have seen the whole route."]), CTA))
     # 19 buyer language
