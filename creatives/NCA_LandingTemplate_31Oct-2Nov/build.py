@@ -38,14 +38,14 @@ CFG = {
 "lp_advocates": dict(
   title="Experienced advocates: practise law in Canada too | LawSikho", face="chat",
   theme=dict(ac="#1D3A6B", ac2="#E6ECF6", bg="#F1ECE4"),
-  callout="Experienced advocates?", head="Practise law in Canada too.",
-  chat=[("fr","You can write Canada's exams from India?","9:41 PM"),("me","Yes. Online. Every month.","9:42 PM"),("fr","And my chamber?","9:42 PM"),("me","Stays open. You study around your cause list.","9:43 PM")],
+  callout="Experienced advocates?", dyk=['online','session','cost','notdegree'], head="Practise law in Canada too.",
+  chat=[("fr","You can write Canada's exams from India?","9:41 PM"),("me","Yes. Online. A session every month.","9:42 PM"),("fr","And my chamber?","9:42 PM"),("me","Stays open. You study around your cause list.","9:43 PM")],
   sym_eyebrow="You may recognise this", sym_h="You built a practice. Canada keeps coming up.",
   sym_p=["You are in court every week and your chamber runs on you. Every few months the thought returns: could I practise in Canada too?","Then the next hearing arrives and the thought goes. You assume the route means leaving your practice."],
   out_h="Practise law in Canada too, without closing your chamber",
   out_li=["See the whole route: NCA exams, bar licensing, practice in Canada.","Choose exam months around your cause list.","Keep your Indian practice running while you study.","Leave day 3 with a plan on paper."],
   fail_h="You have probably tried these",
-  fail=[("Asking around","Everyone has a half answer. One says two years, another says five. Nobody shows you the order."),("Reading old forum threads","Mixed advice, no dates, and no way to tell which part still applies."),("Waiting for a quiet month","A quiet month does not come in court. The exams are online and monthly, so you do not need one.")],
+  fail=[("Asking around","Everyone has a half answer. One says two years, another says five. Nobody shows you the order."),("Reading old forum threads","Mixed advice, no dates, and no way to tell which part still applies."),("Waiting for a quiet month","A quiet month does not come in court. The exams are online, and a session is held every month, so you do not need a quiet month.")],
   reframe_h="The issue is not effort. It is a route you have never seen laid out.",
   reframe_p=["You already work harder than most people who qualify abroad. What is missing is the order of the steps and where they fit around your cause list.","Canada outside Quebec runs on common law, the system you practise in. The NCA exams still test Canadian law, so you study. But you study as someone who reads statutes and cases for a living. Source: Justice Canada."],
   cost_h="Another year of someday", cost_p=["The NCA path takes time: ten months at the fastest, about two years for the average candidate.","The date you start is the only part you control."], cost_src="Source: nca.legal.",
@@ -54,12 +54,12 @@ CFG = {
   long_h="Two practices, one qualification at a time", long_li=["A Canadian qualification added to your Indian licence.","The option to practise in Canada, now or later.","A chamber that kept running while you studied."],
   p2_h="Lawyers from India who started the same way", stories=[S_NAV, S_YAS],
   impl=BASE_IMPL, lang_h="Say it to your chamber, or a friend",
-  lang_q="The NCA exams are online, from India, every month. I am finding out the whole route for Rs 10, without touching my practice.",
+  lang_q="The NCA exams are online, from India, with a session every month. I am finding out the whole route for Rs 10, without touching my practice.",
   next_h="Pay Rs 10. Join on Saturday."),
 "lp_associates": dict(
   title="Law firm associates: pick the month, qualify in Canada | LawSikho", face="calendar",
   theme=dict(ac="#5B2C83", ac2="#EFE6F7", bg="#F4EEFA"),
-  callout="Law firm associates?", head="Pick the month. Qualify in Canada.", chat=None,
+  callout="Law firm associates?", dyk=['session','time','versant','cert'], head="Pick the month. Qualify in Canada.", chat=None,
   sym_eyebrow="You may recognise this", sym_h="Your calendar belongs to your billable hours.",
   sym_p=["Your week is targets, client calls and late nights. You are good at the job. And one question keeps getting parked: what if I qualified in Canada?","The parking is not laziness. Every plan you have seen assumes you have free months."],
   out_h="A Canadian qualification that fits your own calendar",
@@ -67,7 +67,7 @@ CFG = {
   fail_h="You have probably tried these",
   fail=[("Waiting for a slow quarter","A firm calendar does not stay slow for long. The plan has to fit a busy year."),("Looking at a Canadian degree","A degree abroad is one route. There is another: the NCA exams, written from India."),("Asking a senior","They know the firm. They may not know the Canadian route.")],
   reframe_h="The issue is not effort. It is where the exams sit in your year.",
-  reframe_p=["The NCA exams are online and run every month, so you choose when. One exam at a time is a plan that fits a job.","You already draft and review for a living. Canada outside Quebec uses common law, like India, so the habits you built carry over. Source: Justice Canada."],
+  reframe_p=["The NCA exams are online, with a session every month and each subject every third month, so you choose when. One exam at a time is a plan that fits a job.","You already draft and review for a living. Canada outside Quebec uses common law, like India, so the habits you built carry over. Source: Justice Canada."],
   cost_h="A year with no plan", cost_p=["If you plan this month, you choose your first exam month. If you do not, your calendar chooses for you.","The NCA path takes ten months at the fastest and about two years on average."], cost_src="Source: nca.legal.",
   art_h="A 12 month exam calendar", art_t="Your exam calendar (sample)",
   art_rows=[("Month 1","Choose your first NCA exam"),("Month 3","Your exam month, around billable hours"),("Month 4","Review, then pick the next exam"),("After","Bar licensing for your province")],
@@ -79,7 +79,7 @@ CFG = {
 "lp_fresh_grads": dict(
   title="Fresh out of law school: qualify as a lawyer in Canada | LawSikho", face="card",
   theme=dict(ac="#B2451E", ac2="#FBE7DB", bg="#FBEFE6"),
-  callout="Fresh out of law school?", head="Qualify as a lawyer in Canada.", chat=None,
+  callout="Fresh out of law school?", dyk=['online','time','ielts_skip','lawsociety'], head="Qualify as a lawyer in Canada.", chat=None,
   sym_eyebrow="You may recognise this", sym_h="Your degree is done. Your plan is not.",
   sym_p=["You have an LLB and a long list of options. Friends are joining chambers or preparing for exams. You keep wondering about Canada, but nobody has shown you where to start."],
   out_h="Start a Canadian qualification in your first year out",
@@ -96,12 +96,35 @@ CFG = {
   impl=BASE_IMPL, lang_h="Say it to your friends",
   lang_q="The NCA exams are online, from India. I am finding out the whole route, from my LLB to practising in Canada, for Rs 10.",
   next_h="Start now. Pay Rs 10. Join on Saturday."),
+"lp_broad_lawyer": dict(
+  title="A lawyer who keeps thinking about Canada? You could practise law in Canada | LawSikho", face="pillars", fold="ad",
+  theme=dict(ac="#E0352B", ac2="#FDE9E6", bg="#FFF8F6"),
+  callout="A lawyer who keeps thinking about Canada?", head="You could practise law in Canada.", chat=None,
+  dyk=['online','session','cost','notdegree'],
+  sym_eyebrow="You may recognise this", sym_h="The thought comes back every few months.",
+  sym_p=["A friend moves. A client mentions Toronto. A cousin sends a photo from Vancouver. You think: could I practise law there? Then the week fills up and the thought waits.","You have never seen the route laid out in order, so it stays a thought."],
+  out_h="Practise law in Canada, with the law degree you already have",
+  out_li=["See the whole route: NCA exams, bar licensing, practice in Canada.","Write the NCA exams online, from India.","Keep your work in India going while you prepare.","Leave day 3 with a plan on paper."],
+  fail_h="You have probably tried these",
+  fail=[("Searching late at night","Forum threads, agency pages, a dozen opinions. No one page shows the order."),("Asking an agent","Agents sell visas. Qualifying as a lawyer is a different process, run by the NCA and the law societies."),("Waiting for the right year","There is no right year. The exams run in sessions every month, and you can start the assessment from India now.")],
+  reframe_h="The issue is not effort. It is a route you have never seen laid out.",
+  reframe_p=["You already read statutes and cases for a living. The NCA exams test Canadian law, so you study, but you study as a trained lawyer.","Canada outside Quebec runs on common law, the same system you trained in. Source: Justice Canada."],
+  cost_h="Another year of someday", cost_p=["The NCA path takes time: about 10 months at the fastest, about two years for most people, and you get five years to finish.","The date you start is the only part you control."], cost_src="Source: nca.legal, costs and timelines.",
+  art_h="Your route on one page", art_t="Your exam plan (sample)",
+  art_rows=[("Month 1","NCA assessment of your degree"),("Months 2 to 5","Study your first subject"),("Month 6","Write your first exam, online"),("After","Bar licensing for your province")],
+  long_h="A Canadian qualification, one exam at a time", long_li=["A Canadian qualification added to your Indian degree.","The option to practise in Canada, now or later.","Work in India that kept going while you studied."],
+  p2_h="Lawyers from India who started with the same thought", stories=[S_NAV, S_HEZ],
+  impl=BASE_IMPL, lang_h="Say it to the person who asks",
+  lang_q="The NCA exams are online, from India. I am finding out the whole route, from my Indian law degree to practising in Canada, for Rs 10.",
+  next_h="Pay Rs 10. Join on Saturday."),
 }
 
 for _c in CFG.values():
     _c.setdefault("mech", MECH); _c.setdefault("work", WORK)
 report = ["# Landing page gaps (7 Oct 2026)\n", "Pay link: `#PAYMENT_LINK_PENDING` on every CTA. Wire it before launch.\n"]
+ONLY = sys.argv[1:]
 for stem, c in CFG.items():
+    if ONLY and stem not in ONLY: continue
     page = build(c)
     open(os.path.join(HERE, "pages", stem + ".html"), "w").write(page)
     pv = os.path.join(HERE, "preview", stem + ".html")

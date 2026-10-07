@@ -47,7 +47,7 @@ mark.todo{background:#FFE36B;color:#3A2E00;padding:0 4px;border-radius:3px;font-
 
 # 4 glance strip + first dyk right after the fold terms
 sub('<div class="terms">&#8377;10 incl. GST &middot; 31 Oct to 2 Nov &middot; 9 hours live online &middot; refundable</div>\n\n<!-- STEPS 4',
-    '<div class="terms">&#8377;10 incl. GST &middot; 31 Oct to 2 Nov &middot; 9 hours live online &middot; refundable</div>\n<div class="glance"><div><b>3 days</b>9 hours, live</div><div><b>&#8377;10</b>refundable</div><div><b>From India</b>exams online</div></div>\n' + dyk("online") + '\n\n<!-- STEPS 4')
+    '<div class="terms">&#8377;10 incl. GST &middot; 31 Oct to 2 Nov &middot; 9 hours live online &middot; refundable</div>\n<div class="glance"><div><b>3 days</b>9 hours, live</div><div><b>&#8377;10</b>refundable</div><div><b>From India</b>exams online</div></div>\n' + dyk("online") + dyk("session") + '\n\n<!-- STEPS 4')
 
 # 5 tables to cards: pay ladder
 pay = re.search(r'<div class="tw"><table class="cmp pay">.*?</table></div>', h, re.S).group(0)
@@ -67,10 +67,10 @@ sub(cmp_, c2)
 
 # 6 DYK cards at natural pauses
 sub('<!-- Market size and money', dyk("common") + '\n<!-- Market size and money')
-sub('<!-- STEP 11: first usable artifact -->', dyk("five") + '\n<!-- STEP 11: first usable artifact -->')
+sub('<!-- STEP 11: first usable artifact -->', dyk("cost") + '\n<!-- STEP 11: first usable artifact -->')
 sub('<!-- STEPS 13 and 14', dyk("time") + '\n<!-- STEPS 13 and 14')
 sub('<!-- STEP 15: show the work', dyk("cert") + '\n<!-- STEP 15: show the work')
-sub('<!-- STEP 17: compare', dyk("rules2026") + '\n<!-- STEP 17: compare')
+sub('<!-- STEP 17: compare', dyk("rules2026") + dyk("ielts_skip") + '\n<!-- STEP 17: compare')
 
 # 7 qualification path as a visual stack (replaces the counted list wording but keeps content)
 # mid page CTA after the 'order matters' story

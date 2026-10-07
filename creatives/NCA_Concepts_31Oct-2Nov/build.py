@@ -43,7 +43,7 @@ def chat():  # 1 experienced advocates
 <div class="phone"><div class="top"><div class="av">A</div><div><div class="nm">Adv. Mehta</div><div class="st">online</div></div></div>
 <div class="wall">
 <div class="b fr">You can write Canada's exams from India?<span class="t">9:41 PM</span></div>
-<div class="b me">Yes. Online. Every month.<span class="t">9:42 PM ✓✓</span></div>
+<div class="b me">Yes. Online. A session every month.<span class="t">9:42 PM ✓✓</span></div>
 <div class="b fr">And my chamber?<span class="t">9:42 PM</span></div>
 <div class="b me">Stays open. You study around your cause list.<span class="t">9:43 PM ✓✓</span></div>
 </div></div>

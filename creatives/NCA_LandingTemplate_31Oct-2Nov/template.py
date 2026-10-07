@@ -105,6 +105,54 @@ ol.count small{display:block;color:var(--mut);font-size:13px;margin-top:5px}
 .vcard .n{font-size:38px;font-weight:900;letter-spacing:-.02em}.vcard .d{font-size:18px;font-weight:700;color:var(--mut);margin-top:2px}
 .vcard .q{font-size:28px;font-weight:900;color:var(--ac);line-height:1.1;margin-top:14px}.vcard .ip{font-size:15px;font-weight:700;color:var(--mut);margin-top:6px}
 .lbl{text-align:center;font-size:12px;font-weight:700;color:var(--mut);margin-top:6px}
+/* pillars face (mirrors the broad ad) */
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 0 6px}
+.pillar{background:#fff;border:2px solid var(--line);border-radius:14px;padding:14px 8px 12px;text-align:center}
+.pillar .ic{width:54px;height:54px;border-radius:50%%;background:var(--ac2);color:var(--ac);font-size:26px;font-weight:900;display:flex;align-items:center;justify-content:center;margin:0 auto 8px}
+.pillar b{display:block;font-size:17px;line-height:1.1;color:var(--ink)}
+.pillar span{display:block;font-size:13px;line-height:1.25;color:var(--mut);margin-top:4px}
+.pillar span em{font-style:normal;color:var(--ac);font-weight:800}
+/* ad-matched fold and style (lp_broad_lawyer) */
+body.adstyle{background:#FFFCFA}
+.adstyle .brand{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:6px 0 10px;border-bottom:1px solid var(--line)}
+.adstyle .brand .l{display:flex;align-items:center;gap:8px;font-weight:900;font-size:22px;letter-spacing:-.01em}
+.adstyle .brand .l i{width:34px;height:34px;border-radius:50%%;background:var(--ac);display:inline-block;position:relative}
+.adstyle .brand .l i:after{content:"";position:absolute;inset:8px;border:3px solid #fff;border-radius:50%%;border-right-color:transparent}
+.adstyle .brand .r{text-align:right;font-weight:900;font-size:13px;line-height:1.1;letter-spacing:.06em;text-transform:uppercase}
+.adstyle .brand .r em{display:block;font-style:normal;color:var(--ac);letter-spacing:.3em;font-size:11px;margin-top:2px}
+.adstyle .hero{position:relative;overflow:hidden;padding:18px 0 6px}
+.adstyle .leaf{position:absolute;right:-95px;top:62px;width:250px;height:250px;opacity:.95;pointer-events:none;z-index:0}
+.adstyle .bigq{position:relative;z-index:1;font-size:clamp(40px,11.5vw,66px);line-height:.98;letter-spacing:-.035em;font-weight:900;color:#111;max-width:72%%;margin-top:14px}
+.adstyle .bigq em{font-style:normal;color:var(--ac);display:block}
+.adstyle .ans{position:relative;z-index:1;max-width:72%%;font-size:clamp(28px,7.6vw,42px);line-height:1.05;letter-spacing:-.025em;font-weight:900;color:#111;margin-top:16px}
+.adstyle .ans em{font-style:normal;color:var(--ac)}
+.adstyle .icons{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:22px 0 10px;text-align:center}
+.adstyle .icons .c{padding:0 4px}
+.adstyle .icons .c+.c{border-left:1px solid var(--line)}
+.adstyle .icons .ring{width:78px;height:78px;border-radius:50%%;background:#FDE9E6;margin:0 auto 10px;display:flex;align-items:center;justify-content:center}
+.adstyle .icons svg{width:40px;height:40px;stroke:var(--ac);fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.adstyle .icons b{display:block;font-size:20px;line-height:1.05;letter-spacing:-.01em;color:#111}
+.adstyle .icons span{display:block;font-size:13.5px;line-height:1.25;color:#333;margin-top:4px}
+.adstyle .icons span em{font-style:normal;color:var(--ac);font-weight:800}
+.adstyle .stick{display:inline-block;background:#FFF04D;color:#111;font-weight:900;font-size:22px;padding:6px 14px;border-radius:6px;transform:rotate(-2deg);box-shadow:2px 2px 0 #111;margin:4px 0 12px}
+.adstyle .statband{display:grid;grid-template-columns:1.1fr 1fr;background:#F6E7E4;border-radius:14px;padding:14px 12px;gap:10px;align-items:center}
+.adstyle .statband .cell{display:flex;gap:10px;align-items:center}
+.adstyle .statband .cell+.cell{border-left:1px solid rgba(0,0,0,.15);padding-left:10px}
+.adstyle .statband svg{width:34px;height:34px;flex:none;stroke:var(--ac);fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.adstyle .statband b{display:block;font-size:17px;line-height:1.1;color:#111}
+.adstyle .statband .big{font-size:26px;letter-spacing:-.02em;color:var(--ac);display:block;line-height:1.05;margin-top:2px}
+.adstyle .statband small{display:block;font-size:12px;color:#444;margin-top:2px}
+.adstyle .pill{position:relative;display:flex;align-items:center;justify-content:center;gap:12px;background:var(--ac);color:#fff;text-decoration:none;border-radius:999px;padding:14px 18px;font-weight:900;font-size:clamp(22px,6vw,30px);white-space:nowrap;text-transform:uppercase;letter-spacing:-.01em;margin:22px 0 10px;box-shadow:0 6px 0 #9A1F17}
+.adstyle .pill .burst{background:#FFF04D;color:var(--ac);border-radius:999px;padding:5px 10px;font-size:clamp(18px,5vw,24px);line-height:1;transform:rotate(-6deg);box-shadow:0 0 0 3px #fff;text-transform:none;white-space:nowrap}
+.adstyle .pill .burst small{display:block;font-size:9.5px;color:#111;letter-spacing:.08em;text-transform:uppercase;text-align:center}
+.adstyle .pill .arr{font-size:30px}
+.adstyle .frow{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:4px 0 6px;font-weight:800;font-size:13px;color:#111;text-align:center}
+.adstyle .frow div{display:flex;flex-direction:column;align-items:center;gap:4px}
+.adstyle .frow svg{width:24px;height:24px;stroke:#111;fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.adstyle h2{color:#111}.adstyle h2 em{font-style:normal;color:var(--ac)}
+.adstyle .btn{border-radius:999px;text-transform:uppercase;box-shadow:0 6px 0 #9A1F17}
+.adstyle .sticky a{border-radius:999px;text-transform:uppercase}
+.adstyle .rail,.adstyle .callout,.adstyle .gloss.top{display:none}
 /* share + sticky */
 .share{display:block;text-align:center;border:3px dashed var(--ac);color:var(--ac);font-weight:900;border-radius:14px;padding:14px;text-decoration:none;font-size:18px;margin-top:10px}
 .sticky{position:fixed;left:0;right:0;bottom:0;background:var(--bg);border-top:2px solid var(--line);padding:10px 14px;z-index:9}
@@ -149,9 +197,9 @@ WHY = [
 ]
 HOW_FROM_INDIA = [
  ("Both systems are common law.", " Canada outside Quebec runs on common law, like India. The subjects will feel familiar, though you still have to learn Canadian law.", "Source: Justice Canada."),
- ("The exams are online and monthly.", " You write them from home, in India. You choose the month.", "Source: nca.legal."),
+ ("The exams are online, with a session every month.", " You write from home, in India, with a proctor watching. Each core subject comes round every third month, so you pick your sitting.", "Source: nca.legal, exam information, and the NCA 2026 and 2027 exam schedules."),
  ("The NCA decides your exams after it assesses your degree.", " Core subjects usually include Canadian constitutional law, administrative law, criminal law, professional responsibility and foundations of Canadian law. Your own list comes from the NCA.", "[[SCRIPT-CHECK: subjects and open book format from the April 2024 script; confirm for 2026]]"),
- ("The exams are open book.", " You are marked on applying concepts to a fact pattern, not on memory.", "[[SCRIPT-CHECK: confirm open book and 50% pass mark for 2026]]"),
+ ("The exams are open book, and 50 percent passes.", " You can bring paper books, not electronic copies. You are marked on applying concepts to a fact pattern, not on memory.", "Source: nca.legal, exam information and online exam rules."),
 ]
 
 def face(kind, c):
@@ -160,13 +208,55 @@ def face(kind, c):
     if kind == "calendar":
         mo = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
         return '<div class="face"><div class="cal">' + "".join('<div class="on">Your exam month<br>Mar</div>' if m == "Mar" else "<div>%s</div>" % m for m in mo) + '</div><div class="lbl">Sample calendar</div></div>'
+    if kind == "pillars":
+        return ('<div class="face"><div class="pillars">'
+                '<div class="pillar"><div class="ic">1</div><b>NCA</b><span>Checks your Indian law degree.</span></div>'
+                '<div class="pillar"><div class="ic">2</div><b>Online exams</b><span>Written <em>from home, in India.</em> A session every month.</span></div>'
+                '<div class="pillar"><div class="ic">3</div><b>Canadian bar</b><span>Then you apply to a province\'s law society.</span></div>'
+                '</div></div>')
     return '<div class="face"><div class="vcard"><div class="n">Your Name</div><div class="d">LLB (India)</div><div class="q">Canada-qualified lawyer</div><div class="ip">In progress. One exam at a time, from India.</div></div><div class="lbl">Sample card</div></div>'
+
+ICO = {
+ "doc": '<svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4"/><path d="M9.5 11h5M9.5 14h5"/><circle cx="12" cy="18" r="1.6"/></svg>',
+ "laptop": '<svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="11" rx="1.5"/><path d="M2 19h20"/></svg>',
+ "scales": '<svg viewBox="0 0 24 24"><path d="M12 3v18M5 21h14M12 6l-6 2 6-2 6 2"/><path d="M3 14a3 3 0 0 0 6 0l-3-6zM15 14a3 3 0 0 0 6 0l-3-6z"/></svg>',
+ "chart": '<svg viewBox="0 0 24 24"><path d="M5 20V13M12 20V8M19 20V4"/></svg>',
+ "cal": '<svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>',
+ "card": '<svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="13" rx="2"/><path d="M2 10h20M6 15h4"/></svg>',
+}
+LEAF = '<svg class="leaf" viewBox="0 0 100 100"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F0543F"/><stop offset="1" stop-color="#B9241A"/></linearGradient></defs><path fill="url(#lg)" d="M50 4l6 14 11-5-3 16 15-4-6 12 14 8-14 7 4 12-15-3 1 15-13-8-13 8 1-15-15 3 4-12-14-7 14-8-6-12 15 4-3-16 11 5z"/><path d="M50 60v36" stroke="#B9241A" stroke-width="4"/></svg>'
+
+def ad_pill(c):
+    return '<a class="pill" href="%s">Join now <span class="burst">&#8377;10<small>incl. GST, refundable</small></span><span class="arr">&#8594;</span></a>' % PAY
+
+def ad_fold(c):
+    return ('<section class="first hero"><div class="wrap">'
+      '<div class="brand"><div class="l"><i></i>LawSikho</div><div class="r">NCA Canada<em>Bootcamp</em></div></div>'
+      + LEAF +
+      '<div class="bigq">A lawyer who keeps thinking <em>about Canada?</em></div>'
+      '<div class="ans">You could <em>practise law in Canada.</em></div>'
+      '<div class="icons">'
+      '<div class="c"><div class="ring">' + ICO["doc"] + '</div><b>NCA</b><span>Checks your Indian law degree.</span></div>'
+      '<div class="c"><div class="ring">' + ICO["laptop"] + '</div><b>Online exams</b><span>Write the NCA exams <em>from home, in India.</em> A session every month.</span></div>'
+      '<div class="c"><div class="ring">' + ICO["scales"] + '</div><b>Canadian bar</b><span>Then you apply to a province\'s law society.</span></div>'
+      '</div>'
+      '<div class="stick">We show you how.</div>'
+      '<div class="statband"><div class="cell">' + ICO["chart"] + '<div><b>Canada\'s legal market</b><span class="big">about CAD 21 to 22B</span><small>a year. IBISWorld, 2025.</small></div></div>'
+      '<div class="cell">' + ICO["cal"] + '<div><b>3 days. 9 hours.</b><span class="big" style="font-size:17px;color:#111">Live online</span><small>NCA exams and bar licensing explained</small></div></div></div>'
+      + ad_pill(c) +
+      '<div class="frow"><div>' + ICO["cal"] + '31 Oct to 2 Nov</div><div>' + ICO["laptop"] + 'Live online</div><div>' + ICO["card"] + '&#8377;10 incl. GST</div></div>'
+      '</div></section>')
 
 def build(c):
     s = []
     A = s.append
     # FOLD (steps 1 to 3 repeat the ad in its words)
-    A('<section class="first"><div class="wrap"><div class="rail">LawSikho · Canada law bootcamp</div><div class="callout">%s</div>%s<h1>%s</h1>%s%s%s%s%s%s</div></section>' % (c["callout"], face(c["face"], c), c["head"], GLOSS, CHIPS, BAND, CTA, MICRO, ""))
+    if c.get("fold") == "ad":
+        A(ad_fold(c))
+    else:
+        A('<section class="first"><div class="wrap"><div class="rail">LawSikho · Canada law bootcamp</div><div class="callout">%s</div>%s<h1>%s</h1>%s%s%s%s%s%s</div></section>' % (c["callout"], face(c["face"], c), c["head"], GLOSS, CHIPS, BAND, CTA, MICRO, ""))
+    cta = ad_pill(c) if c.get("fold") == "ad" else CTA
+
     # 2 symptom
     A('<section data-step="2"><div class="wrap"><div class="eyebrow">%s</div><h2>%s</h2>%s</div></section>' % (c["sym_eyebrow"], c["sym_h"], "".join("<p>%s</p>" % p for p in c["sym_p"])))
     # 3 outcome
@@ -178,7 +268,7 @@ def build(c):
     # 8 cost of staying unclear + the big why
     A('<section data-step="8"><div class="wrap"><div class="eyebrow">Why now</div><h2>Why Canada, and why this year</h2>%s<h3 style="margin-top:22px">%s</h3>%s<p class="src">%s</p></div></section>' % (counted(WHY), c["cost_h"], "".join("<p>%s</p>" % p for p in c["cost_p"]), c["cost_src"]))
     # 9 offer + CTA
-    A('<section data-step="9"><div class="wrap"><div class="eyebrow">The bootcamp</div><h2>3 live days. Rs 10. We show you how.</h2><p class="lead">A live Canada law bootcamp from LawSikho. You see the full route from your Indian law degree to practising in Canada: the NCA exams, then bar licensing, then practice.</p>%s<div class="days"><div class="dc"><div class="d"><span>Sat</span><b>31</b><span>Oct</span></div><div class="w">Day 1<small>2 to 5 PM IST, live</small></div></div><div class="dc"><div class="d"><span>Sun</span><b>1</b><span>Nov</span></div><div class="w">Day 2<small>2 to 5 PM IST, live</small></div></div><div class="dc"><div class="d"><span>Mon</span><b>2</b><span>Nov</span></div><div class="w">Day 3<small>7 to 10 PM IST, live</small></div></div></div>%s%s</div></section>' % (CHIPS, CTA, MICRO))
+    A('<section data-step="9"><div class="wrap"><div class="eyebrow">The bootcamp</div><h2>3 live days. Rs 10. We show you how.</h2><p class="lead">A live Canada law bootcamp from LawSikho. You see the full route from your Indian law degree to practising in Canada: the NCA exams, then bar licensing, then practice.</p>%s<div class="days"><div class="dc"><div class="d"><span>Sat</span><b>31</b><span>Oct</span></div><div class="w">Day 1<small>2 to 5 PM IST, live</small></div></div><div class="dc"><div class="d"><span>Sun</span><b>1</b><span>Nov</span></div><div class="w">Day 2<small>2 to 5 PM IST, live</small></div></div><div class="dc"><div class="d"><span>Mon</span><b>2</b><span>Nov</span></div><div class="w">Day 3<small>7 to 10 PM IST, live</small></div></div></div>%s%s</div></section>' % (CHIPS, cta, MICRO))
     # 10 mechanism
     A('<section data-step="10"><div class="wrap"><div class="eyebrow">How it works</div><h2>The route, in 3 steps</h2><div class="steps">%s</div><h3 style="margin-top:22px">Why you can start from India</h3>%s</div></section>' % ("".join('<div class="step"><div class="n">%d</div><div><h3>%s</h3><p>%s</p></div></div>' % (i + 1, t, b) for i, (t, b) in enumerate(c["mech"])), counted(HOW_FROM_INDIA)))
     # 11 first artifact
@@ -186,7 +276,7 @@ def build(c):
     # 12 longer-term
     A('<section data-step="12"><div class="wrap"><div class="eyebrow">Where this goes</div><h2>%s</h2>%s</div></section>' % (c["long_h"], li(c["long_li"])))
     # 13 proof 1: real learners from the script
-    A('<section data-step="13"><div class="wrap"><div class="eyebrow">Proof 1: real people on this route</div><h2>%s</h2>%s<p class="src">Named from LawSikho learner records, April 2024 bootcamp. These people cleared NCA exams and moved or found work. None of them is described here as a licensed Canadian lawyer. [[PENDING: confirm each story with the learner, written consent, current job and employer. The script gives two different dates for when Navkaran Singh cleared.]]</p>%s</div></section>' % (c["p2_h"], stories(c["stories"]), CTA))
+    A('<section data-step="13"><div class="wrap"><div class="eyebrow">Proof 1: real people on this route</div><h2>%s</h2>%s<p class="src">Named from LawSikho learner records, April 2024 bootcamp. These people cleared NCA exams and moved or found work. None of them is described here as a licensed Canadian lawyer. [[PENDING: confirm each story with the learner, written consent, current job and employer. The script gives two different dates for when Navkaran Singh cleared.]]</p>%s</div></section>' % (c["p2_h"], stories(c["stories"]), cta))
     # 14 proof 2: the wider group and the public numbers
     A('<section data-step="14"><div class="wrap"><div class="eyebrow">Proof 2: you would not be first</div><h2>They are not the only ones</h2><div class="stat"><div><b>59</b>learners had cleared at least one NCA subject, and 11 had cleared all of them, at the time of the April 2024 bootcamp.<span class="src" style="display:block">[[PENDING: recount from the learner list before launch]]</span></div><div><b>1,858,755</b>Canadians of Indian origin in the 2021 census, 5.1% of the country.<span class="src" style="display:block">Source: Statistics Canada. [[VERIFY: re-check on launch day]]</span></div></div><p>Fastest NCA path: about 10 months. The average candidate takes about two years. Source: nca.legal.</p></div></section>')
     # 15 the work (from the April 2024 script)
@@ -194,13 +284,13 @@ def build(c):
     # 16 implementation
     A('<section data-step="16"><div class="wrap"><div class="eyebrow">The details</div><h2>Where, when, what you need</h2>%s</div></section>' % li(c["impl"]))
     # 17 cost compare
-    A('<section data-step="17"><div class="wrap"><div class="eyebrow">What it costs to find out</div><h2>Rs 10 to see the whole route</h2><div class="opts"><div class="opt us"><div class="k">This bootcamp</div><div class="n">LawSikho Canada bootcamp, 3 live days</div><div class="c">Rs 10</div><div class="t">Including GST. Refundable.</div></div><div class="opt"><div class="k">Another route</div><div class="n">One NCA exam prep course from a commercial provider</div><div class="c">CAD 499</div><div class="t">Per course. OsgoodePD price page, 6 Oct 2026.</div></div><div class="opt"><div class="k">Another cost</div><div class="n">NCA assessment fee</div><div class="c">CAD 410</div><div class="t">[[VERIFY: confirm on nca.legal before launch]]</div></div></div><p class="src">Prices of other providers are theirs and change. We list them so you can see what a first step usually costs.</p></div></section>')
+    A('<section data-step="17"><div class="wrap"><div class="eyebrow">What it costs to find out</div><h2>Rs 10 to see the whole route</h2><div class="opts"><div class="opt us"><div class="k">This bootcamp</div><div class="n">LawSikho Canada bootcamp, 3 live days</div><div class="c">Rs 10</div><div class="t">Including GST. Refundable.</div></div><div class="opt"><div class="k">Another route</div><div class="n">One NCA exam prep course from a commercial provider</div><div class="c">CAD 499</div><div class="t">Per course. OsgoodePD price page, 6 Oct 2026.</div></div><div class="opt"><div class="k">Another cost</div><div class="n">NCA assessment, then each NCA exam</div><div class="c">CAD 400 + CAD 500 each</div><div class="t">Plus Canadian taxes. Source: nca.legal, costs and timelines.</div></div></div><p class="src">Prices of other providers are theirs and change. We list them so you can see what a first step usually costs.</p></div></section>')
     # 18 risk removal
-    A('<section data-step="18"><div class="wrap"><div class="eyebrow">Your risk</div><h2>Rs 10. Refundable. Live only.</h2>%s%s</div></section>' % (li(["You pay Rs 10 including GST.", "It is refundable. [[VERIFY: refund steps and window, in one plain line]]", "It is live only, so you can ask your question on the day.", "You decide on the exams after you have seen the whole route."]), CTA))
+    A('<section data-step="18"><div class="wrap"><div class="eyebrow">Your risk</div><h2>Rs 10. Refundable. Live only.</h2>%s%s</div></section>' % (li(["You pay Rs 10 including GST.", "It is refundable. [[VERIFY: refund steps and window, in one plain line]]", "It is live only, so you can ask your question on the day.", "You decide on the exams after you have seen the whole route."]), cta))
     # 19 buyer language
     A('<section data-step="19"><div class="wrap"><div class="eyebrow">Say it to your people</div><h2>%s</h2><div class="quote">%s</div><a class="share" href="https://wa.me/?text=%s">Send this to someone who needs it</a></div></section>' % (c["lang_h"], c["lang_q"], html.escape(c["lang_q"]).replace(" ", "%20")))
     # 20 next step
-    A('<section data-step="20"><div class="wrap"><div class="eyebrow">Next step</div><h2>%s</h2><p class="lead">Pay Rs 10. You get the live links for all 3 days.</p>%s%s</div></section>' % (c["next_h"], CTA, MICRO))
+    A('<section data-step="20"><div class="wrap"><div class="eyebrow">Next step</div><h2>%s</h2><p class="lead">Pay Rs 10. You get the live links for all 3 days.</p>%s%s</div></section>' % (c["next_h"], cta, MICRO))
     # 21 stop selling + only disclaimer
     A('<section data-step="21" style="border-top:0"><div class="wrap"><p style="text-align:center;font-weight:800;font-size:20px">That is everything. See you on Saturday.</p><div class="end">LawSikho is not part of, or approved by, the National Committee on Accreditation, any Canadian law society or any government. Whether you can qualify depends on your own eligibility, your exam results and each province\'s rules, which change. We do not promise admission, a licence, a job or an income. Facts on this page were checked on 7 Oct 2026 from the sources named beside them.</div></div></section>')
     ids = c.get("dyk", ["online", "time", "rules2026", "cert"])
@@ -214,7 +304,7 @@ def build(c):
     inject("16", dyk(ids[2]))
     inject("18", dyk(ids[3]))
     body = "\n".join(s) + '\n<div class="sticky"><a href="%s">Join the Rs 10 bootcamp</a></div>' % PAY
-    return "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>%s</title><style>%s</style></head><body>%s</body></html>" % (html.escape(c["title"]), CSS % c["theme"], body)
+    return "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>%s</title><style>%s</style></head><body class=\"%s\">%s</body></html>" % (html.escape(c["title"]), CSS % c["theme"], "adstyle" if c.get("fold") == "ad" else "", body)
 
 GAP = re.compile(r"\[\[(PENDING|SCRIPT-CHECK|VERIFY):\s*([^\]]*)\]\]")
 def gaps(page_html):
