@@ -1,10 +1,11 @@
-"""NCA Canada skyline template (LawSikho), layout v2: centered.
+"""NCA Canada skyline template (LawSikho), layout v3: the reference format, reading properly.
 
-Fixed: header, the complete maple leaf skyscape (a full leaf silhouette filled with the
-reference ad's sunset skyline photo), three route pillars, "We show you how" sticker, terms
-band, JOIN NOW button, footer. Variable per ad: the hook (call-out question) and the prize
-line (value proposition). Hook and prize sit centered above the leaf, so the face stays
-balanced for any hook length.
+Same format as the reference ad: header, hook and prize on the LEFT, the maple leaf skyscape
+on the RIGHT (now a complete leaf silhouette filled with the reference's sunset skyline
+photo, fully inside the canvas instead of cut off at the edge), then the three route
+pillars, the "We show you how" sticker on the left, the terms band, JOIN NOW button and
+footer. Variable per ad: the hook (call-out question) and the prize line (value
+proposition). The type fitter keeps the hero balanced for any hook length.
 
 Spelling: "practice"/"practicing" everywhere, on Ruchika's instruction of 7 Oct 2026 (the
 Indian-English verb form "practise" was flagged and overruled; see README).
@@ -18,8 +19,8 @@ DEFAULTS = dict(
     hook="A lawyer who keeps thinking <em>about Canada?</em>",
     prize="You could <em>practice law in Canada.</em>",
     # Height budgets before the fitter shrinks the type (px).
-    hook_max_height=196, hook_max_px=100,
-    prize_max_height=108, prize_max_px=68,
+    hook_max_height=320, hook_max_px=104,
+    prize_max_height=190, prize_max_px=72,
     # FIXED FOR THE WAVE. Three route pillars: NCA exams, then bar licensing, then practice.
     pillars=[
         ("icon_nca.png", "NCA exams", "A direct pathway toward Canadian bar eligibility. <em>Open book, written online from India.</em> A session every month."),
@@ -50,17 +51,14 @@ CSS = """
 html,body{width:1080px;height:1350px;overflow:hidden}
 body{font-family:Inter,sans-serif;background:%(bg)s;color:%(ink)s;display:flex;flex-direction:column;padding:34px 44px 30px}
 em{font-style:normal;color:%(red)s}
-.hdr{display:flex;align-items:center;justify-content:center;gap:26px;height:92px;flex:none}
+.hdr{display:flex;align-items:center;gap:26px;height:92px;flex:none}
 .hdr img{height:92px;width:auto}
 .hdr .div{width:3px;height:84px;background:#2B2A33;opacity:.75}
-.copy{flex:none;text-align:center;margin-top:20px}
-.hook{font-size:%(hook_max_px)dpx;font-weight:900;line-height:1.0;letter-spacing:-.04em;word-spacing:-.03em;margin:0 auto;max-width:980px}
-.prize{font-size:%(prize_max_px)dpx;font-weight:900;line-height:1.04;letter-spacing:-.035em;margin:18px auto 0;max-width:920px}
-.leafbox{flex:1;min-height:140px;display:flex;align-items:center;gap:34px;margin-top:10px}
-.rule{flex:1;height:4px;border-radius:2px}
-.rule.l{background:linear-gradient(90deg,rgba(242,55,29,0),rgba(242,55,29,.5))}
-.rule.r{background:linear-gradient(90deg,rgba(242,55,29,.5),rgba(242,55,29,0))}
-.leafwrap{height:100%%;aspect-ratio:1/1;position:relative}
+.hero{flex:1;min-height:360px;display:flex;align-items:center;gap:30px;margin-top:16px}
+.copy{flex:1;text-align:left}
+.hook{font-size:%(hook_max_px)dpx;font-weight:900;line-height:1.0;letter-spacing:-.04em;word-spacing:-.03em}
+.prize{font-size:%(prize_max_px)dpx;font-weight:900;line-height:1.04;letter-spacing:-.035em;margin-top:24px}
+.leafwrap{height:100%%;max-height:470px;aspect-ratio:1/1;position:relative;flex:none;align-self:center}
 .leafwrap svg{position:absolute;inset:0;width:100%%;height:100%%;filter:drop-shadow(0 10px 22px rgba(242,55,29,.22))}
 .pillars{display:flex;flex:none;margin-top:10px}
 .pil{flex:1;text-align:center;padding:0 14px}
@@ -69,7 +67,7 @@ em{font-style:normal;color:%(red)s}
 .pt{font-size:32px;font-weight:900;letter-spacing:-.02em;margin-top:6px}
 .pd{font-size:23px;font-weight:600;line-height:1.22;margin-top:4px;color:#2A2730}
 .pd em{font-weight:800}
-.sticker{align-self:center;background:#FFF04A;font-size:34px;font-weight:900;letter-spacing:-.02em;padding:6px 22px 8px;border-radius:8px;transform:rotate(-2deg);margin-top:12px;box-shadow:0 6px 14px rgba(0,0,0,.10)}
+.sticker{align-self:flex-start;margin-left:12px;background:#FFF04A;font-size:34px;font-weight:900;letter-spacing:-.02em;padding:6px 22px 8px;border-radius:8px;transform:rotate(-2deg);margin-top:12px;box-shadow:0 6px 14px rgba(0,0,0,.10)}
 .band{display:flex;flex:none;background:#FEECE7;border-radius:16px;margin-top:12px;padding:16px 28px}
 .cell{flex:1;display:flex;align-items:center;gap:22px}
 .cell+.cell{border-left:3px solid #E9CFC7;padding-left:30px}
@@ -96,6 +94,14 @@ FIT_JS = """
 function fit(sel,maxH,minPx,maxPx){var e=document.querySelector(sel);var s=maxPx;e.style.fontSize=s+'px';
 while(e.scrollHeight>maxH&&s>minPx){s-=2;e.style.fontSize=s+'px';}}
 fit('.hook',%(hook_max_height)d,52,%(hook_max_px)d);fit('.prize',%(prize_max_height)d,40,%(prize_max_px)d);
+// Then make sure hook + prize together fit the hero column, so copy never touches the pillars.
+(function(){var hero=document.querySelector('.hero'),copy=document.querySelector('.copy');
+var h=document.querySelector('.hook'),p=document.querySelector('.prize');
+for(var i=0;i<40&&copy.scrollHeight>hero.clientHeight-10;i++){
+ var hs=parseFloat(getComputedStyle(h).fontSize),ps=parseFloat(getComputedStyle(p).fontSize);
+ if(hs<=52&&ps<=40)break;
+ if(hs>52)h.style.fontSize=(hs-2)+'px';
+ if(ps>40)p.style.fontSize=(ps-2)+'px';}})();
 </script>"""
 
 
@@ -110,8 +116,7 @@ def render(cfg):
 <path d="{LEAF_PATH}" fill="none" stroke="{c['red']}" stroke-width="6" stroke-linejoin="round"/></svg>"""
     body = f"""
 <div class="hdr"><img src="{a}/logo_lawsikho.png"><div class="div"></div><img src="{a}/brand_nca.png"></div>
-<div class="copy"><div class="hook">{c['hook']}</div><div class="prize">{c['prize']}</div></div>
-<div class="leafbox"><div class="rule l"></div><div class="leafwrap">{leaf}</div><div class="rule r"></div></div>
+<div class="hero"><div class="copy"><div class="hook">{c['hook']}</div><div class="prize">{c['prize']}</div></div><div class="leafwrap">{leaf}</div></div>
 <div class="pillars">{pil}</div>
 <div class="sticker">{c['sticker']}</div>
 <div class="band">

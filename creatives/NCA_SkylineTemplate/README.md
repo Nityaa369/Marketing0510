@@ -48,18 +48,19 @@ Writes `html/<stem>.html` and `ads/<stem>.png` (1080 x 1350, rendered at 2x). Ne
 Chromium headless shell and the Inter font. Any default in `template.py` `DEFAULTS` can be
 overridden per entry, but do not do that inside one wave: one look, two moving lines.
 
-## The ten ads in this folder: one per ICP cell
+## The twelve ads in this folder
 
-One ad per cell of the wave 3 shortlist (`docs/ICPs_NCA_Wave3_31Oct-2Nov2026.md`). Each has
-its own validation hook (the call-out names the reader's situation in their words) and its own
-offer-specific prize line (the "Value proposition (plain head)" column, with the same-desk heads
-on cells 8 and 10 replaced as that table records). Numbers for cells 4 and 5 stay in targeting.
+One ad per cell of the wave 3 shortlist (`docs/ICPs_NCA_Wave3_31Oct-2Nov2026.md`), plus the
+two best-evidenced bench cells (own practice, Gulf). Each has its own validation hook and its
+own offer-specific prize line. Numbers for cells 4 and 5 stay in targeting. Layout v3 is the
+reference format: copy left, the complete maple leaf skyscape right, and a fitter that keeps
+hook plus prize inside the hero so copy never touches the pillars.
 
 | Stem | ICP | Hook | Prize |
 |---|---|---|---|
-| nca_sky_01_broad_thinking_about_canada | Lawyers who want to practise in Canada (broad capture) | A lawyer who keeps thinking about Canada? | You could practise law in Canada with your Indian LLB. |
+| nca_sky_01_broad_thinking_about_canada | Lawyers who want to practice in Canada (broad capture) | A lawyer who keeps thinking about Canada? | You could practice law in Canada with your Indian LLB. |
 | nca_sky_02_final_year_student | Final-year law students | A final-year law student? | Graduate in India. Start a Canadian law career. |
-| nca_sky_03_fresh_graduate | Fresh law graduates (LLB done, not yet practising) | LLB done, not yet practising? | Your Indian LLB can take you to practise in Canada. |
+| nca_sky_03_fresh_graduate | Fresh law graduates (LLB done, not yet practicing) | LLB done, not yet practicing? | Your Indian LLB can take you to practice in Canada. |
 | nca_sky_04_newly_enrolled_advocate | Newly enrolled advocates (0 to 2 years in targeting, never on the face) | A newly enrolled advocate? | You could qualify for Canada alongside your first years in court. |
 | nca_sky_05_experienced_advocate | Experienced advocates (5+ years in targeting, never on the face) | An experienced advocate? | Keep your practice. Add a Canadian licence. |
 | nca_sky_06_litigator | Litigators and court lawyers | In court every week? | You could qualify to serve Canadian clients from India. |
@@ -67,6 +68,8 @@ on cells 8 and 10 replaced as that table records). Numbers for cells 4 and 5 sta
 | nca_sky_08_law_firm_associate | Law firm associates | A law firm associate? | You could qualify as a Canadian lawyer. |
 | nca_sky_09_moving_to_canada | Lawyers planning to move abroad (IELTS, PR plans) | A lawyer planning to move to Canada? | Take your law career with you. |
 | nca_sky_10_in_house_counsel | In-house counsel | In-house counsel at an Indian company? | You could become a Canada-qualified lawyer. |
+| nca_sky_11_own_practice | Lawyers running their own practice (bench cell, 0.80x on DPDP) | Running your own practice? | You could build a second practice in Canada. |
+| nca_sky_12_gulf_lawyers | Indian lawyers working in the Gulf (bench cell, 0.88x, n=268) | An Indian lawyer in the Gulf? | Your next move could be a licence to practice in Canada. |
 
 ## Critique of the supplied design, against Ramanuj's record
 

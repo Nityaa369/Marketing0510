@@ -38,5 +38,13 @@
   {"stem": "nca_sky_10_in_house_counsel",
    "icp": "In-house counsel",
    "hook": "In-house counsel at an <em>Indian company?</em>",
-   "prize": "You could become <em>a Canada-qualified lawyer.</em>"}
+   "prize": "You could become <em>a Canada-qualified lawyer.</em>"},
+  {"stem": "nca_sky_11_own_practice",
+   "icp": "Lawyers running their own practice (bench cell, 0.80x on DPDP)",
+   "hook": "Running your <em>own practice?</em>",
+   "prize": "You could build <em>a second practice in Canada.</em>"},
+  {"stem": "nca_sky_12_gulf_lawyers",
+   "icp": "Indian lawyers working in the Gulf (bench cell, 0.88x, n=268)",
+   "hook": "An Indian lawyer <em>in the Gulf?</em>",
+   "prize": "Your next move could be <em>a licence to practice in Canada.</em>"}
 ]
