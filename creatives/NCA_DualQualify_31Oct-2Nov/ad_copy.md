@@ -66,3 +66,13 @@ elements the account's history says convert:
 - Per-page FAQ answering that reader's top three objections.
 Checks: 1,561 to 1,600 words; 0 long sentences; max 59% sentence overlap (warn 65, block 80).
 Blockers unchanged: pay links pending, learner stories to confirm with Abhishek Pareek, 2026 script.
+
+## v3 (7 Oct): half-asleep pass
+Ramanuj's test applied to every face. Fixes: "Dual-qualify" removed from all heads (coined word =
+decode step); heads now plain sentences naming the prize ("Keep your Indian licence. Add Canada's."
+/ "Practise law in Canada with the LLB you already have." / "Become a lawyer in Canada. Try the
+route first, for Rs 10." / "Qualify in Canada. Draft for Canadian clients too."); the gloss "NCA:
+Canada's check on your Indian law degree" restored under the route chips on every face (it had been
+dropped, the Rule 2 acronym failure); d_03's head now names the job before the trial (the A6_dayone
+"cryptic, we can drop it" precedent); d_04 head shortened so no row clips. Pages' h1s and titles
+updated to match (Rule 3). Face words 78, 77, 99, 80.

@@ -125,9 +125,9 @@ def page(p):
 
 PAGES = [
 dict(stem="nca_d_01_two_licences_5plus", slug="nca-oct-d01-dual-experienced", ac="#1F3B5C", soft="#E9EEF5",
-  title="Dual-qualify: India and Canada",
+  title="Keep your Indian licence, add Canada's",
   qual="ADVOCATES · LITIGATORS · IN-HOUSE COUNSEL · 5+ YEARS OF PRACTICE",
-  h1="Practising law for 5+ years? <em class='text-(--ac)'>Dual-qualify: India and Canada.</em>",
+  h1="Practising law for 5+ years? <em class='text-(--ac)'>Keep your Indian licence. Add Canada's.</em>",
   offer="Keep your Indian licence and add Canada's. In 3 live days, we show you how to clear the NCA exams from India while your practice keeps running.",
   faq_h="Questions senior advocates ask before Day 1",
   faq=[("Will this clash with my court diary?","No. The sessions sit on a weekend and one evening, and the 12-month plan is built around your matters, not instead of them."),
@@ -158,9 +158,9 @@ dict(stem="nca_d_01_two_licences_5plus", slug="nca-oct-d01-dual-experienced", ac
      "close_p":"You earned the first licence in courtrooms. The second one is an assessment, a set of monthly exams you write from India, and a licensing step. Three live days show you the whole route, for Rs 10."}),
 
 dict(stem="nca_d_02_myth_fact_canada", slug="nca-oct-d02-myth-fact", ac="#1E6A48", soft="#E6F1EA",
-  title="Dual-qualify with the LLB you already have",
+  title="Practise law in Canada with the LLB you already have",
   qual="LLB HOLDERS · ADVOCATES · ASSOCIATES · IN-HOUSE · ANY PRACTICE AREA",
-  h1="Want to practise law in Canada? <em class='text-(--ac)'>Dual-qualify with the LLB you already have.</em>",
+  h1="Want to practise law in Canada? <em class='text-(--ac)'>Practise law in Canada with the LLB you already have.</em>",
   offer="Myth: you need a Canadian law degree first. Fact: the NCA assesses your Indian LLB and sets the exams. In 3 live days, we show you the route, step by step.",
   faq_h="Questions LLB holders ask before Day 1",
   faq=[("My LLB is a 3-year degree. Does it count?","The NCA assesses both 3-year and 5-year LLBs from recognised universities. Day 1 shows what each profile is usually assigned."),
@@ -191,9 +191,9 @@ dict(stem="nca_d_02_myth_fact_canada", slug="nca-oct-d02-myth-fact", ac="#1E6A48
      "close_p":"The myths cost people years. The facts fit on one page, and the bootcamp hands you that page with a plan attached, for Rs 10."}),
 
 dict(stem="nca_d_03_ticket_newly_enrolled", slug="nca-oct-d03-try-route", ac="#9E2328", soft="#F6E9E6",
-  title="Try the Canada route before you commit to it",
+  title="Become a lawyer in Canada, try the route first",
   qual="NEWLY ENROLLED ADVOCATES · JUNIOR ASSOCIATES · RECENT LLB GRADUATES",
-  h1="Newly enrolled advocate? <em class='text-(--ac)'>Try the Canada route before you commit to it.</em>",
+  h1="Newly enrolled advocate? <em class='text-(--ac)'>Become a lawyer in Canada. Try the route first, for Rs 10.</em>",
   offer="Admit one, live, for Rs 10. In 3 days you write an NCA-style answer and leave with a 12-month plan built around about 2 hours a day after court.",
   faq_h="Questions juniors ask before Day 1",
   faq=[("I enrolled this year. Is it too early?","No. The NCA assesses your degree, not your years of practice. Early evenings are the advantage seniors wish they still had."),
@@ -223,9 +223,9 @@ dict(stem="nca_d_03_ticket_newly_enrolled", slug="nca-oct-d03-try-route", ac="#9
      "close_p":"Three live days, one answer written in your own hand, and a plan you have actually tested. If it is not for you, the Rs 10 comes back. Either way, you stop guessing."}),
 
 dict(stem="nca_d_04_split_contract_lawyers", slug="nca-oct-d04-same-drafting", ac="#0E5A6C", soft="#E3EEF2",
-  title="Same drafting. Dual-qualify in two countries",
+  title="Qualify in Canada, draft the same contracts",
   qual="CORPORATE LAWYERS · CONTRACT DRAFTERS · M&A · IN-HOUSE COUNSEL",
-  h1="Corporate or contract lawyer? <em class='text-(--ac)'>Same drafting. Dual-qualify in two countries.</em>",
+  h1="Corporate or contract lawyer? <em class='text-(--ac)'>Qualify in Canada. Draft for Canadian clients too.</em>",
   offer="The shareholders' agreements, service contracts, NDAs and privacy policies you draft now are the documents Canadian clients need too. In 3 live days, we show you how to qualify to draft them for Canada.",
   faq_h="Questions drafters ask before Day 1",
   faq=[("Is Canadian contract law very different from ours?","The roots are the same common law. The differences are specific, and they are exactly what the exams teach. Day 3 shows them on a live clause."),
