@@ -96,12 +96,35 @@ CFG = {
   impl=BASE_IMPL, lang_h="Say it to your friends",
   lang_q="The NCA exams are online, from India. I am finding out the whole route, from my LLB to practising in Canada, for Rs 10.",
   next_h="Start now. Pay Rs 10. Join on Saturday."),
+"lp_broad_lawyer": dict(
+  title="A lawyer who keeps thinking about Canada? You could practise law in Canada | LawSikho", face="pillars",
+  theme=dict(ac="#E0352B", ac2="#FDE9E6", bg="#FFF8F6"),
+  callout="A lawyer who keeps thinking about Canada?", head="You could practise law in Canada.", chat=None,
+  dyk=['online','session','cost','notdegree'],
+  sym_eyebrow="You may recognise this", sym_h="The thought comes back every few months.",
+  sym_p=["A friend moves. A client mentions Toronto. A cousin sends a photo from Vancouver. You think: could I practise law there? Then the week fills up and the thought waits.","You have never seen the route laid out in order, so it stays a thought."],
+  out_h="Practise law in Canada, with the law degree you already have",
+  out_li=["See the whole route: NCA exams, bar licensing, practice in Canada.","Write the NCA exams online, from India.","Keep your work in India going while you prepare.","Leave day 3 with a plan on paper."],
+  fail_h="You have probably tried these",
+  fail=[("Searching late at night","Forum threads, agency pages, a dozen opinions. No one page shows the order."),("Asking an agent","Agents sell visas. Qualifying as a lawyer is a different process, run by the NCA and the law societies."),("Waiting for the right year","There is no right year. The exams run in sessions every month, and you can start the assessment from India now.")],
+  reframe_h="The issue is not effort. It is a route you have never seen laid out.",
+  reframe_p=["You already read statutes and cases for a living. The NCA exams test Canadian law, so you study, but you study as a trained lawyer.","Canada outside Quebec runs on common law, the same system you trained in. Source: Justice Canada."],
+  cost_h="Another year of someday", cost_p=["The NCA path takes time: about 10 months at the fastest, about two years for most people, and you get five years to finish.","The date you start is the only part you control."], cost_src="Source: nca.legal, costs and timelines.",
+  art_h="Your route on one page", art_t="Your exam plan (sample)",
+  art_rows=[("Month 1","NCA assessment of your degree"),("Months 2 to 5","Study your first subject"),("Month 6","Write your first exam, online"),("After","Bar licensing for your province")],
+  long_h="A Canadian qualification, one exam at a time", long_li=["A Canadian qualification added to your Indian degree.","The option to practise in Canada, now or later.","Work in India that kept going while you studied."],
+  p2_h="Lawyers from India who started with the same thought", stories=[S_NAV, S_HEZ],
+  impl=BASE_IMPL, lang_h="Say it to the person who asks",
+  lang_q="The NCA exams are online, from India. I am finding out the whole route, from my Indian law degree to practising in Canada, for Rs 10.",
+  next_h="Pay Rs 10. Join on Saturday."),
 }
 
 for _c in CFG.values():
     _c.setdefault("mech", MECH); _c.setdefault("work", WORK)
 report = ["# Landing page gaps (7 Oct 2026)\n", "Pay link: `#PAYMENT_LINK_PENDING` on every CTA. Wire it before launch.\n"]
+ONLY = sys.argv[1:]
 for stem, c in CFG.items():
+    if ONLY and stem not in ONLY: continue
     page = build(c)
     open(os.path.join(HERE, "pages", stem + ".html"), "w").write(page)
     pv = os.path.join(HERE, "preview", stem + ".html")

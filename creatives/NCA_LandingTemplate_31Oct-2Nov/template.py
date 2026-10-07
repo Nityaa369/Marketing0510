@@ -105,6 +105,13 @@ ol.count small{display:block;color:var(--mut);font-size:13px;margin-top:5px}
 .vcard .n{font-size:38px;font-weight:900;letter-spacing:-.02em}.vcard .d{font-size:18px;font-weight:700;color:var(--mut);margin-top:2px}
 .vcard .q{font-size:28px;font-weight:900;color:var(--ac);line-height:1.1;margin-top:14px}.vcard .ip{font-size:15px;font-weight:700;color:var(--mut);margin-top:6px}
 .lbl{text-align:center;font-size:12px;font-weight:700;color:var(--mut);margin-top:6px}
+/* pillars face (mirrors the broad ad) */
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 0 6px}
+.pillar{background:#fff;border:2px solid var(--line);border-radius:14px;padding:14px 8px 12px;text-align:center}
+.pillar .ic{width:54px;height:54px;border-radius:50%%;background:var(--ac2);color:var(--ac);font-size:26px;font-weight:900;display:flex;align-items:center;justify-content:center;margin:0 auto 8px}
+.pillar b{display:block;font-size:17px;line-height:1.1;color:var(--ink)}
+.pillar span{display:block;font-size:13px;line-height:1.25;color:var(--mut);margin-top:4px}
+.pillar span em{font-style:normal;color:var(--ac);font-weight:800}
 /* share + sticky */
 .share{display:block;text-align:center;border:3px dashed var(--ac);color:var(--ac);font-weight:900;border-radius:14px;padding:14px;text-decoration:none;font-size:18px;margin-top:10px}
 .sticky{position:fixed;left:0;right:0;bottom:0;background:var(--bg);border-top:2px solid var(--line);padding:10px 14px;z-index:9}
@@ -160,6 +167,12 @@ def face(kind, c):
     if kind == "calendar":
         mo = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
         return '<div class="face"><div class="cal">' + "".join('<div class="on">Your exam month<br>Mar</div>' if m == "Mar" else "<div>%s</div>" % m for m in mo) + '</div><div class="lbl">Sample calendar</div></div>'
+    if kind == "pillars":
+        return ('<div class="face"><div class="pillars">'
+                '<div class="pillar"><div class="ic">1</div><b>NCA</b><span>Checks your Indian law degree.</span></div>'
+                '<div class="pillar"><div class="ic">2</div><b>Online exams</b><span>Written <em>from home, in India.</em> A session every month.</span></div>'
+                '<div class="pillar"><div class="ic">3</div><b>Canadian bar</b><span>Then you apply to a province\'s law society.</span></div>'
+                '</div></div>')
     return '<div class="face"><div class="vcard"><div class="n">Your Name</div><div class="d">LLB (India)</div><div class="q">Canada-qualified lawyer</div><div class="ip">In progress. One exam at a time, from India.</div></div><div class="lbl">Sample card</div></div>'
 
 def build(c):
