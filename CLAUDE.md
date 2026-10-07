@@ -80,6 +80,12 @@ counts.
   words on the face ("huge shortage, big hikes, out of turn promotions"), dates on the face, one
   template across all 12, and 48 to 67% sentence overlap between pages.
 
+- **Question hooks (7 Oct 2026): reason by mechanism, not market stats.** Blind readers scored "exams
+  are online, from India, every month, around your life" highest. Stat reasons ("50 companies", "same
+  reasoning as court work") scored lowest and read as hype or overclaim. One reason per hook, vary the
+  "You'd do great as..." line, and never an A-line that sells same-desk work (associates, in-house).
+  Market facts go on the landing page with a source. Hooks: `docs/HOOKS_NCA_QUESTION_TYPE_2026-10-07.md`.
+
 ## House style for anything written here
 
 Plain technical English. No em or en dashes (write "3 to 5 Oct").
