@@ -16,6 +16,24 @@ BASE_IMPL = [
  "Pay Rs 10 and you get the live links for all 3 days.",
 ]
 FAIL_TAG = None
+S_NAV = ("Navkaran Singh", "District court litigator, Patiala", [
+ "He graduated in 2015 and practised in the Patiala district courts. In early 2022 he tried the NCA Constitutional Law exam on his own and did not clear it.",
+ "He enrolled in May 2022 and cleared all the prescribed NCA exams. He already held Canadian PR, and it had not been enough on its own. After the exams he applied for government jobs in Ontario and was offered a court and client representative role at the North Bay courts."])
+S_HEZ = ("Hezal Shah", "In-house counsel, Mumbai", [
+ "LLB from Government Law College Mumbai, 2013. She worked as in-house counsel at Conde Nast. Her husband took a job in Canada, and she did not want to give up her career.",
+ "She started preparing in October 2022, wrote her first exam in April 2023 and began clearing exams in June 2023. She moved to Vancouver in December 2023 with four subjects cleared, and cleared the last one by March 2024."])
+S_YAS = ("Yashika Malhotra", "Litigator, Chandigarh", [
+ "She worked under a senior for four years, then started taking remote legal work from clients abroad. When her husband got a job in Canada, she chose to qualify instead of stopping work.",
+ "She cleared four NCA subjects in six months, and moved to Montreal in January 2024 to a job at a large company."])
+S_ARC = ("Archita Sarkar", "Corporate lawyer, Pune", [
+ "LLB, 2014, Pune. She moved to Canada on PR in August 2023 and enrolled for the NCA exams. She cleared two subjects, Professional Responsibility and Constitutional Law.",
+ "By the end of February 2024 she was working as a Senior Legal Specialist at Marsh McLennan in Canada. She found the job after she arrived, and her Indian experience helped her get it."])
+S_SHU = ("Shubham Vashisht", "BCom LLB, Punjab University, 2018", [
+ "He cleared the NCA exams in all prescribed subjects in March 2024, then moved to the Greater Vancouver area, where he works as a legal assistant at a law firm."])
+WORK = ["Day 1: NCA question types, with a worked sample answer. A non-compete clause reviewed under Canadian law. Messages to send to your first Canadian contacts.",
+        "Day 2: how licensing works after the NCA, including the bar exams. Your 12 month plan. How to search for Canadian legal work online.",
+        "Day 3: a terms and conditions review and a privacy policy under Canadian law. A profile and a proposal template for your first Canadian client."]
+
 CFG = {
 "lp_advocates": dict(
   title="Experienced advocates: practise law in Canada too | LawSikho", face="chat",
@@ -34,8 +52,7 @@ CFG = {
   art_h="A plan with your cause list in it", art_t="Your exam plan (sample)",
   art_rows=[("Month 1","Choose your first NCA exam"),("Months 2 to 4","Study on court light days"),("Month 5","Write your first exam, online"),("After","Bar licensing for your province")],
   long_h="Two practices, one qualification at a time", long_li=["A Canadian qualification added to your Indian licence.","The option to practise in Canada, now or later.","A chamber that kept running while you studied."],
-  p2_h="An advocate who started the same way",
-  work=["Day 1: the full route from your Indian degree to practice in Canada.","Day 2: how the NCA exams work, and how to choose where to start.","Day 3: bar licensing, and your own plan around your court calendar."],
+  p2_h="Lawyers from India who started the same way", stories=[S_NAV, S_YAS],
   impl=BASE_IMPL, lang_h="Say it to your chamber, or a friend",
   lang_q="The NCA exams are online, from India, every month. I am finding out the whole route for Rs 10, without touching my practice.",
   next_h="Pay Rs 10. Join on Saturday."),
@@ -55,8 +72,7 @@ CFG = {
   art_h="A 12 month exam calendar", art_t="Your exam calendar (sample)",
   art_rows=[("Month 1","Choose your first NCA exam"),("Month 3","Your exam month, around billable hours"),("Month 4","Review, then pick the next exam"),("After","Bar licensing for your province")],
   long_h="A qualification that is yours, not your firm's", long_li=["A Canadian qualification built one exam at a time.","A choice of where to practise later.","A plan that never asked you to stop working."],
-  p2_h="An associate who fitted the exams around billable hours",
-  work=["Day 1: the full route from your Indian degree to practice in Canada.","Day 2: how the NCA exams work, and how to pick your exam month.","Day 3: bar licensing, and your own 12 month calendar."],
+  p2_h="Lawyers who fitted the exams around a full time job", stories=[S_ARC, S_HEZ],
   impl=BASE_IMPL, lang_h="Say it to a colleague",
   lang_q="The exams are online, from India. I can pick my month around my billable hours. I am finding out the full route for Rs 10.",
   next_h="Choose Saturday. Pay Rs 10."),
@@ -76,14 +92,14 @@ CFG = {
   art_h="Your first plan, on paper", art_t="Your first year plan (sample)",
   art_rows=[("Month 1","Choose your first NCA exam"),("Months 2 to 5","Study, one exam at a time"),("Month 6","Write your first exam, online"),("After","Bar licensing for your province")],
   long_h="A Canada-qualified lawyer, one exam at a time", long_li=["A Canadian qualification added to your Indian degree.","A choice of where to practise later.","A start that did not wait for permission."],
-  p2_h="A graduate who started in the first year out",
-  work=["Day 1: the full route from your Indian degree to practice in Canada.","Day 2: how the NCA exams work, and how to choose your first one.","Day 3: bar licensing, and your own first year plan."],
+  p2_h="Graduates and young lawyers who started early", stories=[S_SHU, S_YAS],
   impl=BASE_IMPL, lang_h="Say it to your friends",
   lang_q="The NCA exams are online, from India. I am finding out the whole route, from my LLB to practising in Canada, for Rs 10.",
   next_h="Start now. Pay Rs 10. Join on Saturday."),
 }
 
-for _c in CFG.values(): _c.setdefault("mech", MECH)
+for _c in CFG.values():
+    _c.setdefault("mech", MECH); _c.setdefault("work", WORK)
 report = ["# Landing page gaps (7 Oct 2026)\n", "Pay link: `#PAYMENT_LINK_PENDING` on every CTA. Wire it before launch.\n"]
 for stem, c in CFG.items():
     page = build(c)
@@ -94,7 +110,7 @@ for stem, c in CFG.items():
     report.append("\n## %s  (publish ready: %s)\n" % (stem, publish_ready(page)))
     for tag, txt in g: report.append("- **%s**: %s\n" % (tag, txt))
     # full-page render, then slice
-    subprocess.run([HS, "--no-sandbox", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1", "--window-size=430,11000",
+    subprocess.run([HS, "--no-sandbox", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1", "--window-size=430,17000",
                     "--screenshot=" + os.path.join(HERE, "preview", stem + "_full.png"), "file://" + pv], check=True, capture_output=True)
 open(os.path.join(HERE, "GAPS.md"), "w").write("".join(report))
 print("built", list(CFG))

@@ -58,6 +58,14 @@ tr.us td{background:var(--ac2);font-weight:800}
 .stat{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:14px 0}
 .stat div{background:#fff;border:2px solid var(--line);border-radius:14px;padding:14px}
 .stat b{display:block;font-size:30px;line-height:1.05;color:var(--ac);font-weight:900}
+ol.count{list-style:none;counter-reset:n;margin:14px 0;display:flex;flex-direction:column;gap:10px;padding:0}
+ol.count li{counter-increment:n;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px 14px 62px;position:relative;font-size:18px}
+ol.count li::before{content:counter(n);position:absolute;left:14px;top:12px;width:34px;height:34px;border-radius:50%%;background:var(--ac);color:#fff;font-weight:900;display:flex;align-items:center;justify-content:center;font-size:17px}
+ol.count b{display:block;color:var(--ac);font-size:19px;margin-bottom:2px}
+ol.count small{display:block;color:var(--mut);font-size:13px;margin-top:5px}
+.story{background:#fff;border-left:6px solid var(--ac);border-radius:0 14px 14px 0;padding:16px 18px;margin:12px 0}
+.story .who{font-weight:900;font-size:20px}.story .tag{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--ac);margin:2px 0 8px}
+.story p{margin:0 0 8px;font-size:17px}
 /* planner artifact */
 .paper{background:#fff;border:3px solid #2A2A20;border-radius:6px;padding:18px;font-family:'Bitstream Charter',Caladea,Georgia,serif}
 .paper .t{font-family:Inter,sans-serif;font-weight:900;letter-spacing:.08em;text-transform:uppercase;font-size:14px;border-bottom:2px solid #2A2A20;padding-bottom:8px;margin-bottom:10px}
@@ -100,6 +108,25 @@ def li(items): return '<ul class="tick">%s</ul>' % "".join("<li>%s</li>" % i for
 def cards(items, cls="", tag=None):
     return '<div class="cards %s">%s</div>' % (cls, "".join('<div class="card %s">%s<h3>%s</h3><p>%s</p></div>' % ("fail" if tag else "", ('<div class="tag">%s</div>' % tag) if tag else "", t, b) for t, b in items))
 
+def counted(items):
+    return '<ol class="count">%s</ol>' % "".join("<li><b>%s</b>%s<small>%s</small></li>" % i for i in items)
+def stories(items):
+    return "".join('<div class="story"><div class="who">%s</div><div class="tag">%s</div>%s</div>' % (n, t, "".join("<p>%s</p>" % p for p in ps)) for n, t, ps in items)
+
+WHY = [
+ ("Canada is a top 10 economy.", " The IMF ranks it 10th largest in the world, at about USD 2.28 trillion in 2025. It is a G7 member.", "Source: IMF World Economic Outlook, October 2025."),
+ ("Its legal market is worth about CAD 21 to 22 billion a year.", " Canada has 141,540 practising lawyers, and law firms there say hiring and training people is their top economic challenge.", "Sources: IBISWorld, Law Firms in Canada; Federation of Law Societies of Canada, Statistics Report 2024; Canadian Lawyer. [[VERIFY: re-open all three sources on launch day]]"),
+ ("India and Canada are building a trade deal.", " The two governments signed the terms for a trade agreement on 2 March 2026, set a target of USD 50 billion in trade by 2030, and aim to finish the talks by the end of 2026. These are aims, not results.", "Sources: Business Today, 2 Mar 2026; India Briefing. [[VERIFY: latest round of talks]]"),
+ ("Indian companies already work there.", " About 50 Indian companies have invested around CAD 11 billion in Canada and employ over 33,000 people.", "Source: CII and Canada India Business Council report, June 2026, via ETV Bharat. [[VERIFY: re-check on launch day]]"),
+ ("The NCA rules changed on 1 March 2026.", " Every applicant now gets English screening and an Indigenous law course. Learn the current rules before you pay for an exam.", "Source: nca.legal. [[VERIFY: current NCA requirements]]"),
+]
+HOW_FROM_INDIA = [
+ ("Both systems are common law.", " Canada outside Quebec runs on common law, like India. The subjects will feel familiar, though you still have to learn Canadian law.", "Source: Justice Canada."),
+ ("The exams are online and monthly.", " You write them from home, in India. You choose the month.", "Source: nca.legal."),
+ ("The NCA decides your exams after it assesses your degree.", " Core subjects usually include Canadian constitutional law, administrative law, criminal law, professional responsibility and foundations of Canadian law. Your own list comes from the NCA.", "[[SCRIPT-CHECK: subjects and open book format from the April 2024 script; confirm for 2026]]"),
+ ("The exams are open book.", " You are marked on applying concepts to a fact pattern, not on memory.", "[[SCRIPT-CHECK: confirm open book and 50% pass mark for 2026]]"),
+]
+
 def face(kind, c):
     if kind == "chat":
         return '<div class="face"><div class="phone"><div class="top"><div class="av">A</div><div><div class="nm">Adv. Mehta</div><div class="st">online</div></div></div><div class="wall">' + "".join('<div class="b %s">%s<i>%s</i></div>' % (w, t, tm) for w, t, tm in c["chat"]) + '</div></div><div class="lbl">Dramatised chat. Not a real learner.</div></div>'
@@ -121,22 +148,22 @@ def build(c):
     A('<section data-step="4-6"><div class="wrap"><div class="eyebrow">What you have probably tried</div><h2>%s</h2>%s</div></section>' % (c["fail_h"], cards(c["fail"], "three", tag="Tried, did not move you")))
     # 7 reframe
     A('<section data-step="7"><div class="wrap"><div class="eyebrow">The real issue</div><h2>%s</h2>%s</div></section>' % (c["reframe_h"], "".join("<p>%s</p>" % p for p in c["reframe_p"])))
-    # 8 cost of staying unclear
-    A('<section data-step="8"><div class="wrap"><div class="eyebrow">Time</div><h2>%s</h2>%s<p class="src">%s</p></div></section>' % (c["cost_h"], "".join("<p>%s</p>" % p for p in c["cost_p"]), c["cost_src"]))
+    # 8 cost of staying unclear + the big why
+    A('<section data-step="8"><div class="wrap"><div class="eyebrow">Why now</div><h2>Why Canada, and why this year</h2>%s<h3 style="margin-top:22px">%s</h3>%s<p class="src">%s</p></div></section>' % (counted(WHY), c["cost_h"], "".join("<p>%s</p>" % p for p in c["cost_p"]), c["cost_src"]))
     # 9 offer + CTA
     A('<section data-step="9"><div class="wrap"><div class="eyebrow">The bootcamp</div><h2>3 live days. Rs 10. We show you how.</h2><p class="lead">A live Canada law bootcamp from LawSikho. You see the full route from your Indian law degree to practising in Canada: the NCA exams, then bar licensing, then practice.</p>%s<table><tr><th>When</th><th>Time (IST)</th></tr><tr><td>Sat 31 Oct 2026</td><td>2 to 5 PM</td></tr><tr><td>Sun 1 Nov 2026</td><td>2 to 5 PM</td></tr><tr><td>Mon 2 Nov 2026</td><td>7 to 10 PM</td></tr></table>%s%s</div></section>' % (CHIPS, CTA, MICRO))
     # 10 mechanism
-    A('<section data-step="10"><div class="wrap"><div class="eyebrow">How it works</div><h2>The route, in 3 steps</h2><div class="steps">%s</div></div></section>' % "".join('<div class="step"><div class="n">%d</div><div><h3>%s</h3><p>%s</p></div></div>' % (i + 1, t, b) for i, (t, b) in enumerate(c["mech"])))
+    A('<section data-step="10"><div class="wrap"><div class="eyebrow">How it works</div><h2>The route, in 3 steps</h2><div class="steps">%s</div><h3 style="margin-top:22px">Why you can start from India</h3>%s</div></section>' % ("".join('<div class="step"><div class="n">%d</div><div><h3>%s</h3><p>%s</p></div></div>' % (i + 1, t, b) for i, (t, b) in enumerate(c["mech"])), counted(HOW_FROM_INDIA)))
     # 11 first artifact
-    A('<section data-step="11"><div class="wrap"><div class="eyebrow">What you leave with on day 1</div><h2>%s</h2><div class="paper"><div class="t">%s</div>%s</div><p class="src">Sample layout. Your own plan is built live in the bootcamp. [[SCRIPT-CHECK: confirm a 12 month plan is part of the 2026 camp]]</p></div></section>' % (c["art_h"], c["art_t"], "".join('<div class="r"><span>%s</span><b>%s</b></div>' % r for r in c["art_rows"])))
+    A('<section data-step="11"><div class="wrap"><div class="eyebrow">What you can do by the end of Day 1</div><h2>%s</h2>%s<div class="paper"><div class="t">%s</div>%s</div><p class="src">Sample layout. Your own plan is built in the bootcamp. [[SCRIPT-CHECK: confirm the sample answer, the clause review and the 12 month plan are in the 2026 camp]]</p></div></section>' % (c["art_h"], li(["Write a first answer in the format NCA examiners expect, step by step (issue, rule, application, conclusion).", "Review a non-compete clause under Canadian law.", "See the core subjects, and which one to start with."]), c["art_t"], "".join('<div class="r"><span>%s</span><b>%s</b></div>' % r for r in c["art_rows"])))
     # 12 longer-term
     A('<section data-step="12"><div class="wrap"><div class="eyebrow">Where this goes</div><h2>%s</h2>%s</div></section>' % (c["long_h"], li(c["long_li"])))
-    # 13 proof 1 (public facts)
-    A('<section data-step="13"><div class="wrap"><div class="eyebrow">Proof 1: you would not be first</div><h2>Lawyers from India already practise in Canada</h2><div class="stat"><div><b>1,858,755</b>Canadians of Indian origin in the 2021 census, 5.1% of the country.</div><div><b>10 months</b>Fastest possible NCA path, per the NCA. The average candidate takes about two years.</div></div><p class="src">Sources: Statistics Canada 2021 census; nca.legal. [[VERIFY: re-open both pages and confirm the numbers on the day of launch]]</p></div></section>')
-    # 14 proof 2 (real learner)
-    A('<section data-step="14"><div class="wrap"><div class="eyebrow">Proof 2: a real person like you</div><h2>%s</h2><div class="quote">[[PENDING: real learner story, full name, city, one specific line about the exam route, written consent. Do not invent.]]</div>%s</div></section>' % (c["p2_h"], CTA))
-    # 15 the work
-    A('<section data-step="15"><div class="wrap"><div class="eyebrow">What we actually do</div><h2>The work, not a pep talk</h2>%s<p class="src">[[SCRIPT-CHECK: replace with the 2026 script day by day]]</p></div></section>' % li(c["work"]))
+    # 13 proof 1: real learners from the script
+    A('<section data-step="13"><div class="wrap"><div class="eyebrow">Proof 1: real people on this route</div><h2>%s</h2>%s<p class="src">Named from LawSikho learner records, April 2024 bootcamp. These people cleared NCA exams and moved or found work. None of them is described here as a licensed Canadian lawyer. [[PENDING: confirm each story with the learner, written consent, current job and employer. The script gives two different dates for when Navkaran Singh cleared.]]</p>%s</div></section>' % (c["p2_h"], stories(c["stories"]), CTA))
+    # 14 proof 2: the wider group and the public numbers
+    A('<section data-step="14"><div class="wrap"><div class="eyebrow">Proof 2: you would not be first</div><h2>They are not the only ones</h2><div class="stat"><div><b>59</b>learners had cleared at least one NCA subject, and 11 had cleared all of them, at the time of the April 2024 bootcamp.<span class="src" style="display:block">[[PENDING: recount from the learner list before launch]]</span></div><div><b>1,858,755</b>Canadians of Indian origin in the 2021 census, 5.1% of the country.<span class="src" style="display:block">Source: Statistics Canada. [[VERIFY: re-check on launch day]]</span></div></div><p>Fastest NCA path: about 10 months. The average candidate takes about two years. Source: nca.legal.</p></div></section>')
+    # 15 the work (from the April 2024 script)
+    A('<section data-step="15"><div class="wrap"><div class="eyebrow">What we actually do</div><h2>The work, not a pep talk</h2><div class="day-list">%s</div><p class="src">[[SCRIPT-CHECK: replace with the 2026 script, day by day]]</p></div></section>' % li(c["work"]))
     # 16 implementation
     A('<section data-step="16"><div class="wrap"><div class="eyebrow">The details</div><h2>Where, when, what you need</h2>%s</div></section>' % li(c["impl"]))
     # 17 cost compare
