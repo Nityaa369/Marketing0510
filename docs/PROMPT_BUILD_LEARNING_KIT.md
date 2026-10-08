@@ -34,6 +34,10 @@ Writing rules for the kit: plain English, short sentences, no em or en dashes, n
 
 C1. Verify: every file in Part B exists and is non-empty; every pointer you cite resolves (`grep` for a sample of 20); no sentence in the kit lacks a pointer or a source; no secrets, tokens, personal phone numbers or emails are inside (grep for `@`, `token`, `key`, `password`, ten digit numbers) and redact any you find, noting the redaction in `00_START_HERE.md`.
 
-C2. Zip the folder as `LEARNING_KIT_<account>_<today>.zip`. Report its size and file count. If it is over 25 MB, make `..._text.zip` (everything except samples and sources) and `..._media.zip` (samples and sources) so each is under 25 MB.
+C2. Zip the folder as `LEARNING_KIT_<account>_<today>.zip` and make it downloadable for me:
+   - Save the zip inside the repository working directory, in a top level folder named `kits/`, so it shows in the file panel of the Claude app and I can download it from there.
+   - Then send the zip to me directly with the file sending tool if this session has one (SendUserFile or equivalent). If the tool refuses for size, split into `..._text.zip` (everything except samples and sources) and `..._media.zip` (samples and sources), each under 25 MB, and send both.
+   - Add `kits/` to `.gitignore` unless I say to commit the kit. Do not push the zip to the remote without asking.
+   - Report the exact path and size of every zip you produced and whether each was sent.
 
 C3. Report in one screen: commits, files, creatives, pages, facts and uploads read; the zip path and size; the five rules; the five blockers; one thing you believe is wrong in the repo, with evidence. Then stop.
