@@ -27,7 +27,11 @@ The five things wrong, in order of seats and money at risk:
    GrowthX shows 3,093 paid by the morning of 16 Oct. Daily paid seats from Meta fell from 139 on
    10 Oct to 75 on 15 Oct. At about 150 a day across Meta and Google, the camp lands near 4,300,
    about 1,700 short. *Why:* one ad carried the camp and it is wearing out, and no fresh wave has
-   launched since the drawer video on 8 Oct.
+   been funded since the drawer video on 8 Oct. An 11-ad wave was built and approved by the team on
+   14 Oct (4 new lawyer readers and 7 refreshed August winners, with pages), but it has no GrowthX
+   payment funnels. The few new Tech Law ads that did go live (consumer court, cyber IT Act, "be
+   first not junior", tier 2 and 3 colleges, startups need litigators) got 1 to 8 sign-ups each
+   inside the CBO.
 2. **The winning ad is tiring and the cheapest ad is starved.** TechLaw_Video_unusedllb took 78%
    of video spend. Its cost per purchase rose from Rs 149 (week to 6 Oct) to Rs 324 (13 Oct), and
    its daily buyers in GrowthX went 79, 65, 63, 55, 33, 12, then 0 on 16 Oct. TechLaw_Video_comeback
@@ -55,10 +59,11 @@ The five things wrong, in order of seats and money at risk:
 
 Top three fixes, today:
 
-1. **Launch a fresh wave by 18 Oct** in its own ad set with a spend floor: the three finished
-   videos (after removing the flagged lines), a no-income twin of the unused LLB winner, and two or
-   three new named-occupation lawyer readers. The November playbook data says no new ads in the last
-   4 days before a camp, so 20 Oct is the hard stop.
+1. **Launch a fresh wave by 18 Oct** in its own ad set with a spend floor. Most of it already
+   exists: the 11 ads and pages approved on 14 Oct (they need GrowthX funnels and a test buy), the
+   Restart and Litigator videos (after removing the flagged lines), the Junior Lawyer video (two
+   edits open), and a no-income twin of the unused LLB winner. The November playbook data says no
+   new ads in the last 4 days before a camp, so 20 Oct is the hard stop.
 2. **Move about Rs 9,000 a day from Google to Meta** (the Desk's own recommendation), switch Google
    off from midnight to 6 AM, and keep only the Google funnels that pay above 40%.
 3. **Get Ramanuj's call today** on the income figure, the seat counts, and the readers in the new
@@ -132,6 +137,8 @@ from 12 to 15 Oct.
 | Unused LLB video fading (Rs 149 to Rs 324; 79 buyers a day to 0) | Frequency 2.76 and a narrow reader. Check in Ads Manager whether budget moved before calling it audience wear | Keep it running and do not refresh its face (0 of 17 refreshed winners improved). Add a different ad for the same reader instead |
 | Comeback starved at Rs 1,400 a day | One CBO ad set lets Meta pile spend on the biggest ad | Give proven readers (career break, unused LLB twin) their own ad set with a minimum daily spend, as the CF waves on 30 Sep showed |
 | No new ads allowed late | New ads in the last 4 days ran 1.12x | Last launch 20 Oct. Anything not live by then waits for the next camp |
+| Approved wave sitting unlaunched | The 14 Oct pages "don't have payment links yet. Each one needs a GrowthX funnel" (build session); no funnel or upload followed | Create the 11 GrowthX funnels, run a test buy on each, upload to Meta in a new ad set with a floor |
+| New ads inside the CBO get no spend | The 8 Oct build session warned "a new ad in a CBO set with a winner may get little spend"; the earlier fix was a Rs 2,000 a day minimum on a new ad set | Never add new readers to the winner's ad set |
 
 ### 5B. Audience (who)
 
@@ -141,6 +148,8 @@ from 12 to 15 Oct.
 | 18 cells never got enough spend to judge | One CBO, too many ads per wave | Fund 3 new lawyer readers properly instead of 20 thinly |
 | Readers worth testing now | Evidence ranks named occupations first (21% beat par), then life situations | Junior lawyers in years 1 to 3 (75% paid on 36, video almost ready); litigators (UGC video ready; August "No seniors" led); banking and NBFC lawyers (94% on 16). The 15 Oct ICP session listed tech-adjacent litigator readers (frozen bank account and mule account cases, cyber fraud cases, cheque bounce, consumer forum); these need Ramanuj before build |
 | The camp script still welcomes CS, CA, MBAs and techies | Script written for a mixed room | Ads stay lawyers only (Ramanuj, 24 Sep). Never target non-lawyers for Tech Law |
+| Litigators were the biggest August reader and are unfunded now | August litigator ads drew 363 sign-ups at about Rs 270 each; the three October litigator ads together spent under Rs 1,700 (13 Oct readout) | Fund the Litigator UGC video and the refreshed "No seniors" and "Disputes" ads in the new ad set |
+| Live ads still aimed at law students (law college reruns, internship, fresh graduates) | The 13 Oct readout flagged them against the lawyers-only instruction | Pause or reword them, or get Ramanuj's call on whether law students count |
 
 ### 5C. Creative and copy (offer, prize, clarity, rules)
 
@@ -208,6 +217,9 @@ are in `docs/research/tech_law_2026-10-16/04_fact_check.md`.
 | Funnel and page titles carry "$2,000+ a month" | Rename if the title is visible to readers |
 | No Tech Law page-speed data; history says only 33% of clicks once loaded the page | Test each live Tech Law page on a phone today |
 | August launch sheet said "A test Rs 10 purchase has not been run yet" | Run a browser test buy on every page in the new wave |
+| The live winning page (`meta-tech-law-oct-unused-llb`) carries an unverified Thomson Reuters "best growth year since 2008" claim, the "$2,000 maths" and a named learner figure; NSE and NSDC trust marks were "inherited" (8 Oct build session) | Remove the claim and the figure, check consent, and source or drop the trust marks |
+| Two live Tech Law pages (drawer video, career-break video) were missing from the Bootcamp Resources sheet on 10 Oct | Add them so the sales and ops teams see every page |
+| Higgsfield credits drain from other sessions on the shared workspace (seen 8 and 15 Oct) | Separate workspaces or budgets before the next video sprint |
 
 ### 5H. The camp and the paid offer (fix before 24 Oct)
 
@@ -226,6 +238,27 @@ These do not change ad cost, but they decide whether the seats turn into revenue
 8. API agreements and EULA mark-up are promised but not taught. Teach them or drop them from the
    agenda and pages.
 9. Day 2 has a "people who should not do this course" block. Remove it from any page.
+
+### 5H2. Critique of the unlaunched 14 Oct wave (headlines as approved by the team)
+
+| Ad | Headline | Read | Fix before launch |
+|---|---|---|---|
+| Consumer court lawyers | "Your consumer law is e-commerce law. Online stores pay for it." | Named occupation, same craft to a better payer. Likely approve | None on the face; page must show the camp teaches the refund policy |
+| Cyber and IT Act lawyers | "You already know half of tech law. Earn a side income from the other half." | Named occupation; "side income" is fine as a direction | None |
+| Lawyers 45+ | "Practise TECH LAW without the court corridor" | Age cells lost before (ID "15+ years" 1.90x) | Offer a no-age twin ("Senior advocates?") and keep the age off the face |
+| LLM graduates | "Your LLM, finally used. Start earning from tech law." | Life situation, clear prize | None |
+| Small city | "Practise TECH LAW from your own city. Earn from US clients." | Location cells did not scale on Meta in October | Low priority |
+| Any law college | "For LLB graduates from ANY law college. Start earning from TECH LAW." | Speaks to the non-NLU pain the buyer research found | None |
+| Be first, not junior | "The rules are new. Be first in TECH LAW, not junior in court." | Mechanism the script supports (Aug "No seniors" led) | None |
+| Cause list | "These cases are already on your cause list. Take the TECH LAW brief." | Litigator reader; "take the brief" may read as soliciting for an advocate | Ramanuj check on advocate rules |
+| Startups get sued | "Startups get sued too. Be their TECH LAW litigator." | Litigator reader, clear | Page must match what the camp teaches on disputes (barely taught) |
+| Dollars from home | "Earn in dollars from home with TECH LAW." | Direction, not a figure (allowed) but the same wish as the losing "remote work" cell | Low priority; Google version paid 25% |
+| Privacy policies | "Companies pay for privacy policies. Earn from TECH LAW." | Concrete task | None |
+
+Page issues in that wave: the pages were built from the "20 tasks paralegal" page and carry the
+"$2,000 maths" and a Supreet story whose numbers conflict across LawSikho's own material, plus an
+unverified student testimonial ("called Kerala fintech startups and got two internships"). Fix
+those before the funnels go live.
 
 ### 5I. Competition and positioning
 
@@ -251,6 +284,9 @@ These do not change ad cost, but they decide whether the seats turn into revenue
 4. Check whether the Meta face and page title of the unused LLB ad show "$2,000+". Prepare the
    no-number twin.
 5. Test every live Tech Law page on a phone, including a browser test buy.
+6. Create GrowthX funnels for the 11 approved 14 Oct ads and pages (Desktop, "Tech Law Ads": New
+   ICPs and Refreshed Aug Winners) and for the Restart, Litigator and Junior Lawyer videos.
+7. Remove the Thomson Reuters claim and the named learner figure from the live winning page.
 
 **17 to 18 Oct (launch window)**
 1. Launch the wave, 6 to 8 ads, in its own ad set with a floor. Candidates: Restart (claymation,
@@ -291,8 +327,23 @@ These do not change ad cost, but they decide whether the seats turn into revenue
 
 ## 8. Approval and build history
 
-See `docs/research/tech_law_2026-10-16/09_sessions_build.md` for the dated record of ICP lists,
-waves, pages, Ramanuj's verdicts in his words, and open items from the past build sessions.
+Full record: `docs/research/tech_law_2026-10-16/09_sessions_build.md` (dated ICP lists, waves,
+pages, verdicts and open items from the past build sessions).
+
+| Date | What happened | Status |
+|---|---|---|
+| 24 Sep | Ramanuj: "non-lawyer ICPs do not work for tech law". Whole non-lawyer wave struck | Rule in force |
+| 25 Sep | Meta campaign TechLaw_BC_24-26Oct2026_CBO created, Rs 28,000 a day | Live |
+| 30 Sep | Unused LLB, comeback and someonelikeyou videos live | Live; unused LLB fading |
+| 8 Oct | The Drawer (3D) built and live in the same CBO ad set; its page dropped "$2,000+ a month" but the parent page kept an unverified Thomson Reuters claim | Live at par; claim still open |
+| 13 Oct | ICP readout: one ad brings two thirds of sign-ups and is wearing out; litigators are the biggest gap; student-aimed ads flagged | Not acted on |
+| 14 Oct | 7 refreshed August winners and 4 new lawyer readers (consumer court, cyber and IT Act, lawyers 45+, LLM graduates) built with pages; approved by the user's team | No funnels, not launched |
+| 15 Oct | 20 more lawyer ICPs listed (frozen accounts, cyber fraud, cheque bounce and others); open question "one course or a narrow offer per reader?" | Nothing built |
+| 15 Oct | Restart (claymation) and Litigator (UGC) videos finished; flagged lines kept on the user's call | No funnels, not launched |
+| 16 Oct | Junior Lawyer meme video delivered; user asked to remove top captions and fix the first 3 seconds | Edit open |
+
+**Ramanuj verdicts on Tech Law since 24 Sep: none found** in any session or artifact. Every
+approval recorded in October came from the requesting team.
 
 ---
 
