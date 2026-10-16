@@ -164,11 +164,6 @@ details .a{padding:0 16px 14px;color:#2A2F3B}
 
 JS = r"""
 (function(){
-var t=new Date('2026-10-24T18:00:00+05:30').getTime(),el=document.getElementById('cd');
-function tick(){var d=t-Date.now();if(!el)return;if(d<=0){el.innerHTML='Live now<small>Sat 24 Oct, 6 PM IST</small>';return}
-var D=Math.floor(d/864e5),h=Math.floor(d%864e5/36e5),m=Math.floor(d%36e5/6e4);
-el.innerHTML='Starts in '+D+'d '+h+'h '+m+'m<small>Sat 24 Oct, 6 PM IST</small>'}
-tick();setInterval(tick,30000);
 var s=document.getElementById('sticky'),f=document.getElementById('fold');
 function sc(){var r=f.getBoundingClientRect();s.classList.toggle('on',r.bottom<0)}
 window.addEventListener('scroll',sc,{passive:true});sc();
@@ -342,7 +337,7 @@ def build(n, d):
     a(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
       f'<script>document.documentElement.className+=" js"</script><title>{d["title"]}</title><meta name="description" content="3 live evenings, 24 to 26 Oct. Rs 10 incl. GST, refundable.">'
       f'<style>{CSS.replace("--ac:#13756B;--soft:#EAF5F2", "--ac:%s;--soft:%s" % (d["ac"], d["soft"]))}{EXTRA_CSS}</style></head><body>')
-    a('<div class="top"><div class="w"><div class="brand">LawSikho</div><div class="cd" id="cd">Starts Sat 24 Oct<small>6 PM IST</small></div></div></div>')
+    a('<div class="top"><div class="w"><div class="brand">LawSikho</div><div class="cd">Sat 24 Oct<small>6 PM IST · live only</small></div></div></div>')
 
     # FOLD: repeats the ad's promise in its words
     a('<div class="fold" id="fold"><div class="w">')

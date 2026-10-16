@@ -140,3 +140,8 @@ Also: dates belong on landing pages, not on ad creatives (13 Aug). The button st
 - Ad faces and the Google same-design kit: biggest lines for 05, 06, 07, 09, 10 name a restart, a city or a wish, not the move into tech law (rule 4). 01 to 04 and 08 do name a job. Fix before he sees them.
 - Google policy-safe images carry dates on the band (his 13 Aug rule says dates go on pages). Check with him.
 - Pages: about 2,200 words (his 1,600 to 1,800 guide), live countdown (not his rule, but the ACE note forbids it), "freelance" in the Day 3 line (banned word).
+
+## Hard rules saved 16 Oct 2026 (divyanshu)
+- **Never a countdown button, timer or "starts in" widget. Hard rule.** Dates go on the landing page (as plain text), not on ad creatives.
+- **More informative landing pages win trust and so more learners.** Add every persuasive element we build to every page; the list is in `docs/LP_PERSUASION_RULEBOOK.md`.
+- **Button wording is the holy grail: the button states the joining price, the full exchange,** exclusive to joining: Rs 10 incl. GST for bootcamps, a different set price for community camps. Always followed. Never a bare "Join now", never "Reserve my seat", never "Know more".
