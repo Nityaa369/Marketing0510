@@ -156,8 +156,8 @@ details .a{padding:0 16px 14px;color:#2A2F3B}
 .sticky.on{transform:none}
 .sticky .btn{margin:0;padding:13px;font-size:17px}
 /* reveal */
-.rv{opacity:0;transform:translateY(14px);transition:opacity .5s,transform .5s}
-.rv.in{opacity:1;transform:none}
+.js .rv{opacity:0;transform:translateY(14px);transition:opacity .5s,transform .5s}
+.js .rv.in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}.btn,.sticky{transition:none}}
 @media(max-width:380px){.hook{font-size:31px}.ft{grid-template-columns:1fr}.ft i{justify-content:center;transform:rotate(90deg)}}
 """
@@ -340,7 +340,7 @@ def build(n, d):
     def end():
         a('</div></section>')
     a(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-      f'<title>{d["title"]}</title><meta name="description" content="3 live evenings, 24 to 26 Oct. Rs 10 incl. GST, refundable.">'
+      f'<script>document.documentElement.className+=" js"</script><title>{d["title"]}</title><meta name="description" content="3 live evenings, 24 to 26 Oct. Rs 10 incl. GST, refundable.">'
       f'<style>{CSS.replace("--ac:#13756B;--soft:#EAF5F2", "--ac:%s;--soft:%s" % (d["ac"], d["soft"]))}{EXTRA_CSS}</style></head><body>')
     a('<div class="top"><div class="w"><div class="brand">LawSikho</div><div class="cd" id="cd">Starts Sat 24 Oct<small>6 PM IST</small></div></div></div>')
 

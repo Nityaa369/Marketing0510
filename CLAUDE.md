@@ -89,3 +89,16 @@ counts.
 ## House style for anything written here
 
 Plain technical English. No em or en dashes (write "3 to 5 Oct").
+
+## Learned from the ACE Marketing skill (divyanshu's project, compiled 16 Oct 2026)
+
+Full file was shared in chat, not committed (it holds account performance data). Rules that change how work is built here:
+- **Order of authority:** divyanshu's latest message > Ramanuj's creative rulings > the Gate > program rules > universal rules. Newest dated rule wins. When he supplies copy or art, use it verbatim and keep his art about 90%.
+- **Work order:** reader + value prop as TEXT first, then ONE sample with its Gate record, then the set, then the kit. Never render before the text is approved.
+- **The Gate (every ad, page, plan):** creative record complete (ICP, problem, desire, awareness stage, objection, trigger, transformation, ONE promise, offer, CTA, proof, hypothesis); self-score Strong/Adequate/Weak on 10 items and fix every Weak; one variable per test with a control and a metric chosen first; judge on evidence (100 leads for the Gate, 20+ results per ad, never a part day); label claims Fact/Measured/Calculated/Inferred/Hypothesis; budget moves 20% a day or less.
+- **Deliverable:** a kit = ads + one page per ad + README_FOR_MEDIA_BUYER + ad_copy.md + manifest.json, zipped `<PROGRAM>_<Set>_<Brand>_<dates>_SEND_THIS.zip`, under 10 MB for media buyers. Meta and Google are separate kits. Ad reports go in chat, never in a file.
+- **Max 7 ads per ad set.** Meta CTA: LawSikho SIGN_UP, SkillArbitrage SEE_DETAILS. Meta hook under 125 characters, headline under 40. Google headlines 30 or fewer, long 90 or fewer, descriptions 90 or fewer.
+- **Banned words in copy:** transform, unlock, discover, elevate, leverage, empower, journey, game-changing, revolutionary, seamless, cutting-edge, freelance or freelancer, skyrocket, unleash, harness, navigate, landscape. "want", not "struggling". Hope, not pity.
+- **Pages:** no countdown and no invented urgency ("closes today", "seats left"); no "not for you if"; one pay button style, sticky, framed price; must work with JavaScript off (hide-on-scroll CSS only under a `js` class); `overflow-x:clip`; mobile QA with JS on and off; first fold repeats the ad's words as text; each page in a kit looks and reads different.
+- **Tech Law:** lawyers only (LLB holders count). Proven readers: unused LLB 0.83x on 1,494 leads, comeback or career break, junior lawyers. Video beat static on Tech Law (about Rs 160 against Rs 240 to 930). Phrase scarcity as "Not many lawyers do this yet".
+- **Never** let style override compliance: no job, income, licence or visa guarantee; no figures describing the viewer on a face; no co-branding; never promise a recording; every fact needs a primary source and a date.
