@@ -9,7 +9,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 import build_lps as B
 e = html.escape
 OUT = os.path.join(HERE, "landing_pages_c1")
-IMG = os.path.join(HERE, "graphic", "user_c1", "final")
+IMG = os.path.join(HERE, "graphic", "c1_final_v4")  # the generated v4 ads; photo band cropped below
 FUNNEL = "https://growthx.lawsikho.com/f/%s"
 DEFINE = "Tech law is the legal work tech companies need: contracts, privacy, compliance and disputes."
 
@@ -124,6 +124,6 @@ if __name__ == "__main__":
     for nn in ADS:
         src = os.path.join(IMG, "TL_C1_%s.jpg" % nn)
         if os.path.exists(src):
-            im = Image.open(src).convert("RGB"); w, h = im.size; im = im.crop((0, int(h * .47), w, int(h * .79))); im.thumbnail((720, 1400)); im.save(os.path.join(OUT, "img", "TL_C1_%s.jpg" % nn), quality=82)
+            im = Image.open(src).convert("RGB"); w, h = im.size; im = im.crop((0, int(h * .30), w, int(h * .68))); im.thumbnail((720, 1400)); im.save(os.path.join(OUT, "img", "TL_C1_%s.jpg" % nn), quality=82)
         slug, h = page(nn); open(os.path.join(OUT, "lp_%s.html" % slug), "w").write(h); built.append(slug)
     print("built", len(built))
