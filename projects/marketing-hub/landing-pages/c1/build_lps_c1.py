@@ -57,7 +57,7 @@ a{color:inherit}
 .hook span{display:block}
 .sup{font-size:19px;font-weight:700;margin-top:14px;line-height:1.35}
 .hero{position:relative;margin-top:18px}
-.hero img{display:block;width:100%;border-radius:18px;box-shadow:0 10px 26px rgba(0,0,0,.16)}
+.hero img{display:block;width:auto;max-width:100%;max-height:600px;margin:0 auto;border-radius:18px;box-shadow:0 10px 26px rgba(0,0,0,.16)}
 .hero .tag{position:absolute;left:12px;bottom:12px;background:#fff;border-radius:12px;padding:8px 12px;font-size:13px;font-weight:800;box-shadow:0 4px 14px rgba(0,0,0,.18)}
 .hero .tag b{color:var(--ac)}
 .ft{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:stretch;margin-top:16px}
@@ -234,7 +234,7 @@ def build(n, d):
     a(f'<span class="pill">{d["pill"]}</span>')
     a(f'<div class="hook">{d["hook"]}</div>')
     a(f'<p class="sup">{d["sup"]}</p>')
-    a(f'<div class="hero"><img src="{img}" alt="{alt}"><div class="tag">Live on Zoom <b>· 3 evenings · Rs 10</b></div></div>')
+    a(f'<div class="hero"><img src="{img}" alt="{alt}"></div>')
     a(f'<div class="ft"><div><small>Today</small>{r["frm"]}</div><i>&rarr;</i><div class="to"><small>After the camp</small>{r["to"]}</div></div>')
     a(f'<div class="def">{d["def"]}</div>')
     a('<ol class="route">'
