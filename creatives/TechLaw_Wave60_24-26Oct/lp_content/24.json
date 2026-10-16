@@ -1,0 +1,48 @@
+{
+  "id": "24",
+  "qualifier": "This page is for lawyers who have finished an LLM and are deciding what to do with it next.",
+  "symptom_title": "An extra degree, and the same old question",
+  "symptom": [
+    "You gave a year, sometimes two, to a master's in law. You wrote a dissertation, read more case law than most of your batch, and came out knowing one subject in real depth.",
+    "Now the interviews ask a different question. Not what you studied, but what you have drafted. The LLM sits on your CV, and the reply is still that they need someone with experience.",
+    "Quietly, you are wondering whether the degree was worth it, and how to make it count. You do not want to start again from zero. You want the LLM to carry you somewhere new."
+  ],
+  "outcome_title": "Turn the depth you built into a practice",
+  "outcome": [
+    "Tech law is the body of legal work behind technology companies: contracts, privacy, regulatory compliance and disputes. It rewards what an LLM builds: patience with dense rules, comfort with new statutes, and the habit of reading the full text before forming a view.",
+    "Moving into tech law gives your LLM a job to do. Instead of a line on a CV, it becomes the base of a practice in contracts, privacy and policy that tech companies, firm tech teams and think tanks need."
+  ],
+  "alternatives_title": "Where LLM graduates usually look",
+  "alternatives": [
+    {"t": "Applying to firms with the LLM as the selling point", "why": "Firms respect the degree but hire for drafting. Without a contract written for a client, the LLM reads as more study, not more experience."},
+    {"t": "Moving into teaching or a PhD", "why": "It is a real path, and it suits some people well. For others, it is a way to stay in study because the door to practice has not opened yet."},
+    {"t": "Publishing papers to build a profile", "why": "Papers prove you can research. They do not show a founder that you can fix the liability clause in their terms by Friday."}
+  ],
+  "reframe_title": "You have the depth. What you need is a document",
+  "reframe": [
+    "Your problem is not a lack of knowledge. You may know more law than many practising associates. The gap is that none of that knowledge has yet been turned into something a client can use.",
+    "That gap closes quickly once you aim at tech law. On the first evening, the camp drafts a software development agreement with you, live, clause by clause. Your LLM training lets you follow why each clause exists, not only what it says."
+  ],
+  "cost_title": "What keeps the LLM idle",
+  "cost": [
+    "If the LLM stays a credential without a use, nothing is lost overnight. It simply sits there while you keep applying with it. Pointing it at a field that needs it is a gentler way forward than another round of the same applications."
+  ],
+  "role_h2": "What tech law work looks like for an LLM graduate",
+  "role": [
+    "Much of the work starts with a rule set. A fintech startup asks whether its model can run in India, under which regulator, and at what cost. That is structuring work: research done for a client instead of a dissertation. The answer shapes what the company builds, so it is read carefully and acted on.",
+    "Then comes drafting. A cloud software company wants its promises on uptime, downtime and credits written into the contract. A founder needs a software development agreement that settles who owns the code. Your comfort with dense text makes these faster to learn.",
+    "There is also policy work. Tech law includes research, white papers and responses to draft laws. Anyone who has argued a dissertation from sources already knows how to build a position, which is what policy teams and think tanks ask for."
+  ],
+  "first_artifact": "Your first artifact comes on Day 1: the core clauses of a software development agreement, drafted live with the hosts. The script teaches them as one sentence you can remember: developers deliver software as per specifications, which I consider and accept, before taking handover. You leave able to explain every clause and why it sits where it does.",
+  "longer_term": [
+    "Follow the 2 hours a day plan and the first months add the easier skills: website policies, contracts, GDPR and DPDP basics. Six months on, your LLM could sit beside a set of tech documents, published posts and early client feedback. The plan gives you a route. The outcome depends on your effort."
+  ],
+  "faq": [
+    {"q": "My LLM was in a different subject. Does that matter?", "a": "Not much. Tech law draws on contract, IP, privacy and regulation. Whatever your specialisation, your research and reading habits carry over, and the camp teaches the tech concepts from the start."},
+    {"q": "Do I need another course or certification first?", "a": "No. The camp starts with the work itself on Day 1. If you choose to go further afterwards, that is a separate decision you can make later."},
+    {"q": "Is tech law only for people at big firms?", "a": "No. The script names law firm tech teams, startups, legal tech companies, think tanks and in-house teams. It also teaches how to reach small startups abroad directly."},
+    {"q": "What actually happens in the three evenings?", "a": "Day 1 covers five tech concepts and a software development agreement. Day 2 maps six tech business models and the 6-month plan. Day 3 reviews a startup's terms and builds a refund policy and an influencer agreement."}
+  ],
+  "closing_title": "LLM graduates: give your degree a practice",
+  "closing": "LLM graduates have the depth tech law needs, and often lack only the first document. Give us three live evenings and draft your first software contract with the hosts, clause by clause. See how your LLM becomes the base of a tech law career."
+}

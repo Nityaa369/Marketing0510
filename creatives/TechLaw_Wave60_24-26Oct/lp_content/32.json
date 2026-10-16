@@ -1,0 +1,48 @@
+{
+  "id": "32",
+  "qualifier": "This page is for lawyers who draft contracts for a living, at a firm, in a corporate practice or on their own, and want tech companies to be the clients they draft for.",
+  "symptom_title": "You can draft almost anything. Tech clients still go elsewhere.",
+  "symptom": [
+    "Share purchase agreements, shareholder agreements, leases, supply contracts, service agreements. You know how a definitions clause can save a deal and how a weak indemnity can sink one.",
+    "Yet when a software company needs a contract, it usually goes to a firm's technology team or a lawyer who calls themselves a tech lawyer. Your drafting is as good. Your label is not the one they search for.",
+    "When you open a SaaS agreement or a statement of work, the structure looks familiar. Then the schedules talk about uptime, service credits and source code escrow, and you are not sure which risks matter most."
+  ],
+  "outcome_title": "Drafting for the companies that buy contracts every week",
+  "outcome": [
+    "Tech law is the legal work that technology companies need, and contracts are the largest share of it, alongside privacy, compliance and disputes. For a drafting lawyer, the move is simple to describe. You become the lawyer tech companies hire for their contracts, at a firm tech team, inside a startup, or as an independent practice.",
+    "Tech companies sign a steady stream of documents: master service agreements, statements of work, change orders, SLAs, licence terms, reseller and co-branding agreements. Each one is drafting work you already know how to do well."
+  ],
+  "alternatives_title": "What drafting lawyers usually try first",
+  "alternatives": [
+    {"t": "Adapting a service agreement template for a software project", "why": "The template has no acceptance testing, no milestones tied to specifications and no handover of code. The client spots the gaps faster than you expect."},
+    {"t": "Calling yourself a contract lawyer on LinkedIn", "why": "Thousands of profiles say the same thing. A founder searching for help with a software contract scrolls past a general label."},
+    {"t": "Learning tech terms from blog posts", "why": "You collect definitions of SLA and API, but nobody shows you where they sit in a real contract or what to negotiate in each."}
+  ],
+  "reframe_title": "Your craft travels. The industry vocabulary is what is missing.",
+  "reframe": [
+    "A software development agreement is still a contract. Offer, consideration, warranties and termination all behave the way you know. What changes is a short list of tech concepts that decide where the risk sits.",
+    "So this is not about drafting harder or faster. It is about pointing the skill you already have at an industry that needs it, and naming yourself in words that industry recognises. A founder who reads 'I draft software development agreements and SaaS terms' knows at once that you can help. A founder who reads 'corporate and commercial lawyer' has to guess."
+  ],
+  "cost_title": "The cost of staying a generalist drafter",
+  "cost": [
+    "You can keep drafting well for clients who find you through referrals, and that is a fine practice. The only cost is that the companies signing the most contracts keep looking past a profile that does not mention their work."
+  ],
+  "role_h2": "What tech law work looks like for a contract drafting lawyer",
+  "role": [
+    "A typical first task is a software development agreement for a startup that is hiring a development agency. You fix the milestones, tie payment to them, set acceptance testing, and make sure the IP in the code passes to the client on handover.",
+    "Next come the recurring documents: master service agreements with statements of work under them, change orders when the scope moves, and SLAs that promise uptime and pay credits when the service fails. White label and reseller agreements follow the same logic.",
+    "As you grow, you draft the user-facing side too: terms of use and privacy policies. These are contracts written for millions of readers, so your habit of plain, tight drafting matters even more."
+  ],
+  "first_artifact": "On Day 1 we draft a software development agreement with you, clause by clause, using one memory line: Developers Deliver Software as per Specifications, which I Consider and Accept, before taking Handover. Each word maps to a clause. You leave with a marked-up draft built on your own drafting habits, and the first tech contract you can show.",
+  "longer_term": [
+    "The 6-month plan asks for about 2 hours a day: an hour learning one new contract or policy, and an hour on outreach and track record. A drafting lawyer could build a portfolio of tech contracts, reach startups in the US, UK, Canada, Europe and India, and apply to firm tech teams. The pace depends on you."
+  ],
+  "faq": [
+    {"q": "I already draft contracts. What will the camp add?", "a": "The tech layer: SLAs, APIs, source code versus object code, white labelling and SaaS on Day 1, then how each tech business model shapes the contracts it needs on Day 2."},
+    {"q": "Do I need to understand code to draft a software contract?", "a": "No. The script is explicit that the business model drives the legal work, and coding plays no part. You learn what the code clauses mean, not how to write code."},
+    {"q": "Where do tech clients come from?", "a": "Day 1 shows how lawyers reach startups, with two message templates and demos on where founders list their companies."},
+    {"q": "Is there a recording if I miss an evening?", "a": "No. The camp is live only. Saturday and Sunday run 6 to 9 PM IST, Monday 7 to 10 PM IST."}
+  ],
+  "closing_title": "Contract drafting lawyers: draft for the tech industry next",
+  "closing": "Contract drafting lawyers already have the hardest part of tech law, which is the drafting. Join us live on 24 to 26 Oct to draft a software development agreement together and see how that skill could become a tech law career."
+}

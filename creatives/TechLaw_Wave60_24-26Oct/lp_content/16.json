@@ -1,0 +1,48 @@
+{
+  "id": "16",
+  "qualifier": "This page is for banking recovery and DRT lawyers who want a fintech law career alongside their practice, built on the lending knowledge they already have.",
+  "symptom_title": "You meet loan documents when they fail",
+  "symptom": [
+    "Your files are loan agreements, guarantees and security documents that someone has stopped honouring. You draft recovery applications, follow SARFAESI steps and wait for the tribunal to list your matter. Each step depends on someone else's diary, not yours.",
+    "You know lending better than most lawyers: how a loan is sanctioned, secured, defaulted on and enforced. You know which clause gets argued over first. Often you can tell from the drafting alone how a matter will go.",
+    "But the work arrives through panels, the timelines are long, and you only ever see a lending relationship at its end. Meanwhile lending has moved onto phones, and its paperwork has moved with it."
+  ],
+  "outcome_title": "Move upstream into fintech lending",
+  "outcome": [
+    "Digital lenders work with banks and NBFCs, and those partnerships run on contracts. Someone has to draft and review them, and that person needs to understand both the lender's side and the platform's side. These agreements decide who collects, who carries the loss and how a defaulted loan is handled, which is your daily ground.",
+    "A fintech law career lets you do that drafting and advisory work with lending startups and fintech companies. Your recovery practice stays. The new work starts where loans begin, not where they end."
+  ],
+  "alternatives_title": "Routes recovery lawyers usually try",
+  "alternatives": [
+    {"t": "Getting on more bank panels", "why": "More panels mean more files, but the work is still recovery. It does not move you any closer to the companies building lending products."},
+    {"t": "Moving to a bank's in-house legal team", "why": "A full-time salaried role usually means stepping away from practice. That is a big trade for work that may still be mostly recovery. You would also lose the independence of running your own practice."},
+    {"t": "Hoping NBFC clients ask for documentation work", "why": "Clients who know you for recovery tend to keep sending recovery. Without a sample of fintech drafting, that request rarely comes."}
+  ],
+  "reframe_title": "A lending app is a lending business with software in front",
+  "reframe": [
+    "The software is new. The lending is not. Credit, security, default and enforcement are the ideas you work with daily, only now they reach the borrower through an app.",
+    "So you are not starting from zero. You are positioned at the wrong end, known only for the close of the loan. Showing that you can draft for its start is the whole move."
+  ],
+  "cost_title": "If you stay at the end of the loan",
+  "cost": [
+    "If nothing changes, you keep seeing lending only when it breaks, while the drafting that shapes those loans goes to someone else. Your knowledge deserves a seat much earlier in the story. Starting now, in small daily steps, keeps that choice in your hands."
+  ],
+  "role_h2": "What fintech law work looks like for a banking recovery lawyer",
+  "role": [
+    "Helping structure a lending startup. The camp's own example is a startup with a lending algorithm that wants to work with NBFCs and banks: can it be done, in which jurisdiction, and at what cost? Your instinct for what goes wrong at default makes that conversation sharper.",
+    "Reading service terms in platform contracts. Day 1 explains SLAs, uptime and service credits, and white labelling, where one company's product runs under another's brand. Both appear often in bank and fintech partnerships.",
+    "Building relationships with founders and lawyers. Advocates cannot solicit briefs, so we show a method built on usefulness: read public documents, share a helpful observation and grow professional connections, including with US, UK and Canadian lawyers."
+  ],
+  "first_artifact": "You would leave the camp having drafted the key clauses of a software development agreement on Day 1 and reviewed a startup's terms on Day 3. Read with a lender's eye, the liability and termination checks in that review will feel very familiar. You could then repeat the exercise on a lending app's public terms.",
+  "longer_term": [
+    "With 2 hours a day, one for learning and one for outreach, six months could add fintech structuring, fintech compliance and tech contracts to what you already know. All three are on the Day 2 plan. The outreach hour could begin with lending founders and the lawyers who advise them. Your DRT practice can continue at its usual pace throughout."
+  ],
+  "faq": [
+    {"q": "Is fintech law very different from banking law?", "a": "The products are new, but the legal ideas are familiar. Day 2 explains six ways tech companies make money, so you can see where lending and payments sit in each model. You would be reading familiar risks in a new setting."},
+    {"q": "Do I need to understand the technology behind lending apps?", "a": "No coding is needed. Day 1 covers five plain concepts, such as APIs and SaaS, which is enough to read fintech contracts with confidence."},
+    {"q": "Will I have to give up recovery work?", "a": "No. The camp runs on three evenings, and the plan afterwards is about 2 hours a day, built around your practice rather than instead of it."},
+    {"q": "What exactly am I paying Rs 10 for?", "a": "All three live evenings, 24 to 26 Oct. The fee includes GST and is refundable. There are no recordings, so plan to attend live."}
+  ],
+  "closing_title": "Banking recovery lawyers: move into fintech law",
+  "closing": "Banking and recovery lawyers know lending from the default backwards. Digital lenders and their bank partners need that knowledge in their contracts. Join three live evenings and move into fintech law without pausing your practice."
+}

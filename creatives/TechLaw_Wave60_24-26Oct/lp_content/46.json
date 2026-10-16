@@ -1,0 +1,48 @@
+{
+  "id": "46",
+  "qualifier": "For LLB holders who keep hearing about tech law and want to see, in plain terms, what the first day of the work actually involves.",
+  "symptom_title": "Everyone says tech law, nobody shows it",
+  "symptom": [
+    "You have seen the posts and the ads. Tech law is growing, tech law is the future. Yet not one of them showed you a single clause a tech lawyer writes on an ordinary Tuesday.",
+    "Without that picture, it is hard to tell whether the work would suit you. It could be fascinating or it could be dull. You cannot judge a career from adjectives. You need to see the paperwork, the decisions and the kind of thinking it asks of you.",
+    "So you held back from joining. That is a fair instinct. This page answers it the simplest way possible, by showing you what Day 1 contains, clause by clause."
+  ],
+  "outcome_title": "What changes when you have held the work in your hands",
+  "outcome": [
+    "Tech law means handling the contracts, privacy, compliance and disputes of companies that build or sell technology. Once you have drafted one of its core contracts, you know whether this is the career you want.",
+    "If it is, you could move into tech law with a real starting point: a contract you understand clause by clause, and a clear idea of the next skills to learn. You would be choosing the field with your eyes open, which is the best way to choose any career."
+  ],
+  "alternatives_title": "How people usually try to see the work",
+  "alternatives": [
+    {"t": "Downloading a free contract template", "why": "A template shows the words but hides the reasons. You cannot tell which clause protects whom, or what to change when the deal is different."},
+    {"t": "Watching a talk on the scope of tech law", "why": "Scope talks list areas and opportunities. They rarely open a document, so you finish knowing the field exists but not what you would do in it."},
+    {"t": "Buying a book on contract drafting", "why": "General drafting books teach good habits, which helps. They do not walk through how a software project is paid for, tested and handed over."}
+  ],
+  "reframe_title": "One contract teaches the shape of many",
+  "reframe": [
+    "A software development agreement is one of the core contracts of tech work. It is what a company signs when it hires someone to build its software. Once you understand how it handles delivery, testing, payment and ownership, other tech contracts start to look familiar.",
+    "So your doubt is about visibility, not ability. You were taught to read and draft agreements in law school. Day 1 simply applies that training to the deal behind a software project. Nothing about it is beyond a trained law graduate."
+  ],
+  "cost_title": "What it costs to keep guessing",
+  "cost": [
+    "Without seeing the work, the choice stays a guess, and guesses tend to get postponed. Three live evenings swap the guess for a real draft and a real opinion about whether you like it."
+  ],
+  "role_h2": "What tech law work looks like for an LLB holder on Day 1",
+  "role": [
+    "You begin with appointment: who is hired to build what. Then milestones, which break the project into stages so that payment follows progress. Then specifications, the written description of what the software must do. A loose specification leaves room for an argument later, so this clause matters.",
+    "Next comes consideration, how and when the developer is paid. Acceptance testing follows, the step where the client checks the work against the specifications before signing off. Each clause answers a question a founder would actually ask.",
+    "Finally you reach IP assignment and handover: who owns the code once it is paid for, and what must be delivered at the end. By now you are reading the deal as a business transaction, which is the real skill of tech law. The same habit carries over to service agreements, licences and the other contracts you meet later."
+  ],
+  "first_artifact": "By the close of Day 1 you will have drafted the key clauses of a software development agreement with the trainers. The camp gives a memory line to keep the order: Developers Deliver Software as per Specifications, which I Consider and Accept, before taking Handover. The agreement comes back on Day 2 and Day 3 so it sticks.",
+  "longer_term": [
+    "On Day 2 you get a six-month plan of about two hours a day, half learning and half outreach. The first months add simple skills like website policies and other contracts. By month six you could have a small portfolio, starting with this very agreement. Each new skill gets its own sample, so the portfolio grows as your understanding does."
+  ],
+  "faq": [
+    {"q": "Is Day 1 only about this one contract?", "a": "No. Day 1 also covers five tech concepts that appear in contracts, how lawyers reach startups in the US, UK, Canada, Europe and India, and how to network with US lawyers."},
+    {"q": "Do I need to know anything about software?", "a": "No. Every clause is explained through the business deal: what is being built, when it is paid for and who owns it. The script says the work needs no coding."},
+    {"q": "Should I bring anything to the session?", "a": "A notebook or a document open on your screen helps, because the agreement is built clause by clause. Day 1 runs Saturday 24 Oct, 6 to 9 PM IST."},
+    {"q": "What if Day 1 shows me this is not my field?", "a": "Then you have spent Rs 10, and the fee is refundable anyway. It includes GST and covers all three evenings. There are no recordings."}
+  ],
+  "closing_title": "LLB holders: start tech law with one contract on Day 1",
+  "closing": "LLB holders who want to see tech law before choosing it can start with one contract. On Day 1 we draft the key clauses of a software development agreement with you, live. After that evening you will know whether a tech law career is for you."
+}

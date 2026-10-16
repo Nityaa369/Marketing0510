@@ -1,0 +1,48 @@
+{
+  "id": "31",
+  "qualifier": "This page is for in-house counsel at companies outside tech, such as manufacturing, retail, real estate or logistics, who want their next legal role to be at a tech company.",
+  "symptom_title": "You run the legal desk. The desk does not change.",
+  "symptom": [
+    "Your week is vendor contracts, NDAs, a lease renewal, a dealer dispute and a compliance calendar. You know the business well, and the business mostly calls you when something is about to be signed.",
+    "The templates rarely change from one quarter to the next. The next step up is one general counsel seat, and someone already sits in it.",
+    "When you open job posts from tech companies, the language feels close but not quite yours. They ask for SaaS agreements, SLAs and privacy work, and your CV talks about supply and distribution."
+  ],
+  "outcome_title": "A legal role inside a tech company",
+  "outcome": [
+    "Tech law is the legal work that technology companies buy: contracts, privacy, compliance and dispute handling. Moving into it means your next in-house role could be on a tech company's legal team, or a law firm's tech team, where the contracts are the product itself.",
+    "You keep the in-house craft you already have: reading a commercial deal, spotting risk early and explaining it to people who are not lawyers. What changes is the industry you apply it to."
+  ],
+  "alternatives_title": "Three moves in-house lawyers usually try first",
+  "alternatives": [
+    {"t": "Applying to tech legal teams with your current CV", "why": "Screeners look for tech contracts you have handled. A strong record on supply agreements does not show them you can read a SaaS order form."},
+    {"t": "Waiting for a tech project at your own company", "why": "A new app or vendor portal arrives once in a while, and the work is usually handed to an outside firm. It rarely gives you a body of tech work to show."},
+    {"t": "Reading about tech law in the evenings", "why": "Articles explain the rules but not the documents. You finish knowing what the law says, without a single draft that proves you can do the work."}
+  ],
+  "reframe_title": "The gap is how you are positioned, not how hard you work",
+  "reframe": [
+    "Tech legal teams are not hiring for raw effort. They hire people who already speak the language of the business model: subscriptions, uptime, licences, user data. That is a vocabulary and a set of documents, both learnable.",
+    "Your years of handling a contract from first draft to renewal are the real asset. Few lawyers who start in tech law have run a full contract cycle for a business, and you have."
+  ],
+  "cost_title": "What another year of the same templates costs",
+  "cost": [
+    "Nothing bad happens if you stay. The work stays steady, and the gap between your CV and a tech company's job post simply stays the same width. Each year it is a little harder to explain why you want the move now."
+  ],
+  "role_h2": "What tech law work looks like for an in-house counsel moving to a tech company",
+  "role": [
+    "On a tech company's legal team, the vendor contract you know becomes a software development agreement or a SaaS customer contract. You check milestones, acceptance testing, uptime commitments and the credits a customer gets when the service goes down.",
+    "Your compliance calendar becomes privacy work: keeping the privacy policy accurate, tracking how user data moves, and handling the duties a platform carries for what its users post. Compliance work in tech is recurring, so it builds a steady role.",
+    "Your habit of managing many contracts at once fits legal operations and contract management, one of the kinds of work every tech company needs. You would still be in-house, but in an industry where legal sits close to the product."
+  ],
+  "first_artifact": "On Day 1 you work through the key clauses of a software development agreement with us, live: appointment, milestones, specifications, consideration, acceptance testing, and IP assignment with handover. You leave the first evening with notes on a tech contract you can explain in an interview, which your current CV cannot yet show.",
+  "longer_term": [
+    "The plan taught on Day 2 asks for about 2 hours a day: 1 hour learning a skill and 1 hour building a track record and reaching out. Over 6 months, an in-house lawyer could build a small set of tech drafts, post about them on LinkedIn, and apply to tech legal teams and firm tech teams with work to show. How fast it moves depends on the hours you put in."
+  ],
+  "faq": [
+    {"q": "I have never worked with a tech company. Is that a problem?", "a": "No. The script is clear that the legal work follows the business model and needs no coding or tech background. Day 2 walks through 6 ways tech companies make money and the legal work each one creates."},
+    {"q": "Can I attend around my office hours?", "a": "Yes. All three sessions are in the evening: 6 to 9 PM IST on Sat 24 and Sun 25 Oct, then 7 to 10 PM IST on Mon 26 Oct. There are no recordings, so plan to be there live."},
+    {"q": "Will this help me get a job at a tech company?", "a": "We do not promise a job. The camp shows the documents tech legal teams use and how to build work samples, which is what a hiring manager can actually look at."},
+    {"q": "What does it cost to join?", "a": "Rs 10 including GST for all 3 evenings, and it is refundable."}
+  ],
+  "closing_title": "In-house counsel: take your craft to a tech company's legal team",
+  "closing": "In-house counsel at non-tech companies already run contracts and compliance for a whole business. Three live evenings, 24 to 26 Oct, show you the tech contracts and privacy work that could carry that craft into a tech law career."
+}

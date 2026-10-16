@@ -1,0 +1,48 @@
+{
+  "id": "41",
+  "qualifier": "For LLB holders who like the idea of tech law but stopped because they think it means learning to code.",
+  "symptom_title": "You stopped at the word tech",
+  "symptom": [
+    "You saw a tech law ad, maybe opened the page, and then closed it. A quiet voice said this field belongs to people who studied engineering, not law.",
+    "You may have read forum threads where one lawyer says coding is not needed and another says it is non-negotiable. Nobody showed you the actual work, so the doubt won.",
+    "Meanwhile your LLB sits parked, or does half of what it could. You can read a contract closely. You just do not know if that is enough here, or whether a law graduate with no science background even belongs in the room."
+  ],
+  "outcome_title": "What changes once the coding doubt is gone",
+  "outcome": [
+    "Tech law is the legal work technology companies need: contracts, privacy, compliance and disputes. Seen that way, the field stops looking foreign. It is legal work with a different kind of client.",
+    "You could build a tech law career drafting terms for apps, reviewing software contracts or supporting a firm's tech team. The reading skill your degree gave you becomes the skill that client needs. Over time you could choose a lane, such as e-commerce, fintech or software services, and grow into it."
+  ],
+  "alternatives_title": "Ways you may have tried to settle the coding question",
+  "alternatives": [
+    {"t": "Signing up for a beginner coding course", "why": "It teaches you to build software, which is not the job. A tech lawyer drafts the contract around the software, never the code inside it. Months of syntax would not bring you one step closer to a client."},
+    {"t": "Rereading the IT Act from college", "why": "College tech law mostly stops at the IT Act. The camp script calls that a tiny part of the work. Contracts and policies make up most of it."},
+    {"t": "Asking strangers on forums", "why": "The answers split both ways, from people in very different jobs. You came away with opinions, not a single look at a real tech contract."}
+  ],
+  "reframe_title": "The real question is how the business makes money",
+  "reframe": [
+    "The camp script says it plainly: the legal work depends on the business model and needs no special understanding of tech, science or coding. You need to know how the company makes its money, and who it promises what.",
+    "So this is a positioning problem, not a skills gap. Your LLB already trained you to read duties, risks and remedies. What you lack is a map from each business model to the documents it needs. The camp builds that map with you over three evenings, using real documents."
+  ],
+  "cost_title": "What waiting quietly costs",
+  "cost": [
+    "Each month the coding worry stays unanswered is another month your degree stays unused. Nothing goes wrong, but nothing moves either. The question also returns every time a tech law post crosses your feed. Three evenings is a small price for a clear answer."
+  ],
+  "role_h2": "What tech law work looks like for an LLB holder who does not code",
+  "role": [
+    "Picture an app that makes money from advertising. It needs a privacy policy, terms of use and agreements with ad partners. You read what user data it collects and draft the rules around it in plain English. If the app changes how it makes money, the documents change with it.",
+    "A subscription product needs clear terms on renewal, cancellation and refunds. A marketplace needs seller agreements and a rule on who answers when a third-party seller lets a buyer down. Not one line of code is involved.",
+    "A business that lives on commissions and affiliate links needs partner agreements that say who gets paid, when, and on what proof. You are reading money flows and promises, which is exactly what your degree taught. If a dispute comes later, it turns on those same promises."
+  ],
+  "first_artifact": "On Day 2 you will work through the 6 ways tech companies make money: advertising, subscription, commission and affiliate, marketplace, hardware and IoT, and tech services. Against each one you note the legal work it creates. You leave with your own map from business model to contract, and no code on it. The trainers use that same lens for every later skill in the camp.",
+  "longer_term": [
+    "The plan taught on Day 2 asks for 2 hours a day, one hour learning and one hour on outreach. The first two months stay on the easiest skills, such as website policies and contracts. Over six months you could build work samples, a few published articles and a steady habit of pitching to startups."
+  ],
+  "faq": [
+    {"q": "Will I have to learn programming at any point?", "a": "No. The script states that tech law does not require coding. You learn how tech businesses work and make money, because that decides the legal work. Nobody in the camp will ask you to write a line of code."},
+    {"q": "What if the trainers use technical words I do not know?", "a": "Day 1 teaches five of them on purpose: SLAs, APIs, source versus object code, white labelling and SaaS. Each one is explained as a business arrangement, so the contract around it makes sense."},
+    {"q": "I am not working as a lawyer right now. Can I still join?", "a": "Yes, if you hold a law degree. The camp is built for law graduates, including those whose LLB has not been in use. Everything is taught from the first clause."},
+    {"q": "What exactly does Rs 10 cover?", "a": "All three live evenings, 24 to 26 Oct, including GST. It is refundable. There are no recordings, so keep the evenings free and attend live."}
+  ],
+  "closing_title": "LLB holders worried about coding: see the work before you decide",
+  "closing": "LLB holders who fear tech law means code can settle the question in three evenings. You will watch the legal work follow the business model, one contract at a time. Then you can plan your move into tech law with the real work in front of you."
+}

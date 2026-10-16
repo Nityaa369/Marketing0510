@@ -1,0 +1,48 @@
+{
+  "id": "08",
+  "qualifier": "This page is for you if you are a lawyer who moved to a new city after marriage and left a practice, a court and a network behind.",
+  "symptom_title": "New city, no court, no contacts",
+  "symptom": [
+    "You had built something in your old city: a court you knew, clerks who knew you, clients who called. Marriage brought you here, and that practice stayed behind.",
+    "Here, nobody knows your name. The local bar has its own seniors and its own circles. Sometimes even the court language is different. Starting again feels like being a first-year junior with years of experience.",
+    "You still read every agreement your family signs, and you still spot the gaps. What you do not have is a place to use that skill here."
+  ],
+  "outcome_title": "A career that does not depend on your court address",
+  "outcome": [
+    "Tech law is the work lawyers do for technology businesses on contracts, privacy, compliance and disputes. A startup client needs the document, not your court address. The work can be done from any city with a laptop and a connection.",
+    "Starting a tech law career could let you build a practice that moves with you. Clients could come from India, the US, the UK, Canada or Europe. If you move again, the career comes along."
+  ],
+  "alternatives_title": "Ways lawyers who relocate usually try to restart",
+  "alternatives": [
+    {"t": "Joining a senior in the new city's courts", "why": "You start as a junior again, in a bar where seniority is local. Years of experience elsewhere count for little in a new chamber."},
+    {"t": "Applying to firms in your new city", "why": "Many firm openings travel through local networks you have not built yet. Your old city's references do not carry far."},
+    {"t": "Travelling back to handle old matters", "why": "It keeps a few clients for a while. The trips are tiring and costly, and the practice still thins out."}
+  ],
+  "reframe_title": "You did not lose your skill. You lost your location.",
+  "reframe": [
+    "What you lost in the move is a network tied to one court. Your skill came with you. The question is where to point it, and that is a positioning choice, not a test of effort.",
+    "Court years train you to read a document for what is missing, then write the notice or reply that fixes it. Reviewing a startup's terms is the same reading. One of the Day 1 message templates starts by telling a founder you reviewed their terms and noticed 3 missing clauses."
+  ],
+  "cost_title": "What waiting to settle in costs",
+  "cost": [
+    "Settling into a new city takes time, and that is normal. But each month without legal work makes the next step feel larger. Three evenings from your new home, for Rs 10, is a small first move."
+  ],
+  "role_h2": "What tech law work looks like for a lawyer who moved city after marriage",
+  "role": [
+    "Finding clients starts online. On Day 1 the camp shows how lawyers reach startups in the US, UK, Canada, Europe and India, with demos on Y Combinator and Shark Tank. The target is small startups before Series A, with fewer than 20 people.",
+    "The first piece of work is often a review. You read a founder's terms, list what is missing, and offer to fix it. That is the reading you did on notices and pleadings, now done for a business. It is also a task you can finish in one evening.",
+    "Networking replaces your old bar circle. Day 2 and Day 3 show how to connect with US, UK and Canadian lawyers through their directories, by helping first. Your new network can be built from your new home."
+  ],
+  "first_artifact": "On Day 1 you draft a software development agreement with the faculty, clause by clause, and learn the two outreach message templates. That gives you a document you understand and a way to start conversations, both from wherever you now live.",
+  "longer_term": [
+    "The 6-month plan asks for 2 hours a day: 1 for learning and 1 for outreach. Outreach starts in week 1, with LinkedIn posts and an hour a day pitching startups. In a city where you know nobody, that hour builds the network your old court used to give you. By month 6 you could have a set of contacts and drafts that belong to no single city."
+  ],
+  "faq": [
+    {"q": "I do not know anyone in this city. Can I still find work?", "a": "The camp's outreach is online, to startups and lawyers in several countries. It does not depend on local contacts."},
+    {"q": "Do I have to give up the idea of practising in court here?", "a": "No. Tech law can run beside a new court practice or replace it. You can decide that later, once you have seen the work."},
+    {"q": "As an enrolled advocate, can I approach startups at all?", "a": "The rules restrict advertising and soliciting. The approach the camp teaches is to find a genuine issue in a public document and share a useful observation, not to ask for a brief. For anything specific, ask your State Bar Council."},
+    {"q": "My old practice was litigation. Is that enough to start?", "a": "Litigation trains close reading and drafting, which are the base of contract review. The camp adds the tech side on Day 1, from SLAs and APIs to SaaS."}
+  ],
+  "closing_title": "Lawyers who moved city after marriage: start a tech law career wherever you live now",
+  "closing": "If you moved city after marriage and left a practice behind, tech law lets you build again without a local court or network. In three live evenings you draft a software contract and learn how lawyers reach startups abroad. All three evenings cost Rs 10 incl. GST, refundable."
+}

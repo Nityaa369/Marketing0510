@@ -1,0 +1,48 @@
+{
+  "id": "28",
+  "qualifier": "This page is for paralegals and legal assistants who hold an LLB and want to do the legal drafting themselves.",
+  "symptom_title": "You handle the documents. Someone else signs them",
+  "symptom": [
+    "You format the agreements, track the dates, pull the precedents and prepare the first cut when the lawyer is busy. Some weeks, your first cut goes out almost unchanged.",
+    "But your title still says assistant. The lawyers get the credit and the client contact. You hold the same degree, and you have started to wonder why your LLB is treated as a side detail.",
+    "You do not want to leave law. You want to step up inside it."
+  ],
+  "outcome_title": "Drafting work in your own name",
+  "outcome": [
+    "Tech law is the legal work behind apps, software and online stores: their contracts, policies, compliance and disputes. Small startups and small firms abroad often send out first drafts of exactly these documents.",
+    "Moving into tech law turns a support role into drafting work. You stop preparing documents for someone else to finish, and start finishing them yourself, for clients who deal with you directly."
+  ],
+  "alternatives_title": "What paralegals with an LLB usually try",
+  "alternatives": [
+    {"t": "Waiting for a promotion to associate", "why": "Some offices do promote from within. Others keep a good paralegal in the role precisely because they are good at it. Either way, the decision sits in someone else's hands."},
+    {"t": "Leaving to start a practice from scratch", "why": "It means giving up a steady job with no clients lined up. General practice is crowded, so the first years can be harder than the job you left."},
+    {"t": "Taking admin-heavy remote jobs", "why": "Some remote roles are formatting and data entry with a legal label on top. They move you home, but they keep you on admin."}
+  ],
+  "reframe_title": "You are already doing half the job",
+  "reframe": [
+    "The gap between you and a practising lawyer is not knowledge. You know how agreements are built, where the dates go and which clauses get fought over. The gap is that clients see you as support, because that is how you are positioned.",
+    "Reposition around a field where the first draft is the product. A startup that needs a software development agreement wants a clean draft from someone with a law degree. Your years with documents are the asset, and your LLB makes them count."
+  ],
+  "cost_title": "What staying in support costs",
+  "cost": [
+    "Staying a paralegal is stable, and there is nothing wrong with the job. The cost is that your LLB stays unused while your drafting improves under someone else's name. Learning tech law drafting on the side lets you test the step up safely."
+  ],
+  "role_h2": "What tech law work looks like for a paralegal or legal assistant with an LLB",
+  "role": [
+    "The first tasks will feel familiar. A first draft of a privacy policy. A cancellation and refund policy for an online store. A checklist review of a startup's terms. You have prepared papers like these before; now you draft and send them yourself.",
+    "The camp lists the kinds of work US tech startups hand to paralegals, and shows how lawyers reach small US firms. Networking starts with helping first: assisting a US lawyer with a blog, a post or a podcast slot, in return for a recommendation.",
+    "Over time, the drafting grows. An influencer agreement for a brand. A software development agreement for a founder. Service level terms for a SaaS company. Each one moves you further from support and closer to being the lawyer a client relies on."
+  ],
+  "first_artifact": "On Day 3 you build an Upwork profile as a data protection lawyer: a three-part headline, an introduction, your services, your availability and a short video CV. For someone used to working behind a lawyer's name, it is the first page that presents you as the one who drafts. By then you will also have worked through a software development agreement on Day 1.",
+  "longer_term": [
+    "On the 2 hours a day plan, the first months cover policies and contracts, with outreach from week one: helping foreign lawyers first, posting on LinkedIn and sending proposals. Six months in, you could hold a portfolio of drafts in your own name, and early clients who know you as their drafter. The plan offers a route, not a guarantee."
+  ],
+  "faq": [
+    {"q": "I never enrolled as an advocate. Can I still do this work?", "a": "Much of what the camp teaches, such as drafting contracts and policies for startups and supporting US lawyers, is document work, not court work. If you plan to appear in court later, check your position with your State Bar Council."},
+    {"q": "My work so far is mostly admin. Am I ready to draft?", "a": "You start from the basics, with every clause drafted alongside the hosts. Knowing how agreements are laid out already gives you a head start over most beginners."},
+    {"q": "Do I have to quit my current job?", "a": "No. Your current job stays as it is through 24 to 26 Oct and beyond. You can test the step up while keeping your current role."},
+    {"q": "Why would a US lawyer trust me with a draft?", "a": "The camp's answer is to give before you ask. You build a record of useful help first, then ask for work. Trust grows from what you have already delivered."}
+  ],
+  "closing_title": "Paralegals with an LLB: step up into tech law drafting",
+  "closing": "Paralegals and legal assistants with an LLB already prepare the documents lawyers send out. Tech law lets you draft them yourself, for clients who deal with you directly. Join three live evenings and work through a software contract and a startup's terms with us."
+}

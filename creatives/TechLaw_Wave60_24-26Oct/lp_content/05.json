@@ -1,0 +1,47 @@
+{
+  "id": "05",
+  "qualifier": "This page is for you if you hold an LLB and work in sales, business development or operations, and the law degree has not been part of your work.",
+  "symptom_title": "Targets every month, and a law degree nobody asks about",
+  "symptom": [
+    "Your month runs on numbers: calls, demos, closures, dispatch times or escalations. You understand how a business brings in money and keeps customers. Most weeks, you deliver.",
+    "The LLB was meant to lead somewhere else. Now it comes up only when a colleague asks you to look at a contract informally. You do, you spot the problem, and it changes nothing about your role."
+  ],
+  "outcome_title": "A career where knowing how a business sells is a legal skill",
+  "outcome": [
+    "Tech law is legal work for technology companies, and it follows the business model. The script says it plainly: the work depends on how a tech business works and makes money, not on code. That gives a person who understands selling a real head start.",
+    "Moving into tech law could mean drafting and reviewing for startups, or joining a tech company's legal team later. You would stop chasing targets set by others and start doing work that uses both your degree and your business sense."
+  ],
+  "alternatives_title": "Moves people in sales and operations usually consider",
+  "alternatives": [
+    {"t": "An MBA to rise faster in sales", "why": "It deepens the career you are already in. It does not bring the law degree back into use."},
+    {"t": "Starting at the district court", "why": "Litigation starts slowly and pays juniors little in the first years. It also sets aside the business sense you have spent years building."},
+    {"t": "Watching free law videos in the evenings", "why": "You learn things, but you produce nothing. Without a drafted document, nobody can see you as a lawyer."}
+  ],
+  "reframe_title": "Your sales years count for two of the three parts",
+  "reframe": [
+    "The camp's roadmap is skills, plus track record, plus outreach. Lawyers often struggle most with outreach: writing to strangers, following up and handling silence. You already do that every week, so the gap you need to close is skills, and skills can be learned.",
+    "There is a second advantage. Day 2 teaches 6 ways tech companies make money: advertising, subscription, commission and affiliate, marketplace and third-party seller, hardware and IoT, and tech consulting. You have probably sold under at least one of those models, and you know where its disputes come from."
+  ],
+  "cost_title": "What another year of targets costs",
+  "cost": [
+    "Sales and operations can be a fine career, and you can stay. The cost of staying unclear is that the law degree slowly stops being an option you take seriously. Three evenings for Rs 10 is a cheap way to test the other path."
+  ],
+  "role_h2": "What tech law work looks like for an LLB holder from sales or operations",
+  "role": [
+    "Start with reviewing terms. On Day 3 the camp checks a startup's terms for six things. They are no liability for free services, liability capped at the fee for paid ones, and clear termination. The other three are community standards, a link to a compliant privacy policy, and IP ownership. Then the faculty shows how to pitch the fix.",
+    "Pitching the fix is where you shine. The Day 3 goal is 5 cold emails and 3 follow-ups a day. For many lawyers that is the hardest part. For someone from sales, it is a familiar routine with a better product.",
+    "Operations knowledge feeds service contracts. SLAs set uptime, downtime and credits, and support metrics set response times. On the ops side you have enforced such promises. As a tech lawyer you would write them."
+  ],
+  "first_artifact": "On Day 3 you review a real startup's terms with the faculty against the six checks. You then see how a lawyer writes the short note that offers the fix to the founder. You come away with a method you could repeat on any startup website that same evening.",
+  "longer_term": [
+    "The 6-month plan sets 2 hours a day: 1 hour learning, 1 hour outreach. Day 2 also names places to find startups, such as Product Hunt and Shopify store lists. Someone with a sales habit could keep that outreach hour steady from week 1. By month 6 you could know, from real replies, whether this is the career you want."
+  ],
+  "faq": [
+    {"q": "I moved to sales partly because I disliked court. Is tech law different?", "a": "Yes. Tech law is mostly contracts, policies and compliance, done in writing. The camp is built around drafting and review, not court appearances."},
+    {"q": "Will my sales background look odd to clients?", "a": "Clients judge the draft and how clearly you explain the fix. Knowing how their business sells helps you do both."},
+    {"q": "How much time does it need beside a target-driven job?", "a": "The plan needs about 2 hours a day, which fits before or after a working day. The camp itself is three evenings: Sat 24 and Sun 25 Oct, 6 to 9 PM IST, and Mon 26 Oct, 7 to 10 PM IST."},
+    {"q": "I have not read law since college. Is that a problem?", "a": "No. The camp teaches each document from its first clause. The legal work follows the business model, which is the part you already know."}
+  ],
+  "closing_title": "LLB holders in sales or operations: your LLB can still move you into tech law",
+  "closing": "If you hold an LLB and work in sales or operations, you already understand how tech businesses make money and how to reach people. Three live evenings add the legal half, from a software contract on Day 1 to a startup's terms on Day 3. Your seat is Rs 10 incl. GST, refundable."
+}

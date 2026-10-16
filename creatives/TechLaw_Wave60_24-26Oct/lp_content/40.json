@@ -1,0 +1,48 @@
+{
+  "id": "40",
+  "qualifier": "This page is for lawyers working in LPO or document review jobs who want to move up from reviewing for others into a tech law career.",
+  "symptom_title": "Thousands of clauses read. None of them yours.",
+  "symptom": [
+    "Your shift is a queue of documents: tag, code, flag, next. You work to a checklist written by someone else, for clients you never speak to, and your output is measured in documents per hour.",
+    "You have read more contracts than many lawyers with grander titles. Yet the work is anonymous, so after years of it you still have little to show a new employer except the name of the vendor. Your CV says the same thing every year, however much your judgement has grown.",
+    "The usual step up is team lead or quality checker. It is a promotion, but it means more review, managing other reviewers, at the same kind of desk."
+  ],
+  "outcome_title": "From reviewer to tech lawyer",
+  "outcome": [
+    "Tech law is the legal work tech businesses need done, across contracts, privacy, compliance and disputes. Moving into it means you stop applying someone else's checklist and start advising the client: reviewing their terms, drafting the fix and explaining why it matters.",
+    "You could work directly with startups, join a firm's tech team, or work remotely for foreign lawyers and founders on tech contracts, with your own name on the work. Clients would know your name, read your notes and come back to you for the next document."
+  ],
+  "alternatives_title": "Moves document reviewers usually make",
+  "alternatives": [
+    {"t": "Switching to another LPO for a better shift", "why": "The pay or timing improves a little. The work, and how anonymous it is, stays the same."},
+    {"t": "Getting certified on a review platform", "why": "It makes you faster at review. Clients pay advisers for judgement, not reviewers for speed."},
+    {"t": "Taking the team lead track", "why": "You manage reviewers instead of reviewing. It is a step up in the same work, not a move into a new career."}
+  ],
+  "reframe_title": "You already know what a missing clause looks like",
+  "reframe": [
+    "Spotting what is absent from a contract is the core skill of a tech lawyer reviewing a startup's terms. You have done it at a scale most lawyers never reach. Most lawyers entering tech law have to train that eye from nothing, and you already have it.",
+    "So the problem is not skill or effort. It is that your work is invisible, and your title says reviewer. Once you have reviewed a few startups' terms in your own name, you are positioned as the lawyer who finds the gaps."
+  ],
+  "cost_title": "If the queue stays the job",
+  "cost": [
+    "Review work is steady, and that matters. The quiet cost is that each year adds hours of experience nobody outside your vendor can see, while the same skill could be building a record in your own name. That record is what lets a founder or a firm choose you."
+  ],
+  "role_h2": "What tech law work looks like for a document review lawyer",
+  "role": [
+    "The first task is a terms review. You check a startup's terms against six points, from liability limits to IP ownership, write up what is missing, and send the founder a short note offering the fix. It is review work, but you are the adviser.",
+    "Next you draft. A software development agreement, SLAs with uptime and service credits, an e-commerce refund policy, a privacy policy. Your eye for detail makes your first drafts cleaner than most. Having seen the same clause go missing across a whole batch, you know which gaps to check first.",
+    "Your experience with foreign documents also helps with remote work. Day 1 covers 20 kinds of work US tech startups need from a paralegal, and how lawyers reach startups and network with US lawyers by helping them first."
+  ],
+  "first_artifact": "On Day 3 we review a startup's terms with you, live, and show how lawyers pitch the fix. The six checks are: no liability for free services, liability capped at the fee for paid ones, clear termination, community standards, a privacy policy link, and IP ownership. You leave with a review in your own name.",
+  "longer_term": [
+    "The Day 2 plan asks for about 2 hours a day beside your current job: 1 hour learning, 1 hour on outreach. Day 3 sets a pitching rhythm of cold emails and follow-ups to founders. Over 6 months a reviewer could build a set of reviews and drafts and a profile that leads with tech law. The first months could focus on terms reviews, since that is the closest step from what you do now."
+  ],
+  "faq": [
+    {"q": "I work night shifts. Can I still attend?", "a": "The camp runs Saturday 24 and Sunday 25 Oct, 6 to 9 PM IST, and Monday 26 Oct, 7 to 10 PM IST. It is live only, so plan around those slots."},
+    {"q": "Is review experience really useful in tech law?", "a": "Yes. Day 3's main skill is reviewing a startup's terms and finding what is missing, which is the skill you use every day."},
+    {"q": "Do I need to know software?", "a": "No. Day 1 explains the 5 concepts that matter, such as SLAs, APIs and source code, and the script says no coding is needed."},
+    {"q": "What does joining cost?", "a": "Rs 10 including GST for all 3 evenings, refundable."}
+  ],
+  "closing_title": "Document review lawyers: move up into tech law",
+  "closing": "Document review and LPO lawyers already spot missing clauses faster than almost anyone. In 3 live evenings, 24 to 26 Oct, we review a startup's terms with you and show how that skill could become a tech law career in your own name."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "07",
+  "qualifier": "This page is for you if you paused your legal practice to care for a parent, a spouse or a child, and you wonder whether coming back is still possible.",
+  "symptom_title": "Your days belong to someone who needs you",
+  "symptom": [
+    "Caring for family does not keep office hours. There are hospital visits, medicines, therapy sessions and nights that end late. You stopped practising because court dates and care could not both win.",
+    "Now there is a little more room, but it comes in pieces: an hour here, a quiet afternoon there. You keep saying it is too late to come back to law. Part of you is not sure that is true.",
+    "You still read the odd judgment, and friends still call you for advice. But advice to friends is not a career, and you miss the work of being a lawyer."
+  ],
+  "outcome_title": "Law that fits into the hours you actually have",
+  "outcome": [
+    "Tech law means the contracts, privacy rules, compliance and disputes of technology companies. The work comes as documents, not hearings. A contract can be read at night, and a policy can be drafted across two afternoons.",
+    "Coming back as a tech lawyer could let you practise law again on your own hours, one task at a time. As care duties ease, you could take on more, or move towards a fuller role later. None of it asks you to leave the house."
+  ],
+  "alternatives_title": "What you may have tried to stay in law",
+  "alternatives": [
+    {"t": "Working part-time with a senior", "why": "A chamber needs you in court on the senior's schedule. One emergency at home and you become the junior who did not turn up."},
+    {"t": "Taking occasional briefs from your old network", "why": "Briefs come with hearing dates you cannot control. Saying no twice is often enough for the referrals to stop."},
+    {"t": "Waiting until care duties end", "why": "Care rarely has an end date you can plan around. Waiting turns months into years without a decision."}
+  ],
+  "reframe_title": "The work needs your judgment, not your presence",
+  "reframe": [
+    "Nothing is wrong with your commitment. You have shown more of it than most people ever will. The problem was that court work is tied to a place and a time, and your life is not.",
+    "Tech law moves your skill into a format that fits. A startup hands out one task at a time: review these terms, draft this agreement. You read, you draft, you send, and your legal training is the same asset it always was."
+  ],
+  "cost_title": "What staying away costs",
+  "cost": [
+    "Stepping back was right, and nobody should rush you. The only cost of staying unclear is that the question keeps returning without an answer. Three evenings will at least tell you whether this route can work for you."
+  ],
+  "role_h2": "What tech law work looks like for a lawyer who paused practice to care for family",
+  "role": [
+    "Terms review is a task that fits a broken day. On Day 3 the camp checks a startup's terms for six things, including liability caps, termination and IP ownership. You can do one check, pause, and come back to the next.",
+    "Short agreements fit too. A 5-clause influencer agreement covers the fee, deliverables, IP licence, content ownership and brand guidelines. It is the kind of document you could draft in a single quiet evening.",
+    "Over time, longer contracts become possible. A software development agreement sets out milestones, acceptance testing and the handover of code. You have drafted agreements like it before, and the camp gives you the tech vocabulary to draft this one."
+  ],
+  "first_artifact": "By the end of Day 3 you will have reviewed a real startup's terms with the faculty against six checks. You will also see how a lawyer writes to the founder to offer the fix. It is a complete task, done from home, of the kind tech clients hand out.",
+  "longer_term": [
+    "The 6-month plan asks for 2 hours a day, split between learning and outreach. On some days care will take those hours, and the plan can stretch. The early skills are policies and contracts, which suit short, broken sessions. By month 6, a steady learner could have a set of finished tasks and a clearer view of how much work to take on. Every finished task can also become a work sample."
+  ],
+  "faq": [
+    {"q": "Is it too late for me to come back to law?", "a": "Not in this field. The rules are new, so a lawyer coming back stands close to the same starting line as everyone else."},
+    {"q": "I cannot promise fixed hours every day. Will that work?", "a": "The plan suggests 2 hours a day, but the work itself is task-based. You can take on one task at a time and say no when home needs you."},
+    {"q": "What if a care emergency means I miss one evening?", "a": "There are no recordings, because the camp is live only. You can still attend the other evenings, and the Rs 10 is refundable."},
+    {"q": "Do I need to understand software to do this?", "a": "No. The work follows how a tech business makes money, and no coding is needed at any stage."}
+  ],
+  "closing_title": "Lawyers who paused practice to care for family: come back to law as a tech lawyer",
+  "closing": "If you paused practice to care for family, tech law lets you come back to legal work on your own hours, one task at a time. In three live evenings you review a startup's terms and draft real clauses with the faculty. The cost is Rs 10 incl. GST, and you can get it refunded."
+}

@@ -1,0 +1,47 @@
+{
+  "id": "04",
+  "qualifier": "This page is for you if you hold an LLB and write for a living: blogs, web copy, scripts, newsletters or legal articles under someone else's byline.",
+  "symptom_title": "You write all day, and none of it uses your law degree",
+  "symptom": [
+    "You are good with words. Clients send briefs, you turn them around fast, and the work goes out under their name. Payment is by the word or the piece, and the rate rarely moves.",
+    "Your LLB sits behind all of it. You may even write about law, explaining judgments for a firm's blog. But you are hired as a writer, so you are paid and treated as one."
+  ],
+  "outcome_title": "Writing that carries legal weight",
+  "outcome": [
+    "Terms of use, privacy policies, refund policies and influencer agreements are all writing. They must be clear enough for a customer and precise enough to hold up in a dispute. That combination is rare, and tech companies need it on every website and app they launch.",
+    "Moving into tech law, the legal side of technology businesses, would make you the person who drafts those documents as a lawyer. Your writing stays your strength, but it is paid for as legal work, under your own name."
+  ],
+  "alternatives_title": "Ways writers with an LLB try to get closer to law",
+  "alternatives": [
+    {"t": "Legal content writing for law firm blogs", "why": "It is closer to law in topic, but you are still bought as content. The firm keeps the client, and you keep the word count."},
+    {"t": "Ghostwriting articles for lawyers", "why": "The articles build someone else's name. You gain knowledge but no track record that a client could check."},
+    {"t": "Telling yourself you will go back to litigation one day", "why": "Court practice means starting from zero as a junior, in person, during the day. The plan stays parked because it does not fit the life you have built."}
+  ],
+  "reframe_title": "You have the hard half already",
+  "reframe": [
+    "Many lawyers find plain writing difficult. Their policies read like a judgment, and founders do not understand them. You can write for a reader, so the positioning you are missing is simple: not a writer with an LLB, but a lawyer who writes clearly.",
+    "The camp's own route to clients rewards this. On Day 1 and Day 2 it shows how lawyers network with US, UK and Canadian lawyers by helping first, with blogs, posts and podcasts. For you, that first step is something you already do well."
+  ],
+  "cost_title": "The quiet cost of staying a writer",
+  "cost": [
+    "Writing is honest work, and you are not doing anything wrong by staying. The cost is only that your best skill keeps being priced as content, and the law degree keeps waiting. Three evenings is a small price to see the other option clearly."
+  ],
+  "role_h2": "What tech law work looks like for an LLB holder who writes content",
+  "role": [
+    "Website policies are the obvious start. Every startup site needs terms of use, a privacy policy and a cookie policy. On Day 3 the camp reviews a startup's terms against six checks, such as liability caps, termination and IP ownership.",
+    "E-commerce gives you more. A refund policy in the camp's 4 parts covers when a buyer can cancel, when they can return, how the return works, and how and when the money goes back. It is legal drafting that customers actually read.",
+    "Creators are a natural fit too. Day 3 covers legal work for influencers and a 5-clause influencer agreement: engagement and fee, deliverables, IP licence, content ownership and brand guidelines. You know how content deals work from the creator's side, including where fees and usage rights usually cause arguments."
+  ],
+  "first_artifact": "By Day 3 you will have drafted an e-commerce refund policy and an influencer agreement with the faculty. Both are short, plain documents. Clean versions of them could become the first legal samples in a portfolio that has so far held only articles.",
+  "longer_term": [
+    "The 6-month plan asks for 2 hours a day, half on learning and half on outreach. Website policies and contracts come first, in the opening 2 months, because they are the easiest skills to start with and the most often needed. Outreach can start in week 1 with a LinkedIn post on what you are learning, which suits a writer. By month 6 you could have a portfolio of drafted policies and agreements under your own name."
+  ],
+  "faq": [
+    {"q": "Is this just content writing with a new label?", "a": "No. Content explains an idea. A policy or agreement creates rights and duties, and the drafting decides who carries the risk. The camp teaches that difference through live drafting."},
+    {"q": "I have never drafted a contract. Is my writing enough?", "a": "Writing is a strong base, not the whole job. The camp walks through a software development agreement clause by clause on Day 1, so you learn contract structure from the start."},
+    {"q": "Can my writing samples help me get clients?", "a": "They show you can write. Clients for legal work want legal samples, which is why the camp's formula is skills, a track record of drafted documents, and outreach."},
+    {"q": "Do I need any technical knowledge?", "a": "No coding is needed. Day 1 explains SLAs, APIs, source and object code, white labelling and SaaS in plain words."}
+  ],
+  "closing_title": "LLB holders writing content: write contracts and policies as a tech lawyer instead",
+  "closing": "If you hold an LLB and write for a living, you already have the half of tech law many lawyers struggle with. In three live evenings you draft a refund policy and an influencer agreement with the faculty. It is Rs 10 incl. GST, refundable, and live only."
+}

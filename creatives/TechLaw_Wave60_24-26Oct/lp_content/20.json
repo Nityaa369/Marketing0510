@@ -1,0 +1,48 @@
+{
+  "id": "20",
+  "qualifier": "This page is for civil litigators practising in district courts who want a tech law career from their own city, alongside their practice.",
+  "symptom_title": "A good practice with a short radius",
+  "symptom": [
+    "Your work is suits for recovery, specific performance, injunctions, and property and partnership disputes. Clients come from your town, through people who know you or your family.",
+    "You know the Contract Act from the trial side: what a party promised, what was breached and what the court can order. Few lawyers read a failed contract as carefully as you do. You have watched vague clauses cost clients years in court.",
+    "But the practice is bounded by geography. The bigger clients seem to sit in metros, and moving there would mean starting again from the bottom."
+  ],
+  "outcome_title": "Tech clients, wherever you live",
+  "outcome": [
+    "Tech contracts are reviewed on a laptop, not in a court corridor. A startup in Bengaluru, London or Toronto needs the document done well, and does not need its lawyer to share its city.",
+    "A tech law career lets you work with startups and tech companies from your own city, while your district court practice continues. Your town stays your base, and your clients no longer have to be local. The courtroom stays where it is, and the laptop goes wherever you are."
+  ],
+  "alternatives_title": "What district court lawyers usually consider",
+  "alternatives": [
+    {"t": "Moving to a metro or a High Court city", "why": "It means leaving the practice and network you built, and starting at the bottom again. Many civil lawyers cannot, or do not want to, make that trade."},
+    {"t": "Joining a firm in a big city", "why": "It asks you to give up independence and relocate, for work that may still be litigation. It moves you, not your career. Your local standing would be traded for a junior seat."},
+    {"t": "Waiting for local businesses to ask for contracts", "why": "Local clients think of you for disputes, not drafting. Without a tech document to show them, that request rarely arrives on its own."}
+  ],
+  "reframe_title": "Distance is not the barrier",
+  "reframe": [
+    "You already understand contracts better than many drafters, because you see what happens when they fail. That knowledge does not depend on your postcode or the size of your court.",
+    "The real gap is reach and positioning. Founders cannot find a district court lawyer, so the move is to show your work where they look, using the outreach methods the camp teaches. A strong review sent from a district town reads exactly like one sent from a metro."
+  ],
+  "cost_title": "If the radius stays the same",
+  "cost": [
+    "If nothing changes, the size of your practice stays set by the size of your town. That suits some lawyers well, but it limits what your contract knowledge could do, and the choice to widen it is open now."
+  ],
+  "role_h2": "What tech law work looks like for a district court civil litigator",
+  "role": [
+    "Drafting a software development agreement, clause by clause, on Day 1: appointment, milestones, specifications, consideration, acceptance testing, IP assignment and handover. Each clause prevents a dispute you have seen in a civil suit.",
+    "Reviewing a startup's terms on Day 3 for clear termination, sensible limits on liability and IP ownership. You already know which of these get argued over once a relationship sours. Your trial instinct tells you which gaps matter.",
+    "Reaching startups beyond your city. Day 1 shows how lawyers find startups in the US, UK, Canada, Europe and India. Because advocates may not solicit, the method is to share a useful observation and build a working relationship. It is never a request for a brief, and it starts with being useful."
+  ],
+  "first_artifact": "You would finish the camp with the key clauses of a software development agreement drafted with us and a startup's terms reviewed. Both are documents you can send to a founder anywhere in the world, from your own desk in your own town.",
+  "longer_term": [
+    "With 2 hours a day, one hour of learning and one of outreach, six months could take you through tech contracts, policies and international expansion work from the Day 2 plan. Your district court practice keeps its usual rhythm, and the new work fits after court hours. Each month could add one more document to show founders far from your town."
+  ],
+  "faq": [
+    {"q": "Will clients trust a lawyer from a smaller city?", "a": "Tech clients judge the document you send, not your address. A clear, careful review of their terms speaks for itself, wherever it was written. Founders mostly care whether the work is clear and on time."},
+    {"q": "Do I have to stop going to court?", "a": "No. The camp is three evenings, 24 to 26 Oct, and the plan afterwards is about 2 hours a day. You can do it after the court day ends."},
+    {"q": "I know Indian contract law. Do foreign startups use the same ideas?", "a": "The building blocks of a software development agreement, such as milestones, acceptance and IP assignment, carry across borders. Day 1 also covers networking with US lawyers, who can become useful professional contacts."},
+    {"q": "What exactly does tech law cover?", "a": "The legal work technology companies need: contracts, privacy, compliance and disputes. You do not have to learn all of it. Two or three areas are enough to get started."}
+  ],
+  "closing_title": "District court civil litigators: start a tech law career from your own city",
+  "closing": "Civil litigators in district courts already know how contracts fail. Tech companies anywhere need contracts that hold. Join three live evenings and start a tech law career from your own city, without pausing your practice."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "29",
+  "qualifier": "This page is for final-year law students who are worried about landing the first job after graduation.",
+  "symptom_title": "Every opening asks for experience you cannot get",
+  "symptom": [
+    "Your final year is a pile of exams, a dissertation and internship applications. Most of the emails go unanswered. The internships you do get are unpaid and mostly research.",
+    "Then you read openings for freshers, and they want prior experience. You cannot get experience without a job, and you cannot get a job without experience. It feels like a closed loop.",
+    "Graduation is close, and you still do not know what you will be doing the month after it. Your parents ask, your batchmates ask, and you have no clear answer yet."
+  ],
+  "outcome_title": "Graduate with tech law work already done",
+  "outcome": [
+    "Tech law is what lawyers do for tech companies: draft their contracts, write their policies, keep them compliant and handle their disputes. Startups need small, finished documents, such as a privacy policy or a terms review, and they need them now.",
+    "Start tech law work in your final year and you could graduate with documents real companies have used. That changes the first interview. Instead of saying you are interested in tech law, you show what you have already done in it."
+  ],
+  "alternatives_title": "What final-year students usually try",
+  "alternatives": [
+    {"t": "Mass applications for internships and jobs", "why": "Sending more emails feels productive, and it is what everyone around you is doing. But a pile of near-identical applications from students without work samples is easy to ignore, and most get no reply."},
+    {"t": "An LLM straight after graduation", "why": "It postpones the question by a year or two. You come out with a second degree and the same gap in experience."},
+    {"t": "Moots, papers and certificates", "why": "They are valuable and they show ability. But none of them is a document a business has used, which is what the experience question is really asking for."}
+  ],
+  "reframe_title": "One real document breaks the loop",
+  "reframe": [
+    "The no-experience loop has nothing to do with your effort. You have worked hard for years. The loop exists because everything you have written so far was written for examiners, not for clients.",
+    "Change the reader and the loop opens. One finished privacy policy for a real company counts as experience. So does a reviewed set of startup terms. Your law school training covers the law; the camp shows you the structure of these documents and how to reach companies that need them."
+  ],
+  "cost_title": "What waiting until graduation costs",
+  "cost": [
+    "If you wait until after graduation to start, you will still find your way. You will simply begin the search with the same blank experience section as most of your batch. Starting in the final year gives you a head start for a couple of hours a day."
+  ],
+  "role_h2": "What tech law work looks like for a final-year law student",
+  "role": [
+    "Your first tasks are small and close to what you study. Checking a startup's terms for a missing liability cap or a vague termination clause draws on your contract law. Building a refund policy for an online store draws on consumer protection.",
+    "Next, you learn how tech businesses earn. Day 2 explains six models, from advertising and subscriptions to marketplaces and tech services. Each model tells you which documents a company needs and where its legal gaps tend to sit. A subscription app and a marketplace need very different terms.",
+    "You also learn to reach people. The camp shows how to find small startups in India and abroad and send a short, specific note about their terms. For a student, a reply to that note could turn into a first paid task."
+  ],
+  "first_artifact": "On Day 3 you build an e-commerce cancellation, returns and refund policy in four parts, using examples from well-known online stores. It is the kind of document a small seller needs and often lacks. Finished properly, it becomes a first work sample you can attach to every application you send.",
+  "longer_term": [
+    "Follow the 2 hours a day plan through your last semester and the months after it. You could graduate with a small portfolio, a few testimonials and posts that show how you think about a clause. Interviews then start with your work, not your marks. The camp states plainly that it cannot guarantee success."
+  ],
+  "faq": [
+    {"q": "I am still a student. Can I join?", "a": "Yes. Final-year law students are on the camp's own priority list. The sessions run in the evening, so they do not clash with college hours."},
+    {"q": "I have exams coming up. Is this the right time?", "a": "The camp itself is only three evenings, 24 to 26 Oct. After it, you can keep just the learning hour during exam weeks and add outreach once papers are over."},
+    {"q": "Will a startup really take work from a student?", "a": "Some will, for small, finished tasks like a terms review. The camp's method is to send something useful first, so the founder judges the work before anything else. There is no promise of a client."},
+    {"q": "Is tech law a real career or just a buzzword?", "a": "Every consumer app runs on user data, user content and user payments, and each of those is regulated. Someone has to draft and check that legal side, and that work is tech law."}
+  ],
+  "closing_title": "Final-year law students: graduate with tech law work done",
+  "closing": "Final-year law students face openings that ask for experience nobody will give them. Tech law offers small, real tasks a startup needs, and each one counts as experience. Join three live evenings and build your first documents before you graduate."
+}

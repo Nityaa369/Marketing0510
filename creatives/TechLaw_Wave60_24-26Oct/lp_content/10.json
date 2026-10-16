@@ -1,0 +1,48 @@
+{
+  "id": "10",
+  "qualifier": "This page is for you if you are a lawyer who left a law firm job to look after family, and you still have the drafting habits the firm gave you.",
+  "symptom_title": "You left the firm. The drafting habits stayed.",
+  "symptom": [
+    "You were the associate who knew how a clause should read. Then family needed you, and firm hours do not bend. You left, and it was the right call.",
+    "You still notice bad drafting in every agreement you see. But going back means the same billing pressure and late nights. Starting something else feels like throwing away the training you worked hard for.",
+    "Meanwhile, former colleagues ask when you are coming back. You do not yet have an answer that fits both your family and your training."
+  ],
+  "outcome_title": "Your firm drafting, pointed at tech companies",
+  "outcome": [
+    "Tech law is the legal work a technology company needs on its contracts, privacy, compliance and disputes. Tech contracts are a large part of it: software development agreements, MSAs, SOWs, change orders, SLAs and EULAs. They are commercial contracts with a technical subject. Day 2 shows how tech companies make money, which tells you which contracts each one needs.",
+    "Returning through tech law could let you use your firm training on your own terms. You could draft directly for startups from home, or later move into a firm's technology team or a tech company's legal team when family allows."
+  ],
+  "alternatives_title": "Ways back you may have already considered",
+  "alternatives": [
+    {"t": "Rejoining a law firm", "why": "The work is familiar, but so are the hours that made you leave. Little about firm life has changed while you were away."},
+    {"t": "Applying for in-house roles", "why": "Many in-house openings prefer continuous recent experience. A family break is hard to explain against that."},
+    {"t": "Taking contract document review work", "why": "It keeps you near legal work, but the tasks are narrow and repetitive. It rarely builds towards a career you choose."}
+  ],
+  "reframe_title": "You are not starting over. You are changing who you draft for.",
+  "reframe": [
+    "This is not about catching up on effort. You already did years of hard drafting. The issue is that you have only been positioned as a firm associate, and that role came with firm hours.",
+    "Tech companies need exactly what you did at the firm: careful contracts, clean definitions and protections that hold. What you add is a short tech vocabulary and an understanding of how tech businesses make money. The camp covers both."
+  ],
+  "cost_title": "What staying undecided costs",
+  "cost": [
+    "Taking time for family was right, and your skills have not vanished. The cost of staying undecided is only that each year makes the return feel bigger. Three evenings and Rs 10 can show you a way back that fits."
+  ],
+  "role_h2": "What tech law work looks like for a lawyer who left a firm job for family",
+  "role": [
+    "Software development agreements are close to the commercial contracts you drafted. The camp's mnemonic covers appointment, milestones, specifications, payment, acceptance testing, IP assignment and handover. You will recognise the bones, and only the tech details are new.",
+    "SaaS deals add the vocabulary. SLAs with uptime, downtime and credits, source code versus object code, and white labelling all turn up in the clauses. Day 1 explains each, and a firm-trained eye knows where they belong in a contract.",
+    "Review work suits your instincts. On Day 3 the camp reviews a startup's terms for gaps such as uncapped liability or unclear IP ownership. You have done this kind of markup on bigger deals, so it should feel like familiar ground. Day 3 then shows how a lawyer offers the fix to the founder."
+  ],
+  "first_artifact": "By the end of Day 1 you will have drafted a software development agreement with the faculty, clause by clause. For a firm-trained lawyer, it is a quick way to see how much of your old skill carries straight into tech contracts.",
+  "longer_term": [
+    "The 6-month plan asks for 2 hours a day, 1 learning and 1 on outreach and track record. That pace is gentle next to firm hours. The plan builds 20 skills over 6 months, from website policies and software agreements to DPDP compliance and data breach response. By month 6 you could have a recent portfolio that speaks for the years you stepped away."
+  ],
+  "faq": [
+    {"q": "Is this just firm work again, without the firm?", "a": "The drafting craft is the same, which is the point. The difference is that it can be done from home, one task at a time, at a pace you set."},
+    {"q": "My last deal was years ago. Am I out of date?", "a": "Tech rules are new for everyone, so a lawyer returning after a break is not far behind. The camp teaches the tech vocabulary from scratch on Day 1."},
+    {"q": "Do I need a CIPP or another certificate first?", "a": "No. In the 6-month plan, the CIPP exam is optional and comes after month 6. The camp starts with drafting."},
+    {"q": "What do I get for Rs 10?", "a": "Three live evenings, 24 to 26 Oct, where documents are drafted with you: a software development agreement, a startup's terms review, a refund policy and an influencer agreement. The fee is refundable, and the sessions are live only."}
+  ],
+  "closing_title": "Lawyers who left a firm job for family: return to law through tech law, on your own terms",
+  "closing": "If you left a firm job to look after family, your firm drafting is exactly what tech companies need on their contracts. In three live evenings you draft a software development agreement with the faculty and learn the tech vocabulary around it. You pay Rs 10 incl. GST, and it is refundable."
+}

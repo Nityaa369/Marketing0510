@@ -1,0 +1,48 @@
+{
+  "id": "19",
+  "qualifier": "This page is for employment and labour lawyers who want to become tech lawyers using the contracts they already know, without leaving practice.",
+  "symptom_title": "Disputes about work, rarely about new work",
+  "symptom": [
+    "Your practice is terminations, wage claims, standing orders, industrial disputes and labour court dates. You read appointment letters and settlements, and argue over what an employer promised and when. Each matter turns on what was written down at the start.",
+    "You know how working relationships are built and how they break: who is an employee, who is a contractor, who owns what was made, and what happens when someone walks out.",
+    "But most of your clients are older businesses and the matters move slowly. Newer companies, the startups hiring small teams and outside developers, rarely come to your door. Their first contracts are often copied from templates by whoever is nearest."
+  ],
+  "outcome_title": "The same contracts, for companies being built now",
+  "outcome": [
+    "Startups need employee, contractor and IP assignment agreements early, often before their product launches. They also hire outside developers, and those relationships run on software development agreements. These are documents about work, ownership and exit, the questions you handle every day.",
+    "A tech law career lets you draft and review that work for founders and tech companies. Your labour practice continues, and the new work comes from businesses that are still being shaped, where a good contract matters most."
+  ],
+  "alternatives_title": "What labour lawyers usually try",
+  "alternatives": [
+    {"t": "Taking on more compliance retainers for factories and offices", "why": "It adds steady files, but it is the same work for the same kind of client. It widens the practice without changing its direction. Your skills stay pointed at older businesses rather than at companies still forming."},
+    {"t": "Moving into a salaried HR legal role", "why": "A full-time salaried job usually means stepping away from practice. That trades your independence for a role that may still be mostly HR paperwork."},
+    {"t": "A general corporate law certificate", "why": "It covers company law broadly, but founders look for someone who can show them a tech contract. A certificate on its own does not show one."}
+  ],
+  "reframe_title": "Who owns the work is your question",
+  "reframe": [
+    "In a tech company, the most valuable asset is often code written by employees or contractors. Whether that code belongs to the company depends on the contract, and contracts about work are your field.",
+    "So you are not changing craft. You are repositioning, from disputes after a working relationship fails to the agreements that set it up properly. Effort was never the missing piece; visibility to founders was."
+  ],
+  "cost_title": "If the new businesses never meet you",
+  "cost": [
+    "If nothing shifts, the companies being built today will keep finding other lawyers for their first contracts. Your understanding of working relationships stays tied to older disputes, when it could shape how new teams are formed. A few focused hours each week would be enough to start."
+  ],
+  "role_h2": "What tech law work looks like for an employment and labour lawyer",
+  "role": [
+    "Drafting the IP assignment and handover clauses of a software development agreement, taught on Day 1. They decide whether the client owns the code a developer delivers, the tech version of a question you already know well.",
+    "Engaging a developer properly. The same Day 1 agreement opens with appointment and milestones, terms you would recognise from any engagement letter, then sets them against specifications and acceptance testing. Labour lawyers spot vague engagement terms quickly.",
+    "Understanding how the client earns. Day 2 covers six business models, including tech consulting and services, where the people doing the work are the product. Each model creates its own contract needs. A services company depends on clear contracts with its own people and with its clients."
+  ],
+  "first_artifact": "By the end of Day 1 you would have worked through a software development agreement clause by clause, including IP assignment. By Day 3 you would also have reviewed a startup's terms against six checks, giving you two documents to discuss with founders. Both draw directly on what you already know about engagements and ownership.",
+  "longer_term": [
+    "Following about 2 hours a day, half learning and half outreach, the next six months could add software and tech services agreements, website policies and data protection to your toolkit. Your labour practice keeps running, and your experience gives each new skill a firm base."
+  ],
+  "faq": [
+    {"q": "Is employment law really relevant to tech companies?", "a": "Very. Tech companies are built by employees, contractors and outside developers, and the contracts with each decide who owns the work. That is where you begin."},
+    {"q": "I have practised labour law for years. Is it too late to switch?", "a": "The rules tech companies follow are new for everyone, so a long career is no handicap and nobody has a decades-long head start. Your judgement about working relationships is an advantage."},
+    {"q": "How do advocates find startup clients?", "a": "Not by soliciting, which the Bar Council restricts. We show how to build relationships instead: share a genuine observation about a public document, and network with US lawyers by helping them first."},
+    {"q": "Is coding part of the work?", "a": "No. The legal work follows how the business makes money. Day 1 explains five tech concepts, such as source code versus object code, in plain words. Your existing contract reading carries most of the load."}
+  ],
+  "closing_title": "Employment and labour lawyers: become tech lawyers with the contracts you know",
+  "closing": "Employment and labour lawyers already know who owns the work and how working relationships are written. Startups need exactly that in their contractor, IP assignment and software agreements. Join three evenings and become a tech lawyer without pausing your practice."
+}

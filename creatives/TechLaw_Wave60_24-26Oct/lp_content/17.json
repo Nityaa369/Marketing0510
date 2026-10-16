@@ -1,0 +1,48 @@
+{
+  "id": "17",
+  "qualifier": "This page is for family and matrimonial lawyers who want to build a tech law career while they keep their practice.",
+  "symptom_title": "Heavy cases that rarely end quickly",
+  "symptom": [
+    "Your matters are divorces, maintenance, custody and domestic disputes. Clients bring you their hardest years, hearings stretch on, and every adjournment lands on someone who is already exhausted.",
+    "More and more of the evidence lives on phones: chats, shared locations, photos, matrimonial site profiles. You have watched private information travel in ways your clients never imagined when they tapped agree.",
+    "You care about the people you represent. But the work is emotionally draining, the calls come at all hours, and it rarely leads towards a different kind of practice."
+  ],
+  "outcome_title": "Document work with a different rhythm",
+  "outcome": [
+    "Every consumer app runs on user data, user content and user payments. Tech companies need lawyers to draft their privacy policies, terms and contracts, and to say clearly what they can and cannot promise the people who use them.",
+    "A tech law career gives you that document-based work with startups and tech companies, done at your desk and at your pace. Your family practice continues, and you add a field where the client is a business, not a family in crisis."
+  ],
+  "alternatives_title": "What family lawyers often consider",
+  "alternatives": [
+    {"t": "Training as a mediator", "why": "It is valuable and humane, but it keeps you inside the same family disputes. It softens the work without changing the career."},
+    {"t": "Switching to full-time corporate practice", "why": "That would mean leaving clients who depend on you and starting again with no track record. For most family lawyers it is too big a jump to make at once."},
+    {"t": "Reading about privacy law online", "why": "Free material builds awareness, but nobody hires a lawyer for awareness. Without a finished document to show, the reading stays a private interest."}
+  ],
+  "reframe_title": "You already understand privacy, in practice",
+  "reframe": [
+    "Privacy work is about the promises an app makes to people: what it collects, who sees it, and what happens when something goes wrong. You have seen what happens to real families when those promises break.",
+    "That lived understanding is an asset, not a detour. The problem is that tech companies do not think of a family lawyer when they need privacy help, simply because nobody has positioned you that way yet. One careful privacy review, shown to a founder, starts to change that."
+  ],
+  "cost_title": "If the next years look like the last",
+  "cost": [
+    "Staying unclear means carrying the same emotional load with no second path growing beside it. A gentle start now, an hour or two a day, keeps a calmer future open without asking you to drop anyone. Nothing about your current clients has to change."
+  ],
+  "role_h2": "What tech law work looks like for a family and matrimonial lawyer",
+  "role": [
+    "Checking whether an app's terms link to a compliant privacy policy, one of the six checks in Day 3's terms review. You would read it thinking of the person whose chats and photos sit on that server. You know which details people later regret sharing, which makes your review practical.",
+    "Learning how consumer apps make money. Day 2 covers six business models, starting with advertising and subscription. Social and dating apps often use these models, and each one creates its own privacy and contract work.",
+    "Building professional relationships with care. Advocates may not solicit work, so the outreach we teach starts with something useful: an observation about a public policy, offered to a founder or a lawyer abroad, never a request for a brief."
+  ],
+  "first_artifact": "By Monday night you would have worked through the key clauses of a software development agreement and reviewed a startup's terms, including its privacy policy link. That review is your first work sample, in a field with a very different rhythm from a contested custody hearing.",
+  "longer_term": [
+    "On the 2 hours a day plan, the first two months focus on privacy rules, policies and contracts, the easiest skills to start with. Outreach begins in week one. Over six months you could build a small portfolio of privacy and policy work beside your family practice. Your sense of how people really use apps would sharpen every policy you touch."
+  ],
+  "faq": [
+    {"q": "I have no corporate background. Can a family lawyer really do this?", "a": "Yes. Tech law work follows the business model, not a corporate CV. You need to read closely and understand how people behave, and you already do both every day."},
+    {"q": "Is privacy work part of tech law?", "a": "Yes. Tech law covers contracts, privacy, compliance and disputes for technology companies. The plan starts with privacy and policies because they are the easiest way in. You can learn two or three areas and get started, rather than all of tech law at once."},
+    {"q": "My evenings are often taken by client calls. Can I still attend?", "a": "The camp is three evenings: Saturday and Sunday from 6 PM IST, and Monday from 7 PM IST, each for three hours. It is live only, so block those slots once and protect them."},
+    {"q": "Do I need to code or understand apps technically?", "a": "No. Day 1 explains five concepts in plain English, such as SaaS and APIs. Everything else is legal reading and drafting, which is your existing craft."}
+  ],
+  "closing_title": "Family and matrimonial lawyers: build a tech law career beside your practice",
+  "closing": "Family and matrimonial lawyers already see how apps shape their clients' private lives. Tech law is the drafting work behind those apps: privacy policies, terms and contracts. Give us three evenings and start that career without pausing your practice."
+}

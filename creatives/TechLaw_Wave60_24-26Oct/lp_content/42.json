@@ -1,0 +1,48 @@
+{
+  "id": "42",
+  "qualifier": "For lawyers who practise outside the big cities and assume tech law only happens in Bengaluru, Mumbai or Delhi.",
+  "symptom_title": "The tech clients seem to live somewhere else",
+  "symptom": [
+    "Your practice is in a district town or a smaller city. The matters that walk in are property, family, cheques and bail. Nobody in your bar talks about software contracts, and the nearest startup event is a long journey away.",
+    "When you read about tech law, it sounds like a metro career. Glass offices, firm tech teams, startup founders at events you will never attend. It feels like a door that opens only after a move.",
+    "So you looked, you liked it, and you left the page. Moving your whole life for an uncertain field did not seem sensible, and nobody showed you another way in."
+  ],
+  "outcome_title": "What changes when distance stops mattering",
+  "outcome": [
+    "Tech law covers the contracts, privacy rules, compliance and disputes of technology companies. Almost all of it is done on documents, by email, on a laptop. Where you sit is not part of the job.",
+    "You could build a tech law career from your own city, drafting and reviewing for startups in India and abroad. Your family, your home and your existing practice can all stay where they are. Over time, the share of tech work in your week can grow as far as you choose."
+  ],
+  "alternatives_title": "Routes that kept tech law out of reach",
+  "alternatives": [
+    {"t": "Planning a move to a metro first", "why": "It asks you to give up a settled life before you have tested the work. Many sensible people put that leap off, so the plan stays a plan."},
+    {"t": "Waiting for a local tech client to walk in", "why": "Clients in your town bring the matters your town knows. The startups that need tech contracts are online, and they will not find you in a court corridor."},
+    {"t": "Applying to big-city firms from a distance", "why": "A firm tech team wants to see tech documents you have drafted. A CV from a district practice, with no such sample, rarely gets past the first look. Distance makes even reaching the interview harder."}
+  ],
+  "reframe_title": "Visibility, not location, is the gap",
+  "reframe": [
+    "The camp teaches outreach that never asks where you live. On Day 1 the trainers show how lawyers find startups through public lists like Y Combinator and Shark Tank, then write to them directly.",
+    "So the problem is positioning, not geography. A careful lawyer in a small city already reads facts closely and drafts under pressure. Pointed at the right clients, that skill travels by email. The camp shows where those clients are and what to send them."
+  ],
+  "cost_title": "The cost of assuming it is not for your city",
+  "cost": [
+    "If you wait for tech law to arrive in your town, you may wait a long time. Meanwhile the skill you already have stays tied to the few matters your town can send you. Three evenings from home will show you another way to use it."
+  ],
+  "role_h2": "What tech law work looks like for a lawyer outside the big cities",
+  "role": [
+    "Your morning stays in court if you want it to. In the evening you review a startup's terms of use that you found on a public list, note the gaps, and send the founder a short, useful message. The founder may be in Pune, Toronto or London, and the message reads the same.",
+    "You build a network abroad without a passport stamp. Day 2 and Day 3 show how to find US, UK and Canadian lawyers in their own bar directories and offer help first, such as a blog post or a podcast slot.",
+    "You also learn what e-commerce companies need: structuring, contracts, policies, compliance, data protection, IP, advocacy and disputes. An online store still has sellers, buyers, returns and complaints. A lawyer who handles those matters in a district court already understands half the problem."
+  ],
+  "first_artifact": "After Day 2 you will know how to build a short list of foreign lawyers from public bar directories, and how to write them a first help-first note. The idea, as the camp teaches it, is to offer something useful before asking for anything in return. Those relationships do not depend on which city you practise in.",
+  "longer_term": [
+    "The Day 2 plan is 2 hours a day: an hour of learning and an hour of outreach, both from home. Over six months you could add skills one by one, publish a few articles, and keep a steady line of pitches going to startups in several countries."
+  ],
+  "faq": [
+    {"q": "Will clients trust a lawyer from a small town?", "a": "Startups judge the document you send, not your pin code. The camp's approach is to open with a genuine observation on their own terms, which shows your work before anyone asks where you are."},
+    {"q": "Is my internet and laptop enough?", "a": "Yes. The camp runs live online over three evenings, and the work it teaches is drafting and review done on a laptop. No office or special software is needed to begin."},
+    {"q": "Do I have to stop my local practice?", "a": "No. The plan is about 2 hours a day, so it can sit beside court work. The weekend sessions are 6 to 9 PM IST, and the Monday session is 7 to 10 PM IST."},
+    {"q": "I am an advocate. Can I approach clients like this?", "a": "The camp's method is to point out a genuine issue in a public document and share a useful observation. You are not pitching your services or asking for a brief. If you are unsure, check your own State Bar Council rules."}
+  ],
+  "closing_title": "Lawyers outside the big cities: your tech law career can start at home",
+  "closing": "Lawyers in smaller cities can move into tech law without moving house. Three live evenings show you the work, the documents and the way to reach startups online. Your city stays the same, and your career gets a new direction."
+}

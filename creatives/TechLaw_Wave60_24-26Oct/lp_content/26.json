@@ -1,0 +1,48 @@
+{
+  "id": "26",
+  "qualifier": "This page is for juniors working in a senior advocate's chamber who want clients of their own.",
+  "symptom_title": "Every client in the chamber belongs to your senior",
+  "symptom": [
+    "You draft the petitions, find the citations and brief your senior before the hearing. The client thanks the senior. When a new matter walks in, it walks in for the name on the board, and you are handed the file.",
+    "You can run a matter from filing to final hearing. What you do not have is anyone who calls you first. Building your own clients in the same court is slow, and stepping on your senior's toes is not an option.",
+    "You want clients of your own without burning the chamber that trained you."
+  ],
+  "outcome_title": "Clients who come to you, for work your senior does not do",
+  "outcome": [
+    "Tech law is the work of drafting, reviewing and defending the contracts, policies and compliance of tech companies. Startups need their terms, privacy policies and software contracts fixed, and many of them are abroad. Your chamber does not serve these clients and does not compete for them.",
+    "Moving into tech law lets you build a client list of your own, in a different market. Your senior keeps the court practice. You build a second practice, under your own name."
+  ],
+  "alternatives_title": "How chamber juniors try to get their own clients",
+  "alternatives": [
+    {"t": "Waiting for your senior to refer a matter", "why": "Some seniors do, now and then. But referrals come on the senior's timetable, and they are usually the small matters the chamber does not want."},
+    {"t": "Taking matters from relatives and neighbours", "why": "It is a start, but a local network gives small, irregular work. It also lands in the same courts, where clients compare you with your own senior."},
+    {"t": "Opening your own office early", "why": "Rent, a clerk and no steady clients make a heavy start. Without a client base, the office can sit quiet for months while the costs keep running."}
+  ],
+  "reframe_title": "Your skill is not the problem. Your market is",
+  "reframe": [
+    "You already do the hard part. You read a file and find the weak point. You draft under deadline. You explain law in plain words. Clients do not call you because you are competing for them in your senior's market.",
+    "Change the market and the same skill becomes yours to offer. A founder in another city or country has never heard of your senior. That founder cares that you spotted the missing termination clause in their terms."
+  ],
+  "cost_title": "The price of waiting your turn",
+  "cost": [
+    "Staying in the chamber with no clients of your own is safe and familiar. It also means your growth moves at the pace of someone else's practice. Starting a separate client base in tech law, slowly and politely, is a gentle way to change that."
+  ],
+  "role_h2": "What tech law work looks like for a junior in a senior's chamber",
+  "role": [
+    "Your first client may come from a short, useful note. Day 1 teaches a template along the lines of 'I reviewed your terms and noticed 3 missing clauses.' You send it to small, early startups found through places like Y Combinator.",
+    "The work itself is drafting you already know how to do. A software development agreement between a founder and an app developer. Returns and refund terms for a seller on a marketplace. The difference is that the client and the brief are yours.",
+    "Day 2 lists the services an e-commerce company needs, from structuring and contracts to IP, counterfeits and data protection. Each one is a separate piece of work a small seller could hand to one lawyer they have come to trust."
+  ],
+  "first_artifact": "On Day 3 you review a startup's terms with the hosts, live, and write the short pitch that explains the fix. For a chamber junior, that pitch is the first message to a client who has never heard of your senior. You leave with a template you can reuse for every startup you approach.",
+  "longer_term": [
+    "The plan after the camp is 2 hours a day, which can sit in the early morning or late evening, outside court hours. If you keep to it, six months could bring your first startup clients, a few testimonials and a practice that is clearly yours. The pace depends on your outreach, and nothing is promised."
+  ],
+  "faq": [
+    {"q": "Will my senior mind?", "a": "That depends on your senior, and it is worth being open about it. Tech law clients are startups and businesses your chamber does not serve, so you are not taking anything from the chamber."},
+    {"q": "As an advocate, how do I reach clients without soliciting?", "a": "The camp's answer is to lead with value. Find a genuine issue in a public document, such as a startup's terms, and share a useful observation. It is never a sales pitch or a request for a brief. Check your State Bar Council's rules as well."},
+    {"q": "Do I need to leave the chamber?", "a": "No. Nothing about the camp asks you to walk out of the chamber. You can build tech law clients while keeping your place in the chamber, and decide the rest later."},
+    {"q": "How much technology do I need to know?", "a": "Day 1 teaches the five concepts a tech lawyer uses most: SLAs, APIs, source and object code, white labelling and SaaS. No coding is involved, because the legal work follows how the business makes money."}
+  ],
+  "closing_title": "Chamber juniors: build clients of your own in tech law",
+  "closing": "Juniors in a senior's chamber do the work while the clients stay with the name on the board. Tech law gives you a separate market, with startup clients who come to you. Spend three live evenings on a startup's terms with us, then send your first pitch."
+}

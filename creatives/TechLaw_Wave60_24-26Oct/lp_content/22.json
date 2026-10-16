@@ -1,0 +1,48 @@
+{
+  "id": "22",
+  "qualifier": "This page is for advocates who have just enrolled with a State Bar Council and are still deciding where to build their career.",
+  "symptom_title": "You have the enrolment, but no direction yet",
+  "symptom": [
+    "The enrolment certificate came through, and the congratulations stopped after a week. Now everyone has advice for you. Join this senior. Try that firm. Prepare for judiciary. Do an LLM first.",
+    "Most of that advice is really about the person giving it. Nobody has asked what kind of work you actually want to be doing in a few years, or where that work is growing.",
+    "You do not want to drift into a practice area just because it happened to be the first door that opened."
+  ],
+  "outcome_title": "Start your career as a tech lawyer",
+  "outcome": [
+    "Tech law covers the legal side of running a tech company: its contracts, privacy policies, compliance and disputes. You can choose it now, at the very start, instead of switching into it after years somewhere else.",
+    "The way in is unusual, and it suits a beginner. Startups rarely hire a full legal team. They hand out one task at a time: a privacy policy, a terms review, a software contract. Each finished task becomes a work sample, and each sample makes the next client easier to reach."
+  ],
+  "alternatives_title": "The default paths, and where they stall",
+  "alternatives": [
+    {"t": "Joining whichever chamber or office takes you first", "why": "It gives you a desk and a senior to learn from. But your practice area gets chosen for you by your senior's clients, and switching later is harder than choosing now."},
+    {"t": "Sending your CV to firms", "why": "Firms ask what you have drafted. A new advocate has an enrolment number and a degree, but no document a client has used. The CV gets read and filed."},
+    {"t": "Waiting until you feel ready", "why": "Readiness does not arrive on its own. It comes from finishing real tasks, and you cannot finish tasks while you wait for permission to begin."}
+  ],
+  "reframe_title": "Your first choice is a positioning choice",
+  "reframe": [
+    "The hard part of starting out is not effort or ability. It is that, on paper, you look like every other new advocate. Same degree, same enrolment, same eagerness. Nobody can tell you apart yet.",
+    "Place yourself in a field that is still forming, and that changes. Your degree already gave you contract law, evidence and interpretation. Add the tech concepts taught on Day 1, and you become a new advocate with a specialty, not one still looking for one."
+  ],
+  "cost_title": "The quiet cost of drifting",
+  "cost": [
+    "If you stay undecided, nothing bad happens this month, and you will learn wherever you land. But your first year or two tend to decide what people know you for. That label is far easier to choose than to change later."
+  ],
+  "role_h2": "What tech law work looks like for a newly enrolled advocate",
+  "role": [
+    "In your first months, the work is small and finished within days. You draft a privacy policy for an app. You go through an early startup's terms and flag what is unclear or absent. You send back a clean, marked-up document.",
+    "Then the tasks grow. A founder needs a software development agreement with a developer. A brand needs an influencer agreement. A SaaS company needs service level terms on uptime and credits. The camp walks through several of these with you, so the first time is not a blind attempt.",
+    "Behind each task sits a business model. The second evening walks through six revenue models, such as subscriptions and marketplaces, with the legal needs of each. Once you can see the model, you can see which documents a company is missing."
+  ],
+  "first_artifact": "Your first artifact could be an e-commerce cancellation, returns and refund policy, built on Day 3 in four parts. Those parts are when an order can be cancelled, when a product can be returned, how the return works, and how and when the money goes back. Every online seller needs one, which makes it a clean first sample.",
+  "longer_term": [
+    "On the camp's 2 hours a day plan, month one is about easy skills, with outreach from the first week. After that comes a steady stream of new skills, LinkedIn posts and pitches to startups. Six months in, you could be a young advocate with a defined specialty and a folder of finished work. How far you get depends on the hours you put in."
+  ],
+  "faq": [
+    {"q": "I enrolled only recently. Is it too early for tech law?", "a": "No. The script puts fresh graduates and experienced lawyers on the same starting line in tech law, because the rules are new for everyone. Starting early simply means fewer habits to unlearn."},
+    {"q": "Will this stop me from appearing in court?", "a": "No. Tech law includes disputes, and the plan after the camp is 2 hours a day. Some of the lawyers in the camp's stories built tech law work beside a court practice."},
+    {"q": "Do I need a technical degree?", "a": "No coding or science background is needed. The legal work depends on how the business makes money. Day 1 explains the five tech concepts you need, such as APIs and SLAs, in plain language."},
+    {"q": "What does the Rs 10 cover?", "a": "All three live evenings, 24 to 26 Oct, including GST, and it is refundable. There are no recordings, so plan to join each evening live."}
+  ],
+  "closing_title": "Newly enrolled advocates: choose tech law at the start",
+  "closing": "Newly enrolled advocates get plenty of advice and very little direction. Tech law gives you a field to begin in, and a way in through one finished task at a time. Join three live evenings and draft your first tech documents with us."
+}

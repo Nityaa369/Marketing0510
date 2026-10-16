@@ -1,0 +1,48 @@
+{
+  "id": "39",
+  "qualifier": "This page is for senior advocates and experienced practitioners with a settled practice who want to build a new line of work in tech law.",
+  "symptom_title": "Your practice is settled. Its future clients look different.",
+  "symptom": [
+    "Your name is known in your courts, and you have seen most kinds of dispute more than once. Matters come by referral, juniors run the paperwork, and you are consulted for judgement more than for drafting.",
+    "Lately some of your matters have apps, payment platforms or software vendors in them. You can argue the dispute well, but the contracts behind it use words like SLA, source code and SaaS that your practice never needed.",
+    "The tech companies themselves rarely walk into your chamber. They hire younger lawyers who describe themselves as tech lawyers, even when those lawyers have never handled a hard dispute."
+  ],
+  "outcome_title": "A new line of practice built on experience",
+  "outcome": [
+    "Tech law is the body of legal work that technology companies generate: contracts, privacy, compliance and disputes. For a senior advocate, it can become a second line of practice that brings in tech companies, startups and foreign clients, alongside the work you already do.",
+    "This is a new field, not more of the same files. The rules are new for everyone, so experience counts and nobody has a long head start. What changes is the kind of client who seeks you out, and the questions they bring."
+  ],
+  "alternatives_title": "How senior practitioners usually respond to tech matters",
+  "alternatives": [
+    {"t": "Passing tech matters to a junior", "why": "The junior learns the field and the client relationship moves with them. Your chamber keeps the brief but not the expertise."},
+    {"t": "Reading new rules and judgments on your own", "why": "You stay current on the law. You do not see the documents tech companies sign, which is where most of their legal work sits."},
+    {"t": "Waiting for tech clients to come through referrals", "why": "Your referral network was built for a different kind of client. Founders do not yet know that you take their work."}
+  ],
+  "reframe_title": "Your judgement is the part juniors lack",
+  "reframe": [
+    "Tech contracts go wrong in predictable places: missed milestones, failed acceptance tests, uncapped liability, unclear ownership of code. Spotting those risks early is a judgement call. You have made judgement calls like that for years.",
+    "So the gap is positioning, not effort. You need the vocabulary and a respectful way to be visible. The camp's approach suits the Bar's rules: find a genuine issue in a public document and share a useful observation, never a sales pitch. Founders value an experienced voice once they find one, so the work is making sure they can find you."
+  ],
+  "cost_title": "If tech stays at the edge of your practice",
+  "cost": [
+    "Your practice does not depend on this, and it will carry on. The gentle cost is that tech matters keep growing in your courts, and the advisory work around them settles with lawyers who started earlier."
+  ],
+  "role_h2": "What tech law work looks like for a senior advocate",
+  "role": [
+    "Tech disputes are the closest fit. Tech contract arbitrations, recovery from defaulting customers, and platform disputes all need someone who can read the contract and argue it. Learning the tech side lets you take the brief from the first notice. Milestone and acceptance testing disputes in particular turn on a careful reading of the contract.",
+    "Advisory work follows. A founder needs a view on whether a business can be done in a jurisdiction and at what cost, and what the liability cap in a SaaS contract should be. Your opinion carries weight that a newer lawyer's cannot.",
+    "You could also lead a team: reviewing drafts your juniors prepare for tech clients, so your chamber builds a tech practice under your name. Policy advocacy, such as responses to draft laws, is another place experience is valued."
+  ],
+  "first_artifact": "On Day 1 we draft a software development agreement with you, clause by clause: appointment, milestones, specifications, consideration, acceptance testing, IP assignment and handover. You will recognise where each clause turns into a dispute. You leave knowing the contract behind the tech matters already reaching your courts.",
+  "longer_term": [
+    "The plan is about 2 hours a day, half learning and half building visibility, which a senior can share with a junior. Over 6 months you could learn the main tech contracts and business models, publish a few observations on public documents, and begin taking tech advisory and dispute work. Your reputation helps here, because a founder reading your note can see who wrote it."
+  ],
+  "faq": [
+    {"q": "Is it too late to start in a new field?", "a": "The script's view is that the rules are new, so experience counts and nobody has a long head start. Day 1 begins with the basic concepts."},
+    {"q": "How do I reach tech clients without soliciting?", "a": "The approach taught is to find a genuine issue in a public document and share a useful observation. It is an observation offered in good faith, not a pitch and not a request for a brief."},
+    {"q": "Do I need to pick up programming at this stage?", "a": "No. The legal work depends on how the business makes money, not on code."},
+    {"q": "When does it run, and is it recorded?", "a": "Saturday 24 and Sunday 25 Oct, 6 to 9 PM IST, Monday 26 Oct, 7 to 10 PM IST. Live only, no recordings. Rs 10 including GST, refundable."}
+  ],
+  "closing_title": "Senior advocates: your experience is a head start in tech law",
+  "closing": "Senior advocates bring the judgement on risk that tech contracts and disputes need most. Join 3 live evenings, 24 to 26 Oct, to learn the tech side and see how it could open a new line of practice in tech law."
+}

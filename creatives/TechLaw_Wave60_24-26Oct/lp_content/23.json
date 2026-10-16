@@ -1,0 +1,48 @@
+{
+  "id": "23",
+  "qualifier": "This page is for LLB graduates from law colleges that are not NLUs, who are tired of being judged by the name on their degree.",
+  "symptom_title": "The college name gets read before your work does",
+  "symptom": [
+    "You studied the same Contract Act, the same CPC and the same evidence law as everyone else. You may have topped your batch. But on campus hiring lists and firm careers pages, your college never appears.",
+    "You have sent cold emails and heard nothing back. When someone does reply, the first question is where you studied, not what you can do. You have started to wonder whether a non-NLU degree caps a career before it begins.",
+    "It does not have to. It depends on where you take that degree next."
+  ],
+  "outcome_title": "A field where the draft speaks first",
+  "outcome": [
+    "Tech law means the contracts, privacy work, compliance and disputes that technology businesses need handled. Much of that work reaches the client as a document: a contract, a policy, a marked-up set of terms. A founder reading your redline sees whether the liability clause is fixed, and your college appears nowhere on the page.",
+    "Move into tech law and you build a career on finished work that clients can see for themselves. That is a fairer test than the one you have been sitting, and it is one you can prepare for."
+  ],
+  "alternatives_title": "What non-NLU graduates are told to try",
+  "alternatives": [
+    {"t": "Cold emailing top firms for internships", "why": "Big firms recruit heavily from a short list of campuses. An email from an unfamiliar college often goes unanswered, however capable the person who wrote it."},
+    {"t": "Unpaid internships in the hope of a referral", "why": "You learn something, but the referral rests on one person's goodwill. Months pass, and you still have no document of your own to show anyone."},
+    {"t": "A famous-college LLM to cover the first degree", "why": "It costs a year or more and a lot of money. It also keeps you in the same contest of names, with one more name added to the list."}
+  ],
+  "reframe_title": "Your college is a filter only when nobody can see your work",
+  "reframe": [
+    "Recruiters lean on college names as a shortcut because they have nothing else to go on. A CV says what you studied. It does not show what you can draft.",
+    "Change what they have to go on. Bring a reviewed set of startup terms, a software development agreement, a refund policy. Now the shortcut is not needed, and your training in reading statutes and contracts closely becomes the thing being judged."
+  ],
+  "cost_title": "What the old contest costs you",
+  "cost": [
+    "Staying in the contest of college names is tiring. You keep applying where the filter is set against you, and every silence starts to feel personal. Choosing a field where the work is judged directly is a kinder use of the same energy."
+  ],
+  "role_h2": "What tech law work looks like for an LLB graduate from any law college",
+  "role": [
+    "You start by reading. A startup's terms of use, a SaaS company's service levels, an app's privacy policy. You check each one against what the law and the business need, which is exactly the close reading your LLB trained.",
+    "Then you write. You draft clauses for a software development agreement, a cancellation and refund policy for an online store, an influencer agreement for a brand. Each is a plain document a business owner can put to use the same day.",
+    "Then you reach out. The camp shows how lawyers find small startups in the US, UK, Canada, Europe and India, and send a short note about a gap in their terms. The note leads with the work, so the reader never needs to ask about your college."
+  ],
+  "first_artifact": "On Day 3 you mark up a startup's terms with the hosts. You check six things: liability for free services, a cap for paid ones, clear termination, community standards, a privacy policy link and IP ownership. Then you put the gaps into a short pitch to the founder. That marked-up document is the first thing you can show anyone, and there is no college line on it.",
+  "longer_term": [
+    "The 6-month plan asks for 2 hours a day, split between learning and outreach. Done steadily, it could leave you with a portfolio of tech documents, a LinkedIn presence built on posts about real clauses, and early testimonials from founders. None of it is guaranteed, but every part of it is judged on the work."
+  ],
+  "faq": [
+    {"q": "Do tech companies really not care about NLU names?", "a": "Some employers still do. But much tech law work, especially for small startups and clients abroad, is judged on the document you send. The camp's own stories include graduates from law colleges across India, not only NLUs."},
+    {"q": "My English is not perfect. Will that hold me back?", "a": "Tech contracts and policies use plain, structured English. The camp drafts each document clause by clause with you, so you see the exact wording used. Clear writing matters far more than fancy writing."},
+    {"q": "I live in a small city. Does that rule me out?", "a": "Yes. The work is done on a laptop, by email, for clients who may sit in another country. Your city does not appear anywhere in a contract you draft."},
+    {"q": "Are three evenings enough to get started?", "a": "Three evenings give you the core concepts, worked drafts and the outreach method. The skill builds during the 6-month plan that follows. The script itself says no result can be guaranteed."}
+  ],
+  "closing_title": "LLB graduates from any law college: let the draft speak",
+  "closing": "LLB graduates from non-NLU colleges are judged by a name before anyone reads their work. Tech law lets the document go first. Join three live evenings, review a startup's terms with us, and start a tech law career built on your own drafts."
+}

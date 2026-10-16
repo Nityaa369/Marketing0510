@@ -1,0 +1,48 @@
+{
+  "id": "21",
+  "qualifier": "This page is for junior advocates in their first years of practice, still carrying a senior's files and waiting for matters of your own.",
+  "symptom_title": "Your days belong to someone else's matters",
+  "symptom": [
+    "You reach court before your senior, note the next dates and wait for your item to be called. Most of what you argue on your own is an adjournment. The files you know best carry another advocate's name.",
+    "You were told the first years are for learning, and you have learned a lot. But the line ahead of you is long. Every senior in your court started decades before you, and none of them is leaving soon.",
+    "So the question you keep coming back to is a simple one. Where can a junior advocate stop being junior?"
+  ],
+  "outcome_title": "A field where the queue has not formed yet",
+  "outcome": [
+    "Tech law is the legal work technology companies need: their contracts, compliance, data privacy, policy and disputes. Many of the rules these companies follow are recent. No senior has spent 20 years mastering them before you arrived.",
+    "Move into tech law and the measure of you changes. A startup founder asks one thing: can you fix my contract this week? You could be the lawyer who answers that, under your own name, from your very first matter."
+  ],
+  "alternatives_title": "What junior advocates usually try first",
+  "alternatives": [
+    {"t": "Waiting for your senior to pass matters down", "why": "Some do come, but slowly, and they arrive as the chamber's leftovers. The line moves at the speed of the people ahead of you, not at the speed of your work."},
+    {"t": "Moving to a bigger chamber", "why": "A bigger name on the door gives you better files to carry. You are still behind the same row of seniors, only in a larger room."},
+    {"t": "Outworking everyone in a crowded area like civil or criminal practice", "why": "Hard work counts. But in an old field the people ahead of you have decades of clients, and judges who already know them. Effort alone does not close that kind of gap."}
+  ],
+  "reframe_title": "This is a queue problem, not a talent problem",
+  "reframe": [
+    "You are not behind because you are weak. You are behind because you joined fields where seniority has had decades to settle. In court, time served is the currency, and you have not served yours yet.",
+    "Tech law runs on a different currency. The camp script puts it plainly: a 30-year veteran and a fresh graduate are standing on the same starting line. Your close reading, your drafting habit and your instinct for what fails in court all carry straight across."
+  ],
+  "cost_title": "What waiting costs",
+  "cost": [
+    "Nothing dramatic happens if you stay where you are. You keep learning, you keep carrying files, and the years pass at the same steady pace. The only cost is that the level starting line in tech law is taken by people who chose it a little earlier."
+  ],
+  "role_h2": "What tech law work looks like for a junior advocate",
+  "role": [
+    "Your first tech law tasks look a lot like reading a case file. You go through a startup's terms of use the way you go through a plaint: what is claimed, what is missing, what would fail if it were tested. Day 3 of the camp gives you six checks for exactly this.",
+    "Then you draft. A software development agreement between a founder and a developer is a contract with a clear order. Your court sense of what goes wrong in a dispute tells you which clauses need tightening, from milestones to acceptance testing.",
+    "Later, disputes come back into the picture, this time on your own file. Tech contract arbitrations, recovery claims, takedown notices and cyber crime complaints are all part of tech law. A junior who already knows procedure could take these on as matters of their own."
+  ],
+  "first_artifact": "On Day 3 you review a startup's terms with the hosts, live, against six checks: liability for free services, a cap for paid ones, termination, community standards, a privacy policy link and IP ownership. You then write the short note that offers the fix. That note is your first work sample, with your name on it and nobody else's.",
+  "longer_term": [
+    "The camp's plan asks for 2 hours a day: one hour learning a new skill and one hour of outreach. The first two months cover the easiest skills, like policies and contracts, with outreach from the first week. By month six, a junior who keeps to it could have a folder of work samples, a few testimonials and a profile that clients can find. Nothing here is promised. The plan only works if you put in the hours."
+  ],
+  "faq": [
+    {"q": "Don't senior advocates already do this work?", "a": "Most senior advocates built their practice before these rules existed. The script also notes that law college teaching stops at the IT Act, which covers only a small part of the work. That is why the starting line is level."},
+    {"q": "Do I need to understand coding?", "a": "No. The script is clear that the legal work follows the business model, not the code. You need to know how a tech company sells and earns, and Day 2 covers that through six business models."},
+    {"q": "My court hours are long. When would I fit this in?", "a": "The sessions are in the evening: Saturday and Sunday 6 to 9 PM IST, Monday 7 to 10 PM IST. After the camp, the work runs by email on a laptop, so the 2 hours can sit before or after court."},
+    {"q": "What if I decide tech law is the wrong fit for me?", "a": "Then you have spent three evenings learning how tech contracts work, and the Rs 10 is refundable. The camp is live only with no recordings, so plan to attend each session."}
+  ],
+  "closing_title": "Junior advocates: start where nobody is ahead of you",
+  "closing": "Junior advocates spend their first years in a queue that seniority built over decades. Tech law is new enough that the queue has not formed. Spend three live evenings reviewing a startup's terms and drafting a software contract with us, and see whether your own practice starts here."
+}

@@ -1,0 +1,47 @@
+{
+  "id": "09",
+  "qualifier": "This page is for you if you are an Indian lawyer living abroad with family, often on a dependent visa, and far from your own bar.",
+  "symptom_title": "A law degree from home, in a country that does not recognise it",
+  "symptom": [
+    "You moved abroad for your spouse's job or your family's future. The new country has its own bar, its own exams and its own rules. Your Indian enrolment does not let you practise there.",
+    "So the days fill with other things. Some lawyers take jobs far from law. Others wait while visa papers decide what they may do. Either way, the career you trained for is on hold. Friends back home assume you are settled, while you open job sites at night and close them again."
+  ],
+  "outcome_title": "Legal drafting travels, even when a licence does not",
+  "outcome": [
+    "Tech law is the body of legal work behind technology companies: contracts, privacy, compliance and disputes. A contract, a set of terms or a privacy policy is drafted the same way in Delhi and Dallas. The craft does not stop at a border.",
+    "Building a tech law career could let you do legal work again from wherever you live. That could mean drafting support for lawyers in your new country, work for startups looking at India, or Indian law tasks for founders anywhere."
+  ],
+  "alternatives_title": "Routes Indian lawyers abroad usually weigh",
+  "alternatives": [
+    {"t": "Requalifying in the new country", "why": "It can take years of exams and fees before you work as a lawyer again. It may be right later, but it leaves the years in between empty."},
+    {"t": "Taking a job outside law", "why": "It brings routine and some independence. It also takes your legal skills further away each year."},
+    {"t": "Remote work for your old firm in India", "why": "Few firms keep a remote role open for long. When the matters dry up, there is no plan behind it."}
+  ],
+  "reframe_title": "Being abroad is part of your position, not a gap in it",
+  "reframe": [
+    "You are not short of ability. You are positioned as a lawyer who cannot practise here, when you could be positioned as a lawyer who drafts for the tech economy anywhere.",
+    "Living abroad also helps. You understand how businesses in your new country talk, and you share their working hours. The camp teaches networking with US, UK and Canadian lawyers and reaching startups in those markets, which you can do from inside them."
+  ],
+  "cost_title": "What another year on hold costs",
+  "cost": [
+    "Family moves come first, and putting work on hold was a sensible choice. The cost of staying unclear is only that the gap keeps growing while the decision waits. Three live evenings, for Rs 10, can give you a plan to weigh."
+  ],
+  "role_h2": "What tech law work looks like for an Indian lawyer living abroad",
+  "role": [
+    "Supporting local lawyers is one route. On Day 2 and Day 3 the camp shows how to find US, UK and Canadian lawyers through bar directories, and how to help them first with blogs and podcasts. The local lawyer stays responsible for local advice, and you support the drafting.",
+    "Privacy work travels well. The 6-month plan includes DPDP and GDPR compliance, and Day 3 builds an Upwork profile for data protection work. Indian privacy law matters to foreign companies with Indian users.",
+    "Startups need their documents in order wherever they are. On Day 3 the camp reviews a startup's terms and drafts an e-commerce refund policy, and on Day 1 it drafts a software development agreement. Founders sign these documents in every market."
+  ],
+  "first_artifact": "After Day 1 you will have drafted a software development agreement with the faculty, clause by clause, and seen how lawyers reach startups in the US, UK, Canada and Europe. Both are things you can practise from your current home.",
+  "longer_term": [
+    "The 6-month plan asks for 2 hours a day, 1 for learning and 1 for outreach. Because you live abroad, you could match your outreach hour to the local working day. The early skills are policies, contracts, DPDP and GDPR. By month 6 you could have a portfolio of drafts, some foreign contacts, and a clearer view on whether to requalify. Each draft can also serve as a work sample for later applications."
+  ],
+  "faq": [
+    {"q": "Does my visa allow me to do this work?", "a": "That depends on your visa and country, and the camp cannot answer it for you. Check your visa conditions before taking paid work. The camp itself is three evenings of learning."},
+    {"q": "The camp runs on Indian time. Can I attend from here?", "a": "Sessions run Sat 24 and Sun 25 Oct, 6 to 9 PM IST, and Mon 26 Oct, 7 to 10 PM IST. Convert those to your local time before you join, because nothing is recorded."},
+    {"q": "Can I advise on local law where I live?", "a": "Usually not in your own name without that country's licence, so check its bar's rules. The work the camp shows is drafting, Indian law, and support for foreign lawyers who stay responsible for their advice."},
+    {"q": "Is my Indian law degree useful to foreign clients?", "a": "Yes, in two ways. Drafting skills transfer across borders, and Indian privacy and tech rules matter to companies with Indian users or plans for India."}
+  ],
+  "closing_title": "Indian lawyers living abroad with family: build a tech law career from wherever you are",
+  "closing": "If you are an Indian lawyer living abroad with family, tech law lets you draft again without waiting for a foreign licence. In three live evenings you draft a software contract and learn how lawyers reach startups in your new market. Entry is Rs 10 incl. GST, and refundable."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "44",
+  "qualifier": "For law graduates from colleges that are not NLUs, who want tech law work but feel the field is reserved for a few campuses.",
+  "symptom_title": "The college name seems to decide everything",
+  "symptom": [
+    "You studied at a state university, a private college or a local law school. You worked hard. But when firm openings appear, they seem to go to the same few campuses every year. Your marks were fine, yet the name on the certificate seemed to count for more.",
+    "You have sent cold emails for internships and heard nothing back. Forum threads with titles like \"No career for Non-NLUs\" do not help. After a while you start to believe them.",
+    "Tech law caught your eye because it sounds new and open. Then a doubt crept in: if top firms run the tech practices, is this just another door marked NLU only?"
+  ],
+  "outcome_title": "What changes when you have drafts to show",
+  "outcome": [
+    "Tech law is the practice of advising technology companies on their contracts, privacy, compliance and disputes. It is built on documents, and documents can be judged on their own merit. A clean draft reads the same whichever college its author attended.",
+    "You could move into tech law at a firm's tech team, inside a startup, or by working directly with founders. Your entry point becomes a portfolio of real drafts, not the line on your degree certificate."
+  ],
+  "alternatives_title": "What you tried to get past the college filter",
+  "alternatives": [
+    {"t": "Cold emailing top firms for internships", "why": "Most of yours went unanswered, and you could not tell why. The email carries your college name but no evidence of what you can actually draft. Even a well-written email cannot attach work you have not yet done."},
+    {"t": "Collecting more certificates", "why": "A certificate says you attended something. It does not show a single clause you wrote. A hiring partner still wants to know whether you can turn a client's business into a clean contract."},
+    {"t": "Waiting for a referral from a senior", "why": "Referrals help, but many graduates from smaller colleges do not have a senior inside a tech practice. Waiting for one can take years, and it puts your career in someone else's hands."}
+  ],
+  "reframe_title": "Evidence beats pedigree in a new field",
+  "reframe": [
+    "The camp's formula is skills plus track record plus outreach. None of those three depends on where you studied. Each one depends on what you do with the next few months. That is good news for anyone who feels judged by a past admission result.",
+    "This is a positioning problem, not a talent problem. You already read statutes, judgments and contracts closely. Once that skill is pointed at tech documents and shown in finished drafts, the college name matters far less."
+  ],
+  "cost_title": "What it costs to keep believing the filter",
+  "cost": [
+    "If you accept that tech law is closed to you, you stop trying, and the belief proves itself. The field is new enough that the starting line is unusually level. Three evenings will show you how others like you began."
+  ],
+  "role_h2": "What tech law work looks like for a non-NLU graduate",
+  "role": [
+    "Start with the contract the camp teaches first: a software development agreement. You set out who builds what, by which milestone, to which specification, and who owns the code once it is handed over.",
+    "Then move to the documents startups need early. You review a young company's terms of use, check whether liability is capped and termination is clear, and flag that the privacy policy link is missing or weak. Then you write a short note to the founder explaining the fix.",
+    "Each task becomes a work sample with your name on it. When you write to a firm or a founder, you attach that sample. The reader sees your thinking first, and your college only after. Over time, the samples add up to a track record no admission list can take away."
+  ],
+  "first_artifact": "On Day 1 you draft the key clauses of a software development agreement with the trainers, clause by clause. The camp's memory line keeps the order fixed: appointment, milestones, specifications, consideration, acceptance, IP assignment and handover. That draft can become the first sample in your portfolio.",
+  "longer_term": [
+    "The plan shared on Day 2 is 2 hours a day, split between learning and outreach. Over six months you could add a new tech law skill every week or two, publish articles, and keep pitching startups and firms. Your folder of drafts grows with every skill you learn, and so does your confidence in sending it."
+  ],
+  "faq": [
+    {"q": "Do firms really hire tech lawyers from non-NLU colleges?", "a": "The camp's learner stories include graduates of several colleges that are not NLUs. The pattern they share is a body of drafted work and steady outreach, which is what the camp teaches."},
+    {"q": "I did not intern at a big firm. Am I behind?", "a": "The camp treats track record as something you build now, through real documents. A finished software contract and a reviewed set of terms show more than an internship line."},
+    {"q": "Do I need a technical background before I start?", "a": "No. The camp says the legal work follows the business model, not the code. Day 1 explains the few tech terms that appear in contracts, such as SLAs and APIs, in business language."},
+    {"q": "How much does it cost to try?", "a": "Rs 10 including GST for all three live evenings, and it is refundable. There are no recordings, so attend on 24, 25 and 26 Oct."}
+  ],
+  "closing_title": "Non-NLU graduates: let your drafts open the tech law door",
+  "closing": "Graduates from colleges that are not NLUs can move into tech law on the strength of their work. In three live evenings you draft a software contract and review a startup's terms with us. Those drafts can speak for you where the college name could not."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "11",
+  "qualifier": "This page is for advocates who handle cheque bounce cases under the NI Act and want a tech law career alongside their practice.",
+  "symptom_title": "Notice, complaint, date, repeat",
+  "symptom": [
+    "Your week runs on Section 138. A client brings a dishonoured cheque, you check the dates, draft the demand notice and file the complaint once the notice period runs out.",
+    "You do this well. You can spot a defective notice in seconds: a wrong amount, a missed deadline, a demand that never reached the drawer. That precision is why clients come back.",
+    "But the matters look alike, the dates stretch on, and the work rarely leads anywhere new. You are known as the cheque bounce lawyer, and that label is hard to grow out of."
+  ],
+  "outcome_title": "The same eye for gaps, a different client",
+  "outcome": [
+    "Tech law is the legal work that technology companies need done: their contracts, privacy, compliance and disputes. A startup's terms of use, a software development agreement and a refund policy all fail when something is missing.",
+    "Moving into tech law means the documents on your desk come from founders and product teams, not from dishonoured cheques. You keep your practice and add a second career built on the habit of checking every line. The client changes from someone chasing a debt to a company that wants to launch without holes in its paperwork."
+  ],
+  "alternatives_title": "What cheque bounce lawyers usually try",
+  "alternatives": [
+    {"t": "Taking on more 138 matters", "why": "Volume fills the diary, not the career. Every new file is another notice and another complaint, so the practice grows wider without moving in any new direction."},
+    {"t": "Waiting for bigger commercial suits", "why": "Those briefs usually sit with established chambers. Being trusted with them can take years, and your notice drafting skill is barely used there."},
+    {"t": "A general contract drafting certificate", "why": "It teaches clauses in the abstract. Without a real tech document and a way to meet the people who need it, the certificate sits on your profile and nothing changes."}
+  ],
+  "reframe_title": "Your notice drafting is the asset",
+  "reframe": [
+    "A demand notice is a checklist in disguise. Was the cheque presented in time? Did the notice go out within the period? Is the demand clear? You test every document against what the law requires.",
+    "Reviewing a startup's terms works the same way, and on Day 3 we check terms against six points. Your problem is not effort or ability. Nobody outside your court sees the skill, because it only ever meets cheques."
+  ],
+  "cost_title": "What waiting costs",
+  "cost": [
+    "If nothing changes, next year probably looks like this one: the same notices, the same dates, the same label. That is a decent practice. It is simply a smaller career than your drafting could support."
+  ],
+  "role_h2": "What tech law work looks like for a cheque bounce lawyer",
+  "role": [
+    "Reviewing a startup's terms of use. You read them the way you read a notice: does the company exclude liability for free services, cap it at the fee for paid ones, and say clearly how either side can end things?",
+    "Drafting the payment side of a software development agreement. Milestones, consideration and acceptance testing decide when a developer gets paid. You already know what vague payment terms lead to, because your clients live with the result.",
+    "Building relationships with founders and foreign lawyers. Bar Council rules restrict advertising and soliciting, so the outreach we show starts with a useful observation about a public document. It is never a request for a brief. On Day 1 we also show how lawyers network with US lawyers by helping first, through blogs, podcasts and posts."
+  ],
+  "first_artifact": "By the end of the camp you would have worked through the key clauses of a software development agreement on Day 1 and reviewed a real startup's terms against six checks on Day 3. That review is a work sample you can show a founder or a firm. It is short, specific and about a real company, which is exactly what a founder reads.",
+  "longer_term": [
+    "With 2 hours a day, 1 for learning and 1 for outreach, the next six months could look like this. You add skills such as website policies and tech contracts, collect a few testimonials and write short notes founders find useful, while your court practice carries on. Each month adds one more document you can show, and the Day 2 plan tells you which skill to learn next."
+  ],
+  "faq": [
+    {"q": "I only do cheque bounce work. Can I still begin?", "a": "Yes. Tech law starts with reading documents closely, which you do every day. On Day 1 we explain five concepts, including SLAs, APIs and SaaS, so tech contracts stop looking foreign."},
+    {"q": "Does any of this involve coding?", "a": "No. The legal work follows how the business makes money, not how the software is written. Day 2 walks through six ways tech companies earn and the legal work each one creates."},
+    {"q": "My court dates fill the day. When would I do this?", "a": "The camp runs in the evening: Saturday and Sunday 6 to 9 PM IST, Monday 7 to 10 PM IST. The plan after it is about 2 hours a day, which fits around court."},
+    {"q": "Can an advocate approach startups at all?", "a": "Advocates cannot advertise or solicit work. What we teach is different: read a startup's public terms, share a genuine observation, and build a professional relationship over time. If in doubt, check with your State Bar Council."}
+  ],
+  "closing_title": "Cheque bounce lawyers: your notice drafting is a tech law skill",
+  "closing": "Cheque bounce lawyers already check every document for what is missing. Tech law asks for exactly that, on startup terms and software contracts. Spend three evenings with us and start that career without pausing your practice."
+}

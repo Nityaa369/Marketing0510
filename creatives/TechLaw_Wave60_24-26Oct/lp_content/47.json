@@ -1,0 +1,48 @@
+{
+  "id": "47",
+  "qualifier": "For junior advocates who have opened a tech contract, met a wall of jargon, and quietly closed it again.",
+  "symptom_title": "The words got in the way",
+  "symptom": [
+    "Someone forwarded you a SaaS agreement, or you found one while researching. Within a page it mentioned uptime, APIs, object code and a white label partner. You understood the law but not the deal. It was like reading a judgment in a language you only half speak.",
+    "As a junior you are used to learning fast. But here there was nobody to ask, and searching each term mid-sentence turned a short read into a whole evening. By the end you had definitions but no clear view of the deal.",
+    "You looked at the tech law bootcamp and wondered whether it would be one more session full of words you could not follow. You did not want to feel lost in a room full of people nodding along."
+  ],
+  "outcome_title": "What changes when the vocabulary clicks",
+  "outcome": [
+    "Tech law is the legal side of technology businesses: the contracts they sign, the privacy and compliance rules they follow, and the disputes they get into. Most of its contracts lean on a handful of repeated ideas. Learn those once and the same ideas keep coming back in agreement after agreement.",
+    "Once those ideas make sense, you could build a tech law career as a junior who reads these contracts with ease. That is a specialism many seniors in your court have never needed to learn."
+  ],
+  "alternatives_title": "How juniors usually fight the jargon",
+  "alternatives": [
+    {"t": "Searching every term as it comes", "why": "You get a definition from an engineering site, written for engineers. It tells you what the thing is, not why a contract cares about it."},
+    {"t": "Skipping the technical clauses", "why": "Those clauses are often where the risk sits: who pays when the service is down, or what is actually handed over. Skipping them means missing the point of the contract, and a client will notice."},
+    {"t": "Asking a friend who works in IT", "why": "They explain the technology well, but not the legal consequence. You come away knowing how an API works and still unsure what to draft."}
+  ],
+  "reframe_title": "Jargon is vocabulary, not engineering",
+  "reframe": [
+    "Each of these terms names a business arrangement. An SLA is a promise about service. White labelling is a branding deal. Source versus object code is a question of what gets delivered. Once you see the arrangement, the clause around it reads like any other contract.",
+    "So your gap is positioning, not intelligence. Your legal training already handles promises, remedies and ownership. Day 1 gives you the five words that let that training work on tech documents."
+  ],
+  "cost_title": "What staying lost in the jargon costs",
+  "cost": [
+    "Every tech contract you avoid is one more reason to stay in work you already know. Nothing is lost today, but the field keeps feeling closed. Learning five words over one evening can open it, and the rest of the camp builds on them."
+  ],
+  "role_h2": "What tech law work looks like for a junior advocate who knows the five words",
+  "role": [
+    "With SLAs understood, you read a service levels schedule properly: the uptime promised, what counts as downtime, the credits owed when the promise is broken, and the support response metrics. You can tell a client whether those remedies are real.",
+    "With APIs understood, you can follow an API integration agreement, where two companies agree how their products will connect and share data. With source and object code clear, you know what a developer must hand over and what the client will actually own.",
+    "With white labelling and SaaS clear, reseller and co-branding agreements make sense, and so do subscription terms for software rented online. These are the everyday documents of tech companies, and you can now read them like a lawyer. When a senior or a client asks what a clause means, you have the answer."
+  ],
+  "first_artifact": "After Day 1 you will be able to read the service levels and delivery clauses of a tech contract and say what each promise means. The same evening you also draft a software development agreement with the trainers, where ideas like source code and handover come up in practice.",
+  "longer_term": [
+    "The plan shown on Day 2 asks for about two hours a day, one learning and one on outreach. Over six months you could add skills such as website policies, software and services agreements, and IP takedowns. Each one builds on the vocabulary you learn on Day 1, so the first evening keeps paying off long after the camp ends."
+  ],
+  "faq": [
+    {"q": "Which five words does Day 1 cover?", "a": "SLAs, APIs, source code versus object code, white labelling and SaaS. Each is taught through the contract clauses where it appears, not as a technical lecture."},
+    {"q": "I am a litigator. Is this useful in court too?", "a": "The script lists tech disputes among the work tech companies need, including tech contract arbitrations. Knowing what an SLA or a source code clause means helps you read the contract at the heart of such a case."},
+    {"q": "Will I understand it if I have no science background?", "a": "Yes. The script is clear that tech law needs no special understanding of tech, science or coding. Each term is explained as a business deal."},
+    {"q": "When does the first session start?", "a": "Saturday 24 Oct at 6 PM IST, running to 9 PM. Sunday is the same time and Monday runs 7 to 10 PM IST. Rs 10 including GST, refundable, live only."}
+  ],
+  "closing_title": "Junior advocates: five words start your tech law career",
+  "closing": "Junior advocates who stall on tech jargon can learn, in one evening, the five words that make tech contracts readable. Day 1 teaches SLAs, APIs, source code, white labelling and SaaS through real clauses. From there, a tech law career stops looking like a foreign language."
+}

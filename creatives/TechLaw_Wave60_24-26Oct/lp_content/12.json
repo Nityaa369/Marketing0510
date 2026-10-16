@@ -1,0 +1,48 @@
+{
+  "id": "12",
+  "qualifier": "This page is for advocates who take cyber fraud and digital arrest cases and want to build a tech law career while they keep practising.",
+  "symptom_title": "You always arrive after the money is gone",
+  "symptom": [
+    "A client calls in a panic. A video call from a fake officer, a payment link, a screen-sharing app, and the savings are gone. You file the complaint, chase the bank and the police, and push for the money to be traced.",
+    "Over time you have learned more about wallets, payment links and app permissions than most lawyers ever will. You can point to the exact step where a transaction could have been stopped. You also know how victims think, and which warnings they scrolled past.",
+    "Yet the work always starts after the harm. Each case is urgent and painful, and the knowledge you have built stays locked inside fraud files that nobody else reads."
+  ],
+  "outcome_title": "Use what you know before anything goes wrong",
+  "outcome": [
+    "Tech companies need lawyers who understand how online money and user accounts actually move. They need that thinking in their terms of use, their payment flows and their contracts, long before any dispute reaches a police station. Few founders have anyone on the team who has watched a scam unfold from the victim's side.",
+    "A tech law career puts you on that side of the product. Your practice continues, and a second line of work opens with fintech apps, platforms and startups that build the very tools your clients use."
+  ],
+  "alternatives_title": "Routes cyber fraud lawyers often consider",
+  "alternatives": [
+    {"t": "Becoming the city's go-to cyber crime lawyer", "why": "More cases arrive, but each one is still a rescue after the loss. The work stays reactive and tied to your court calendar, however good you get at it."},
+    {"t": "A cyber law diploma", "why": "Many of them centre on the IT Act. That is a small part of what tech companies actually need, which is contracts, privacy and compliance work."},
+    {"t": "Waiting for a bank or platform to notice you", "why": "Companies rarely hire from the complainant's side of a fraud case. Without a tech document to show, your experience stays invisible to them."}
+  ],
+  "reframe_title": "Timing is the problem, not skill",
+  "reframe": [
+    "You already think like a product reviewer. When you trace a fraud, you ask who allowed what, at which step, under which terms. That is the same question a tech lawyer asks while a product is being built.",
+    "So the shift is one of positioning. The same understanding, placed before launch instead of after a loss, is what fintech and platform companies want from a lawyer. You do not need to work harder to get there."
+  ],
+  "cost_title": "If the knowledge stays in fraud files",
+  "cost": [
+    "Staying where you are keeps you useful to people on their worst day, and that matters. But the understanding you have built may never reach the companies that could use it every week, and that is a quiet waste of a rare skill."
+  ],
+  "role_h2": "What tech law work looks like for a cyber fraud lawyer",
+  "role": [
+    "Reading a payment app's terms of use and checking whether they link to a compliant privacy policy, set out community standards and explain clearly how the arrangement with a user can be ended. You would read every line asking what a confused user would do next.",
+    "Making sense of tech concepts in contracts. On Day 1 we cover APIs and SLAs, including uptime and service credits. You already know what happens when a connected service fails, so these clauses will feel practical, not abstract.",
+    "Meeting founders and lawyers abroad in the right way. Advocates may not solicit work, so the method we teach is to share a useful observation about a public document and let a professional relationship grow from there."
+  ],
+  "first_artifact": "After the three evenings you would have drafted the key clauses of a software development agreement with us and reviewed a startup's terms on Day 3. For a lawyer who has seen how weak terms leave users with no remedy, that review is a natural first work sample. It shows a founder that you read their product the way a careful user would.",
+  "longer_term": [
+    "On the 2 hours a day plan, one hour learning and one on outreach, the first months cover privacy, policies and tech contracts. The Day 2 plan also lists fintech compliance and data breach response among its skills. Over six months you could build samples in each, with your court work continuing."
+  ],
+  "faq": [
+    {"q": "Is cyber crime work the same as tech law?", "a": "It is one corner of it. Tech law also covers contracts, privacy, compliance and policy work for tech companies. Your cyber cases give you context, and the camp adds the drafting side."},
+    {"q": "Will this pull me away from my clients?", "a": "No. The camp is three evenings, and the plan after it is about 2 hours a day. It is built to sit around court hours, not replace them."},
+    {"q": "I am not technical. Will the tech parts lose me?", "a": "Day 1 explains five concepts in plain terms: SLAs, APIs, source versus object code, white labelling and SaaS. No coding is involved at any point."},
+    {"q": "What if I miss an evening?", "a": "The camp is live only, with no recordings, so each evening happens once. The weekend sessions are 6 to 9 PM IST, and the Monday session is 7 to 10 PM IST."}
+  ],
+  "closing_title": "Cyber fraud lawyers: take what you know into tech law",
+  "closing": "Cyber fraud lawyers understand how online money moves better than most. Tech companies need that understanding before a dispute, in their terms and contracts. Spend three live evenings with us and begin a tech law career while your practice carries on."
+}

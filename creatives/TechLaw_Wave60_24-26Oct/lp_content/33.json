@@ -1,0 +1,48 @@
+{
+  "id": "33",
+  "qualifier": "This page is for lawyers who work in banking or for NBFCs, on loan documents, security, KYC or recovery, and want to become fintech lawyers.",
+  "symptom_title": "You know lending inside out. The lending is moving into apps.",
+  "symptom": [
+    "Your files are loan agreements, sanction letters, security documents, guarantees and recovery notices. You read RBI directions the way other lawyers read cause lists.",
+    "Around you, more and more loans start on a phone. A startup builds the app and the credit model, and a bank or NBFC lends the money. You see those partnerships arrive, but the legal work on the startup side goes to someone else.",
+    "When fintech roles open, the posts ask for experience with digital lending, payments or platform terms. Your experience is real, but it sits on the other side of the table. You know what the lender needs from the partnership, yet nobody has asked you to write it from the app's side."
+  ],
+  "outcome_title": "From the lender's lawyer to a fintech lawyer",
+  "outcome": [
+    "Tech law covers what technology companies need from lawyers: contracts, compliance, data privacy, policy and disputes. Fintech is the part of it closest to you, because the business underneath is still lending and payments. As a fintech lawyer you could work on a payments or lending company's legal team, in a firm's fintech practice, or advise founders directly.",
+    "The core idea from the camp is short: a lending app is a lending business with software in front. Your banking knowledge stays the base. You add the software and data side on top."
+  ],
+  "alternatives_title": "Routes banking lawyers often consider",
+  "alternatives": [
+    {"t": "Applying to fintech companies with a banking CV", "why": "Recruiters read loan documentation and recovery as traditional banking. Without one piece of fintech work to show, the CV does not cross over."},
+    {"t": "Following fintech news closely", "why": "You learn which companies raised money and which rules changed. You do not learn how to structure a lending startup or draft its terms."},
+    {"t": "A general compliance certificate", "why": "It covers rules across sectors at the same depth. It does not teach the product side: how an app earns, collects data and signs up users."}
+  ],
+  "reframe_title": "You are closer to fintech than most fintech lawyers started",
+  "reframe": [
+    "Many lawyers entering fintech learn banking first, slowly. You already have it. What is missing is the way a fintech company is built and the documents it signs with users and partners.",
+    "So the problem is positioning, not knowledge. A banking lawyer who can also read an app's terms and explain a lending partnership from the startup's side is exactly who a fintech founder wants on a call."
+  ],
+  "cost_title": "If you stay on the bank side only",
+  "cost": [
+    "Your banking work does not go away, and it stays valuable. But each new lending partnership you see from the outside is a piece of fintech experience that goes to another lawyer instead of onto your record."
+  ],
+  "role_h2": "What tech law work looks like for a banking and NBFC lawyer",
+  "role": [
+    "The first question a fintech founder asks is structural: can this business be done, in which jurisdiction, and at what cost? The camp's own example is a startup with a lending algorithm that wants to work with NBFCs and banks. You already know what the lender will ask.",
+    "Then come the contracts and the compliance. You would draft partner agreements between the app and the lender, the app's terms of use and privacy policy, and help with filings to regulators and with sandbox applications to the RBI.",
+    "Data is the newer half. A lending app collects KYC and financial data from every user, so privacy work is recurring. Disputes follow too: recovery, payment complaints and tech contract arbitrations, where your litigation sense from recovery work helps."
+  ],
+  "first_artifact": "On Day 3 we review a startup's terms with you, live. There are six checks: no liability for free services, liability capped at the fee for paid ones, clear termination, community standards, a link to a compliant privacy policy, and IP ownership. Run those checks on a lending app with a lender's eye. You come away with your first written fintech review, and a respectful way to open a conversation with a founder.",
+  "longer_term": [
+    "The Day 2 plan is about 2 hours a day, split between learning and outreach. In the first months a banking lawyer could learn fintech structuring and compliance, review the terms of a few lending and payment apps, and write short LinkedIn posts on what they found. Over 6 months that could become a fintech track record you can show."
+  ],
+  "faq": [
+    {"q": "Is fintech law covered, or is this only about software contracts?", "a": "Fintech runs through the camp. Day 1 covers structuring a lending startup with NBFCs and banks, and the 6-month plan includes fintech structuring and compliance."},
+    {"q": "Do I need to understand how the app is coded?", "a": "No. You need to understand how the business makes money. Day 2 covers 6 ways tech companies earn, including commission and subscription models common in fintech."},
+    {"q": "I work full-time at a bank. Can I still attend?", "a": "The sessions are in the evening: 6 to 9 PM IST on Saturday 24 and Sunday 25 Oct, and 7 to 10 PM IST on Monday 26 Oct."},
+    {"q": "What if I join and it is not for me?", "a": "The seat is Rs 10 including GST, and it is refundable."}
+  ],
+  "closing_title": "Banking and NBFC lawyers: become fintech lawyers",
+  "closing": "Banking and NBFC lawyers already understand the lending business that every lending app runs on. In 3 live evenings, 24 to 26 Oct, we show the software and data side, so you could move into a fintech law career."
+}

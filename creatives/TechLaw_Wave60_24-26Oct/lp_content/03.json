@@ -1,0 +1,48 @@
+{
+  "id": "03",
+  "qualifier": "This page is for you if you hold an LLB and work in a bank in operations, credit, sales or a branch, outside the legal team.",
+  "symptom_title": "Loan files and KYC every day, and the law degree on the shelf",
+  "symptom": [
+    "You process loan files, check KYC, explain account terms to customers and follow circulars that change often. You know the paperwork of money better than most people outside a bank.",
+    "Yet when a document needs a legal view, it goes to the legal department. Your LLB does not appear in your job description, and your next promotion has nothing to do with it.",
+    "Meanwhile, the bank's own customers are moving to apps for loans and payments. You can see where the work is going. You are not sure where you fit."
+  ],
+  "outcome_title": "Fintech law: banking knowledge, used as a lawyer",
+  "outcome": [
+    "Fintech is one of the clearest parts of tech law, the legal work behind technology businesses. A lending app is a lending business with software in front, so the law on loans, KYC and data still applies. What changes is that the business runs on apps, partner contracts and APIs.",
+    "Moving into tech law could let you work on that side: drafting and checking the contracts and policies of fintech startups, or later joining a fintech's legal team. You would use the banking sense you have built, with your law degree finally doing the work."
+  ],
+  "alternatives_title": "Paths bank staff with an LLB usually try",
+  "alternatives": [
+    {"t": "The bank's internal exams and promotions", "why": "They move you up in banking. They do not move you into law, and each grade makes the switch feel more costly."},
+    {"t": "Applying to the bank's legal department", "why": "Legal roles inside banks usually want practising lawyers with years at the bar. Operations experience is not counted as legal experience."},
+    {"t": "A diploma in banking law", "why": "It gives theory you mostly know from the job. You finish with a certificate but no drafted document that a fintech could look at."}
+  ],
+  "reframe_title": "You know the banking half. Tech law is the missing half.",
+  "reframe": [
+    "Most lawyers who try fintech know law but not how a loan actually moves through a system. You have the opposite gap. That is a positioning problem, and it is easier to fix than it looks.",
+    "The camp's script uses the example of a startup with a lending algorithm that wants to work with NBFCs and banks. Can it do this, where, and at what cost? Someone who has sat inside a bank already knows half the questions a partner bank will ask."
+  ],
+  "cost_title": "What waiting costs you",
+  "cost": [
+    "Your banking experience keeps its value, so there is no reason to rush. But the longer the LLB stays unused, the harder it is to explain on a profile. Three evenings will tell you whether this route suits you."
+  ],
+  "role_h2": "What fintech law work looks like for an LLB holder in banking",
+  "role": [
+    "Structuring is where fintech work often starts. A founder wants to lend, collect payments or offer a product with a partner bank. The lawyer maps which entity does what and which approvals apply, and you already know how the bank side thinks.",
+    "Contracts come next. White labelling, one of the Day 1 concepts, is how one company's product is sold under another's brand, as with many co-branded financial products. APIs are how a fintech app talks to a bank. Each shows up as clauses you would draft or review.",
+    "Then compliance and privacy. Payment and lending apps hold sensitive financial and personal data. Their privacy policies, sector filings and sandbox applications need someone who reads rules closely, which you have done with circulars for years."
+  ],
+  "first_artifact": "After Day 1 you will have drafted a software development agreement with the faculty, the kind a fintech signs when it gets its app built. You will also understand APIs, SLAs and white labelling well enough to spot them in a fintech contract.",
+  "longer_term": [
+    "The 6-month plan runs at 2 hours a day, split between learning and outreach. Fintech structuring, e-commerce and fintech compliance, and DPDP compliance are all in its skill list. Bank hours are long, so an hour on each side of work is a realistic pace. By month 6 you could have a handful of fintech-style drafts and a clear idea of whether the field fits you."
+  ],
+  "faq": [
+    {"q": "Is fintech law taught on the camp itself?", "a": "The camp gives the base: tech concepts, a software development agreement, how tech companies make money and how lawyers reach startups. Fintech structuring and compliance sit in the 6-month skill plan shown on Day 2."},
+    {"q": "Do I need to resign from the bank?", "a": "No. The plan is 2 hours a day. The camp's team gives moonlighting guidance, and it is wise to check your bank's rules on outside work before taking paid tasks."},
+    {"q": "I never practised. Does that matter for this work?", "a": "Much of fintech law is drafting, review and compliance, not court work. Clients judge the documents you produce, and the camp shows how to build a track record of them."},
+    {"q": "What do I need for the camp?", "a": "A laptop or phone, a stable connection and three evenings: Sat 24 and Sun 25 Oct, 6 to 9 PM IST, and Mon 26 Oct, 7 to 10 PM IST. Nothing is recorded, so be there live."}
+  ],
+  "closing_title": "LLB holders working in banks: turn your LLB into a fintech law career",
+  "closing": "If you hold an LLB and work in a bank outside the legal team, you already know the banking half of fintech law. Three live evenings show you the tech law half, starting with a software contract drafted with you on Day 1. Joining costs Rs 10 incl. GST, and the fee is refundable."
+}

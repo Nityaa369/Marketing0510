@@ -1,0 +1,47 @@
+{
+  "id": "02",
+  "qualifier": "This page is for you if you hold an LLB, work in HR, and spend your days with offer letters, policies and vendor terms that someone else signs off.",
+  "symptom_title": "You read the contracts. Someone else gets to be the lawyer.",
+  "symptom": [
+    "Your desk sees every offer letter, every leave policy and every vendor agreement for the payroll or attendance software. You notice when a clause is vague. Then you forward it to the legal team and wait.",
+    "Somewhere along the way, people stopped remembering you have a law degree. You may have stopped mentioning it yourself. It feels wasted in HR, and you have said so more than once."
+  ],
+  "outcome_title": "From the person who forwards the contract to the person who drafts it",
+  "outcome": [
+    "Tech law covers what technology companies need from a lawyer, from contracts and privacy to compliance and disputes. A large part of it is reading and drafting documents very like the ones already on your desk. The difference is that here, the reading is the job, and you are hired for it.",
+    "A move into tech law could take you into drafting for startups, into a firm's technology team, or into the legal side of a tech company. The craft is one you already practise. The payer and the title change."
+  ],
+  "alternatives_title": "What you may have tried to get closer to law",
+  "alternatives": [
+    {"t": "An HR or labour law certificate", "why": "It made you better at the HR desk you already sit at. It did not change what people hire you to do."},
+    {"t": "Asking for an internal move to the legal team", "why": "Legal teams look for drafting samples and legal experience. An HR profile, however strong, does not show either."},
+    {"t": "Planning an LLM first", "why": "An LLM takes a year or more and still leaves you without a document you have drafted for a client. The gap it was meant to fill stays open."}
+  ],
+  "reframe_title": "Your HR years are the asset, not the detour",
+  "reframe": [
+    "You did not lose your law degree in HR. You kept using its main skill, close reading, on employment and vendor documents every day. The issue is how you are positioned, not how hard you have worked.",
+    "Think about what HR buys. Payroll tools, attendance apps and hiring platforms are SaaS products sold under subscription terms. You have been the customer on the other side of those terms for years, and tech companies need lawyers who know how customers really read them."
+  ],
+  "cost_title": "What staying in this in-between place costs",
+  "cost": [
+    "Staying put is comfortable, and HR is a good career. But each year the law degree slips further from how people see you, and the switch feels bigger. Finding out what the move involves costs three evenings and Rs 10."
+  ],
+  "role_h2": "What tech law work looks like for an LLB holder in HR",
+  "role": [
+    "IP clauses are a good starting point. In a software development agreement, the developer assigns the IP in the work to the client and hands over the code. You already know why ownership of work matters from offer letters, and the tech version follows the same logic.",
+    "Privacy is the second area. Tech companies hold personal data about users and staff, and every one of them needs a privacy policy that tells the truth about it. You have handled employee records under confidentiality rules, which is the practical side of the same work.",
+    "Third, SaaS contracts. On Day 1 the camp explains SaaS, SLAs and white labelling. Those are the terms inside the HR software deals you have seen from the buyer's side, now drafted from the seller's side."
+  ],
+  "first_artifact": "On Day 1 you draft a software development agreement with the faculty, clause by clause, from appointment and milestones to acceptance testing, IP assignment and handover. Keep your notes. It is the kind of document a founder could ask you about in a first conversation.",
+  "longer_term": [
+    "The 6-month plan is 2 hours a day, 1 hour learning and 1 hour on outreach and track record. For someone in a 9 to 6 HR job, that is an evening hour and a morning hour. The early skills are policies, contracts, DPDP and GDPR, which sit close to what you already handle. Over 6 months you could build a small portfolio of drafted documents and decide, from evidence, when to move."
+  ],
+  "faq": [
+    {"q": "Do I have to leave my HR job to do this?", "a": "No. The plan is built for 2 hours a day. You can start with one task at a time beside your job and decide later."},
+    {"q": "Is HR experience really relevant to tech law?", "a": "Yes, in a practical way. Policies, vendor terms and personal data are a large part of tech law. You have seen them from the inside, which helps you draft them for a company."},
+    {"q": "I am not a technology person. Will the tech terms confuse me?", "a": "The camp explains them in plain words on Day 1: SLAs, APIs, source code and object code, white labelling and SaaS. The legal work follows the business model, so no coding is needed."},
+    {"q": "Why would a startup trust an LLB holder from HR?", "a": "Clients judge the draft you send. The camp's formula is skills, plus a track record of real documents, plus outreach. Day 3 shows how to review a startup's terms and pitch the fix."}
+  ],
+  "closing_title": "LLB holders in HR: move into tech law with the reading you already do",
+  "closing": "If you hold an LLB and work in HR, you already read the kind of documents tech lawyers draft. In three live evenings, you draft a software development agreement with the faculty and see how lawyers reach startups. The seat costs Rs 10 incl. GST and is refundable."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "15",
+  "qualifier": "This page is for criminal defence advocates who want to take their court skills into a tech law career without giving up their practice.",
+  "symptom_title": "Bail, trial, adjournment, again",
+  "symptom": [
+    "Your days go to bail hearings, charge sheets and cross-examination. You read the prosecution's story looking for the gap: the witness who was never examined, the seizure memo that does not add up.",
+    "You are sharp on your feet and sharper on paper. Yet the matters move slowly, the hours run late, and your best skill only ever gets used inside a courtroom.",
+    "You may have wondered whether that sharpness could build something besides a criminal practice. Few defence lawyers are shown a clear route. The usual advice is to wait for bigger matters, which is not really a plan."
+  ],
+  "outcome_title": "A courtroom skill with a second home",
+  "outcome": [
+    "Tech law covers the contracts, privacy, compliance and disputes that technology companies need handled. Reviewing a startup's terms or a software contract is, at heart, reading a document for what it leaves out.",
+    "Moving into tech law gives your analytical skill a new client: founders and tech companies who want problems found before they happen. Your criminal practice continues alongside, and the new work arrives by email, not by summons."
+  ],
+  "alternatives_title": "What defence lawyers usually look at",
+  "alternatives": [
+    {"t": "Moving into white-collar or cyber crime defence", "why": "It is more interesting work, but it is still defence work on the same court calendar. It changes the type of case, not the career."},
+    {"t": "Applying to corporate law firms", "why": "Firms ask for transactional drafting you can show them. Years of trial work rarely convince a hiring partner on their own."},
+    {"t": "Reading contract law at night", "why": "Books build knowledge, but a founder or a firm wants a finished review or draft. Reading alone gives you nothing to put in front of them."}
+  ],
+  "reframe_title": "Cross-examination is contract review",
+  "reframe": [
+    "When you prepare a cross-examination, you test every statement against what it should contain and what it skips. That discipline is rarer than most lawyers think, and you use it daily. You also explain complicated facts simply to a judge, which is exactly what founders want from a lawyer.",
+    "Tech contract review uses the same discipline on a different document. What holds you back is how you are positioned, as a criminal lawyer and nothing else, not any lack of skill or effort."
+  ],
+  "cost_title": "If the skill stays in one room",
+  "cost": [
+    "If nothing shifts, your best skill keeps working for one kind of matter and one kind of client. It would be a pity for that sharpness never to be seen by the people who would value it most. A little time each evening is enough to change that."
+  ],
+  "role_h2": "What tech law work looks like for a criminal defence lawyer",
+  "role": [
+    "Testing a startup's terms against six points on Day 3, including whether liability is excluded for free services and capped for paid ones. You would read them like a charge sheet, hunting for what is absent.",
+    "Reading the acceptance testing and handover clauses of a software development agreement. They decide whether the work was delivered as specified, which is a question of proof, and proof is your territory. You already know how to ask what evidence would show the work was accepted.",
+    "Understanding where disputes come from. Tech law includes cyber crime complaints, impersonation and defamation, so your background gives you context pure drafters lack. The camp itself focuses on contracts and terms, the drafting side you have not yet done."
+  ],
+  "first_artifact": "At the end of the camp you would have the key clauses of a software development agreement drafted with us on Day 1, and a startup's terms reviewed on Day 3. For a defence lawyer, the terms review is the most natural first sample to show anyone. You could share it with a founder alongside a short, specific note on what you found.",
+  "longer_term": [
+    "On a plan of about 2 hours a day, one hour learning and one on outreach, six months could take you through policies, tech contracts and tech disputes, building a sample with each skill. Your bail and trial work does not need to stop for any of it. The weekly rhythm is simple: learn a skill, produce a sample, share it with the right people."
+  ],
+  "faq": [
+    {"q": "Will a criminal lawyer be taken seriously in tech law?", "a": "Tech clients judge the review or draft you send them. Your training in reading documents for gaps is directly useful, and the camp shows you the tech documents to apply it to."},
+    {"q": "I have never drafted a commercial contract. Where do I start?", "a": "On Day 1 we go through a software development agreement clause by clause, with a memory line covering appointment, milestones, specifications, consideration, acceptance testing, IP assignment and handover."},
+    {"q": "Can advocates contact startups directly?", "a": "Not to solicit work, which Bar Council rules restrict. What we show is sharing a genuine observation about a public document and building professional relationships, including help-first networking with US lawyers."},
+    {"q": "Do I need to know technology?", "a": "No coding is needed. The legal work follows how the business makes money, and Day 1 explains five tech concepts, such as SaaS and APIs, in plain language."}
+  ],
+  "closing_title": "Criminal defence lawyers: take your court skills into tech law",
+  "closing": "Criminal defence lawyers already read every document for what is missing. Tech contract review asks for the same skill, on startup terms and software agreements. Join three live evenings and start a tech law career without pausing your practice."
+}

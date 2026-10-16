@@ -1,0 +1,48 @@
+{
+  "id": "50",
+  "qualifier": "For contract lawyers who can draft well and want startup clients, but have never found a way to reach founders that feels natural.",
+  "symptom_title": "Good drafting, no doorway",
+  "symptom": [
+    "You draft and review agreements for a living, at a firm, in-house or in your own practice. Your clauses are clean. Your clients, though, are mostly the ones who happened to find you through people you already know.",
+    "Startups interest you. They move fast and need terms, policies and contracts from their first months. But you do not know any founders, and cold selling feels wrong for a lawyer.",
+    "So you looked at the tech law bootcamp and wondered if it would explain the one thing you are missing: how a lawyer actually gets a founder's attention. Without that, the startup world stays something you read about rather than work in."
+  ],
+  "outcome_title": "What changes when you know how to open the door",
+  "outcome": [
+    "Think of tech law as contract, privacy, compliance and dispute work done for technology businesses. For a contract lawyer, most of the craft is already in place. What changes is who you draft for.",
+    "You could build a tech law career with startups as your clients, from India and abroad. The work stays contracts and terms. The clients become young companies that need exactly what you do well."
+  ],
+  "alternatives_title": "How contract lawyers usually try to find startups",
+  "alternatives": [
+    {"t": "Waiting for referrals from existing clients", "why": "Referrals bring more of the same kind of client. Your current clients may not know early-stage founders, so startups seldom reach your desk this way."},
+    {"t": "Posting general updates on LinkedIn", "why": "Posts build visibility slowly but do not start conversations with a specific founder. Without a direct message, nobody knows you can fix their documents."},
+    {"t": "Sending a generic introduction email", "why": "A founder is likely to ignore a message that only says you offer legal services. It asks for their time without giving anything first, so it reads as a sales pitch. Even a well-qualified lawyer gets ignored this way."}
+  ],
+  "reframe_title": "Lead with their document, not your services",
+  "reframe": [
+    "The camp's approach flips the usual pitch. You read a startup's own public terms first, find what is missing, and write to the founder about that. The message gives value before it asks for anything.",
+    "So the gap is positioning, not drafting skill. Your eye for a weak clause is the pitch. The camp shows you where to find the startups, what to check, and what to write. You stay a lawyer offering a genuine observation, never a salesperson."
+  ],
+  "cost_title": "What it costs to keep waiting for founders to find you",
+  "cost": [
+    "Without a way in, startup work stays something other lawyers seem to get. Your drafting is ready today. What is missing is a method for reaching the people who need it. Three evenings can show you the doorway you have been looking for."
+  ],
+  "role_h2": "What tech law work looks like for a contract lawyer who wants startup clients",
+  "role": [
+    "On Day 1 you see where founders gather in public. The trainers demonstrate finding startups through Y Combinator and Shark Tank, and suggest aiming at young companies before their first large funding round, with fewer than 20 people. You learn to read a startup's website for its terms before you ever write to anyone.",
+    "On Day 3 you review a startup's terms using six checks. The checks are no liability for free services, liability capped at the fee for paid ones, clear termination, community standards, a compliant privacy policy link, and IP ownership.",
+    "Then you write. One template the camp teaches opens with \"I reviewed your terms and noticed 3 missing clauses\". Another offers help with a review on LinkedIn or Upwork. You follow up politely. The Day 3 goal is a steady daily rhythm of 5 cold emails and 3 follow-ups, building towards 100 founders contacted."
+  ],
+  "first_artifact": "On Day 3 you review a real startup's terms with the trainers, live, and then turn the gaps you found into a short message to its founder. The trainers also demonstrate a contact-finding tool for reaching the right person. You leave with a reviewed document and a pitch ready to adapt.",
+  "longer_term": [
+    "Day 2 hands you a six-month plan built on roughly two daily hours, with learning in the first and outreach in the second. Outreach includes pitching startups found on lists like Product Hunt or a Shopify store list. Over six months you could build a pipeline of founders who know your name and have seen your work on their own documents."
+  ],
+  "faq": [
+    {"q": "Is this ethical for an advocate?", "a": "The camp's method is to find a genuine issue in a public document and share a useful observation, not to ask for a brief. If you are enrolled, check how your State Bar Council's rules on soliciting apply to you."},
+    {"q": "Which startups should I approach first?", "a": "The camp suggests small, early companies, before a large funding round and under 20 people. That is the target the trainers recommend on Day 1. In a team that small, your message is likely to reach the founder directly."},
+    {"q": "Are these only Indian startups?", "a": "No. Day 1 covers reaching startups in the US, UK, Canada, Europe and India. The terms review works the same way wherever the startup is based."},
+    {"q": "What does the camp cost?", "a": "Rs 10, GST included, for three live evenings from 24 to 26 Oct. It is refundable. There are no recordings, so attend live."}
+  ],
+  "closing_title": "Contract lawyers: reach startup clients by fixing their terms",
+  "closing": "Contract lawyers who want startup clients can open the door with a review of the founder's own terms. Over three live evenings we show the message, the checks and where to find founders. Your drafting skill becomes your way into a tech law career."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "06",
+  "qualifier": "This page is for you if you are a lawyer coming back after a family break, for children, marriage or a parent, and you want to restart from home.",
+  "symptom_title": "Ready to come back, and unsure who will take you back",
+  "symptom": [
+    "You stepped away for family. It was the right decision, and you would make it again. Now the children are in school or the house runs more smoothly, and you want your work back.",
+    "But the questions start before you do. Relatives ask whether anyone will hire you after the gap. Old colleagues have moved up. The law has changed in places, and your confidence has taken a knock.",
+    "A firm job would bring back the long hours you left. A return to court would need full days away from home. Neither fits the life you have now."
+  ],
+  "outcome_title": "A legal career rebuilt from home",
+  "outcome": [
+    "Tech law is the legal side of running a technology company: its contracts, data privacy, compliance and disputes. Most of it is done on a laptop and sent by email. A founder in another city or country cares about one thing: whether the privacy policy arrives right and on time.",
+    "Restarting in tech law could let you rebuild a legal career at your own pace, from home, with clients who look at your work before your CV. Later, it could lead to a firm's technology team or a tech company's legal role, if you want that."
+  ],
+  "alternatives_title": "Routes back you may have already tried",
+  "alternatives": [
+    {"t": "Applying to law firms again", "why": "Many firms ask about the gap first and the work second. The roles offered can feel like starting over as a fresher, with the old hours."},
+    {"t": "Going back to court practice", "why": "Court days run on fixed hours away from home. Hearings move without warning, which is hard to manage with family duties."},
+    {"t": "Refresher courses on new laws", "why": "They update your knowledge, which helps. But they end with a certificate, not a client or a document that proves you are back."}
+  ],
+  "reframe_title": "The gap is on your CV, not on your draft",
+  "reframe": [
+    "Coming back is not about proving you worked hard enough during the break. It is about where you position yourself. In a court or a firm, the gap is the first thing people see. In tech law, the first thing a client sees is your draft.",
+    "The rules in this field are also new. The camp's script says a veteran and a fresh graduate stand on the same starting line in tech law. Years away from court cost you less in a field where nobody has a long head start."
+  ],
+  "cost_title": "What waiting for the perfect moment costs",
+  "cost": [
+    "There is rarely a perfect moment to restart. Each extra month can make the first step feel heavier, though nothing is lost for good. Three evenings at home, for Rs 10, is a gentle way to begin again."
+  ],
+  "role_h2": "What tech law work looks like for a lawyer restarting after a family break",
+  "role": [
+    "Policies are a calm way back. Online stores need cancellation, return and refund policies, and apps need terms that match how they work. Each is a contained task you can finish in a few focused sittings.",
+    "Contract review builds on what you already trained in. Reading a startup's terms for missing protection, such as a liability cap or clear IP ownership, uses the same eye you used on agreements before your break.",
+    "Remote paralegal work is another door. On Day 1, the camp lists the kinds of work US tech startups send to paralegals. It is task-based and done from home, so it can fit around school runs and family meals."
+  ],
+  "first_artifact": "On Day 3 you draft an e-commerce refund policy with the faculty, in four parts: when to cancel, when to return, how returns work, and how and when the refund is paid. It is a complete document, and a real first step back into legal work.",
+  "longer_term": [
+    "The 6-month plan asks for 2 hours a day, which many returning lawyers fit into school hours or late evenings. The first 2 months focus on the easier skills, such as policies, contracts, DPDP and GDPR. The plan aims for a few testimonials early on. By month 6 you could have a body of recent work that answers the gap question for you."
+  ],
+  "faq": [
+    {"q": "My drafting is rusty after the break. Will I keep up?", "a": "Each document is built live, clause by clause, from the start. The camp assumes you are new to tech law, so nobody is ahead of you on the material."},
+    {"q": "The sessions are in the evening. What if family needs me?", "a": "The camp is live only, with no recordings, so plan the three evenings ahead: Sat 24 and Sun 25 Oct, 6 to 9 PM IST, and Mon 26 Oct, 7 to 10 PM IST. The Rs 10 is refundable."},
+    {"q": "Will I need to go to an office later?", "a": "Not for the work taught on the camp. It is drafting and review, done on a laptop and sent online."},
+    {"q": "Do I need to understand technology?", "a": "No. The work follows how a tech business makes money, not how its code works. Day 1 explains the five tech terms you need in plain words."}
+  ],
+  "closing_title": "Lawyers coming back after a family break: restart your legal career in tech law",
+  "closing": "If you are a lawyer coming back after a family break, tech law lets clients judge your draft, not your gap. In three live evenings from home, you draft real documents with the faculty. Rs 10 incl. GST covers all three evenings, and it is refundable."
+}

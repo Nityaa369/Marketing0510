@@ -1,0 +1,48 @@
+{
+  "id": "01",
+  "qualifier": "This page is for you if you hold an LLB and work in a BPO, a KPO or a back-office team, and your degree has not been used since college.",
+  "symptom_title": "A law degree, and a shift that has nothing to do with it",
+  "symptom": [
+    "You finished your LLB, and then a BPO or back-office job came first. It paid on time, and the family needed that. Your day now runs on tickets, quality scores and handling time.",
+    "The law degree sits in a file at home. Sometimes a customer reads out a clause from their contract and you understand it better than your team lead. Nobody at work knows you studied law.",
+    "You have thought about going back. Each time, the question is the same: back to what, and how, without giving up the job that runs the house?"
+  ],
+  "outcome_title": "Legal work for tech companies, built on what you already know",
+  "outcome": [
+    "Tech law is the legal work that technology companies need: their contracts, compliance, data privacy, policy and disputes. It is desk work done on a laptop, mostly in writing. A startup needs a service agreement drafted or its terms checked, and it needs a person who can read law to do it.",
+    "If you move into this field, your LLB stops being a certificate and becomes your trade. You could draft for startups, support US lawyers as a remote paralegal, or later move into a tech company's legal team."
+  ],
+  "alternatives_title": "Routes you may have already looked at",
+  "alternatives": [
+    {"t": "Enrolling and starting in a local court", "why": "Court practice starts with years as a junior on little or no pay. It also needs you in court during the day, which means leaving the job that supports your family."},
+    {"t": "Applying for legal executive jobs with your LLB", "why": "Most openings ask for legal experience you could not get while working shifts. Without a single document to show, the applications rarely move."},
+    {"t": "Climbing inside the BPO", "why": "A team lead role brings more responsibility and a little more pay. It also takes you one step further from law each year."}
+  ],
+  "reframe_title": "You are not behind. You are pointed in the wrong direction.",
+  "reframe": [
+    "The problem has never been effort. You work long shifts and hit hard targets. The problem is positioning: you present yourself as a process associate, so the world buys process work from you.",
+    "Here is the part most people miss. One of the first concepts on Day 1 is the SLA, the service level agreement, with its uptime, downtime and service credits. Day 1 also covers service-level metrics for support. You have lived inside those metrics for years, and a lawyer who knows how a support desk really runs reads an SLA with far more sense."
+  ],
+  "cost_title": "What another year in the queue costs",
+  "cost": [
+    "Nothing dramatic happens if you wait. The degree just gets older, the subjects feel further away, and the question of going back gets harder to ask. A small, cheap step now keeps the door open while you decide."
+  ],
+  "role_h2": "What tech law work looks like for an LLB holder from a BPO",
+  "role": [
+    "Much of tech law is service contracts. A software company that sells support signs an SLA promising response times, uptime and credits when it falls short. You would draft and check those schedules, and you already know what a realistic response time looks like.",
+    "Another large share is policy work. Every app that collects customer details needs a privacy policy and terms of use that match what it actually does. You have handled customer data under strict process rules, so you know where real data flows inside a business.",
+    "On Day 1 the camp also walks through the kinds of work US tech startups send to paralegals. These are tasks done by email and shared documents, one at a time. That suits someone who already works to written instructions and fixed deadlines."
+  ],
+  "first_artifact": "By the end of Day 1 you will have worked through a software development agreement with the faculty, clause by clause. You will know the appointment, milestones, specifications, payment, acceptance testing, IP assignment and handover clauses, and the mnemonic that keeps them in order. You will also know what an SLA, an API, source code, object code and white labelling mean inside a contract.",
+  "longer_term": [
+    "The camp's 6-month plan asks for 2 hours a day: 1 hour of learning and 1 hour of outreach. Around a shift, that could mean an hour before work and an hour after it. The first 2 months cover the easier skills, such as policies, contracts, DPDP and GDPR, with outreach from the first week. By month 6, someone who keeps to the plan could have a set of drafted documents, a few testimonials and a clearer sense of whether to switch fully."
+  ],
+  "faq": [
+    {"q": "I never enrolled with the Bar. Is this still for me?", "a": "Yes. What the camp teaches is drafting and review: contracts, terms and policies. Paralegal support for US lawyers, covered on Day 1, does not involve appearing in any court."},
+    {"q": "I work evening shifts. Can I watch the sessions later?", "a": "No. The camp is live only and there are no recordings. Sessions run Sat 24 and Sun 25 Oct, 6 to 9 PM IST, and Mon 26 Oct, 7 to 10 PM IST, so check your roster before you join."},
+    {"q": "I studied law years ago and forgot most of it. Will I be lost?", "a": "The camp does not test your old syllabus. The work depends on the business model, not on exam subjects, and each skill is shown live from the first clause."},
+    {"q": "Do I need to know coding or technology?", "a": "No. The script says the work does not require any special understanding of tech, science or coding. You need to understand how tech businesses work and make money, and Day 2 teaches 6 of those models."}
+  ],
+  "closing_title": "LLB holders in BPO and back-office jobs: your degree can still build a tech law career",
+  "closing": "If you hold an LLB and work in a BPO or back office, three live evenings can show you what tech law work looks like and how to start it. You draft real clauses with the faculty from Day 1. It costs Rs 10, it is refundable, and it does not ask you to quit anything first."
+}

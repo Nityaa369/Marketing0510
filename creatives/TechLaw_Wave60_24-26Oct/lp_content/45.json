@@ -1,0 +1,48 @@
+{
+  "id": "45",
+  "qualifier": "For practising litigators who are curious about tech law but have no intention of walking away from court.",
+  "symptom_title": "You like the idea, not the leap",
+  "symptom": [
+    "You have built something in court: matters, a name at the bar, clients who call you back. Tech law looks interesting, but every article seems to assume you will drop all that and start over.",
+    "You cannot simply stop appearing. Dates are listed months ahead, and clients depend on you. A career change that begins with resigning from your own practice is not a change you can make.",
+    "So you visited the page, agreed with most of it, and decided it was for someone with fewer commitments. The interest did not go away, though. That is why you are reading this."
+  ],
+  "outcome_title": "What changes when the move does not need a resignation",
+  "outcome": [
+    "Tech law is legal work for technology companies: their contracts, compliance, privacy and disputes. It is mostly written work, done by email and on documents, which means it can grow in the hours court leaves free.",
+    "You could build a tech law career in stages, with a second line of clients alongside your practice. If it grows, you decide how far to take it. Nothing in the camp asks you to give anything up first, and your clients need never notice a change."
+  ],
+  "alternatives_title": "Ways you thought about entering tech law",
+  "alternatives": [
+    {"t": "Quitting for an in-house tech role", "why": "It is an all-or-nothing jump. You lose the practice you built before you know whether the new work suits you, and that risk is hard to justify with a running practice."},
+    {"t": "Reading tech law news in spare moments", "why": "News tells you what changed, not how to draft for it. After months of reading you still could not review a startup's terms on your own."},
+    {"t": "Waiting for a tech matter to reach your chamber", "why": "Clients bring tech matters to lawyers already known for tech work. That reputation has to be built first, and it starts with documents, outside the courtroom."}
+  ],
+  "reframe_title": "Your court skill is the asset",
+  "reframe": [
+    "A litigator reads a document asking what is missing and where it will break under pressure. That is exactly how a startup's terms are reviewed. You already do the hard part every week, under far more pressure than a terms review brings.",
+    "So the gap is positioning, not effort or time. You need to point your reading at tech documents and let founders see it. The camp's plan does this in about 2 hours a day, fitted around court."
+  ],
+  "cost_title": "The cost of filing it under someday",
+  "cost": [
+    "If tech law stays a someday idea, the practice carries on exactly as it is. That may be fine. But the curiosity that brought you here deserves one clear look, and three evenings is a small ask."
+  ],
+  "role_h2": "What tech law work looks like for a litigator who stays in court",
+  "role": [
+    "After court, you open a startup's terms of use. You check six things: no liability for free services, liability capped at the fee for paid ones, clear termination, community standards, a link to a compliant privacy policy, and IP ownership.",
+    "You write a short note to the founder naming what is missing and why it matters if a dispute comes. Your court instinct for what a judge would ask helps you explain the risk in plain words. A founder can see a gap in their own document straight away.",
+    "Over time you could take on drafting of contracts and policies for the same founders, then the disputes that arise from them. Court remains your base, and the tech work grows beside it on your own timetable. Some weeks you will do more and some weeks less, depending on your cause list."
+  ],
+  "first_artifact": "On Day 3 you review a real startup's terms with the trainers, live, using the six checks. You then see how lawyers turn that review into a short, useful message to the founder. You leave with a reviewed document and a pitch you could adapt the next day.",
+  "longer_term": [
+    "Day 2 sets out a six-month plan that takes about two hours daily, half learning and half outreach. For a litigator that could mean one early hour and one evening hour. Over six months you could build a set of tech law skills and a small, steady stream of conversations with founders."
+  ],
+  "faq": [
+    {"q": "Can I really do this with court every day?", "a": "The camp itself is weekend evenings plus a Monday that starts at 7 PM IST, after court has risen. The plan after it is about 2 hours a day, which you could place before the first listing or after the last one."},
+    {"q": "As an advocate, can I write to founders?", "a": "The camp's method is to find a genuine issue in a public document and share a useful observation. You are offering an observation on their published terms, not asking to be engaged. If you are unsure how the rules apply to you, check with your State Bar Council."},
+    {"q": "Will tech law help my litigation too?", "a": "The script lists tech disputes as one of the kinds of work tech companies need, including tech contract arbitrations and cyber crime complaints. Knowing the contracts behind those disputes is useful in court."},
+    {"q": "What does it cost to find out?", "a": "Only Rs 10, GST included, refundable if you change your mind. Sessions are live with no recordings, so block 24 to 26 Oct in your diary now."}
+  ],
+  "closing_title": "Litigators not ready to leave court: you do not have to",
+  "closing": "Litigators who want tech law can begin without pausing their practice. Three live evenings show you how to review a startup's terms and draft tech contracts in the hours court leaves free. Your practice stays, and a tech law career starts growing beside it."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "27",
+  "qualifier": "This page is for junior associates at small law firms who want to move into tech law, in a firm's tech team or inside a tech company.",
+  "symptom_title": "General work every day, and no specialty to show",
+  "symptom": [
+    "Your firm takes whatever comes in: a lease, a recovery notice, a property dispute, a shareholder agreement. You draft all of it, and you have become good at turning work around fast.",
+    "But when you read openings in firm tech teams or in-house legal teams at tech companies, they ask for tech contracts you have drafted. SaaS agreements. Privacy policies. Software development agreements. Your small firm rarely sees any of those.",
+    "You have the drafting habit. What is missing is the right documents in your folder."
+  ],
+  "outcome_title": "A move into a firm tech team or an in-house role",
+  "outcome": [
+    "Tech law is the practice of handling tech companies' contracts, data privacy, compliance and disputes. The camp script names law firm tech teams, startups, legal tech companies and in-house legal teams among the places that need it.",
+    "Moving into tech law turns your general drafting into a specialty. You stop being a capable generalist at a small firm and become an associate who can show tech contracts, which is what those teams look for."
+  ],
+  "alternatives_title": "What small-firm associates usually try",
+  "alternatives": [
+    {"t": "Applying to bigger firms' tech teams with a general CV", "why": "Recruiters for those teams scan for tech documents. A CV full of leases and recovery notices rarely survives the first read, however strong the drafting behind it."},
+    {"t": "Hoping a tech client walks into your firm", "why": "Small firms seldom get startup clients by chance. You could wait a long time for a single SaaS contract to cross your desk."},
+    {"t": "A general corporate law course", "why": "It broadens what you know, but it is not specific. It does not leave you holding a software agreement or a reviewed set of terms you can show."}
+  ],
+  "reframe_title": "Teams hire by what you can show",
+  "reframe": [
+    "You are not short of skill. You draft every day, often with less support than associates at large firms get. The trouble is that your samples are in the wrong document types for the move you want.",
+    "That is a positioning gap, and a few targeted drafts close it. Your daily drafting is the asset. Point it at software development agreements, service level terms and startup terms, and your folder starts to match the roles you want."
+  ],
+  "cost_title": "What standing still costs",
+  "cost": [
+    "Staying a generalist is comfortable, and you will keep learning at your firm. The only cost is that the specialty you want stays on a wish list. Building a few tech samples now keeps that door open without asking you to leave anything yet."
+  ],
+  "role_h2": "What tech law work looks like for a junior associate at a small firm",
+  "role": [
+    "In a firm tech team, your day is contracts. A client's SaaS agreement needs service level terms covering uptime, downtime and service credits. A developer contract needs clear acceptance testing and IP assignment. You already know how to mark up a contract; this gives you the terms that matter.",
+    "In-house at a tech company, the work follows the business model. On Day 2 the camp breaks down how tech companies earn, through ads, subscriptions, marketplaces, hardware and more, and what legal work each model throws up. Knowing the model makes you useful early.",
+    "You also learn the concepts that trip up most generalists. Source code versus object code decides what a client really receives. White labelling decides whose brand goes on the product. APIs decide what data moves between systems, and who answers for it."
+  ],
+  "first_artifact": "Day 1 leaves you with a software development agreement, drafted clause by clause with the hosts: appointment, milestones, specifications, payment, acceptance testing, IP assignment and handover. It is exactly the kind of document a firm tech team expects a candidate to have handled. It goes straight into your sample folder.",
+  "longer_term": [
+    "Two hours a day is the commitment: half for new skills, half for building a track record and reaching people. Six months of it could give you a set of tech contracts and policies, LinkedIn posts on real clauses and a clearer story for interviews. Whether that leads to a firm tech team or an in-house role depends on you and the market. The camp cannot guarantee either."
+  ],
+  "faq": [
+    {"q": "Can I do this while working full time at my firm?", "a": "Yes. All three sessions start after office hours, at 6 PM IST on Saturday and Sunday and 7 PM IST on Monday. The daily plan that follows takes 2 hours, which you can keep outside work."},
+    {"q": "Do I need a tech background to join a tech team?", "a": "No. The script says tech law depends on the business model and needs no coding. What you need is the vocabulary, which Day 1 covers, and documents you have actually drafted."},
+    {"q": "Is in-house better than a firm tech team?", "a": "They suit different people. A firm gives variety across clients, while in-house gives depth in one business. The camp maps the work behind six business models, which helps with either route."},
+    {"q": "What if I miss one of the sessions?", "a": "The camp is live only and there are no recordings, so block all three evenings in advance. Rs 10 covers all three and is refundable."}
+  ],
+  "closing_title": "Small-firm associates: move into tech law with samples in hand",
+  "closing": "Junior associates at small firms draft every day but rarely see a tech contract. Over three live evenings, you get a software contract and a terms review done alongside us. Build the samples that can take you into a firm tech team or an in-house role."
+}

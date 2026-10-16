@@ -1,0 +1,48 @@
+{
+  "id": "30",
+  "qualifier": "This page is for law graduates working as legal researchers, at a publisher, a chamber, a firm or a policy body, who want their research to become a career.",
+  "symptom_title": "You find the answer. Someone else uses it",
+  "symptom": [
+    "You spend your day in judgments, bare acts and notifications. You know which amendment changed what, and you can find a precedent faster than most practising lawyers.",
+    "Then your research note goes up the chain. A lawyer argues it, a partner advises on it, an editor publishes it. Your name rarely appears, and the work you do best stays out of sight.",
+    "You enjoy the reading. You just want it to lead somewhere of your own."
+  ],
+  "outcome_title": "Research that turns into tech law work",
+  "outcome": [
+    "Tech law is the legal work tech companies need, and a lot of it is contracts, privacy, compliance and policy. Much of it begins with reading new rules closely and working out what they mean for one business. That is your daily work, pointed at a new kind of client.",
+    "Moving into tech law lets you keep the reading you are good at and add the step that makes it count. You turn the finding into a clause, a policy, a compliance note or a pitch, with your name on it."
+  ],
+  "alternatives_title": "Where legal researchers usually look next",
+  "alternatives": [
+    {"t": "Moving into litigation", "why": "Court practice uses research, but it starts you at the bottom of a chamber, carrying files. The skill gets used while the career restarts from zero."},
+    {"t": "A research role at a bigger publisher or database", "why": "The title improves, but the shape of the work stays the same. You still produce notes that someone else turns into advice."},
+    {"t": "A PhD or the academic route", "why": "It suits people who want to teach and write. If what you want is clients and your own name on advice, it delays that rather than starting it."}
+  ],
+  "reframe_title": "Research is the first half of tech law work",
+  "reframe": [
+    "Skill is not what you lack. You already have the half of tech law that many lawyers find hardest: patience with new rules and the habit of reading the whole text. The missing half is applying it to one company's business.",
+    "That second half can be learned. The camp shows how the legal work follows the business model, so you learn to ask how a company makes money, then which rules and documents follow from it. Your research instinct does the rest."
+  ],
+  "cost_title": "What staying behind the scenes costs",
+  "cost": [
+    "Research jobs are steady, and there is real value in them. The only cost is that your best work keeps carrying someone else's name. A few tech law documents of your own let you test a different path without giving up the one you have."
+  ],
+  "role_h2": "What tech law work looks like for a law graduate working as a legal researcher",
+  "role": [
+    "Some of it is policy work. Think tanks and policy teams need research, white papers and replies to draft laws on tech. A researcher who already tracks notifications and amendments is halfway to a policy brief.",
+    "Some of it is structuring. A founder asks whether a business can be done, in which jurisdiction and at what cost. On Day 3 the camp walks through setting up a blockchain founder's venture as a Wyoming company, which is research applied to one client's question.",
+    "Some of it is review. A startup's terms are checked against six points, from liability caps to IP ownership, and the gaps are written up as a short pitch. That is a research note, rewritten for a founder who will act on it."
+  ],
+  "first_artifact": "By the end of Day 3 you will have seen a blockchain venture structured as a Wyoming DAO LLC and reviewed a startup's terms against six checks. For a researcher, the terms review is the artifact that matters most. It is a finding written for a client, not for a supervisor.",
+  "longer_term": [
+    "Give the plan its daily 2 hours, split between study and outreach. In six months, a researcher who keeps to it could have a set of compliance notes, reviewed terms and published posts that show how they read a new rule. Where that leads, to clients, a think tank or a tech team, depends on effort and is not promised."
+  ],
+  "faq": [
+    {"q": "I have never drafted a contract. Is that a problem?", "a": "No. Your first contract is drafted with you on the opening evening, a software development agreement taken one clause at a time. Your habit of reading every word helps you see why each clause is there."},
+    {"q": "Is there tech law work that is mostly research?", "a": "Yes. Policy advocacy, compliance and structuring all begin with reading rules and applying them. The script names think tanks among the places tech lawyers work."},
+    {"q": "Do I need to understand technology in depth?", "a": "No. The script says no special understanding of tech or coding is needed. Day 1 covers five core concepts, and Day 2 covers how tech companies make money."},
+    {"q": "Can I keep my research job while I try this?", "a": "Yes. The camp is three evenings, 24 to 26 Oct, and costs Rs 10 including GST, refundable. The plan after that fits into 2 hours a day."}
+  ],
+  "closing_title": "Legal researchers: turn your research into a tech law career",
+  "closing": "Law graduates working as legal researchers already do the hardest part of tech law: reading new rules closely. Tech law adds the step that puts your name on the work. Join three live evenings and watch your research turn into reviews, structures and policies."
+}
