@@ -85,7 +85,8 @@ def page(nn):
                    "letter-spacing:.06em;text-transform:uppercase;padding:9px 14px;border-radius:10px;text-align:center}"
                    ".hook{font-family:Georgia,'Times New Roman',serif;font-size:33px;line-height:1.1;font-weight:700;margin-top:16px}"
                    ".sup{background:#fff;border-left:6px solid var(--ac);border-radius:12px;padding:12px 14px;margin-top:14px;font-weight:700}"
-                   ".hero{display:block;width:100%;border-radius:16px;margin-top:16px;box-shadow:0 8px 22px rgba(0,0,0,.16)}")
+                   ".hero{display:block;width:100%;border-radius:16px;margin-top:16px;box-shadow:0 8px 22px rgba(0,0,0,.16)}"
+                   ".btn{background:#E11D2E}")  # same red Join button as the ads
     b = ['<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
          '<title>%s | Tech Law Bootcamp | LawSikho</title><style>:root{--ac:%s;--soft:%s}%s</style></head><body>' % (e(title), ac, soft, css)]
     dl = "".join('<li><span>%d</span>%s</li>' % (n + 1, e(x)) for n, x in enumerate(DELIV))
