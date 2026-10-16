@@ -217,6 +217,117 @@ def btn(href, sub=""):
     return f'<a class="btn" href="{href}">{BTN}{sub}</a>'
 
 
+WHY = {
+ "01": "Employee records are personal data. Offer letters, HR policies and payroll vendor terms all sit inside this law, and you already know where they are.",
+ "02": "Banks and fintechs hold more personal data than most. Consent notices and vendor contracts need drafting by someone who understands money products.",
+ "03": "Every creator platform and media app collects user data. Privacy policies and brand-deal data clauses need someone who writes well and reads the law.",
+ "04": "Every CRM, lead list and vendor deal runs on customer data. The contracts and compliance notes need someone who knows how the deal really runs.",
+ "05": "This work arrives as documents: policies, notices, vendor terms. Documents can be drafted in the hours you actually have.",
+ "06": "The clients are companies, not courts. A privacy document can be drafted from any city.",
+ "07": "Indian companies need these documents, and so do foreign firms that serve users in India. The drafting can be done from where you live.",
+ "08": "Outsourcers hold other companies' customer data. Processor terms and breach clauses are where your knowledge of the real workflow counts.",
+ "09": "Short, self-contained documents such as privacy notices can be drafted one task at a time. Three live evenings show if it suits you.",
+ "10": "You have drafted contracts before. Tech companies need privacy and vendor terms drafted, and you already read law closely.",
+}
+
+DYK = [
+ ("India's data protection rules were notified on 14 Nov 2025, and most duties start 18 months later.",
+  "Every business that holds customer or staff data needs privacy notices, consent wording and vendor terms written. Businesses are only starting to buy this work.",
+  "DPDP Rules 2025, MeitY, notified 14 Nov 2025; PIB; Deccan Herald"),
+ ("A record 55,200 startups were recognised in India in 2025-26.",
+  "More than 2.23 lakh startups were recognised by 31 Mar 2026. Each one signs software, vendor and customer contracts, and most have no lawyer on staff.",
+  "Inc42; Manorama Yearbook, Apr 2026"),
+ ("India has 2,117 global capability centres, employing about 23.6 lakh people.",
+  "These are the Indian offices of global companies. They run on data, software and outsourcing agreements, and they need people who can read those terms.",
+  "Nasscom-Zinnov via Business Today, May 2026"),
+ ("Tracxn tracks 1,215 legal tech startups in India.",
+  "Legal tech companies need people who know both the law and the product. One of them, Harvey, hires Legal Engineers in Bengaluru who must be qualified Indian advocates.",
+  "Tracxn, Sep 2026; harvey.ai, 2026"),
+ ("India published its AI governance guidelines on 5 Nov 2025.",
+  "They are not a new statute. They apply existing law, so AI companies need contracts and data terms that already comply with the law as it stands.",
+  "MeitY, India AI Governance Guidelines, 5 Nov 2025"),
+]
+
+EXTRA_CSS = r"""
+/* 3D layer */
+body{overflow-x:clip}section{overflow-x:clip}
+.p3{perspective:1100px}
+.hero{perspective:1000px}
+.hero .t3{transform-style:preserve-3d;transition:transform .25s ease-out;animation:fl 7s ease-in-out infinite;will-change:transform}
+.hero .t3 img{box-shadow:0 28px 40px -18px rgba(0,0,0,.45),0 6px 14px rgba(0,0,0,.18)}
+@keyframes fl{0%,100%{transform:rotateY(-5deg) rotateX(2deg)}50%{transform:rotateY(5deg) rotateX(-2deg)}}
+.hero .t3.on{animation:none}
+/* coin */
+.price{perspective:600px}
+.coin{flex:0 0 76px;height:76px;position:relative;transform-style:preserve-3d;animation:spin 6s linear infinite}
+.coin b{position:absolute;inset:0;border-radius:50%;display:flex;align-items:center;justify-content:center;text-align:center;font-weight:900;backface-visibility:hidden;border:4px solid #fff;box-shadow:0 0 0 3px var(--ac),0 8px 14px rgba(0,0,0,.25)}
+.coin .f{background:radial-gradient(circle at 30% 25%,#fff7c9,#f1c24b 60%,#c8921a);color:#5a3a00;font-size:24px}
+.coin .k{background:radial-gradient(circle at 30% 25%,#e9fff5,#7fd4b2 60%,#2c8f6a);color:#06402c;transform:rotateY(180deg);font-size:12px;line-height:1.1;padding:6px}
+@keyframes spin{to{transform:rotateY(360deg)}}
+.price .big{display:block;font-size:26px;line-height:1.1;color:var(--ac);font-weight:900;margin-bottom:4px}.price p{flex:1}
+/* section number */
+.num:before{content:counter(sec,decimal-leading-zero)}
+body{counter-reset:sec}
+section{counter-increment:sec}
+.num{font-size:0}
+.num:before{font-size:12px}
+/* why now */
+.why3{display:grid;gap:12px;margin-top:14px}
+.dyk{perspective:900px;height:var(--h,236px);position:relative}
+.dyk button{all:unset;display:block;width:100%;height:100%;cursor:pointer;position:relative;transform-style:preserve-3d;transition:transform .7s cubic-bezier(.2,.7,.2,1);border-radius:16px}
+.dyk button:focus-visible{outline:3px solid var(--ac);outline-offset:3px}
+.dyk.fl button{transform:rotateY(180deg)}
+.dyk .fc{position:absolute;inset:0;border-radius:16px;padding:16px 16px 14px;backface-visibility:hidden;-webkit-backface-visibility:hidden;display:flex;flex-direction:column;box-shadow:0 14px 24px -12px rgba(0,0,0,.35)}
+.dyk .fr{background:#fff;border:2px solid var(--ac)}
+.dyk .bk{background:var(--ac);color:#fff;transform:rotateY(180deg)}
+.dyk .q{font-size:12px;font-weight:900;letter-spacing:.14em;text-transform:uppercase;color:var(--ac);margin:0}
+.dyk .ft2{font-size:19px;line-height:1.28;font-weight:900;margin-top:8px}
+.dyk .hint{margin-top:auto;font-size:13px;font-weight:800;color:var(--ac)}
+.dyk .bk .q{color:#fff;opacity:.9}
+.dyk .bk p{margin-top:8px;font-size:15.5px;line-height:1.45;font-weight:600}
+.dyk .bk .src{color:#fff;opacity:.9;margin-top:auto;font-size:12.5px}
+.dyk .you{background:#fff;color:var(--ink);border-radius:10px;padding:8px 10px;margin-top:8px;font-size:14.5px;line-height:1.4;font-weight:700}
+.chain{margin-top:18px;transform-style:preserve-3d;transform:rotateX(10deg) rotateY(-8deg);transition:transform .4s;position:relative;padding-bottom:6px}
+.chain .lv{position:relative;background:#fff;border:2px solid var(--ac);border-radius:14px;padding:12px 14px;margin-top:-6px;box-shadow:0 14px 18px -10px rgba(0,0,0,.35);font-weight:700;font-size:15px}
+.chain .lv:nth-child(1){transform:translateZ(0);margin-left:0;margin-right:30px}
+.chain .lv:nth-child(2){transform:translateZ(26px);margin-left:15px;margin-right:15px;background:var(--soft)}
+.chain .lv:nth-child(3){transform:translateZ(52px);margin-left:30px;margin-right:0;background:var(--ac);color:#fff;border-color:var(--ac)}
+.chain .lv small{display:block;font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;font-weight:800;opacity:.8}
+.chain:hover,.chain.on{transform:none}
+/* five words: flip */
+.tg .card.w{padding:0;background:none;perspective:700px;height:170px}
+.tg .card.w button{all:unset;display:block;width:100%;height:100%;cursor:pointer;position:relative;transform-style:preserve-3d;transition:transform .6s;border-radius:14px}
+.tg .card.w button:focus-visible{outline:3px solid var(--ac);outline-offset:2px}
+.tg .card.w.fl button{transform:rotateY(180deg)}
+.tg .card.w .a1,.tg .card.w .a2{position:absolute;inset:0;border-radius:14px;padding:14px 16px;backface-visibility:hidden;-webkit-backface-visibility:hidden;box-shadow:0 10px 18px -10px rgba(0,0,0,.3)}
+.tg .card.w .a1{background:var(--soft);display:flex;flex-direction:column;justify-content:center;font-size:22px;font-weight:900}
+.tg .card.w .a1 em{font-style:normal;font-size:13px;color:var(--ac);font-weight:800;margin-top:6px}
+.tg .card.w .a2{background:#fff;border:2px solid var(--ac);transform:rotateY(180deg);font-size:14.5px;line-height:1.45;overflow:auto}
+@media(min-width:560px){.tg .card.w{height:190px}}
+/* contract 3d */
+.stack{perspective:1000px;margin-top:14px}
+.stack .t{transform-style:preserve-3d;transform:rotateX(6deg) rotateY(-7deg);transition:transform .35s;position:relative}
+.stack .t:hover,.stack .t.on{transform:none}
+.stack .t:before,.stack .t:after{content:"";position:absolute;inset:0;border-radius:6px;background:#fff;border:1.5px solid #D4D8DF;z-index:-1}
+.stack .t:before{transform:translateZ(-14px) translate(8px,8px)}
+.stack .t:after{transform:translateZ(-28px) translate(16px,16px);opacity:.8}
+.stack .doc{margin-top:0}
+/* tilt steps */
+.route li{transition:transform .2s}
+.cmp .us{transform:perspective(700px) rotateX(3deg) translateZ(0);}
+@media(prefers-reduced-motion:reduce){.hero .t3,.coin{animation:none}.dyk button,.tg .card.w button{transition:none}.chain,.stack .t{transform:none}}
+"""
+
+EXTRA_JS = r"""
+(function(){
+document.querySelectorAll('.dyk button,.tg .card.w button').forEach(function(b){b.addEventListener('click',function(){var c=b.parentNode;c.classList.toggle('fl');b.setAttribute('aria-pressed',c.classList.contains('fl'))})});
+var h=document.querySelector('.hero .t3');
+if(h){var hr=h.parentNode;hr.addEventListener('pointermove',function(e){if(e.pointerType==='touch')return;var r=hr.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;h.classList.add('on');h.style.transform='rotateY('+(x*14)+'deg) rotateX('+(-y*10)+'deg)'});
+hr.addEventListener('pointerleave',function(){h.classList.remove('on');h.style.transform=''})}
+document.querySelectorAll('.chain,.stack .t').forEach(function(n){if('IntersectionObserver' in window){new IntersectionObserver(function(es){es.forEach(function(e){n.classList.toggle('on',e.intersectionRatio>.6)})},{threshold:[0,.6]}).observe(n)}});
+})();
+"""
+
 def build(n, d):
     r = READER[n]
     s = d["secs"]
@@ -224,72 +335,90 @@ def build(n, d):
     img, alt = d["img"]
     out = []
     a = out.append
+    def sec(title, extra=""):
+        a(f'<section class="rv {extra}"><div class="w"><span class="num"></span><h2>{title}</h2>')
+    def end():
+        a('</div></section>')
     a(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
       f'<title>{d["title"]}</title><meta name="description" content="3 live evenings, 24 to 26 Oct. Rs 10 incl. GST, refundable.">'
-      f'<style>{CSS.replace("--ac:#13756B;--soft:#EAF5F2", "--ac:%s;--soft:%s" % (d["ac"], d["soft"]))}</style></head><body>')
+      f'<style>{CSS.replace("--ac:#13756B;--soft:#EAF5F2", "--ac:%s;--soft:%s" % (d["ac"], d["soft"]))}{EXTRA_CSS}</style></head><body>')
     a('<div class="top"><div class="w"><div class="brand">LawSikho</div><div class="cd" id="cd">Starts Sat 24 Oct<small>6 PM IST</small></div></div></div>')
 
-    # FOLD
+    # FOLD: repeats the ad's promise in its words
     a('<div class="fold" id="fold"><div class="w">')
     a(f'<span class="pill">{d["pill"]}</span>')
     a(f'<div class="hook">{d["hook"]}</div>')
     a(f'<p class="sup">{d["sup"]}</p>')
-    a(f'<div class="hero"><img src="{img}" alt="{alt}"></div>')
+    a(f'<div class="hero"><div class="t3"><img src="{img}" alt="{alt}"></div></div>')
     a(f'<div class="ft"><div><small>Today</small>{r["frm"]}</div><i>&rarr;</i><div class="to"><small>After the camp</small>{r["to"]}</div></div>')
     a(f'<div class="def">{d["def"]}</div>')
     a('<ol class="route">'
       '<li><span>1</span><small>Sat 24 Oct · 6 to 9 PM IST</small>Draft a software development agreement with us, clause by clause.</li>'
       '<li><span>2</span><small>Sun 25 Oct · 6 to 9 PM IST</small>See six ways tech companies make money, and the legal work each one creates.</li>'
       '<li><span>3</span><small>Mon 26 Oct · 7 to 10 PM IST</small>Review a startup\'s terms and learn how lawyers pitch the fix.</li></ol>')
-    a('<div class="price"><div class="big">Rs 10<sub>incl. GST</sub></div><p>Refundable. Live only, no recordings. Joining details come on WhatsApp and email.</p></div>')
+    a('<div class="price"><div class="coin"><b class="f">Rs 10</b><b class="k">Refund-<br>able</b></div><p><span class="big">Rs 10 incl. GST</span>Refundable. Live only, no recordings. Joining details come on WhatsApp and email.</p></div>')
     a(btn(href, "<small>3 live evenings · 24 to 26 Oct</small>"))
     a(f'<p class="q">{d["q"]}</p>')
     a('</div></div>')
 
-    # 01 name the reader (lede + rest)
+    # 1 Name the reader and the symptom
     p1 = paras(s[0])
-    a(f'<section class="rv"><div class="w"><span class="num">01</span><h2>{h2(s[0])}</h2>')
+    sec(h2(s[0]))
     a(f'<p class="lede">{p1[0]}</p>')
     for x in p1[1:]:
         a(f'<p>{x}</p>')
-    a('</div></section>')
+    end()
 
-    # 02 the move
-    a(f'<section class="rv"><div class="w"><span class="num">02</span><h2>{h2(s[1])}</h2>')
+    # 2 Outcome: the new, better career
+    sec(h2(s[1]))
     for x in paras(s[1]):
         a(f'<p>{x}</p>')
     a(btn(href))
-    a('</div></section>')
+    end()
 
-    # 03 what you tried (failed alternatives)
-    a(f'<section class="rv fail"><div class="w"><span class="num">03</span><h2>{h2(s[2])}</h2>')
+    # 3 Three failed alternatives
+    sec(h2(s[2]), "fail")
     for b, t in cards(s[2]):
         a(f'<div class="card"><b>{b}</b>{t}</div>')
-    a('</div></section>')
+    end()
 
-    # 04 reframe + cost of staying
+    # 4 Reframe (positioning, not effort) and cost of staying unclear
     hs = re.findall(r"<h2[^>]*>(.*?)</h2>", s[3])
     ps4 = paras(s[3])
-    a(f'<section class="rv"><div class="w"><span class="num">04</span><h2>{hs[0]}</h2>')
+    sec(hs[0])
     for x in ps4[:-1]:
         a(f'<p>{x}</p>')
-    a(f'<h3>{hs[1]}</h3><p>{ps4[-1]}</p></div></section>')
+    a(f'<h3>{hs[1]}</h3><p>{ps4[-1]}</p>')
+    end()
 
-    # 05 the work, tied to the reader
-    a(f'<section class="rv work"><div class="w"><span class="num">05</span><h2>{h2(s[4])}</h2>')
+    # 5 Why now: what the market is like (sourced, framed as demand, no fear)
+    sec("Why now: where tech law work is coming from")
+    a('<p>Tech companies are being created, regulated and sold to faster than they can hire lawyers who understand them. Tap each card to see what it means for your work.</p>')
+    a('<div class="why3">')
+    for i, (fact, mean, src) in enumerate(DYK):
+        you = WHY[n] if i == 0 else ""
+        a(f'<div class="dyk" style="--h:{[380, 270, 290, 310, 290][i]}px"><button type="button" aria-pressed="false">'
+          f'<span class="fc fr"><span class="q">Did you know?</span><span class="ft2">{fact}</span><span class="hint">Tap to see what it means for you &#8635;</span></span>'
+          f'<span class="fc bk"><span class="q">What it means</span><p>{mean}</p>'
+          + (f'<span class="you"><b>For you:</b> {you}</span>' if you else '')
+          + f'<span class="src">Source: {src}.</span></span></button></div>')
+    a('</div>')
+    a('<h3>The chain of buyers</h3><p>Three kinds of buyer create the work, from the many small to the few large.</p>')
+    a('<div class="chain"><div class="lv"><small>Layer 1 · many buyers</small>Startups: 2.23 lakh recognised by 31 Mar 2026. Contracts, terms, privacy notices.</div>'
+      '<div class="lv"><small>Layer 2 · big employers</small>2,117 global capability centres. Vendor, data and outsourcing agreements.</div>'
+      '<div class="lv"><small>Layer 3 · new buyers</small>1,215 legal tech startups and AI companies. Lawyers who know the product.</div></div>')
+    a('<p class="src" style="margin-top:12px">These figures show where the work is. They are not a promise of any job or client.</p>')
+    a(btn(href))
+    end()
+
+    # 6 What the work looks like for this reader
+    sec(h2(s[4]), "work")
     for x in paras(s[4]):
         a(f'<p>{x}</p>')
-    a('</div></section>')
+    end()
 
-    # 06 five words
-    a('<section class="rv"><div class="w"><span class="num">06</span><h2>Five words every tech contract uses</h2>'
-      '<p>On Evening 1 you learn the five concepts behind most technology contracts. None of them needs coding.</p><div class="tg">')
-    for b, t in cards(s[5]):
-        a(f'<div class="card"><b>{b}</b>{t}</div>')
-    a('</div></div></section>')
-
-    # 07 the evenings
-    a('<section class="rv"><div class="w"><span class="num">07</span><h2>What happens in the 3 live evenings</h2>')
+    # 7 Offer and mechanism: three evenings and the method
+    sec("What happens in the 3 live evenings")
     days = cards(s[6])
     for b, t in days[:3]:
         head, _, when = b.partition(" · ")
@@ -299,63 +428,67 @@ def build(n, d):
         a(f'<div class="card"><b>{b}</b>{t}</div>')
     a('</div>')
     a(btn(href))
-    a('</div></section>')
+    end()
 
-    # 08 the document you will draft (redline mock) + the 6-month note
+    # 8 Five words, as flip cards
+    sec("Five words every tech contract uses")
+    a('<p>On Evening 1 you learn the five concepts behind most technology contracts. None of them needs coding. Tap a card to turn it over.</p><div class="tg">')
+    for b, t in cards(s[5]):
+        a(f'<div class="card w"><button type="button" aria-pressed="false"><span class="a1">{b}<em>Tap to see the meaning</em></span><span class="a2">{t}</span></button></div>')
+    a('</div>')
+    end()
+
+    # 9 First artifact: the document you draft
     p8 = paras(s[7])
-    a(f'<section class="rv"><div class="w"><span class="num">08</span><h2>{h2(s[7])}</h2><p>{p8[0]}</p>')
-    a('<div class="doc"><div class="hd">Illustration · software development agreement</div><div class="bd">'
+    sec(h2(s[7]))
+    a(f'<p>{p8[0]}</p>')
+    a('<div class="stack"><div class="t"><div class="doc"><div class="hd">Illustration · software development agreement</div><div class="bd">'
       '<div class="cl"><b>9. Intellectual property.</b> 9.1 The Developer assigns to the Client <mark>all rights in the Deliverables</mark> '
       'on <del>delivery</del><ins>payment in full</ins>.</div>'
       '<div class="cl">9.2 The Developer keeps its <mark>pre-existing tools</mark> and grants the Client a licence to use them inside the Deliverables.</div></div>'
-      f'<div class="mg"><b>Margin note:</b> {r["note"]}</div></div>')
+      f'<div class="mg"><b>Margin note:</b> {r["note"]}</div></div></div></div>')
     for x in p8[1:]:
         a(f'<p>{x}</p>')
-    a('</div></section>')
+    end()
 
-    # 09 plan
-    a('<section class="rv"><div class="w"><span class="num">09</span><h2>The plan after the camp, in plain steps</h2><ol class="plan">')
+    # 10 Plan after the camp
+    sec("The plan after the camp, in plain steps")
+    a('<ol class="plan">')
     for x in re.findall(r'<li[^>]*>(.*?)</li>', s[8], re.S):
         a(f'<li>{x}</li>')
-    a('</ol><p>This is the plan taught on Evening 2. How far you get depends on the hours you put in.</p></div></section>')
+    a('</ol><p>This is the plan taught on Evening 2. How far you get depends on the hours you put in.</p>')
+    end()
 
-    # 10 proof (hedge moved to the end of the page, never above a pay button)
-    a('<section class="rv"><div class="w"><span class="num">10</span><h2>Lawyers who took this route</h2>')
+    # 11 Proof
+    sec("Lawyers who took this route")
     for b, t in cards(s[9]):
         ini = "".join(w[0] for w in strip(b).split()[:2])
         a(f'<div class="proof"><div class="av">{ini}</div><div><b>{b}</b>{t}</div></div>')
-    a('</div></section>')
+    end()
 
-    # 11 demand + cost comparison + risk removal
-    a('<section class="rv"><div class="w"><span class="num">11</span><h2>Why the demand exists, and what it costs to find out</h2><div class="stats">')
-    stats = [
-        ("55,200", "startups recognised in 2025-26, and 2.4 lakh recognised in India by 30 Jun 2026.", "Inc42, 2026"),
-        ("2,117", "global capability centres in India, employing about 23.6 lakh people.", "Nasscom-Zinnov via Business Today, May 2026"),
-        ("1,215", "legal tech startups tracked in India.", "Tracxn, Sep 2026"),
-        ("2,400+", "organisations use Harvey, by its own count. It hires Legal Engineers in Bengaluru who must be qualified Indian advocates.", "harvey.ai, 2026"),
-    ]
-    for num, tx, src in stats:
-        a(f'<div class="stat"><div class="n">{num}</div><p>{tx}</p><span class="src">Source: {src}.</span></div>')
-    a('</div><div class="cmp">'
+    # 12 Cost comparison and risk removal
+    sec("What it costs to find out")
+    a('<div class="cmp">'
       '<div><b>Figuring it out alone</b>Free, plus months of trial and error. Scattered articles and no feedback on your drafts.</div>'
       '<div><b>A long course first</b>A large fee, paid upfront. A commitment before you know if the work suits you.</div>'
       '<div class="us"><b>This bootcamp</b><span class="rs">Rs 10 incl. GST</span>Refundable. Three live evenings doing the work with us.</div></div>')
     a('<p><b>Risk removed.</b> The Rs 10 is refundable. Bring a laptop or phone and a notebook, and keep the three evenings free. Joining details arrive on WhatsApp and email.</p>')
     a(btn(href))
-    a('</div></section>')
+    end()
 
-    # 12 FAQ
-    a('<section class="rv"><div class="w"><span class="num">12</span><h2>Questions lawyers ask us</h2>')
+    # 13 FAQ in the reader's own words
+    sec("Questions lawyers ask us")
     for i, (b, t) in enumerate(cards(s[11])):
         a(f'<details{" open" if i == 0 else ""}><summary>{b}</summary><div class="a">{t}</div></details>')
-    a('</div></section>')
+    end()
 
     # close
     a(f'<div class="close"><div class="w"><h2>{d["close"][0]}</h2><p>{d["close"][1]}</p>{btn(href, "<small>3 live evenings · 24 to 26 Oct</small>")}</div></div>')
     a(f'<div class="disc"><div class="w"><p><b>Please read.</b> {d["disc"].replace("<b>Please read.</b>", "").strip()}</p></div></div>')
     a(f'<div class="sticky" id="sticky"><a class="btn" href="{href}">Join for Rs 10 · refundable</a></div>')
-    a(f'<script>{JS}</script></body></html>')
+    a(f'<script>{JS}{EXTRA_JS}</script></body></html>')
     return "".join(out)
+
 
 
 def main():
