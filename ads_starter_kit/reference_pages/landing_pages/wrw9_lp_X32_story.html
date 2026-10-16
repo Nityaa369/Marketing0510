@@ -1,0 +1,305 @@
+<!-- Deploy as /f/women-sep05-story -->
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Three Restarts, One Weekend | Women Remote Work Bootcamp</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;600;700&display=swap');
+
+:root{
+  --paper:#FAF4EC;
+  --blush:#F6EBE2;
+  --ink:#2B2622;
+  --soft:#5C534B;
+  --terra:#A8452A;
+  --terra-dark:#8E3A22;
+  --rule:#E4D6C8;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:'Inter',-apple-system,'Segoe UI',Arial,sans-serif;
+  font-size:17px;
+  line-height:1.65;
+  padding-bottom:120px;
+}
+.wrap{max-width:660px;margin:0 auto;padding:0 20px}
+.masthead{
+  text-align:center;
+  padding:34px 20px 10px;
+}
+.masthead .series{
+  font-size:12px;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  color:var(--terra);
+  font-weight:700;
+}
+h1{
+  font-family:'Fraunces',Georgia,serif;
+  font-weight:600;
+  font-size:42px;
+  line-height:1.15;
+  margin:14px auto 12px;
+  max-width:600px;
+}
+.standfirst{
+  color:var(--soft);
+  max-width:540px;
+  margin:0 auto;
+  font-size:17px;
+}
+.logistics{
+  margin:26px auto 8px;
+  max-width:660px;
+  border-top:1px solid var(--rule);
+  border-bottom:1px solid var(--rule);
+  padding:14px 10px;
+  text-align:center;
+  font-size:15px;
+  color:var(--ink);
+}
+.logistics strong{color:var(--terra-dark)}
+.chapter{padding:38px 0 8px}
+.chapter-label{
+  font-size:13px;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  color:var(--terra);
+  font-weight:700;
+  margin-bottom:10px;
+}
+h2{
+  font-family:'Fraunces',Georgia,serif;
+  font-weight:600;
+  font-size:30px;
+  line-height:1.2;
+  margin-bottom:16px;
+}
+p{margin-bottom:16px}
+.pull{
+  font-family:'Fraunces',Georgia,serif;
+  font-size:25px;
+  line-height:1.35;
+  border-left:6px solid var(--terra);
+  padding:6px 0 6px 20px;
+  margin:26px 0;
+  color:var(--ink);
+}
+.varies{
+  font-size:15px;
+  color:var(--soft);
+  border-top:1px dashed var(--rule);
+  padding-top:10px;
+  margin-top:4px;
+}
+.bridge{
+  background:var(--blush);
+  border-radius:14px;
+  padding:26px 24px;
+  margin:34px 0;
+}
+.bridge .bridge-label{
+  font-size:12px;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  color:var(--terra);
+  font-weight:700;
+  margin-bottom:8px;
+}
+.bridge p{margin-bottom:14px}
+.cta-btn{
+  display:inline-block;
+  background:var(--terra);
+  color:#fff;
+  text-decoration:none;
+  font-weight:700;
+  font-size:17px;
+  padding:15px 28px;
+  border-radius:10px;
+}
+.cta-btn:active{background:var(--terra-dark)}
+.cta-note{font-size:15px;color:var(--soft);margin-top:10px;margin-bottom:0}
+.timeline{
+  border-left:3px solid var(--terra);
+  margin:24px 0 24px 6px;
+  padding-left:20px;
+}
+.timeline .tstep{margin-bottom:14px}
+.timeline .tstep:last-child{margin-bottom:0}
+.timeline .twhen{
+  font-size:12px;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:var(--terra);
+  font-weight:700;
+}
+.timeline .twhat{font-size:16px}
+.mentions{list-style:none;margin:18px 0}
+.mentions li{
+  padding:12px 0;
+  border-bottom:1px solid var(--rule);
+  font-size:16px;
+}
+.mentions li strong{font-weight:700}
+.offer{
+  background:var(--blush);
+  border-radius:16px;
+  padding:32px 26px;
+  margin:36px 0 26px;
+}
+.offer h2{margin-bottom:14px}
+.price-line{
+  font-family:'Fraunces',Georgia,serif;
+  font-size:26px;
+  line-height:1.3;
+  margin-bottom:14px;
+}
+.offer ul{margin:0 0 18px 20px}
+.offer li{margin-bottom:8px}
+.trust{
+  text-align:center;
+  font-size:13px;
+  color:var(--soft);
+  padding:10px 0 30px;
+}
+.trust span{white-space:nowrap}
+.sticky{
+  position:fixed;
+  left:0;right:0;bottom:0;
+  background:#fffdf9;
+  border-top:1px solid var(--rule);
+  padding:10px 14px;
+  z-index:50;
+}
+.sticky-inner{max-width:720px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;}
+.sticky .sticky-line{font-size:15px;color:var(--ink)}
+.sticky .cta-btn{padding:12px 20px;font-size:16px}
+@media (max-width:720px){
+  .sticky-inner{flex-direction:column;align-items:stretch;gap:8px;}
+  .sticky .cta-btn{display:block;width:100%;text-align:center;min-height:44px;}
+}
+@media (max-width:720px){
+  h1{font-size:31px}
+  h2{font-size:25px}
+  .pull{font-size:21px}
+  .price-line{font-size:22px}
+  body{font-size:16.5px}
+  .sticky .sticky-line{font-size:13px}
+}
+</style>
+
+<header class="masthead">
+  <div class="series">Restart Stories · A Profile Series</div>
+  <h1>Three career breaks. Three restarts. All of it from home.</h1>
+  <p class="standfirst">Three Indian women, three long career breaks, three restarts built on remote work for US small businesses. Read their chapters. Then decide if the next one is yours. Virtual assistant work means keeping a small business owner's inbox, calendar, customer replies and social posts in order, from home. Paid in dollars.</p>
+</header>
+
+<div class="logistics">
+  <strong>Women Remote Work Bootcamp</strong> · 5 to 7 September 2026 (Saturday to Monday) · 2 to 5 PM IST · 9 hours live · Fully online, join from home on your phone or laptop · <strong>&#8377;10 for all 3 days</strong>
+</div>
+
+<main class="wrap">
+
+  <section class="chapter">
+    <div class="chapter-label">The Opening Scene</div>
+    <p>Picture Saturday, 5 September, a little before 2 PM. In homes across India, women are settling down with a phone or a laptop and a cup of tea. Some are school teachers. Some are homemakers. Many are restarting after a break of five, ten, even twelve years. At 2 PM the class goes live, and for the next three afternoons they learn, step by step, how women like them found paying clients in the US without leaving their homes.</p>
+    <p>Before you decide whether to be in that room, read what happened to three women who once stood exactly where you are standing now.</p>
+  </section>
+
+  <section class="chapter">
+    <div class="chapter-label">Chapter One · Rajkot</div>
+    <h2>Twelve years at home, then a first project in two months</h2>
+    <p>Sneha Tanna got married in her third year of college. What followed was a twelve year gap with no paid work. That is a long time. Long enough for most people to assume the working chapter of life is closed.</p>
+    <p>Then she started learning how remote work for international clients actually operates. Within two months of starting, she landed her first project.</p>
+    <div class="pull">Within two months of starting, she had her first project. She has now completed more than 25.</div>
+    <p>Today Sneha has finished 25+ projects in transcription, translation and subtitling. All of this is work done from home, on a computer, on her own time. She earns &#8377;20,000 to &#8377;25,000 a month, working remotely, on a schedule that flexes around her home.</p>
+    <p>That is the shape of this kind of work. The client can be in another country, the files reach you online, and the working hours bend around your household instead of the other way round.</p>
+    <p class="varies">Her numbers are her own. Earnings differ from person to person, depending on the hours you put in and how consistently you work.</p>
+  </section>
+
+  <div class="bridge">
+    <div class="bridge-label">Where you come in</div>
+    <p>Sneha did not begin with a client. She began by learning what this work looks like. That first step is exactly what the 3 day bootcamp gives you: the kinds of remote work US small business owners actually pay for, a profile and work sample built during the camp, and a clear plan to reach your first client. It costs &#8377;10 in total, and if the three days are not useful to you, we return the &#8377;10 without asking a single question.</p>
+    <a class="cta-btn" href="#seat">Book my seat for &#8377;10</a>
+    <p class="cta-note">3 days · 9 hours live · fully online · refund if not useful</p>
+  </div>
+
+  <section class="chapter">
+    <div class="chapter-label">Chapter Two · Indore</div>
+    <h2>From 3 dollars an hour to co-founder</h2>
+    <p>Bhavana Sharma graduated in 2008. When she began remote work from Indore, her first rate was 3 US dollars an hour, working for a Canadian company. It was a small start. Within 3 months, the rate rose to 5 dollars an hour.</p>
+    <div class="timeline">
+      <div class="tstep"><div class="twhen">The start</div><div class="twhat">3 dollars an hour for a Canadian company</div></div>
+      <div class="tstep"><div class="twhen">Within 3 months</div><div class="twhat">Rate raised to 5 dollars an hour</div></div>
+      <div class="tstep"><div class="twhen">As the work grew</div><div class="twhat">1,600+ dollars a month</div></div>
+      <div class="tstep"><div class="twhen">Then</div><div class="twhat">Co-founder of that same Canadian startup</div></div>
+    </div>
+    <p>The company that once paid her 3 dollars an hour later made her a co-founder. Today Bhavana earns around &#8377;3 lakhs a month with multiple US clients.</p>
+    <div class="pull">The Canadian company that first hired her at 3 dollars an hour later made her its co-founder.</div>
+    <p class="varies">A reminder near every number on this page: results vary. What you earn depends on your hours, your effort and your consistency.</p>
+  </section>
+
+  <section class="chapter">
+    <div class="chapter-label">Chapter Three · Thrissur</div>
+    <h2>A 10 dollar thumbnail, then 32 projects across three countries</h2>
+    <p>Lakshmi Vijay graduated in 2007 and then took a seven year break for marriage and motherhood. Her restart was about as small as a restart can be: a 10 dollar project making YouTube thumbnails for a US client.</p>
+    <p>She kept going. Since that 10 dollar job, she has completed 32 projects for clients in Australia, Canada and the US, and has earned over 6,000 US dollars on Upwork.</p>
+    <div class="pull">Her first project paid 10 dollars. The projects since have paid over 6,000.</div>
+    <p class="varies">As with every story here, her earnings are hers. Yours will depend on the time you give this and how steadily you work.</p>
+  </section>
+
+  <div class="bridge">
+    <div class="bridge-label">Where you come in</div>
+    <p>Every one of these stories began with a small first step: a 3 dollar hourly rate, a 10 dollar project, a first assignment after years at home. What each woman needed was a starting point: knowing which work to offer, how to present herself, and where the first client comes from. That is the whole agenda of the bootcamp, compressed into three afternoons, live, from your own home. The entire fee is &#8377;10, and it comes back to you if you feel the three days were not worth it. No questions, no forms, no follow up calls.</p>
+    <a class="cta-btn" href="#seat">Book my seat for &#8377;10</a>
+    <p class="cta-note">5 to 7 September · 2 to 5 PM IST · join on phone or laptop</p>
+  </div>
+
+  <section class="chapter">
+    <div class="chapter-label">Chapter Four · And Many More</div>
+    <h2>Shorter chapters, same direction</h2>
+    <p>The three stories above are told in full, but they are not alone. A few more, in one line each:</p>
+    <ul class="mentions">
+      <li><strong>Mariyam</strong>, a housewife from Sangli, got a virtual assistant role with a US client within a month.</li>
+      <li><strong>Pooja</strong> restarted after maternity and landed her first project in 8 days.</li>
+      <li><strong>Kauser</strong> returned after a 12 year break and has earned 1,500+ US dollars.</li>
+      <li><strong>Ruksana</strong>, a former school teacher, has earned over 5,000 US dollars.</li>
+    </ul>
+    <p class="varies">Each of these figures belongs to one woman and her own pace of work. Individual results vary with hours and consistency.</p>
+    <p>And this is no longer a quiet corner of the internet. Over sixteen thousand women registered for a recent batch of this bootcamp.</p>
+  </section>
+
+  <section class="chapter">
+    <div class="chapter-label">Your Chapter · The Details</div>
+    <h2>Three afternoons. From your own home.</h2>
+    <div class="offer">
+      <p class="price-line">All 3 days for &#8377;10. If they are not useful, the &#8377;10 comes back to you. No questions asked.</p>
+      <p>The Women Remote Work Bootcamp runs from <strong>5 to 7 September 2026</strong>, Saturday to Monday, <strong>2 to 5 PM IST</strong>, which is <strong>9 hours of live class</strong>. It is fully online. You join from home, on your phone or your laptop, whichever you have.</p>
+      <p>Across the three days you will:</p>
+      <ul>
+        <li>See the kinds of remote work that US small business owners pay for</li>
+        <li>Build your own profile and a work sample during the camp itself</li>
+        <li>Leave with a step by step plan for reaching your first client</li>
+      </ul>
+      <p>What happens after you pay: you receive the class joining link and an invite to your batch WhatsApp group before Day 1. That is where the schedule and reminders reach you, so you do not have to keep checking anything.</p>
+      <a class="cta-btn" href="#seat">Book my seat for &#8377;10</a>
+      <p class="cta-note">Seats are limited for each batch. The small fee keeps the group serious.</p>
+    </div>
+    <p>What do you need to attend? A phone or a laptop, an internet connection, and three free afternoons. There is nowhere to travel. The class is online and reaches you at home.</p>
+    <p>And about the &#8377;10: a small fee keeps the batch full of women who actually plan to show up and do the work. If you attend and feel the three days gave you nothing, tell us and the &#8377;10 is returned to you. What you put in is ten rupees and three afternoons.</p>
+    <p>This bootcamp is built for women who are restarting: teachers, homemakers, women coming back after a career break. You saw what a first chapter looks like for Sneha, Bhavana and Lakshmi. Yours can begin on Saturday afternoon.</p>
+  </section>
+
+  <div class="trust">
+    <span>NSE Emerge-listed</span> · <span>Recognised NSDC Training Partner</span> · <span>IIT Roorkee iHUB Training Partner</span>
+  </div>
+
+</main>
+
+<div class="sticky"><div class="sticky-inner">
+  <span class="sticky-line">5 to 7 Sep · 2 to 5 PM IST · Online · Refund if not useful</span>
+  <a class="cta-btn" href="#seat">Book my seat for &#8377;10</a>
+</div></div>

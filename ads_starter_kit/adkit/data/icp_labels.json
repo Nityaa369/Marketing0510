@@ -1,0 +1,2367 @@
+{
+ "01 · ai_discount_chat": {
+  "archetype": "A",
+  "icp": "writers asked to discount because AI helped",
+  "note": "chat-mockup device"
+ },
+ "01 · r1_journalists": {
+  "archetype": "A",
+  "icp": "journalists filing stories at shrinking outlets",
+  "note": ""
+ },
+ "01_appraisal": {
+  "archetype": "B",
+  "icp": "senior professionals whose year turns on one appraisal",
+  "note": ""
+ },
+ "01_company_secretaries": {
+  "archetype": "A",
+  "icp": "company secretaries taking the board's minutes",
+  "note": ""
+ },
+ "01_corporate_lawyers_us_clients": {
+  "archetype": "A",
+  "icp": "corporate lawyers whose clients have US entities",
+  "note": ""
+ },
+ "01_first_job": {
+  "archetype": "B",
+  "icp": "final-year students and freshers new to writing",
+  "note": "life stage, absolute beginners"
+ },
+ "01_haggling_clients": {
+  "archetype": "A",
+  "icp": "content writers whose clients haggle every rupee",
+  "note": ""
+ },
+ "01_it_security": {
+  "archetype": "A",
+  "icp": "IT security engineers running access and incident response",
+  "note": ""
+ },
+ "01_tradeoff · the pay-versus-time trade-off": {
+  "archetype": "B",
+  "icp": "senior managers and VPs of fifteen years",
+  "note": ""
+ },
+ "02 · r2_pr_comms": {
+  "archetype": "A",
+  "icp": "PR and communications professionals writing releases",
+  "note": ""
+ },
+ "02 · treadmill_diptych": {
+  "archetype": "A",
+  "icp": "high-output freelance writers with flat income",
+  "note": ""
+ },
+ "02_after_hours_texts": {
+  "archetype": "A",
+  "icp": "content writers fielding client texts after hours",
+  "note": ""
+ },
+ "02_askai · the senior every hard problem lands on": {
+  "archetype": "B",
+  "icp": "twenty-year seniors every hard problem escalates to",
+  "note": ""
+ },
+ "02_company_secretaries": {
+  "archetype": "A",
+  "icp": "company secretaries keeping boards and registers",
+  "note": ""
+ },
+ "02_compliance": {
+  "archetype": "A",
+  "icp": "in-house compliance officers",
+  "note": ""
+ },
+ "02_growth_stalled": {
+  "archetype": "A",
+  "icp": "in-house writers whose promotion has stalled",
+  "note": ""
+ },
+ "02_retiring": {
+  "archetype": "B",
+  "icp": "senior professionals retiring in the next few years",
+  "note": ""
+ },
+ "03 · r3_teachers": {
+  "archetype": "A",
+  "icp": "teachers who explain things for a living",
+  "note": ""
+ },
+ "03 · rate_frozen_hero": {
+  "archetype": "A",
+  "icp": "experienced writers whose per-word rate never moved",
+  "note": ""
+ },
+ "03_bacha_hai_tu_mera": {
+  "archetype": "A",
+  "icp": "junior writers second-guessing every draft",
+  "note": ""
+ },
+ "03_company_secretary": {
+  "archetype": "A",
+  "icp": "company secretaries running board and consent paperwork",
+  "note": ""
+ },
+ "03_crave · retiring in the next 5 years": {
+  "archetype": "B",
+  "icp": "professionals past fifty with retirement in sight",
+  "note": ""
+ },
+ "03_dependable": {
+  "archetype": "B",
+  "icp": "the senior the whole office depends on",
+  "note": ""
+ },
+ "03_law_firm_associates": {
+  "archetype": "A",
+  "icp": "law firm associates serving clients with US arms",
+  "note": ""
+ },
+ "03_paid_by_word": {
+  "archetype": "A",
+  "icp": "writers quoted per word or per article",
+  "note": ""
+ },
+ "04 · cw_22_swipe_reveal": {
+  "archetype": "A",
+  "icp": "writers who only write one campaign piece",
+  "note": ""
+ },
+ "04 · r4_translators": {
+  "archetype": "A",
+  "icp": "translators billing per word for brands",
+  "note": ""
+ },
+ "04_chartered_accountant": {
+  "archetype": "A",
+  "icp": "chartered accountants testing client controls",
+  "note": ""
+ },
+ "04_dual_credential": {
+  "archetype": "A",
+  "icp": "writers wanting portfolio proof, not a certificate",
+  "note": "offer-led face; audience only in brief"
+ },
+ "04_find_clients": {
+  "archetype": "A",
+  "icp": "writers who cannot find better-paying clients",
+  "note": ""
+ },
+ "04_herown · senior women professionals": {
+  "archetype": "B",
+  "icp": "senior women whose rate is set by someone else",
+  "note": ""
+ },
+ "04_herterms": {
+  "archetype": "C",
+  "icp": "senior professionals wanting their day on their own terms",
+  "note": "aspiration-led"
+ },
+ "04_inhouse_counsel_us_ops": {
+  "archetype": "A",
+  "icp": "in-house counsel handling only Indian law",
+  "note": ""
+ },
+ "05 · r5_marketing_exec": {
+  "archetype": "A",
+  "icp": "solo marketing executives at startups",
+  "note": ""
+ },
+ "05 · two_kinds_of_month": {
+  "archetype": "A",
+  "icp": "freelance writers with feast-and-famine months",
+  "note": ""
+ },
+ "05_lawyers": {
+  "archetype": "A",
+  "icp": "practising lawyers asked about the new law",
+  "note": ""
+ },
+ "05_onesalary · everything they earn comes from one employer": {
+  "archetype": "B",
+  "icp": "senior professionals living on one salary",
+  "note": ""
+ },
+ "05_ownfirm": {
+  "archetype": "C",
+  "icp": "senior professionals who want their own firm",
+  "note": "aspiration-led"
+ },
+ "05_startup_legal_advisers": {
+  "archetype": "A",
+  "icp": "startup legal advisers whose clients flip to the US",
+  "note": ""
+ },
+ "05_unposed_screenshot": {
+  "archetype": "A",
+  "icp": "content writers who read client briefs daily",
+  "note": "notes-app screenshot device"
+ },
+ "05_women_writers": {
+  "archetype": "B",
+  "icp": "women writing from home for pocket money",
+  "note": "situation, not occupation"
+ },
+ "06 · skip_card": {
+  "archetype": "A",
+  "icp": "writers whose samples get no reply",
+  "note": ""
+ },
+ "06_ai_leverage_solo": {
+  "archetype": "A",
+  "icp": "freelance writers building a client roster alone",
+  "note": ""
+ },
+ "06_balance": {
+  "archetype": "C",
+  "icp": "senior professionals wanting money and flexibility",
+  "note": ""
+ },
+ "06_five_gigs": {
+  "archetype": "A",
+  "icp": "freelance writers juggling five small gigs",
+  "note": ""
+ },
+ "06_hr_payroll": {
+  "archetype": "A",
+  "icp": "HR and payroll staff holding employee records",
+  "note": ""
+ },
+ "06_speed · stuck at the same designation": {
+  "archetype": "B",
+  "icp": "seniors stuck at the same designation for years",
+  "note": ""
+ },
+ "07 · fix_my_rates": {
+  "archetype": "A",
+  "icp": "writers whose rates have never moved",
+  "note": ""
+ },
+ "07_launch_practice": {
+  "archetype": "C",
+  "icp": "writers wanting their own writing practice",
+  "note": "aspiration-led"
+ },
+ "07_legal_process_managers": {
+  "archetype": "A",
+  "icp": "legal process managers stuck on document review",
+  "note": ""
+ },
+ "07_marketing_crm": {
+  "archetype": "A",
+  "icp": "marketing and CRM managers owning the customer database",
+  "note": ""
+ },
+ "07_ownfirm · they want a firm in their own name": {
+  "archetype": "C",
+  "icp": "senior professionals who want a firm in their own name",
+  "note": "aspiration-led"
+ },
+ "07_simple_answer": {
+  "archetype": "C",
+  "icp": "senior professionals buried under everyone's work",
+  "note": "overload state, no occupation"
+ },
+ "07_stuck_on_captions": {
+  "archetype": "A",
+  "icp": "writers stuck on captions and SEO tweaks",
+  "note": ""
+ },
+ "08 · who_owns_the_campaign": {
+  "archetype": "D",
+  "icp": "content writers in India",
+  "note": "campaign-ownership question; no reader described"
+ },
+ "08_ai_strategist_defined": {
+  "archetype": "A",
+  "icp": "writers who never saw AI content strategist defined",
+  "note": "definition-led face"
+ },
+ "08_ai_strategist_roadmap": {
+  "archetype": "C",
+  "icp": "writers aiming for AI content strategist roles",
+  "note": "aspiration to a named role"
+ },
+ "08_auditors": {
+  "archetype": "A",
+  "icp": "auditors selling audit days to repeat clients",
+  "note": ""
+ },
+ "08_crave": {
+  "archetype": "C",
+  "icp": "senior professionals wanting money on their terms",
+  "note": ""
+ },
+ "09 · brief_toggle": {
+  "archetype": "A",
+  "icp": "writers who receive briefs from someone else",
+  "note": "toggle device"
+ },
+ "09_ai_leverage_inhouse": {
+  "archetype": "A",
+  "icp": "in-house writers and content leads with backlogs",
+  "note": ""
+ },
+ "09_chro_hr_heads": {
+  "archetype": "A",
+  "icp": "HR heads and CHROs",
+  "note": ""
+ },
+ "09_founders": {
+  "archetype": "A",
+  "icp": "founders stuck in enterprise security questionnaires",
+  "note": "role-led; buyer and reader are the same"
+ },
+ "09_owner": {
+  "archetype": "C",
+  "icp": "salaried seniors who want to earn like owners",
+  "note": "owner-versus-employee framing"
+ },
+ "09_scoreboard_output": {
+  "archetype": "A",
+  "icp": "writers who track their own word output",
+  "note": ""
+ },
+ "10 · dont_learn_to_write_ads": {
+  "archetype": "A",
+  "icp": "teachers who explain for a living",
+  "note": "teacher opener under a slogan headline"
+ },
+ "10_freedom": {
+  "archetype": "C",
+  "icp": "senior professionals wanting financial freedom",
+  "note": ""
+ },
+ "10_plant_operations_heads": {
+  "archetype": "A",
+  "icp": "plant and operations heads",
+  "note": ""
+ },
+ "10_portfolio_proof": {
+  "archetype": "A",
+  "icp": "writers with no portfolio to show clients",
+  "note": ""
+ },
+ "10_schools_edtech": {
+  "archetype": "A",
+  "icp": "school and edtech administrators holding children's records",
+  "note": ""
+ },
+ "10_title_ceiling": {
+  "archetype": "A",
+  "icp": "senior writers, leads and editors on writing teams",
+  "note": ""
+ },
+ "11 · eye_test": {
+  "archetype": "A",
+  "icp": "SEO content writers who know page structure",
+  "note": "eye-test device"
+ },
+ "11_contract_managers": {
+  "archetype": "A",
+  "icp": "contract managers running intake and renewals",
+  "note": ""
+ },
+ "11_pharmacovigilance": {
+  "archetype": "A",
+  "icp": "pharmacovigilance professionals handling named patient data",
+  "note": ""
+ },
+ "11_tortoise": {
+  "archetype": "C",
+  "icp": "senior professionals wanting to earn faster",
+  "note": "tortoise metaphor, no audience named"
+ },
+ "12 · closer_look_team": {
+  "archetype": "A",
+  "icp": "solo in-house marketers writing everything",
+  "note": ""
+ },
+ "12_due_diligence_analysts": {
+  "archetype": "A",
+  "icp": "due diligence analysts on Indian deals",
+  "note": ""
+ },
+ "12_gcc": {
+  "archetype": "A",
+  "icp": "GCC privacy staff running the parent's EU rules",
+  "note": ""
+ },
+ "13 · take_what_you_need": {
+  "archetype": "A",
+  "icp": "writers argued down on word counts",
+  "note": "tear-off flyer device"
+ },
+ "13_bfsi_ops": {
+  "archetype": "A",
+  "icp": "BFSI operations staff under a regulator",
+  "note": ""
+ },
+ "13_compliance_officers": {
+  "archetype": "A",
+  "icp": "compliance officers tracking filings and deadlines",
+  "note": ""
+ },
+ "14 · what_next": {
+  "archetype": "B",
+  "icp": "writers who just resigned with no plan",
+  "note": "notice period"
+ },
+ "14_bpo_kpo": {
+  "archetype": "A",
+  "icp": "BPO and KPO staff processing client data",
+  "note": ""
+ },
+ "14_litigation_juniors": {
+  "archetype": "A",
+  "icp": "junior litigation lawyers in their early years",
+  "note": ""
+ },
+ "15 · founder_post": {
+  "archetype": "A",
+  "icp": "freelance writers holding a founder's retainer",
+  "note": "founder-post format, reader still named"
+ },
+ "15_gcc_legal_teams": {
+  "archetype": "A",
+  "icp": "lawyers targeting GCC in-house legal teams",
+  "note": "buyer-led framing"
+ },
+ "15_returning": {
+  "archetype": "B",
+  "icp": "women returning to structured work from home",
+  "note": "situation-led; no occupation named"
+ },
+ "16 · will_you": {
+  "archetype": "B",
+  "icp": "interns finishing with only a certificate",
+  "note": ""
+ },
+ "16_legal_researchers": {
+  "archetype": "A",
+  "icp": "legal researchers writing memos others sign",
+  "note": ""
+ },
+ "16_product_design": {
+  "archetype": "A",
+  "icp": "product designers building the consent screen",
+  "note": ""
+ },
+ "17 · plans_tonight": {
+  "archetype": "A",
+  "icp": "writers who cannot show what writing earned",
+  "note": "deadline headline, reader named in opener"
+ },
+ "17_ediscovery_reviewers": {
+  "archetype": "A",
+  "icp": "ediscovery reviewers paid by the project",
+  "note": ""
+ },
+ "17_healthtech": {
+  "archetype": "A",
+  "icp": "healthtech product and ops staff moving patient data",
+  "note": ""
+ },
+ "18 · whats_on_your_mind": {
+  "archetype": "A",
+  "icp": "in-house writers doing everything but writing",
+  "note": ""
+ },
+ "18_clinical_research": {
+  "archetype": "A",
+  "icp": "clinical research staff taking documented consent",
+  "note": ""
+ },
+ "18_cs_trainees": {
+  "archetype": "A",
+  "icp": "company secretary trainees in their batch",
+  "note": ""
+ },
+ "19 · calculations": {
+  "archetype": "A",
+  "icp": "writers doing bulk product listings for flat fees",
+  "note": ""
+ },
+ "19_law_graduates": {
+  "archetype": "A",
+  "icp": "law graduates with no practice income",
+  "note": ""
+ },
+ "19_managers": {
+  "archetype": "A",
+  "icp": "mid-level managers looking for a specialism",
+  "note": "broad role, aspiration-led opener"
+ },
+ "20 · did_you_mean": {
+  "archetype": "A",
+  "icp": "journalists at outlets that keep shrinking",
+  "note": "search-suggestion device"
+ },
+ "20_procurement": {
+  "archetype": "A",
+  "icp": "procurement staff signing vendor contracts",
+  "note": ""
+ },
+ "21 · no_number": {
+  "archetype": "A",
+  "icp": "PR professionals with no number to report",
+  "note": ""
+ },
+ "21_transcription_rcm": {
+  "archetype": "A",
+  "icp": "medical transcription and RCM staff in India",
+  "note": ""
+ },
+ "22 · who_does_it": {
+  "archetype": "A",
+  "icp": "solo marketers running every part of campaigns",
+  "note": ""
+ },
+ "22_recruitment_bgv": {
+  "archetype": "A",
+  "icp": "recruitment and background-verification staff holding candidate documents",
+  "note": ""
+ },
+ "23 · per_word_both_ways": {
+  "archetype": "A",
+  "icp": "translators paid per word for brand copy",
+  "note": ""
+ },
+ "23_payroll_outsourcing": {
+  "archetype": "A",
+  "icp": "payroll outsourcing providers running many clients' records",
+  "note": ""
+ },
+ "24 · red_pen": {
+  "archetype": "A",
+  "icp": "editors rewriting other people's drafts",
+  "note": ""
+ },
+ "24_agencies": {
+  "archetype": "A",
+  "icp": "agency staff holding client customer lists",
+  "note": ""
+ },
+ "25_lpo_translation": {
+  "archetype": "A",
+  "icp": "LPO and translation staff handling foreign data",
+  "note": ""
+ },
+ "26_fintech_lending": {
+  "archetype": "A",
+  "icp": "fintech lending app teams collecting borrower data",
+  "note": ""
+ },
+ "27_payments": {
+  "archetype": "A",
+  "icp": "payments company staff already doing data residency",
+  "note": ""
+ },
+ "28_insurance_brokers": {
+  "archetype": "A",
+  "icp": "insurance brokers with a field agent force",
+  "note": ""
+ },
+ "28_law_lecturers": {
+  "archetype": "A",
+  "icp": "law lecturers teaching company law",
+  "note": ""
+ },
+ "29_tpa_claims": {
+  "archetype": "A",
+  "icp": "TPA claims staff opening medical files",
+  "note": ""
+ },
+ "30_broking_wealth": {
+  "archetype": "A",
+  "icp": "broking and wealth staff holding investor records",
+  "note": ""
+ },
+ "31_diagnostic_labs": {
+  "archetype": "A",
+  "icp": "diagnostic lab operators sending reports by chat",
+  "note": ""
+ },
+ "32_coaching": {
+  "archetype": "A",
+  "icp": "coaching institute admissions teams with student leads",
+  "note": ""
+ },
+ "33_university_admin": {
+  "archetype": "A",
+  "icp": "university administrators holding full student records",
+  "note": ""
+ },
+ "34_gaming": {
+  "archetype": "A",
+  "icp": "gaming platform staff running age and KYC checks",
+  "note": ""
+ },
+ "35_final_year_students": {
+  "archetype": "A",
+  "icp": "final year law students facing placements",
+  "note": ""
+ },
+ "35_matrimonial_dating": {
+  "archetype": "A",
+  "icp": "matrimonial and dating platform staff holding profiles",
+  "note": ""
+ },
+ "36_ecommerce_ops": {
+  "archetype": "A",
+  "icp": "ecommerce operations staff across scattered customer systems",
+  "note": ""
+ },
+ "37_cs_us_subsidiary_competency": {
+  "archetype": "A",
+  "icp": "company secretaries serving companies with US subsidiaries",
+  "note": ""
+ },
+ "37_streaming": {
+  "archetype": "A",
+  "icp": "streaming platform data and advertising teams",
+  "note": ""
+ },
+ "38_cs_inhouse_mnc_compliance": {
+  "archetype": "A",
+  "icp": "in-house company secretaries in MNC compliance",
+  "note": ""
+ },
+ "38_logistics": {
+  "archetype": "A",
+  "icp": "logistics ops staff running rider apps",
+  "note": ""
+ },
+ "39_ca_gcc_profile": {
+  "archetype": "A",
+  "icp": "chartered accountants applying to GCCs",
+  "note": ""
+ },
+ "39_cloud_data_eng": {
+  "archetype": "A",
+  "icp": "cloud and data engineers taking deletion tickets",
+  "note": ""
+ },
+ "40_ai_ml": {
+  "archetype": "A",
+  "icp": "AI and ML engineers asked about training data",
+  "note": ""
+ },
+ "40_ca_practice_startup_exporters": {
+  "archetype": "A",
+  "icp": "practising CAs with startup clients incorporating abroad",
+  "note": ""
+ },
+ "41_lawyer_moms": {
+  "archetype": "B",
+  "icp": "women lawyers with young children at home",
+  "note": ""
+ },
+ "42_women_in_law": {
+  "archetype": "A",
+  "icp": "women lawyers wanting remote corporate work",
+  "note": ""
+ },
+ "43_lawyers_back_from_break": {
+  "archetype": "B",
+  "icp": "lawyers restarting after a career break",
+  "note": ""
+ },
+ "44_wfh_lawyers": {
+  "archetype": "C",
+  "icp": "lawyers who want to work from home",
+  "note": "preference, no situation named"
+ },
+ "45_women_lawyers_small_city": {
+  "archetype": "B",
+  "icp": "women lawyers in small cities, not moving",
+  "note": ""
+ },
+ "46_women_cs_compliance_wfh": {
+  "archetype": "B",
+  "icp": "women company secretaries needing work that flexes around family",
+  "note": ""
+ },
+ "A1_evidence": {
+  "archetype": "B",
+  "icp": "women at home unsure remote work is real",
+  "note": "evidence-led face, ICP from stated"
+ },
+ "A2_story": {
+  "archetype": "B",
+  "icp": "women returning after a long career break",
+  "note": ""
+ },
+ "A3_demand": {
+  "archetype": "B",
+  "icp": "women long out of work who cannot picture the job",
+  "note": ""
+ },
+ "A4_method": {
+  "archetype": "B",
+  "icp": "women who tried starting from home and stopped",
+  "note": ""
+ },
+ "A5_letter": {
+  "archetype": "B",
+  "icp": "women returning to work who fear WFH scams",
+  "note": ""
+ },
+ "BUSINESS OWNERS AND FOUNDERS": {
+  "archetype": "A",
+  "icp": "founders who have handed over the business",
+  "note": "occupation plus stepped-back situation"
+ },
+ "CFOs AND FINANCE HEADS, STILL SERVING": {
+  "archetype": "A",
+  "icp": "serving CFOs and finance heads",
+  "note": "still-serving qualifier on an occupation"
+ },
+ "CHARTERED ACCOUNTANTS": {
+  "archetype": "A",
+  "icp": "chartered accountants facing audit committees",
+  "note": ""
+ },
+ "CONSULTANTS AND ADVISORS": {
+  "archetype": "A",
+  "icp": "independent consultants billing a day rate",
+  "note": ""
+ },
+ "GENERAL COUNSEL AND LEGAL HEADS ⚠ BRAND ROUTING OPEN": {
+  "archetype": "A",
+  "icp": "general counsel and in-house legal heads",
+  "note": ""
+ },
+ "GENERAL MANAGERS, PUBLIC SECTOR AND BANKING": {
+  "archetype": "A",
+  "icp": "public sector and bank general managers nearing retirement",
+  "note": ""
+ },
+ "N18_caregiver": {
+  "archetype": "B",
+  "icp": "women caring for family at home",
+  "note": ""
+ },
+ "N18_caregiver_cag": {
+  "archetype": "B",
+  "icp": "women caring for family at home",
+  "note": ""
+ },
+ "N19_homemaker_v2": {
+  "archetype": "B",
+  "icp": "homemakers with no office of their own",
+  "note": ""
+ },
+ "N19_homemaker_v2_cag": {
+  "archetype": "B",
+  "icp": "homemakers with no office of their own",
+  "note": ""
+ },
+ "N20_small_city": {
+  "archetype": "B",
+  "icp": "women in small cities and towns",
+  "note": ""
+ },
+ "N20_small_city_cag": {
+  "archetype": "B",
+  "icp": "women in small cities and towns",
+  "note": ""
+ },
+ "N21_retired": {
+  "archetype": "B",
+  "icp": "retired women who still want to work",
+  "note": ""
+ },
+ "N21_retired_cag": {
+  "archetype": "B",
+  "icp": "retired women who still want to work",
+  "note": ""
+ },
+ "N22_escape_grind_v2": {
+  "archetype": "B",
+  "icp": "women in a commuting office job",
+  "note": ""
+ },
+ "N22_escape_grind_v2_cag": {
+  "archetype": "B",
+  "icp": "women in a commuting office job",
+  "note": ""
+ },
+ "N23_office_evenings_v2": {
+  "archetype": "B",
+  "icp": "employed women with two free evening hours",
+  "note": ""
+ },
+ "N23_office_evenings_v2_cag": {
+  "archetype": "B",
+  "icp": "employed women with two free evening hours",
+  "note": ""
+ },
+ "N24_persona_her": {
+  "archetype": "B",
+  "icp": "mothers of school-going children at home",
+  "note": "persona-led, written in third person"
+ },
+ "N24_persona_her_cag": {
+  "archetype": "B",
+  "icp": "mothers of school-going children at home",
+  "note": "persona-led, written in third person"
+ },
+ "N25_long_gap_v2": {
+  "archetype": "B",
+  "icp": "women with a long career gap",
+  "note": ""
+ },
+ "N25_long_gap_v2_cag": {
+  "archetype": "B",
+  "icp": "women with a long career gap",
+  "note": ""
+ },
+ "W1_night_shift": {
+  "archetype": "A",
+  "icp": "night-shift customer support agents",
+  "note": ""
+ },
+ "W1_night_shift_cag": {
+  "archetype": "A",
+  "icp": "night-shift customer support agents",
+  "note": ""
+ },
+ "W2_resume_filter": {
+  "archetype": "B",
+  "icp": "women screened out for a resume gap",
+  "note": ""
+ },
+ "W2_resume_filter_cag": {
+  "archetype": "B",
+  "icp": "women screened out for a resume gap",
+  "note": ""
+ },
+ "W3_quiet_house": {
+  "archetype": "B",
+  "icp": "women whose children have grown up",
+  "note": ""
+ },
+ "W3_quiet_house_cag": {
+  "archetype": "B",
+  "icp": "women whose children have grown up",
+  "note": ""
+ },
+ "W4_not_too_late": {
+  "archetype": "C",
+  "icp": "women who think it is too late",
+  "note": "objection state, no occupation or situation"
+ },
+ "W4_not_too_late_cag": {
+  "archetype": "C",
+  "icp": "women who think it is too late",
+  "note": "objection state, no occupation or situation"
+ },
+ "W5_title_card": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "title card and day-by-day curriculum"
+ },
+ "W5_title_card_cag": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "title card and day-by-day curriculum"
+ },
+ "W6_whatsapp_level": {
+  "archetype": "C",
+  "icp": "women who think they are not technical",
+  "note": "objection-led"
+ },
+ "W6_whatsapp_level_cag": {
+  "archetype": "C",
+  "icp": "women who think they are not technical",
+  "note": "objection-led"
+ },
+ "W9_room": {
+  "archetype": "B",
+  "icp": "women whose working hours are fixed by others",
+  "note": "several situations bundled in one"
+ },
+ "WOMEN CXOs": {
+  "archetype": "A",
+  "icp": "senior women CXOs without a board seat",
+  "note": "function head, board-seat gap"
+ },
+ "X10_ex_hospitality": {
+  "archetype": "A",
+  "icp": "women who left hotel and airline front-desk jobs",
+  "note": "former occupation"
+ },
+ "X11_family_shop": {
+  "archetype": "A",
+  "icp": "women running the family shop unpaid",
+  "note": "unpaid version of the same work"
+ },
+ "X1_value_stack_v2": {
+  "archetype": "E",
+  "icp": "women starting remote work with no experience",
+  "note": "value-stack device, audience at its widest"
+ },
+ "X21_teacher_evening": {
+  "archetype": "A",
+  "icp": "school teachers wanting evening income",
+  "note": ""
+ },
+ "X22_single_mother": {
+  "archetype": "B",
+  "icp": "single mothers building an income of their own",
+  "note": ""
+ },
+ "X23_tuition_fees": {
+  "archetype": "A",
+  "icp": "tuition teachers with locally capped fees",
+  "note": ""
+ },
+ "X24_school_hours": {
+  "archetype": "B",
+  "icp": "mothers free while the children are at school",
+  "note": ""
+ },
+ "X25_her_fees": {
+  "archetype": "B",
+  "icp": "mothers wanting to pay school fees themselves",
+  "note": ""
+ },
+ "X26_bpo_daylight": {
+  "archetype": "A",
+  "icp": "women working BPO and call-centre shifts",
+  "note": ""
+ },
+ "X27_career_gap": {
+  "archetype": "B",
+  "icp": "women returning after a career gap",
+  "note": ""
+ },
+ "X28_homemaker": {
+  "archetype": "B",
+  "icp": "homemakers with a degree and unpaid management years",
+  "note": ""
+ },
+ "X29_second_innings": {
+  "archetype": "B",
+  "icp": "women past fifty starting a second innings",
+  "note": ""
+ },
+ "X2_myth_truth": {
+  "archetype": "C",
+  "icp": "women who believe remote income is not for them",
+  "note": "belief-led, no occupation or situation"
+ },
+ "X30_small_city": {
+  "archetype": "B",
+  "icp": "women in tier-2 and tier-3 cities",
+  "note": ""
+ },
+ "X31_evidence": {
+  "archetype": "C",
+  "icp": "women unsure work from home is real",
+  "note": "stated ICP; executed as published-figures proof"
+ },
+ "X32_story": {
+  "archetype": "B",
+  "icp": "women restarting after years at home",
+  "note": "stated ICP"
+ },
+ "X33_demand": {
+  "archetype": "C",
+  "icp": "women never shown what the remote work is",
+  "note": "stated ICP; unaware, demand-led"
+ },
+ "X34_method": {
+  "archetype": "B",
+  "icp": "women who tried working from home and stopped",
+  "note": "stated ICP"
+ },
+ "X35_letter": {
+  "archetype": "B",
+  "icp": "women let down by work-from-home promises before",
+  "note": "stated ICP; trust objection"
+ },
+ "X36_room": {
+  "archetype": "B",
+  "icp": "women with hours fixed by school or job",
+  "note": "stated ICP; several situations in one ad"
+ },
+ "X3_night_shift_v2": {
+  "archetype": "A",
+  "icp": "women on BPO and call-centre night shifts",
+  "note": ""
+ },
+ "X4_three_hours_v2": {
+  "archetype": "B",
+  "icp": "mothers with a three-hour daytime window",
+  "note": ""
+ },
+ "X5_empty_nest_v2": {
+  "archetype": "B",
+  "icp": "women whose children have grown and left",
+  "note": ""
+ },
+ "X6_career_restart": {
+  "archetype": "B",
+  "icp": "mothers restarting after a career break",
+  "note": ""
+ },
+ "X7_own_health": {
+  "archetype": "B",
+  "icp": "women whose health limits their working hours",
+  "note": ""
+ },
+ "X8_husband_abroad": {
+  "archetype": "B",
+  "icp": "women whose husbands work abroad",
+  "note": ""
+ },
+ "X9_us_realtors": {
+  "archetype": "D",
+  "icp": "women wanting remote work, aimed at US realtors",
+  "note": "buyer-led, not reader-led"
+ },
+ "become_paralegal_r1": {
+  "archetype": "C",
+  "icp": "anyone wanting to become a remote IP paralegal",
+  "note": "outcome-led, no reader named"
+ },
+ "become_paralegal_r2": {
+  "archetype": "C",
+  "icp": "anyone wanting to become a remote IP paralegal",
+  "note": "outcome-led, no reader named"
+ },
+ "become_paralegal_r3": {
+  "archetype": "C",
+  "icp": "anyone wanting to become a remote IP paralegal",
+  "note": "outcome-led, no reader named"
+ },
+ "c6_s1": {
+  "archetype": "D",
+  "icp": "lawyers considering tech law",
+  "note": "ten-reason listicle carousel, no reader named"
+ },
+ "c6_s10": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "carousel listicle device, market reasons only"
+ },
+ "c6_s2": {
+  "archetype": "D",
+  "icp": "lawyers considering tech law",
+  "note": "duplicate listicle carousel, no reader named"
+ },
+ "c6_s3": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "carousel listicle device, market reasons only"
+ },
+ "c6_s4": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "carousel listicle device, market reasons only"
+ },
+ "c6_s5": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "carousel listicle device, market reasons only"
+ },
+ "c6_s6": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "carousel listicle device, market reasons only"
+ },
+ "c6_s7": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "carousel listicle device, market reasons only"
+ },
+ "c6_s8": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "carousel listicle device, market reasons only"
+ },
+ "c6_s9": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "carousel listicle device, market reasons only"
+ },
+ "c7_s1": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "carousel listicle device, market reasons only"
+ },
+ "c7_s2": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "carousel listicle device, market reasons only"
+ },
+ "c7_s3": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "carousel listicle device, market reasons only"
+ },
+ "c7_s4": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "carousel listicle device, market reasons only"
+ },
+ "c7_s5": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "carousel listicle device, market reasons only"
+ },
+ "c8_s1": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "deliverable-led weekend drafting, no reader named"
+ },
+ "c8_s2": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "deliverable-led weekend drafting, no reader named"
+ },
+ "c8_s3": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "deliverable-led weekend drafting, no reader named"
+ },
+ "c8_s4": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "deliverable-led weekend drafting, no reader named"
+ },
+ "c8_s5": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "deliverable-led weekend drafting, no reader named"
+ },
+ "c8_s6": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "deliverable-led weekend drafting, no reader named"
+ },
+ "c9_s1": {
+  "archetype": "C",
+  "icp": "people wanting to become tech lawyers",
+  "note": "aspiration only, no occupation or situation"
+ },
+ "c9_s2": {
+  "archetype": "C",
+  "icp": "people wanting to become tech lawyers",
+  "note": "aspiration only, no occupation or situation"
+ },
+ "c9_s3": {
+  "archetype": "C",
+  "icp": "people wanting to become tech lawyers",
+  "note": "aspiration only, no occupation or situation"
+ },
+ "c9_s4": {
+  "archetype": "C",
+  "icp": "people wanting to become tech lawyers",
+  "note": "aspiration only, no occupation or situation"
+ },
+ "c9_s5": {
+  "archetype": "C",
+  "icp": "people wanting to become tech lawyers",
+  "note": "aspiration only, no occupation or situation"
+ },
+ "c9_s6": {
+  "archetype": "C",
+  "icp": "people wanting to become tech lawyers",
+  "note": "aspiration only, no occupation or situation"
+ },
+ "careerbreak_r1": {
+  "archetype": "B",
+  "icp": "women lawyers restarting after a family break",
+  "note": ""
+ },
+ "careerbreak_r2": {
+  "archetype": "B",
+  "icp": "women lawyers restarting after a family break",
+  "note": ""
+ },
+ "careerbreak_r3": {
+  "archetype": "B",
+  "icp": "women lawyers restarting after a family break",
+  "note": ""
+ },
+ "cw1": {
+  "archetype": "B",
+  "icp": "UPSC aspirants with science or engineering degrees",
+  "note": "carousel of w2_01"
+ },
+ "cw2": {
+  "archetype": "D",
+  "icp": "patent agent exam candidates",
+  "note": "timeline carousel, no reader named"
+ },
+ "cw3": {
+  "archetype": "D",
+  "icp": "science degree holders choosing a patent role",
+  "note": "three-career comparison device"
+ },
+ "cw4": {
+  "archetype": "A",
+  "icp": "biotech and life science researchers",
+  "note": ""
+ },
+ "cw5": {
+  "archetype": "B",
+  "icp": "M.Sc holders restarting after a career break",
+  "note": "FAQ device, break named"
+ },
+ "cw_01_types_clients": {
+  "archetype": "A",
+  "icp": "Indian content writers meeting difficult clients",
+  "note": "six-types device"
+ },
+ "cw_02_types_feedback": {
+  "archetype": "A",
+  "icp": "in-house writers collecting vague feedback",
+  "note": "six-types device"
+ },
+ "cw_03_types_rates": {
+  "archetype": "A",
+  "icp": "writers paid per word or in bulk",
+  "note": "six-types device"
+ },
+ "cw_04_types_advice": {
+  "archetype": "A",
+  "icp": "Indian writers chasing clients on job platforms",
+  "note": "six-types device"
+ },
+ "cw_05_types_womenadvice": {
+  "archetype": "B",
+  "icp": "women writing from home for pocket money",
+  "note": "situation, not occupation"
+ },
+ "cw_06_types_promotion": {
+  "archetype": "A",
+  "icp": "in-house writers climbing the writing promotion ladder",
+  "note": ""
+ },
+ "cw_07_types_aiexperts": {
+  "archetype": "A",
+  "icp": "content writers surrounded by AI shortcut talk",
+  "note": "six-types device"
+ },
+ "cw_08_words_campaigns": {
+  "archetype": "A",
+  "icp": "writers paid for words, not campaigns",
+  "note": ""
+ },
+ "cw_09_types_briefs": {
+  "archetype": "A",
+  "icp": "social media writers in India",
+  "note": "six-types device"
+ },
+ "cw_10_what_pays": {
+  "archetype": "D",
+  "icp": "content writers in India",
+  "note": "four-box work matrix; no reader named"
+ },
+ "cw_10b_socialmedia": {
+  "archetype": "A",
+  "icp": "social media managers stuck on daily posting",
+  "note": ""
+ },
+ "cw_10c_perword": {
+  "archetype": "A",
+  "icp": "freelance writers paid per word",
+  "note": "rate-card device, writer named"
+ },
+ "cw_10d_senior": {
+  "archetype": "A",
+  "icp": "senior content writers stuck on the title ladder",
+  "note": ""
+ },
+ "cw_10e_women": {
+  "archetype": "B",
+  "icp": "women writing from home for pocket money",
+  "note": "home-work situation, gender-broad"
+ },
+ "cw_11_meanwhile_2026": {
+  "archetype": "A",
+  "icp": "content writers told AI replaced them",
+  "note": "meanwhile meme device"
+ },
+ "cw_12_no_idea_why": {
+  "archetype": "A",
+  "icp": "social media writers who cannot explain results",
+  "note": ""
+ },
+ "cw_13_wheres_the_work": {
+  "archetype": "A",
+  "icp": "writers scrolling job boards for shrinking gigs",
+  "note": ""
+ },
+ "cw_14_word_count": {
+  "archetype": "A",
+  "icp": "writers charging by the word",
+  "note": ""
+ },
+ "cw_15_wall_slogan": {
+  "archetype": "A",
+  "icp": "writers paid per word in India",
+  "note": "wall-slogan device, reader only implied"
+ },
+ "cw_16_us_smb": {
+  "archetype": "A",
+  "icp": "Indian writers working with US small businesses",
+  "note": ""
+ },
+ "cw_17_bill_usd": {
+  "archetype": "A",
+  "icp": "Indian writers who want to bill in dollars",
+  "note": ""
+ },
+ "cw_18_eu_d2c": {
+  "archetype": "A",
+  "icp": "Indian writers working with European D2C brands",
+  "note": ""
+ },
+ "cw_19_duality": {
+  "archetype": "A",
+  "icp": "content writers on per-word rates late at night",
+  "note": "duality meme device"
+ },
+ "cw_20_three_evenings": {
+  "archetype": "D",
+  "icp": "content writers in India",
+  "note": "curriculum agenda; no reader named"
+ },
+ "cw_21_creator": {
+  "archetype": "A",
+  "icp": "content creators who post their own work",
+  "note": ""
+ },
+ "cw_22_video": {
+  "archetype": "A",
+  "icp": "video creators who can hold attention",
+  "note": ""
+ },
+ "cw_px_budget": {
+  "archetype": "D",
+  "icp": "no reader named; Meta CPM and budget-shift stats",
+  "note": "stat-led, device only"
+ },
+ "cw_px_demand_board": {
+  "archetype": "A",
+  "icp": "content writers who already plan campaigns",
+  "note": ""
+ },
+ "cw_px_india": {
+  "archetype": "A",
+  "icp": "content writers wanting a strategist title in India",
+  "note": "before/after relabel device"
+ },
+ "cw_px_jobspec": {
+  "archetype": "A",
+  "icp": "content writers reading strategist job listings",
+  "note": "job-spec artefact device"
+ },
+ "cw_px_spec": {
+  "archetype": "D",
+  "icp": "no reader named; AI-in-job-ads stat",
+  "note": "stat-led opener"
+ },
+ "duip01_uslawyers": {
+  "archetype": "A",
+  "icp": "women lawyers in India wanting remote IP work",
+  "note": "buyer-led headline, reader named third-person"
+ },
+ "ex-bank-relationship-manager": {
+  "archetype": "A",
+  "icp": "former bank relationship managers",
+  "note": ""
+ },
+ "freelance-underpricing": {
+  "archetype": "A",
+  "icp": "freelancers still quoting an old rate card",
+  "note": ""
+ },
+ "govt-exam-aspirant": {
+  "archetype": "B",
+  "icp": "government exam aspirants waiting on results",
+  "note": ""
+ },
+ "hr_46_bpo": {
+  "archetype": "A",
+  "icp": "BPO HR staff hiring at huge scale",
+  "note": ""
+ },
+ "hr_47_retail": {
+  "archetype": "A",
+  "icp": "retail store HR handling multi-city joining papers",
+  "note": ""
+ },
+ "hr_48_itstaffing": {
+  "archetype": "A",
+  "icp": "IT staffing recruiters submitting CVs to US clients",
+  "note": ""
+ },
+ "hr_49_bfsi": {
+  "archetype": "A",
+  "icp": "bank and BFSI HR running hiring verification",
+  "note": ""
+ },
+ "hr_50_education": {
+  "archetype": "A",
+  "icp": "school and college HR hiring faculty",
+  "note": ""
+ },
+ "hr_51_logistics": {
+  "archetype": "A",
+  "icp": "logistics HR handling contractor and attendance records",
+  "note": ""
+ },
+ "hr_52_hospitality": {
+  "archetype": "A",
+  "icp": "hotel HR running rosters and trainee batches",
+  "note": ""
+ },
+ "hr_53_pharma": {
+  "archetype": "A",
+  "icp": "pharma HR keeping audit-ready employee files",
+  "note": ""
+ },
+ "hr_54_lnd": {
+  "archetype": "A",
+  "icp": "learning and development trainers building courses",
+  "note": ""
+ },
+ "hr_55_compdata": {
+  "archetype": "A",
+  "icp": "compensation and HR data analysts in spreadsheets",
+  "note": ""
+ },
+ "hr_56_tahead": {
+  "archetype": "A",
+  "icp": "talent acquisition heads running a recruiter team",
+  "note": ""
+ },
+ "hr_57_campus": {
+  "archetype": "A",
+  "icp": "campus recruitment staff wanting their own firm",
+  "note": ""
+ },
+ "hr_58_helpdesk": {
+  "archetype": "A",
+  "icp": "HR helpdesk staff answering the queue",
+  "note": ""
+ },
+ "hr_59_hrms": {
+  "archetype": "A",
+  "icp": "HRMS administrators cleaning data and chasing approvals",
+  "note": ""
+ },
+ "hr_60_agency": {
+  "archetype": "A",
+  "icp": "commission-based recruitment consultants",
+  "note": ""
+ },
+ "hr_61_contract": {
+  "archetype": "B",
+  "icp": "HR professionals on contract, not permanent",
+  "note": "contract status is the ICP, HR the discipline"
+ },
+ "hr_62_accidental": {
+  "archetype": "B",
+  "icp": "people doing HR without an HR degree",
+  "note": "untrained-into-the-role situation"
+ },
+ "hr_63_family": {
+  "archetype": "A",
+  "icp": "the HR person in a family business",
+  "note": ""
+ },
+ "hr_64_thirties": {
+  "archetype": "B",
+  "icp": "HR professionals in their thirties",
+  "note": "age band as the ICP"
+ },
+ "hr_65_ownerhr": {
+  "archetype": "A",
+  "icp": "business owners hiring without an HR team",
+  "note": "owner hires for their own company"
+ },
+ "hr_66_opsmanager": {
+  "archetype": "A",
+  "icp": "ops managers landed with HR duties",
+  "note": ""
+ },
+ "i1_cxo": {
+  "archetype": "A",
+  "icp": "CXOs who have spent years reporting to boards",
+  "note": ""
+ },
+ "i2_cfo": {
+  "archetype": "A",
+  "icp": "CFOs and finance heads who read financial statements",
+  "note": ""
+ },
+ "i3_inhouse": {
+  "archetype": "A",
+  "icp": "in-house counsel and company secretaries",
+  "note": ""
+ },
+ "i4_litigator": {
+  "archetype": "A",
+  "icp": "litigators",
+  "note": ""
+ },
+ "i5_corplaw": {
+  "archetype": "A",
+  "icp": "corporate lawyers working the Companies Act",
+  "note": ""
+ },
+ "i6_professor": {
+  "archetype": "A",
+  "icp": "professors and academics",
+  "note": "occupation only in the filename"
+ },
+ "i7_forces": {
+  "archetype": "A",
+  "icp": "retiring armed forces officers",
+  "note": ""
+ },
+ "icp_11_freshgrads": {
+  "archetype": "B",
+  "icp": "2025-26 science graduates with no first job",
+  "note": "fresh-graduate situation"
+ },
+ "icp_12_teachers": {
+  "archetype": "A",
+  "icp": "school teachers of physics, chemistry or biology",
+  "note": ""
+ },
+ "icp_13_qa_regulatory": {
+  "archetype": "A",
+  "icp": "pharma QA, QC, regulatory and PV staff",
+  "note": ""
+ },
+ "icp_14_rnd_engineers": {
+  "archetype": "A",
+  "icp": "R&D engineers at companies that file patents",
+  "note": ""
+ },
+ "icp_15_cro_clinical": {
+  "archetype": "A",
+  "icp": "CRO and clinical research professionals",
+  "note": ""
+ },
+ "icp_16_gate_aspirants": {
+  "archetype": "B",
+  "icp": "GATE, CSIR-NET and GPAT aspirants",
+  "note": "exam-prep situation"
+ },
+ "icp_17_it_engineers": {
+  "archetype": "A",
+  "icp": "IT and software engineers",
+  "note": ""
+ },
+ "icp_18_agri_foodsci": {
+  "archetype": "A",
+  "icp": "agriculture and food science graduates",
+  "note": ""
+ },
+ "icp_19_side_desk": {
+  "archetype": "B",
+  "icp": "scientists and engineers wanting evening side income",
+  "note": "full-time job, evenings free"
+ },
+ "icp_20_degree_revival": {
+  "archetype": "B",
+  "icp": "sales or BPO workers holding an unused science degree",
+  "note": "working outside the degree field"
+ },
+ "icp_21_neet_bsc": {
+  "archetype": "B",
+  "icp": "B.Sc students who missed a NEET seat",
+  "note": ""
+ },
+ "icp_22_pharmacists": {
+  "archetype": "A",
+  "icp": "pharmacists working behind the counter",
+  "note": ""
+ },
+ "icp_23_ssc_science": {
+  "archetype": "B",
+  "icp": "SSC and railway exam aspirants with science degrees",
+  "note": "exam-prep situation"
+ },
+ "icp_24_industrial_chemists": {
+  "archetype": "A",
+  "icp": "industrial chemists on formulation lines",
+  "note": ""
+ },
+ "icp_25_ev_engineers": {
+  "archetype": "A",
+  "icp": "EV, battery and solar hardware engineers",
+  "note": ""
+ },
+ "icp_26_ayurveda_bams": {
+  "archetype": "A",
+  "icp": "BAMS and ayurveda graduates",
+  "note": ""
+ },
+ "icp_27_semicon_vlsi": {
+  "archetype": "A",
+  "icp": "VLSI and semiconductor design engineers",
+  "note": ""
+ },
+ "icp_28_biomedical_devices": {
+  "archetype": "A",
+  "icp": "biomedical and medical device engineers",
+  "note": ""
+ },
+ "icp_29_medical_writers": {
+  "archetype": "A",
+  "icp": "medical and scientific writers",
+  "note": ""
+ },
+ "icp_30_research_fellows": {
+  "archetype": "A",
+  "icp": "science and engineering research fellows on stipends",
+  "note": ""
+ },
+ "icp_31_ugcnet_science": {
+  "archetype": "B",
+  "icp": "UGC NET and CSIR NET science aspirants",
+  "note": "exam-prep situation"
+ },
+ "icp_32_scientists": {
+  "archetype": "A",
+  "icp": "scientists in CSIR labs and industry R&D",
+  "note": ""
+ },
+ "icp_33_lawyer_bsc": {
+  "archetype": "A",
+  "icp": "lawyers with a B.Sc or M.Sc behind the LL.B",
+  "note": "credential-gated occupation"
+ },
+ "icp_34_mtech": {
+  "archetype": "A",
+  "icp": "M.Tech holders in engineering",
+  "note": ""
+ },
+ "icp_35_engineer_lawyer": {
+  "archetype": "A",
+  "icp": "lawyers with a B.Tech behind the LL.B",
+  "note": "credential-gated occupation"
+ },
+ "law-graduate-not-practising": {
+  "archetype": "A",
+  "icp": "law graduates not practising in court",
+  "note": "credential ICP"
+ },
+ "law_students_r1": {
+  "archetype": "A",
+  "icp": "law students still in college",
+  "note": ""
+ },
+ "law_students_r2": {
+  "archetype": "A",
+  "icp": "law students still in college",
+  "note": ""
+ },
+ "law_students_r3": {
+  "archetype": "A",
+  "icp": "law students still in college",
+  "note": ""
+ },
+ "lawgrads_r1": {
+  "archetype": "A",
+  "icp": "law graduates who never practised",
+  "note": "credential ICP"
+ },
+ "lawgrads_r2": {
+  "archetype": "A",
+  "icp": "law graduates who never practised",
+  "note": "credential ICP"
+ },
+ "lawgrads_r3": {
+  "archetype": "A",
+  "icp": "law graduates who never practised",
+  "note": "credential ICP"
+ },
+ "lawyer_moms_r1": {
+  "archetype": "A",
+  "icp": "lawyer mothers working around school hours",
+  "note": "occupation plus motherhood"
+ },
+ "lawyer_moms_r2": {
+  "archetype": "A",
+  "icp": "lawyer mothers working around school hours",
+  "note": "occupation plus motherhood"
+ },
+ "lawyer_moms_r3": {
+  "archetype": "A",
+  "icp": "lawyer mothers working around school hours",
+  "note": "occupation plus motherhood"
+ },
+ "lit_01_disputes_wave": {
+  "archetype": "A",
+  "icp": "litigators appearing in trial courts",
+  "note": "cause-list framing, reader is the advocate"
+ },
+ "lit_02_skills_transfer": {
+  "archetype": "A",
+  "icp": "courtroom litigators with drafting and cross skills",
+  "note": "same craft, new rulebook"
+ },
+ "lit_03_no_seniors": {
+  "archetype": "A",
+  "icp": "junior lawyers under senior advocates",
+  "note": ""
+ },
+ "m1_shoulder_tap": {
+  "archetype": "B",
+  "icp": "professionals planning a quiet retirement",
+  "note": ""
+ },
+ "m2_route_cartoon": {
+  "archetype": "D",
+  "icp": "no reader named; the four-step route to a board",
+  "note": "route cartoon, device only"
+ },
+ "maternity-leave-ending": {
+  "archetype": "B",
+  "icp": "women whose maternity leave is about to end",
+  "note": ""
+ },
+ "mh01_corridor": {
+  "archetype": "A",
+  "icp": "litigators losing days to court adjournments",
+  "note": ""
+ },
+ "mh02_office": {
+  "archetype": "A",
+  "icp": "in-house company secretaries handling disputes",
+  "note": ""
+ },
+ "mh03_chamber": {
+  "archetype": "A",
+  "icp": "junior lawyers drafting for a senior",
+  "note": ""
+ },
+ "mh04_moot": {
+  "archetype": "A",
+  "icp": "law students who have done moots",
+  "note": "trained discipline, still pre-graduation"
+ },
+ "mh05_barroom": {
+  "archetype": "A",
+  "icp": "practising lawyers with no arbitration brief yet",
+  "note": ""
+ },
+ "midcareer_r1": {
+  "archetype": "A",
+  "icp": "lawyers stuck mid career",
+  "note": "occupation plus stuck framing"
+ },
+ "midcareer_r2": {
+  "archetype": "A",
+  "icp": "lawyers stuck mid career",
+  "note": "occupation plus stuck framing"
+ },
+ "midcareer_r3": {
+  "archetype": "A",
+  "icp": "lawyers stuck mid career",
+  "note": "occupation plus stuck framing"
+ },
+ "nurse-who-left-the-ward": {
+  "archetype": "A",
+  "icp": "nurses who left the shift roster",
+  "note": ""
+ },
+ "pc_independent_director": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "pay-chart device"
+ },
+ "pc_us_accounting": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "pay-chart device"
+ },
+ "psychology-no-seat": {
+  "archetype": "A",
+  "icp": "MA psychology graduates without an M.Phil seat",
+  "note": "credential ICP, blocked clinical door"
+ },
+ "retail-floor-staff": {
+  "archetype": "A",
+  "icp": "retail floor staff on a shift roster",
+  "note": ""
+ },
+ "rm_01_ai-discount-request_v2": {
+  "archetype": "D",
+  "icp": "content writers in India",
+  "note": "no reader named; discount-request device"
+ },
+ "rm_02_proofreader-editor_v2": {
+  "archetype": "A",
+  "icp": "proofreaders and copy editors",
+  "note": ""
+ },
+ "rm_03_agency-brief-taker_v2": {
+  "archetype": "A",
+  "icp": "agency writers who take client briefs",
+  "note": ""
+ },
+ "rm_04_many-small-clients_v2": {
+  "archetype": "A",
+  "icp": "freelance writers with many small clients",
+  "note": ""
+ },
+ "rm_05_tier2-cost-base_v2": {
+  "archetype": "B",
+  "icp": "writers in tier-2 cities with local rates",
+  "note": "small-city situation"
+ },
+ "rto-mandate-caught": {
+  "archetype": "B",
+  "icp": "women caught by a return-to-office mandate",
+  "note": ""
+ },
+ "school-front-office": {
+  "archetype": "A",
+  "icp": "school front-office coordinators",
+  "note": ""
+ },
+ "skin-clinic-chair-capped": {
+  "archetype": "A",
+  "icp": "skin and cosmetic clinic therapists, fully booked",
+  "note": ""
+ },
+ "special-educator-capped": {
+  "archetype": "A",
+  "icp": "special educators at a capped pay grade",
+  "note": ""
+ },
+ "sqd_dutychart": {
+  "archetype": "D",
+  "icp": "no reader named; duty solicitor shortage chart",
+  "note": "Law Society chart, device only"
+ },
+ "sqd_over30": {
+  "archetype": "B",
+  "icp": "lawyers over 30 wanting to migrate abroad",
+  "note": "age band is the axis"
+ },
+ "sqd_path": {
+  "archetype": "A",
+  "icp": "indian lawyers wanting to migrate to the UK",
+  "note": ""
+ },
+ "sqd_rota": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "led by Law Society shortage statistic"
+ },
+ "sqd_routes": {
+  "archetype": "A",
+  "icp": "indian lawyers wanting to migrate to the UK",
+  "note": ""
+ },
+ "sqd_tsl": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "shortage-list device, no reader addressed"
+ },
+ "sqe_a_glcc": {
+  "archetype": "E",
+  "icp": "Indian lawyers wanting global in-house work",
+  "note": "proof-stat led, audience at its widest"
+ },
+ "sqe_a_glcc_nobrand": {
+  "archetype": "E",
+  "icp": "Indian lawyers wanting global in-house work",
+  "note": "proof-stat led, brands removed"
+ },
+ "sqe_b_women": {
+  "archetype": "B",
+  "icp": "women lawyers after a career break or city move",
+  "note": ""
+ },
+ "sqe_c_tier23": {
+  "archetype": "B",
+  "icp": "lawyers in tier 2 and tier 3 cities",
+  "note": "small city situation"
+ },
+ "sqe_d_experienced": {
+  "archetype": "A",
+  "icp": "experienced Indian lawyers in practice",
+  "note": ""
+ },
+ "sqe_e_contracts": {
+  "archetype": "A",
+  "icp": "lawyers who draft and negotiate contracts",
+  "note": ""
+ },
+ "sqe_f_paralegal": {
+  "archetype": "A",
+  "icp": "paralegals and unqualified legal support staff",
+  "note": ""
+ },
+ "sqe_g_arbitration": {
+  "archetype": "A",
+  "icp": "disputes and litigation lawyers",
+  "note": ""
+ },
+ "sqe_h_secondact": {
+  "archetype": "B",
+  "icp": "advocates in their forties and fifties",
+  "note": "career stage situation"
+ },
+ "sqe_i_students": {
+  "archetype": "B",
+  "icp": "students still in law college",
+  "note": "in-college situation"
+ },
+ "sqe_j_criminal": {
+  "archetype": "A",
+  "icp": "criminal litigators",
+  "note": ""
+ },
+ "sqe_k_associates": {
+  "archetype": "A",
+  "icp": "law firm associates",
+  "note": ""
+ },
+ "sqe_l_gulf": {
+  "archetype": "B",
+  "icp": "Indian lawyers already working in the Gulf",
+  "note": "relocated situation"
+ },
+ "sqe_m_llm": {
+  "archetype": "C",
+  "icp": "lawyers considering a UK LLM abroad",
+  "note": "LLM versus SQE comparison"
+ },
+ "sqe_n_examaspirants": {
+  "archetype": "B",
+  "icp": "judiciary and UPSC aspirants",
+  "note": "exam-prep situation"
+ },
+ "sqe_o_migrate": {
+  "archetype": "C",
+  "icp": "lawyers who want to move to the UK",
+  "note": ""
+ },
+ "sqe_p_ownfirm": {
+  "archetype": "A",
+  "icp": "lawyers running their own practice or small firm",
+  "note": ""
+ },
+ "sqe_q_iptech": {
+  "archetype": "A",
+  "icp": "IP and technology lawyers",
+  "note": ""
+ },
+ "sqe_r_newadvocates": {
+  "archetype": "B",
+  "icp": "newly enrolled advocates",
+  "note": "career stage situation"
+ },
+ "sqe_s_gulfmove": {
+  "archetype": "C",
+  "icp": "lawyers planning a move to the Gulf",
+  "note": "planned relocation, not yet lived"
+ },
+ "sqe_t_arbroute": {
+  "archetype": "C",
+  "icp": "lawyers wanting to break into international arbitration",
+  "note": ""
+ },
+ "sqe_u_arbsingapore": {
+  "archetype": "C",
+  "icp": "lawyers wanting arbitration work via Singapore",
+  "note": ""
+ },
+ "tl_08_firms_staffing": {
+  "archetype": "D",
+  "icp": "no audience named",
+  "note": "hiring-news proof, buyer-led not reader-led"
+ },
+ "us01_bcom": {
+  "archetype": "A",
+  "icp": "B.Com graduates wanting dollar accounting work",
+  "note": "credential ICP"
+ },
+ "us02_fifties": {
+  "archetype": "A",
+  "icp": "accountants in their 40s and 50s",
+  "note": "age framing on a named occupation"
+ },
+ "us03_mom": {
+  "archetype": "B",
+  "icp": "women restarting accounting after a family break",
+  "note": ""
+ },
+ "us04_small_town": {
+  "archetype": "B",
+  "icp": "accountants in small towns and non-metros",
+  "note": ""
+ },
+ "us05_evening": {
+  "archetype": "A",
+  "icp": "employed accountants with free evenings",
+  "note": "moonlighting angle on an occupation"
+ },
+ "us06_experience": {
+  "archetype": "A",
+  "icp": "experienced Indian accountants",
+  "note": ""
+ },
+ "us07_tax": {
+  "archetype": "A",
+  "icp": "tax practitioners who file client returns",
+  "note": ""
+ },
+ "us08_same_work": {
+  "archetype": "A",
+  "icp": "accountants doing entries, reconciliations and payroll",
+  "note": ""
+ },
+ "us09_quickbooks": {
+  "archetype": "A",
+  "icp": "accountants who only know Tally",
+  "note": "tool comparison lead"
+ },
+ "us10_ca_inter": {
+  "archetype": "A",
+  "icp": "CA Inter clearers who stopped there",
+  "note": "credential ICP"
+ },
+ "us11_duo_bcom": {
+  "archetype": "D",
+  "icp": "commerce graduates, named only in the filename",
+  "note": "shortage-stat lead, buyer-led opener"
+ },
+ "us12_gcc_bpo": {
+  "archetype": "A",
+  "icp": "GCC and finance BPO accounting staff",
+  "note": ""
+ },
+ "us13_audit_staff": {
+  "archetype": "A",
+  "icp": "audit and accounts staff at CA firms",
+  "note": ""
+ },
+ "us14_gst": {
+  "archetype": "A",
+  "icp": "practitioners filing GST returns for clients",
+  "note": ""
+ },
+ "us15_mba_finance": {
+  "archetype": "A",
+  "icp": "finance MBAs working in sales or ops",
+  "note": ""
+ },
+ "us16_ea_route": {
+  "archetype": "B",
+  "icp": "accountants who gave up on the US CPA",
+  "note": "abandoned credential plan is the situation"
+ },
+ "us17_ca": {
+  "archetype": "A",
+  "icp": "practising chartered accountants with their own office",
+  "note": ""
+ },
+ "us18_cs": {
+  "archetype": "A",
+  "icp": "practising company secretaries running filings",
+  "note": ""
+ },
+ "us19_cma": {
+  "archetype": "A",
+  "icp": "practising cost accountants (CMAs)",
+  "note": ""
+ },
+ "us20_notice": {
+  "archetype": "C",
+  "icp": "salaried accountants waiting on a yearly raise",
+  "note": "audience only implied, shortage stat led"
+ },
+ "us21_notice_bcom": {
+  "archetype": "A",
+  "icp": "B.Com graduates with no finance seat",
+  "note": "credential ICP"
+ },
+ "us22_notice_fifties": {
+  "archetype": "B",
+  "icp": "accountants in their forties and fifties",
+  "note": "age band stays a situation"
+ },
+ "us23_notice_mom": {
+  "archetype": "B",
+  "icp": "women accountants restarting after a family break",
+  "note": ""
+ },
+ "us24_notice_evening": {
+  "archetype": "B",
+  "icp": "employed accountants wanting evening income",
+  "note": ""
+ },
+ "us25_notice_small_town": {
+  "archetype": "B",
+  "icp": "accountants in small towns, no metro",
+  "note": ""
+ },
+ "us26_notice_tax": {
+  "archetype": "A",
+  "icp": "tax practitioners filing returns for clients",
+  "note": ""
+ },
+ "us27_notice_xero": {
+  "archetype": "A",
+  "icp": "Tally accountants who do not know cloud books",
+  "note": "tool gap is the axis"
+ },
+ "us28_notice_ca_inter": {
+  "archetype": "B",
+  "icp": "people who cleared CA Inter and stopped",
+  "note": "stalled credential is a situation"
+ },
+ "us29_notice_gcc": {
+  "archetype": "A",
+  "icp": "GCC and finance BPO accounting staff",
+  "note": ""
+ },
+ "us30_notice_ca": {
+  "archetype": "A",
+  "icp": "practising chartered accountants wanting US clients",
+  "note": ""
+ },
+ "us31_notice_audit": {
+  "archetype": "A",
+  "icp": "audit and accounts staff at CA firms",
+  "note": ""
+ },
+ "us32_notice_gst": {
+  "archetype": "A",
+  "icp": "practitioners filing GST returns for clients",
+  "note": ""
+ },
+ "us33_notice_mba": {
+  "archetype": "A",
+  "icp": "finance MBAs working in sales or ops",
+  "note": ""
+ },
+ "us34_notice_ea": {
+  "archetype": "B",
+  "icp": "accountants who gave up on the US CPA",
+  "note": "abandoned credential plan is the situation"
+ },
+ "us35_notice_cs": {
+  "archetype": "A",
+  "icp": "practising company secretaries running filings",
+  "note": ""
+ },
+ "us36_notice_cma": {
+  "archetype": "A",
+  "icp": "practising cost accountants (CMAs)",
+  "note": ""
+ },
+ "usmb_01_chart": {
+  "archetype": "A",
+  "icp": "writers cleaning up AI drafts by the hour",
+  "note": "pay-chart device"
+ },
+ "usmb_01_fix_drafts": {
+  "archetype": "A",
+  "icp": "writers whose day is AI cleanup briefs",
+  "note": ""
+ },
+ "usmb_02_lost_retainer": {
+  "archetype": "A",
+  "icp": "freelance writers who lost a retainer to AI",
+  "note": ""
+ },
+ "usmb_02b_post": {
+  "archetype": "D",
+  "icp": "content writers in India",
+  "note": "founder post, buyer-led not reader-led"
+ },
+ "usmb_03_team_of_one": {
+  "archetype": "A",
+  "icp": "in-house writers left as a team of one",
+  "note": ""
+ },
+ "usmb_03b_chrome": {
+  "archetype": "A",
+  "icp": "writers doing a whole team's work alone",
+  "note": "browser-window device"
+ },
+ "usmb_03c_routines": {
+  "archetype": "A",
+  "icp": "solo marketers running a brand's whole funnel",
+  "note": "routine device, but the work is named"
+ },
+ "usmb_03d_morning_routines": {
+  "archetype": "D",
+  "icp": "India-based marketers serving US clients",
+  "note": "day-timeline device, audience only implied"
+ },
+ "usmb_04_seo_falling": {
+  "archetype": "A",
+  "icp": "SEO blog writers whose traffic is falling",
+  "note": ""
+ },
+ "usmb_05_agency_copy": {
+  "archetype": "A",
+  "icp": "agency copywriters priced for Indian clients",
+  "note": ""
+ },
+ "usmb_06_perword": {
+  "archetype": "A",
+  "icp": "content writers paid per word",
+  "note": ""
+ },
+ "v1_retirement": {
+  "archetype": "B",
+  "icp": "senior professionals nearing retirement",
+  "note": ""
+ },
+ "v2_meeting": {
+  "archetype": "A",
+  "icp": "senior managers who chair review meetings",
+  "note": ""
+ },
+ "v3_year_on_board": {
+  "archetype": "C",
+  "icp": "experienced professionals stuck in the same role",
+  "note": "no discipline or situation named"
+ },
+ "v4_women_board": {
+  "archetype": "E",
+  "icp": "women professionals, at their widest",
+  "note": "regulation and stat led"
+ },
+ "v5_career_curves": {
+  "archetype": "D",
+  "icp": "no reader named; career-curve chart",
+  "note": "chart device, retirement age implied"
+ },
+ "v6_search_gap": {
+  "archetype": "D",
+  "icp": "no reader named; IICA databank search stats",
+  "note": "proof device"
+ },
+ "v7_women_share": {
+  "archetype": "D",
+  "icp": "no reader named; women's board-seat share chart",
+  "note": "chart device"
+ },
+ "w13_own_money_story": {
+  "archetype": "B",
+  "icp": "women with no income of their own",
+  "note": ""
+ },
+ "w13_v2_press": {
+  "archetype": "B",
+  "icp": "women with no income of their own",
+  "note": "format variant, same copy"
+ },
+ "w13_v3_chat": {
+  "archetype": "B",
+  "icp": "women with no income of their own",
+  "note": "format variant, same copy"
+ },
+ "w13_v4_notebook": {
+  "archetype": "B",
+  "icp": "women with no income of their own",
+  "note": "format variant, same copy"
+ },
+ "w13_v5_dark": {
+  "archetype": "B",
+  "icp": "women with no income of their own",
+  "note": "format variant, same copy"
+ },
+ "w14_gap_restart": {
+  "archetype": "B",
+  "icp": "women with a ten-year career break",
+  "note": ""
+ },
+ "w14_v2_dawn": {
+  "archetype": "B",
+  "icp": "women with a ten-year career break",
+  "note": "format variant, same copy"
+ },
+ "w14_v3_venn": {
+  "archetype": "B",
+  "icp": "women with a ten-year career break",
+  "note": "format variant, same copy"
+ },
+ "w14_v4_bridge": {
+  "archetype": "B",
+  "icp": "women with a ten-year career break",
+  "note": "format variant, same copy"
+ },
+ "w14_v5_stairs": {
+  "archetype": "B",
+  "icp": "women with a ten-year career break",
+  "note": "format variant, same copy"
+ },
+ "w14_v6_clock": {
+  "archetype": "B",
+  "icp": "women with a ten-year career break",
+  "note": "format variant, same copy"
+ },
+ "w14_v7_fork": {
+  "archetype": "B",
+  "icp": "women with a ten-year career break",
+  "note": "format variant, same copy"
+ },
+ "w2_01_govt_order": {
+  "archetype": "B",
+  "icp": "UPSC aspirants with science or engineering degrees",
+  "note": "govt-order device, aspirant named"
+ },
+ "w2_02_govt_navy": {
+  "archetype": "B",
+  "icp": "UPSC aspirants with science or engineering degrees",
+  "note": ""
+ },
+ "w2_03_deadline_calendar": {
+  "archetype": "D",
+  "icp": "patent agent exam candidates",
+  "note": "calendar deadline device, no reader named"
+ },
+ "w2_04_deadline_checklist": {
+  "archetype": "D",
+  "icp": "patent agent exam candidates",
+  "note": "checklist deadline device, no reader named"
+ },
+ "w2_05_biotech_lab": {
+  "archetype": "A",
+  "icp": "biotech bench scientists and lab researchers",
+  "note": ""
+ },
+ "w2_06_chat_restart": {
+  "archetype": "B",
+  "icp": "M.Sc women restarting after a career break",
+  "note": "chat-format device, break named"
+ },
+ "women_lawyers_r1": {
+  "archetype": "A",
+  "icp": "women lawyers in India",
+  "note": ""
+ },
+ "women_lawyers_r2": {
+  "archetype": "A",
+  "icp": "women lawyers in India",
+  "note": ""
+ },
+ "women_lawyers_r3": {
+  "archetype": "A",
+  "icp": "women lawyers in India",
+  "note": ""
+ }
+}

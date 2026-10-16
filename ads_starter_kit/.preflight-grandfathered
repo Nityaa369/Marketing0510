@@ -1,0 +1,25 @@
+# Specs that predate a required value_props field (15 Sep 2026).
+#
+# Format:  <kit folder>: field, field      exempt from those fields only
+#          <kit folder>                    exempt from every legacy field
+#
+# NEVER add to this file. Both scaffolds write pain_score and hypothesis, so a kit
+# missing one is a kit whose ICP list was never ranked, or whose test was never
+# stated. That is a BLOCKER, not an exemption.
+# preflight.py --selftest fails if the entry count grows.
+#
+# Generated from the specs in the repo on the day each requirement landed.
+
+AcademicWriting_Wave1_MediaBuyer_26-28Sep: pain_score, hypothesis
+AcademicWriting_Wave2_MediaBuyer_26-28Sep: pain_score, hypothesis
+ContentWriting_Neighbours_Reworked_29-31Aug: pain_score, hypothesis
+GlobalPatent_MediaBuyer_19-21Sep: pain_score, hypothesis
+GlobalPatent_Wave2_MediaBuyer_19-21Sep: pain_score, hypothesis
+IndependentDirector_Wave1_MediaBuyer_12-14Sep: pain_score, hypothesis
+SeniorAI_Oct3-5_Refresh: hypothesis
+USCorporateLaw_Wave2_MediaBuyer_19-21Sep: pain_score, hypothesis
+WomenRemote_Situations_MediaBuyer_5-7Sep: pain_score, hypothesis
+WomenRemote_Verticals_MediaBuyer_5-7Sep: pain_score, hypothesis
+womens_ai_bootcamp_5-7Sep: pain_score, hypothesis
+WomensRemoteWork_HiddenMarkets_MediaBuyer_5-7Sep: pain_score, hypothesis
+WomensRemoteWork_USRoles_MediaBuyer_5-7Sep: pain_score, hypothesis

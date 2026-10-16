@@ -1,0 +1,192 @@
+<!-- Deploy as /f/cf-oct-cost-accountant . ctaLabels: ["Join for &#8377;10"] -->
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cost the plant and price the company | SkillArbitrage Corporate Finance Bootcamp</title>
+<meta name="description" content="In our &#8377;10 3-day live bootcamp, 17 to 19 October, we show you how to value a company, how a term sheet and a cap table work, and the written plan to reach your first corporate finance client in 6 months.">
+<!-- analytics: gtag and fbq are injected by the deploy pipeline, not carried here -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,800;1,900&display=swap">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--page:#F0F1F4;--accent:#1F4E86;--ink:#171B22;--line:#CFD6E0;--soft:#E9EDF3}
+html{-webkit-text-size-adjust:100%}
+body{font-family:'Inter','Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif;
+  color:var(--ink);background:#fff;font-size:17px;line-height:1.55;
+  padding-bottom:88px;font-variant-numeric:tabular-nums}
+.wrap{max-width:680px;margin:0 auto;padding:0 18px}
+a{color:inherit}
+/* the first screen is the ad: the venn face, in page form */
+.vhead{background:var(--accent);color:#fff;padding:26px 0 30px;
+  background-image:linear-gradient(180deg,rgba(255,255,255,.02),rgba(255,255,255,.28))}
+.vhead .in{max-width:680px;margin:0 auto;padding:0 18px;text-align:center}
+.vbrand{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.callout{font-size:clamp(22px,6.4vw,30px);font-weight:800;line-height:1.08;
+  text-transform:uppercase;margin-top:10px;text-wrap:balance}
+h1{font-size:clamp(28px,7.6vw,42px);font-weight:700;line-height:1.06;letter-spacing:-.02em;
+  text-transform:uppercase;margin-top:8px;text-wrap:balance}
+h1 em{font-style:italic}
+.venn{position:relative;height:300px;margin:18px auto 0;max-width:560px}
+.ring{position:absolute;top:0;width:300px;height:300px;border:2px solid #fff;border-radius:50%}
+.ring.l{left:0}.ring.r{right:0}
+.vlab{position:absolute;top:50%;transform:translateY(-50%);width:150px;font-size:17px;
+  font-weight:700;line-height:1.15;text-transform:uppercase}
+.vlab.l{left:14px}.vlab.r{right:14px}
+.lens{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:132px;
+  background:#fff;color:var(--ink);border-radius:12px;padding:10px 8px;
+  box-shadow:0 10px 24px rgba(0,0,0,.2)}
+.lens b{display:block;font-size:22px;font-weight:900;line-height:1.05}
+.lens span{display:block;font-size:15px;font-weight:800;color:var(--accent);margin-top:3px}
+@media (max-width:520px){
+  .venn{height:236px}.ring{width:236px;height:236px}
+  .vlab{width:116px;font-size:14px}.lens{width:112px}.lens b{font-size:19px}.lens span{font-size:13px}
+}
+.deliver{font-size:17px;margin-top:18px}
+.cta{display:inline-block;background:#fff;color:var(--accent);text-decoration:none;
+  font-size:20px;font-weight:800;padding:14px 26px;border-radius:999px;margin-top:16px}
+.cta:focus-visible,.sticky a:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.terms{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin-top:10px}
+.defn{background:var(--page);border-left:5px solid var(--accent);border-radius:8px;
+  padding:14px 16px;margin-top:18px;font-size:17px}
+.defn b{color:var(--accent)}
+.trust{text-align:center;font-size:13px;font-weight:700;color:var(--accent);margin-top:12px}
+/* body */
+section{padding:34px 0 6px}
+h2{font-size:clamp(24px,6vw,30px);font-weight:900;line-height:1.15;letter-spacing:-.02em;
+  text-wrap:balance;margin-bottom:10px}
+p{margin-bottom:12px}
+.map{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:14px 0}
+.map .hd,.map .row{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:12px 16px}
+.map .hd{background:var(--soft);font-size:12px;font-weight:800;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--accent)}
+.map .row{border-top:1px solid var(--line)}
+.map .row div:last-child{font-weight:700}
+@media (max-width:520px){
+  .map .hd{display:none}
+  .map .row{grid-template-columns:1fr;gap:4px}
+  .map .row div::before{content:attr(data-l);display:block;font-size:11px;
+    font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#6a6a6a}
+  .map .row div:last-child::before{color:var(--accent)}
+}
+.why{list-style:none;counter-reset:w}
+.why li{counter-increment:w;display:grid;grid-template-columns:34px 1fr;column-gap:10px;
+  padding:14px 0;border-top:1px solid var(--line)}
+.why li::before{content:counter(w);font-size:22px;font-weight:900;color:var(--accent);line-height:1.2}
+.why b{display:block;font-size:19px;margin-bottom:2px}
+.steps{list-style:none;counter-reset:s;margin:14px 0;border-left:3px solid var(--line);margin-left:14px}
+.steps li{counter-increment:s;position:relative;padding:0 0 18px 26px}
+.steps li::before{content:counter(s);position:absolute;left:-16px;top:0;width:29px;height:29px;
+  border-radius:50%;background:var(--accent);color:#fff;font-weight:900;font-size:15px;
+  display:flex;align-items:center;justify-content:center}
+.steps b{display:block;font-size:18px;line-height:1.3;margin-bottom:2px}
+.routes{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0}
+@media (max-width:560px){.routes{grid-template-columns:1fr}}
+.route{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px}
+.route .k{font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.route h3{font-size:21px;font-weight:900;margin:2px 0 6px}
+.route p{margin:0;font-size:16px}
+.day{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:10px 0}
+.day .when{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.day h3{font-size:20px;font-weight:800;margin:2px 0 4px}
+.day p{margin:0}
+.takeaway{list-style:none;margin:12px 0}
+.takeaway li{padding:6px 0 6px 26px;position:relative}
+.takeaway li::before{content:"+";position:absolute;left:4px;font-weight:900;color:var(--accent)}
+.live{font-size:16px;font-weight:700}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:12px 0 6px}
+.fact{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px}
+.fact b{display:block;font-size:24px;font-weight:900;color:var(--accent);letter-spacing:-.02em}
+.fact span{font-size:14px;line-height:1.35;display:block}
+@media (max-width:520px){.facts{grid-template-columns:1fr}.fact{display:flex;gap:12px;align-items:baseline}
+  .fact b{min-width:110px}}
+.src{font-size:13px;color:#555}
+.room{list-style:none}
+.room li{padding:8px 0 8px 30px;position:relative;border-top:1px solid var(--line)}
+.room li::before{content:"\2713";position:absolute;left:4px;font-weight:900;color:var(--accent)}
+.q{font-weight:800;font-size:18px;margin-top:16px}
+.close{text-align:center;padding:40px 0 30px}
+.close p{font-size:18px}
+.close .cta{align-self:auto}
+footer{font-size:13px;color:#555;padding:26px 0 36px;border-top:1px solid var(--line);margin-top:20px}
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--accent);
+  box-shadow:0 -2px 14px rgba(0,0,0,.18)}
+.sticky .in{max-width:680px;margin:0 auto;padding:10px 18px;display:flex;align-items:center;
+  justify-content:space-between;gap:12px}
+.sticky .t{color:#fff;font-size:13px;font-weight:700;line-height:1.25}
+.sticky .t b{display:block;font-size:15px}
+.sticky a{background:#fff;color:var(--accent);font-weight:800;font-size:16px;text-decoration:none;
+  padding:11px 16px;border-radius:8px;white-space:nowrap}
+</style></head><body>
+
+<div class="vhead"><div class="in">
+  <div class="vbrand">SkillArbitrage &middot; Corporate finance bootcamp</div>
+  <div class="callout">A cost accountant?</div>
+  <h1>Cost the plant <em>and price the company</em></h1>
+  <div class="venn">
+    <div class="ring l"></div><div class="ring r"></div>
+    <div class="vlab l">Costing and<br>variance</div><div class="vlab r">Valuation and<br>the model</div>
+    <div class="lens"><b>&#8377;10</b><span>17&ndash;19 Oct</span></div>
+  </div>
+  <p class="deliver">In our &#8377;10 3-day live bootcamp, 17 to 19 October, we show you how to value a company, how a term sheet and a cap table work, and the written plan to reach your first corporate finance client in 6 months.</p>
+  <a class="cta" href="https://growthx.skillarbitra.ge/f/cf-oct-cost-accountant">Join for &#8377;10</a>
+  <div class="terms">&#8377;10 incl GST, refundable &middot; Live only, no recordings &middot; No CA or CFA needed</div>
+</div></div>
+<div class="wrap">
+<p class="defn"><b>What the role is.</b> Corporate finance work is valuing a company, building the financial model and reading the term sheet before anyone signs it.</p>
+<div class="trust">NSE Emerge-listed &middot; Recognised NSDC Training Partner &middot; IIT Roorkee iHUB Training Partner</div>
+
+<section>
+<h2>What a cost sheet measures, and what a valuation measures</h2>
+<p>Both are the same act of measurement. A cost sheet takes one product apart until every rupee inside it has a name. A valuation takes a whole company apart the same way. What changes is the unit being measured and the period it is measured over.</p><div class="map"><div class="hd"><div>On a cost sheet</div><div>In a valuation of the same firm</div></div><div class="row"><div data-l="On a cost sheet">The unit is a product, a process or a batch</div><div data-l="In a valuation of the same firm">The unit is the firm, every line added together and netted off</div></div><div class="row"><div data-l="On a cost sheet">The period is the month that just closed</div><div data-l="In a valuation of the same firm">The period is the years ahead, forecast and then discounted back</div></div><div class="row"><div data-l="On a cost sheet">A variance is measured against a standard you set yourself</div><div data-l="In a valuation of the same firm">A number is defended against a buyer who set none of it and agrees with none of it</div></div><div class="row"><div data-l="On a cost sheet">Overheads are absorbed, allocated and explained</div><div data-l="In a valuation of the same firm">Overheads sit inside the margin that the multiple is applied to</div></div><div class="row"><div data-l="On a cost sheet">The output is a report management reads and files</div><div data-l="In a valuation of the same firm">The output is a range that somebody signs a cheque against</div></div></div><p>Nobody has to explain absorption or contribution to you. What nobody has shown you is the firm itself treated as the unit, and the future treated as the period.</p>
+</section>
+<section>
+<h2>3 reasons a costing professional is nearer to valuation than most people in the room</h2>
+<ol class="why"><li><div><b>You know which margins are real and which ones vanish at low volume.</b>A valuation lives or dies on its margin assumptions. Almost everybody who builds one has only ever seen a margin as a line in a published account. You have seen it move when the line runs below capacity, and that is the assumption a buyer attacks first.</div></li><li><div><b>A standard cost is a forecast with a different name.</b>Setting a standard means committing to what a thing should cost before it has been made, then answering for the difference. That is exactly the discipline a financial model asks for, applied to a longer horizon.</div></li><li><div><b>You are already trusted with the numbers a company does not publish.</b>Nobody outside the business sees the process cost or the true capacity. Pricing a private company depends on that kind of information, and on somebody who can be shown it.</div></li></ol>
+</section>
+<section>
+<h2>One valuation, built upward from the cost structure</h2>
+<p>A valuation does not start with a discount rate. It starts with the split you already make every month.</p><ol class="steps"><li><b>Split the spending into what moves with volume and what does not</b>Variable, fixed, and the semi-variable middle that gets argued about. Every forecast that follows rests on this split, and getting it wrong is the commonest reason a model falls over under questioning.</li><li><b>Turn the split into a forecast the business can challenge</b>Revenue by line, contribution by line, fixed cost held flat until a capacity argument forces it to step up. Each assumption written where the owner can push back on it.</li><li><b>Convert the profit into cash</b>Working capital, capital expenditure, tax. A discounted cash flow has no interest in profit. It wants the cash that is actually free after the business has been kept running.</li><li><b>Discount it, and watch what the rate does</b>The discount rate is the assumption people fight hardest over. You see the value move as it changes, which is how you learn which parts of a valuation are solid and which parts are opinion wearing a decimal point.</li><li><b>Price the same company a second way, on multiples</b>Comparable businesses, and what they have changed hands for. Two independent methods, so the discounted cash flow is not the only witness in the room.</li><li><b>Write the range, and the reasons for it</b>The reasons are the deliverable. A number with no written reasoning behind it is a number the other side rewrites for you.</li></ol>
+</section>
+<section>
+<h2>Two places this work goes</h2>
+<div class="routes"><div class="route"><div class="k">Route one</div><h3>Inside the company you already work in</h3><p>The firm that buys a competitor, leases a second line or takes in an investor needs somebody who can price the thing. Today that analysis is usually bought outside while the person who knows the operation best is costing the product it makes.</p></div><div class="route"><div class="k">Route two</div><h3>As an adviser to owners of other businesses</h3><p>Owners of manufacturing and process businesses need a defensible number when a partner leaves, a buyer appears or a lender asks what the business is worth. That is engagement work, scoped and delivered, for people who already trust a costing professional.</p></div></div><p>The analysis is identical on both routes. The three days build it once, and the written plan on the last evening is about whichever route you pick.</p>
+</section>
+<section>
+<h2>How the first corporate finance client arrives for a cost accountant</h2>
+<p>Through the factory floor, which is where you already stand and where almost no valuation adviser has ever been.</p><ol class="steps"><li><b>List every business whose plant you have actually walked through</b>Suppliers, customers, the firms your own employer benchmarks against. Owners of those businesses face a valuation question sooner or later, and they do not know who to ask.</li><li><b>Lead with the one thing only you can say</b>A valuation written by somebody who has stood on the shop floor reads differently from one assembled out of a spreadsheet in another city. Say that plainly, in a sentence.</li><li><b>Deliver one small engagement completely</b>One company, valued two ways, with the model attached and a date on the cover. That document is what the next five conversations are built on, so it has to be finished.</li><li><b>Ask the owner who else has been asked the same question</b>An owner who has just seen their own business priced usually knows two more owners who were asked what theirs is worth and had no answer ready.</li></ol>
+</section>
+<section>
+<h2>The three sessions, live online</h2>
+<div class="day"><div class="when">Sat 17 Oct &middot; 6 to 9 PM IST</div><h3>What deal work actually is</h3><p>The 20 finance jobs clients pay for, how an engagement is scoped, and the vocabulary of a deal: enterprise value, equity value, dilution.</p></div><div class="day"><div class="when">Sun 18 Oct &middot; 6 to 9 PM IST</div><h3>Valuation and the model, built live</h3><p>A company valued in front of you on DCF and on multiples, and the model behind it, so you see every assumption that moves the number.</p></div><div class="day"><div class="when">Mon 19 Oct &middot; 7 to 10 PM IST</div><h3>The term sheet, the cap table and your plan</h3><p>A term sheet and a SAFE taken apart clause by clause, the cap table before and after a round, and your written 6-month plan to a first client.</p></div><ul class="takeaway"><li>9 hours of live training over 3 days</li><li>A term sheet and SAFE template you keep</li><li>The valuation model built in the session</li><li>A cap table worksheet</li><li>A written 6-month plan to your first client</li><li>The WhatsApp group with the others in your batch</li><li>A certificate of participation from SkillArbitrage</li></ul><p class="live">Every session is live, which is where your own questions get answered, so there are no recordings.</p>
+</section>
+<section>
+<h2>What the three days produce</h2>
+<div class="facts"><div class='fact'><b>1</b><span>company valued live, on DCF and on multiples, with the model behind it</span></div><div class='fact'><b>2</b><span>deal documents taken apart clause by clause: a term sheet and a SAFE</span></div><div class='fact'><b>6</b><span>months of written plan, step by step, to your first client</span></div></div><p class="src">These are what the three days produce. They are deliverables of the bootcamp, not a forecast of what any particular person will earn or be hired to do.</p>
+</section>
+<section>
+<h2>You are in the right room if</h2>
+<ul class="room"><li>You cost products, processes or projects as part of your working week</li><li>You can read a profit and loss account and a balance sheet without help</li><li>You work in or near manufacturing, engineering, process or services operations</li><li>You want to own the number a deal turns on, not only the variance report</li><li>You can join three live evenings, 17 to 19 October</li></ul>
+</section>
+<section>
+<h2>Straight answers</h2>
+<div class="q">Why is it only &#8377;10?</div><p>The fee is &#8377;10 including GST, and it is refundable at any time. It exists so that the people in the room have chosen to be there, not to price the training.</p><div class="q">Is this only useful if I work in manufacturing?</div><p>No. The costing habit of taking a number apart until every piece of it is explained is what transfers, and it transfers from any industry. Manufacturing simply gives you a warmer first list of businesses to approach.</p><div class="q">Do I need a CA or a CFA?</div><p>No. The camp assumes you can read a profit and loss account and a balance sheet. Everything past that, including the valuation and the model, is built in front of you.</p><div class="q">I work in costing software, not in financial models. Is that a problem?</div><p>No. The model is built in front of you on the second evening, from a blank sheet, with every formula explained as it goes in. You keep the file that gets built.</p><div class="q">Will anyone take a valuation seriously from a costing background?</div><p>That depends on the work, not on the letters. A valuation is judged on whether the assumptions hold up when they are questioned, which is why the camp spends its time on the assumptions and the written reasoning rather than on the arithmetic.</p><div class="q">What if I miss a session?</div><p>Sessions are live only, with no recordings, because your own questions get answered in the room. You keep the templates, the model and the notes, and the WhatsApp group helps you catch up.</p><div class="q">Do you place me with a client or an employer?</div><p>No. Nobody can promise that. What you get is the work itself, the templates, and a written 6-month plan to your first client, which is the part most people never write.</p><div class="q">Does this let me sign a valuation report?</div><p>No. A valuation the law requires, filed under company law or with a tax authority, is signed by a registered valuer, and a discounted cash flow valuation of unquoted shares for income tax comes from a SEBI-registered merchant banker. What you learn here is the analytical work behind a decision. Where a signed statutory report is needed, you work with the person entitled to sign it.</p>
+</section>
+
+<div class="close">
+<h2>You already take a number apart until it is honest. A company is only a larger number.</h2>
+<p>17 to 19 October, three live evenings, &#8377;10 including GST and refundable at any time. A company valued in front of you on DCF and on multiples, a term sheet and a SAFE taken apart clause by clause, and a written 6-month plan to a first corporate finance client.</p>
+<a class="cta" href="https://growthx.skillarbitra.ge/f/cf-oct-cost-accountant">Join for &#8377;10</a>
+</div>
+
+<footer>SkillArbitrage is a brand of an NSE Emerge-listed company, a Recognised NSDC Training
+Partner and an IIT Roorkee iHUB Training Partner. This is an educational programme. It teaches
+corporate finance work - valuation, financial modelling and deal documents - and does not
+guarantee any client, engagement, job or income. The fee is &#8377;10 including GST and is refundable
+at any time. Sessions are live only and there are no recordings. This site is not affiliated with
+or endorsed by Meta or Google. &copy; 2026 SkillArbitrage.</footer>
+</div>
+
+<div class="sticky"><div class="in">
+  <div class="t"><b>&#8377;10 incl GST &middot; 17&ndash;19 Oct</b>Refundable any time, live only</div>
+  <a href="https://growthx.skillarbitra.ge/f/cf-oct-cost-accountant">Join for &#8377;10</a>
+</div></div>
+</body></html>

@@ -114,3 +114,29 @@ Full file was shared in chat, not committed (it holds account performance data).
 
 ## Standing instruction (divyanshu, 16 Oct 2026)
 Every rule he states, in any wording ("always", "never", "dont", "remember", "from now on"), is saved here in the same session: dated, in his own words where possible, under a heading for its product or topic. If a new rule conflicts with an older one, the newer date wins and the older line is marked superseded, not deleted. Say in one line when a rule has been saved.
+
+## Ramanuj's rules win (divyanshu, 16 Oct 2026)
+The starter kit is merged at `ads_starter_kit/` (rules, SOPs, 134 earned notes, checkers, reference pages; the large APPROVED folder, GOLDEN images and ad performance reports were left out). Read `ads_starter_kit/RAMANUJ_FEEDBACK.md` (his verdicts in his own words) and `ads_starter_kit/CLAUDE.md` before judging or building. **Where Ramanuj and any other source disagree, Ramanuj wins.** That overrides the ACE skill's order of authority above for creative and compliance calls.
+
+His fifteen rules, short form:
+1. Offer a better career. Never threaten (no regulator, no more work at the same desk, no "get named the person who fixed it").
+2. No cryptic copy: name the reader first, the offer in plain words, one sentence defining the field. No riddles, wordplay, fragments.
+3. The reader is half-asleep: huge callout, literal heading, nothing important small or grey or in a blind spot.
+4. The biggest line names the prize (the move into the field and what they become), never the product, pain, a task or "read, compare, decide".
+5. Real ICPs: an identity or situation the reader would tick about themselves; no wishes, no generic freelancers, no invented US job titles, no credential as the identity.
+6. Read the camp script first; every claim about the work must match it.
+7. The page states the value in the first fold in the ad's words; one ad, one page, shipped together; pages in a kit must differ (blocked at 80% sentence overlap); at least one section names the reader; pages argue in numbered steps (about 1,600 to 1,800 words).
+8. No hedge above the pay button; open and test every page you send.
+9. One palette per ad (distinct), light backgrounds (at most one dark cell per kit, labelled), Indian faces only, vary the look across a kit.
+10. No income figure and no figure describing the viewer on a face; no "not for you if"; income as a direction is fine.
+11. His own copy and designs ship word for word; make room by cutting chrome.
+12. Max 5 ads per ad set; never let two of our campaigns bid against each other. (The ACE note of 7 per ad set is superseded for this repo.)
+13. Judge on cost per result over a full window, never on a part-day, never on CTR; 7 days and 20+ buyers for an ad-level call.
+14. Always hand over the landing pages with the ads.
+15. "We make only good ads": a gate passing does not make an ad good.
+Also: dates belong on landing pages, not on ad creatives (13 Aug). The button states the full exchange ("Join the Rs 10 bootcamp"), not "Reserve my seat for Rs 10". No "Know more". Never word an ad as a riddle, fragment or pun. Routing, budgets and audience choice are his call.
+
+### Where the Tech Law C1 work stands against these (checked 16 Oct)
+- Ad faces and the Google same-design kit: biggest lines for 05, 06, 07, 09, 10 name a restart, a city or a wish, not the move into tech law (rule 4). 01 to 04 and 08 do name a job. Fix before he sees them.
+- Google policy-safe images carry dates on the band (his 13 Aug rule says dates go on pages). Check with him.
+- Pages: about 2,200 words (his 1,600 to 1,800 guide), live countdown (not his rule, but the ACE note forbids it), "freelance" in the Day 3 line (banned word).

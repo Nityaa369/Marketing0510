@@ -1,0 +1,325 @@
+<!-- Deploy as /f/women-sep05-demand -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Work Nobody Is Doing | Women Remote Work Bootcamp</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#1a1d21;
+  --muted:#4a4f56;
+  --bg:#f2f3f5;
+  --card:#ffffff;
+  --accent:#0b5d57;
+  --accent-dark:#084741;
+  --accent-soft:#e2efed;
+  --line:#d9dce0;
+  --tag-bg:#eef0f2;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:'Inter',Arial,sans-serif;
+  font-size:17px;
+  line-height:1.6;
+  color:var(--ink);
+  background:var(--bg);
+  padding-bottom:96px;
+}
+.wrap{max-width:680px;margin:0 auto;padding:0 20px;}
+h1,h2,h3{font-family:'Space Grotesk','Inter',Arial,sans-serif;line-height:1.2;}
+h1{font-size:2rem;font-weight:700;margin-bottom:16px;}
+h2{font-size:1.5rem;font-weight:700;margin-bottom:14px;}
+h3{font-size:1.05rem;font-weight:600;}
+p{margin-bottom:14px;}
+section{padding:44px 0;}
+.topbar{background:var(--accent);color:#fff;text-align:center;padding:10px 16px;font-size:.9rem;font-weight:600;}
+.hero{background:var(--card);border-bottom:1px solid var(--line);padding:48px 0 40px;}
+.kicker{
+  display:inline-block;background:var(--accent-soft);color:var(--accent-dark);
+  font-weight:700;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;
+  padding:6px 12px;border-radius:4px;margin-bottom:16px;
+}
+.hero p.lead{font-size:1.1rem;color:var(--muted);}
+.logi{
+  background:var(--card);border:1px solid var(--line);border-radius:10px;
+  padding:18px 20px;margin:22px 0;
+}
+.logi ul{list-style:none;}
+.logi li{padding:6px 0;border-bottom:1px dashed var(--line);font-size:.98rem;}
+.logi li:last-child{border-bottom:none;}
+.logi li strong{color:var(--accent-dark);}
+.cta-block{text-align:center;margin:26px 0 6px;}
+.btn{
+  display:inline-block;background:var(--accent);color:#fff;text-decoration:none;
+  font-family:'Space Grotesk','Inter',Arial,sans-serif;font-weight:700;font-size:1.05rem;
+  padding:16px 30px;border-radius:8px;box-shadow:0 3px 0 var(--accent-dark);
+}
+.btn:active{transform:translateY(2px);box-shadow:none;}
+.cta-sub{font-size:.95rem;color:var(--muted);margin-top:10px;}
+.board-note{
+  background:var(--accent-soft);border-left:4px solid var(--accent);
+  padding:14px 16px;border-radius:0 8px 8px 0;font-size:.95rem;color:var(--accent-dark);
+  margin-bottom:26px;
+}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:10px;
+  padding:18px;position:relative;
+  box-shadow:0 1px 3px rgba(20,30,40,.06);
+}
+.card::before{
+  content:"";display:block;width:14px;height:14px;border-radius:50%;
+  background:var(--accent);opacity:.15;position:absolute;top:12px;right:12px;
+}
+.tags{margin-bottom:10px;}
+.tag{
+  display:inline-block;background:var(--tag-bg);color:var(--muted);
+  font-size:.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
+  padding:4px 8px;border-radius:4px;margin:0 6px 6px 0;
+}
+.tag.loc{background:var(--accent-soft);color:var(--accent-dark);}
+.card h3{margin-bottom:8px;}
+.card p{font-size:.95rem;color:var(--muted);margin-bottom:8px;}
+.card p:last-child{margin-bottom:0;}
+.card .pay{color:var(--accent-dark);font-weight:600;}
+.vary{font-size:.95rem;color:var(--muted);margin-top:14px;}
+.stats{background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+.stat-list{list-style:none;margin:10px 0 4px;}
+.stat-list li{
+  padding:12px 0 12px 26px;border-bottom:1px dashed var(--line);
+  position:relative;font-size:.98rem;
+}
+.stat-list li::before{
+  content:"";position:absolute;left:0;top:20px;width:10px;height:10px;
+  background:var(--accent);border-radius:2px;
+}
+.stat-list li:last-child{border-bottom:none;}
+.turn{background:#0b5d57;color:#ffffff;}
+.turn h2{color:#ffffff;background:#0b5d57;}
+.turn p{color:#e6f0ee;background:#0b5d57;}
+.turn .btn{background:#ffffff;color:#084741;box-shadow:0 3px 0 rgba(0,0,0,.25);}
+.offer-box{
+  background:var(--card);border:2px solid var(--accent);border-radius:12px;
+  padding:24px;margin:20px 0;
+}
+.offer-box ul{list-style:none;}
+.offer-box li{padding:8px 0 8px 28px;position:relative;}
+.offer-box li::before{
+  content:"\2713";position:absolute;left:0;color:var(--accent);font-weight:700;
+}
+.price-line{font-size:1.2rem;font-weight:700;color:var(--accent-dark);margin-bottom:6px;}
+.trust{
+  text-align:center;font-size:.85rem;color:var(--muted);
+  padding:20px 0 4px;
+}
+.trust span{
+  display:inline-block;border:1px solid var(--line);background:var(--card);
+  border-radius:20px;padding:6px 14px;margin:4px;
+}
+.stickybar{
+  position:fixed;left:0;right:0;bottom:0;z-index:50;
+  background:var(--card);border-top:1px solid var(--line);
+  padding:12px 16px;
+  box-shadow:0 -4px 14px rgba(20,30,40,.08);
+}
+.sticky-inner{max-width:720px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;}
+.sticky-inner .bar-line{font-size:.9rem;font-weight:600;color:var(--ink);}
+.stickybar .btn{padding:14px 20px;}
+@media (max-width:720px){
+  .sticky-inner{flex-direction:column;align-items:stretch;gap:8px;}
+  .stickybar .btn{display:block;width:100%;text-align:center;min-height:44px;}
+}
+footer{padding:26px 0 40px;text-align:center;font-size:.82rem;color:var(--muted);}
+@media (max-width:720px){
+  body{font-size:16px;}
+  h1{font-size:1.6rem;}
+  h2{font-size:1.3rem;}
+  section{padding:34px 0;}
+  .cards{grid-template-columns:1fr;}
+  .btn{width:100%;}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">Live online camp &middot; 5 to 7 September 2026 &middot; Seats are limited</div>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="kicker">Women Remote Work Bootcamp &middot; SkillArbitrage</span>
+    <h1>On the other side of the world, small business owners have work that nobody is doing.</h1>
+    <p class="lead">A hotel owner in London is drowning in guest reviews. A gym owner in Texas needs someone to post reels every week. A dentist in the US wants a person to manage her calendar. They have the money. They do not have the person. This page shows you what that work looks like, straight from the material we teach in the camp. Virtual assistant work means keeping a small business owner's inbox, calendar, customer replies and social posts in order, from home. Paid in dollars.</p>
+
+    <div class="logi">
+      <ul>
+        <li><strong>Dates:</strong> 5 to 7 September 2026 (Saturday to Monday)</li>
+        <li><strong>Time:</strong> 2 PM to 5 PM IST, 9 hours live over 3 days</li>
+        <li><strong>Where:</strong> Fully online. Join from home on your phone or laptop.</li>
+        <li><strong>Fee:</strong> <strong>&#8377;10 for all three days.</strong> If the camp does not help you, we return your &#8377;10, no questions asked.</li>
+        <li><strong>After payment:</strong> You get the class joining link and the batch WhatsApp group invite before Day 1.</li>
+      </ul>
+    </div>
+
+    <div class="cta-block">
+      <a class="btn" href="#seat">Book my seat for &#8377;10</a>
+      <p class="cta-sub">Full refund if the three days are not useful for you.</p>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>The needs board</h2>
+    <p>Below are eight kinds of work that real overseas buyers pay for month after month. To be clear and honest with you: these are not live job posts you can apply to today. They are the types of openings we study inside the camp, taken from our own training material, so you can see exactly what the demand looks like.</p>
+    <div class="board-note">Each card shows who the buyer is, what they hand over, and what that work is worth to them. The money figures show what this work has paid buyers' assistants in our training examples, and individual results vary from person to person.</div>
+
+    <div class="cards">
+      <div class="card">
+        <div class="tags"><span class="tag loc">London, UK</span><span class="tag">Review management</span></div>
+        <h3>Hotel owner</h3>
+        <p>Hands over: reading every guest review and writing a polite, careful reply to each one.</p>
+        <p class="pay">Pays a part-time assistant in India 800 pounds a month for this alone.</p>
+      </div>
+
+      <div class="card">
+        <div class="tags"><span class="tag loc">Texas, US</span><span class="tag">Instagram reels</span></div>
+        <h3>Gym owner</h3>
+        <p>Hands over: making short Instagram reels so local members keep seeing the gym every week.</p>
+        <p class="pay">Local businesses like this pay 200 to 500 dollars a month for reels.</p>
+      </div>
+
+      <div class="card">
+        <div class="tags"><span class="tag loc">California, US</span><span class="tag">Social content</span></div>
+        <h3>Salon owner</h3>
+        <p>Hands over: regular short video content that shows off haircuts, colours and happy clients.</p>
+        <p class="pay">Falls in the same 200 to 500 dollars a month range for reels work.</p>
+      </div>
+
+      <div class="card">
+        <div class="tags"><span class="tag loc">Chicago &amp; Miami, US</span><span class="tag">Social content</span></div>
+        <h3>Bakery and restaurant owners</h3>
+        <p>Hands over: food reels and posts, because hungry customers scroll Instagram before they order.</p>
+        <p class="pay">Same story: 200 to 500 dollars a month for steady reels.</p>
+      </div>
+
+      <div class="card">
+        <div class="tags"><span class="tag loc">US, remote</span><span class="tag">Review management</span></div>
+        <h3>Small business owners</h3>
+        <p>Hands over: watching reviews on Google and other sites and responding before bad ones do damage.</p>
+        <p class="pay">Around 250 dollars a month per client for review management.</p>
+      </div>
+
+      <div class="card">
+        <div class="tags"><span class="tag loc">US, remote</span><span class="tag">Store support</span></div>
+        <h3>E-commerce store owner</h3>
+        <p>Hands over: product listings, product photos, order processing and replying to customer messages.</p>
+        <p class="pay">Steady, teachable work that keeps an online store running every day.</p>
+      </div>
+
+      <div class="card">
+        <div class="tags"><span class="tag loc">US, remote</span><span class="tag">Virtual assistant</span></div>
+        <h3>Startup founders and professionals</h3>
+        <p>Hands over: calendars, inboxes, meeting scheduling and travel plans. Lawyers, doctors, dentists, architects and realtors all look for this help.</p>
+        <p class="pay">They want one reliable person, not an app.</p>
+      </div>
+
+      <div class="card">
+        <div class="tags"><span class="tag loc">US, remote</span><span class="tag">Why they look abroad</span></div>
+        <h3>Businesses that cannot hire locally</h3>
+        <p>Hands over: assistant work of every kind, because a virtual assistant hired inside America costs them close to 70,000 dollars a year.</p>
+        <p class="pay">Hiring from India makes plain business sense to them.</p>
+      </div>
+    </div>
+
+    <!-- The results-vary note moved up into .board-note, above the cards it
+         qualifies. CLAUDE.md Rule 5: a hedge is required near a money figure but
+         must never be the last thing the reader sees before the button. -->
+
+    <div class="cta-block">
+      <a class="btn" href="#seat">Book my seat for &#8377;10</a>
+      <p class="cta-sub">3 days, 9 hours live, fully online. Refund if it does not help.</p>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="wrap">
+    <h2>Why they hire from India</h2>
+    <p>This is not one or two lucky stories. The shortage on their side is measured and published.</p>
+    <ul class="stat-list">
+      <li>There are 36.2 million small businesses in the US, as per the SBA.</li>
+      <li>36% of US small businesses cannot fill open jobs right now, as per NFIB.</li>
+      <li>In July 2026 alone, 578,926 new business applications were filed in the US, as per Census data. New businesses mean new work to hand over.</li>
+      <li>A Gusto survey found 58% of US small businesses that hire internationally do it because they cannot find workers at home, and 75% plan to hire more abroad. India is a top-3 source country.</li>
+      <li>Deel reported in 2025 that hiring of Indians grew 63.7% among UK companies and 24.1% among US companies in one year, with those workers staying in India.</li>
+      <li>Businesses paid freelancers over 4 billion dollars on Upwork alone in 2025.</li>
+    </ul>
+    <p style="margin-top:16px;">Every one of those numbers is a door. The buyers exist, the budgets exist, and the shortage on their side is real. What is missing is the person on this side who knows how to show up, present herself and do the work.</p>
+  </div>
+</section>
+
+<section class="turn">
+  <div class="wrap">
+    <h2>The person they are looking for could be you</h2>
+    <p>Read those cards again. Replying to reviews with care. Keeping a calendar in order. Posting reels on time. Answering customer messages politely. None of this needs a fancy degree, perfect English or an office job history. It needs a dependable adult who learns the method and does the work well. Many Indian women between 35 and 55 already run homes, budgets and families with exactly that dependability. The skills transfer. What is missing is a clear starting path, and that is what the camp gives you.</p>
+    <div class="cta-block">
+      <a class="btn" href="#seat">Book my seat for &#8377;10</a>
+      <p class="cta-sub">Modest English is enough. Everything is taught in simple language.</p>
+    </div>
+  </div>
+</section>
+
+<section id="seat">
+  <div class="wrap">
+    <h2>The Women Remote Work Bootcamp</h2>
+    <p>Three afternoons, live on your screen, built to move you from watching this demand to standing in front of it.</p>
+
+    <div class="offer-box">
+      <p class="price-line">All 3 days for &#8377;10. Yes, ten rupees total.</p>
+      <ul>
+        <li>See the actual remote work US small business owners pay for, explained step by step in simple language.</li>
+        <li>Build your own profile during the camp, so buyers can find and judge you properly.</li>
+        <li>Create a work sample you can show, because buyers trust proof more than promises.</li>
+        <li>Leave with a first-client plan: where to look, what to say and how to start.</li>
+        <li>5 to 7 September 2026, 2 to 5 PM IST, 9 hours live, join from your phone or laptop at home.</li>
+        <li>Right after payment, we send you the class joining link and add you to the batch WhatsApp group before Day 1, so you are never lost about where to go.</li>
+      </ul>
+    </div>
+
+    <h3 style="margin:18px 0 10px;">How the three afternoons run</h3>
+    <p><strong>Day 1, Saturday 5 September:</strong> we walk through the demand you saw on this page in detail. You learn what each kind of buyer actually hands over, what a normal working day on that work looks like, and which of these lines fits your own life and hours.</p>
+    <p><strong>Day 2, Sunday 6 September:</strong> we work on you. You build your profile live in the session, in simple honest language, and you start a work sample that shows a buyer what you can do instead of just telling them.</p>
+    <p><strong>Day 3, Monday 7 September:</strong> the first-client plan. Where to look for buyers, what to write to them, how to handle the first conversation, and what to do in your first week so the start does not stall. You leave with clear next steps written down.</p>
+    <p>Every session is live and you can ask questions in plain Hindi or English. Nothing is pre-recorded lectures thrown at you.</p>
+
+    <p><strong>Our promise on the &#8377;10:</strong> if you sit through the three days and feel they were not useful, tell us and the &#8377;10 comes straight back. No forms, no questions, no awkwardness. We keep the fee this small so that only serious learners join, and we return it happily if we did not earn it.</p>
+
+    <div class="cta-block">
+      <a class="btn" href="#seat">Book my seat for &#8377;10</a>
+      <p class="cta-sub">Class link and WhatsApp group invite arrive before Day 1.</p>
+    </div>
+
+    <div class="trust">
+      <span>NSE Emerge-listed</span>
+      <span>Recognised NSDC Training Partner</span>
+      <span>IIT Roorkee iHUB Training Partner</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Women Remote Work Bootcamp by SkillArbitrage &middot; 5 to 7 September 2026 &middot; Live and online</div>
+</footer>
+
+<div class="stickybar"><div class="sticky-inner">
+  <div class="bar-line">5 to 7 Sep &middot; 2 to 5 PM IST &middot; Live online &middot; &#8377;10</div>
+  <a class="btn" href="#seat">Book my seat for &#8377;10</a>
+</div>
+
+</body>
+</html>

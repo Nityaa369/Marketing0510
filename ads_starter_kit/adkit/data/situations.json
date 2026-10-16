@@ -1,0 +1,464 @@
+[
+ {
+  "situation": "restarting after a career break",
+  "definition": "She stopped working for a stretch, usually for family, and is now trying to get back into paid work in the field she trained for.",
+  "pressure": "The gap on the CV grows every month she does not restart, and it is the first thing every employer reads.",
+  "lines_used": [
+   "patent",
+   "us-corporate-law",
+   "women-remote",
+   "us-accounting",
+   "sqe",
+   "ip-law",
+   "data-privacy"
+  ],
+  "members": [
+   "M.Sc holders restarting after a career break",
+   "M.Sc women restarting after a career break",
+   "lawyers restarting after a career break",
+   "mothers restarting after a career break",
+   "women accountants restarting after a family break",
+   "women lawyers after a career break or city move",
+   "women lawyers restarting after a family break",
+   "women restarting accounting after a family break",
+   "women restarting after years at home",
+   "women returning after a career gap",
+   "women returning to structured work from home"
+  ]
+ },
+ {
+  "situation": "a decade out of work",
+  "definition": "The break is no longer a gap but an absence: the field has moved on, the old contacts are gone, and she can no longer picture what the working day would even look like.",
+  "pressure": "Every year out makes the old qualification less usable, and she has no way back in through the door she left by.",
+  "lines_used": [
+   "women-remote"
+  ],
+  "members": [
+   "women long out of work who cannot picture the job",
+   "women returning after a long career break",
+   "women with a long career gap",
+   "women with a ten-year career break"
+  ]
+ },
+ {
+  "situation": "screened out for the resume gap",
+  "definition": "She is actively applying and being rejected before the interview, because the gap is the only thing the screen sees.",
+  "pressure": "Applications are going out and nothing comes back, so the gap gets longer with every rejection.",
+  "lines_used": [
+   "women-remote"
+  ],
+  "members": [
+   "women screened out for a resume gap"
+  ]
+ },
+ {
+  "situation": "maternity leave about to end",
+  "definition": "She is still on paid leave with a return date on the calendar, and the job she goes back to is the one she left.",
+  "pressure": "A fixed date: rejoin on the old terms, or resign and lose the income with nothing lined up.",
+  "lines_used": [
+   "women-remote"
+  ],
+  "members": [
+   "women whose maternity leave is about to end"
+  ]
+ },
+ {
+  "situation": "a free window while children are at school",
+  "definition": "The house empties for a fixed few hours each weekday and she has that window entirely to herself.",
+  "pressure": "The window is already there and earning nothing, and it closes the moment the school bus returns.",
+  "lines_used": [
+   "women-remote"
+  ],
+  "members": [
+   "mothers free while the children are at school",
+   "mothers of school-going children at home",
+   "mothers with a three-hour daytime window"
+  ]
+ },
+ {
+  "situation": "employed, with the evenings free",
+  "definition": "She holds a full day job and has two or three usable hours after it, currently spent on nothing that pays.",
+  "pressure": "The salary is fixed until the next appraisal, so the only unclaimed money is in the hours after work.",
+  "lines_used": [
+   "us-accounting",
+   "women-remote",
+   "patent"
+  ],
+  "members": [
+   "employed accountants wanting evening income",
+   "employed women with two free evening hours",
+   "scientists and engineers wanting evening side income"
+  ]
+ },
+ {
+  "situation": "family care sets the schedule",
+  "definition": "Someone at home depends on her daily, so any work she takes has to bend around feeding, school runs and care hours rather than the other way round.",
+  "pressure": "Every fixed-hours job on offer is unavailable to her, so the qualification sits unused while the care years run.",
+  "lines_used": [
+   "women-remote",
+   "us-corporate-law"
+  ],
+  "members": [
+   "women caring for family at home",
+   "women company secretaries needing work that flexes around family",
+   "women lawyers with young children at home"
+  ]
+ },
+ {
+  "situation": "living on someone else's income",
+  "definition": "The household has money coming in, but none of it is hers, so every spend is a request.",
+  "pressure": "She wants to pay for something specific herself and cannot, and asking is the only route she has.",
+  "lines_used": [
+   "women-remote"
+  ],
+  "members": [
+   "mothers wanting to pay school fees themselves",
+   "women whose husbands work abroad",
+   "women with no income of their own"
+  ]
+ },
+ {
+  "situation": "a degree and no paid work history",
+  "definition": "She was educated for a career she never started, and has run a household competently for years with nothing on paper to show for it.",
+  "pressure": "The degree is old and unaccompanied by a single line of work experience, and it gets harder to explain each year.",
+  "lines_used": [
+   "women-remote"
+  ],
+  "members": [
+   "homemakers with a degree and unpaid management years",
+   "homemakers with no office of their own"
+  ]
+ },
+ {
+  "situation": "children grown and gone",
+  "definition": "The children she organised her days around are adults now, living elsewhere, and the day is suddenly empty.",
+  "pressure": "The reason she stopped working has ended, and twenty working years are still sitting there unspent.",
+  "lines_used": [
+   "women-remote"
+  ],
+  "members": [
+   "women whose children have grown and left",
+   "women whose children have grown up"
+  ]
+ },
+ {
+  "situation": "raising children as the only earner",
+  "definition": "She is the sole adult providing for her children, with no second income behind her.",
+  "pressure": "Every household cost lands on one person, and there is no one to absorb a bad month.",
+  "lines_used": [
+   "women-remote"
+  ],
+  "members": [
+   "single mothers building an income of their own"
+  ]
+ },
+ {
+  "situation": "paid a hobby rate for real work",
+  "definition": "She already does the work and gets paid for it, but at pocket-money or small-town rates that treat it as a pastime.",
+  "pressure": "The rate has not moved and will not, because the buyers she can reach do not pay more.",
+  "lines_used": [
+   "content-writing"
+  ],
+  "members": [
+   "women writing from home for pocket money",
+   "writers in tier-2 cities with local rates"
+  ]
+ },
+ {
+  "situation": "tried working from home and stopped",
+  "definition": "She actually started something from home, ran it for a while, and it petered out.",
+  "pressure": "She has already spent the enthusiasm once, and a second false start is the one she cannot afford.",
+  "lines_used": [
+   "women-remote"
+  ],
+  "members": [
+   "women who tried starting from home and stopped",
+   "women who tried working from home and stopped"
+  ]
+ },
+ {
+  "situation": "does not believe remote work is real",
+  "definition": "She has seen work-from-home offers that turned out to be scams or empty promises, and now doubts any of it is genuine paid work.",
+  "pressure": "Distrust is costing her the option itself, while the household need that made her look has not gone away.",
+  "lines_used": [
+   "women-remote"
+  ],
+  "members": [
+   "women at home unsure remote work is real",
+   "women let down by work-from-home promises before",
+   "women returning to work who fear WFH scams"
+  ]
+ },
+ {
+  "situation": "called back into the office",
+  "definition": "Her work now requires her physically in an office, with a daily commute attached, whether or not the work needs it.",
+  "pressure": "Hours and childcare money are being spent on travel that was not being spent last year, and the mandate is not negotiable.",
+  "lines_used": [
+   "women-remote"
+  ],
+  "members": [
+   "women caught by a return-to-office mandate",
+   "women in a commuting office job"
+  ]
+ },
+ {
+  "situation": "health limits the working hours",
+  "definition": "A health condition caps how many hours she can work and when, regardless of what she is capable of doing in them.",
+  "pressure": "Standard full-time roles are closed to her, so capability keeps earning nothing.",
+  "lines_used": [
+   "women-remote"
+  ],
+  "members": [
+   "women whose health limits their working hours"
+  ]
+ },
+ {
+  "situation": "retired and still wants to work",
+  "definition": "The salaried job is over and she has no employer, but she has decades of usable experience and time she does not want to spend idle.",
+  "pressure": "Nobody is hiring at that age on payroll, so the experience is depreciating with nowhere to be sold.",
+  "lines_used": [
+   "women-remote"
+  ],
+  "members": [
+   "retired women who still want to work"
+  ]
+ },
+ {
+  "situation": "retirement a few years away",
+  "definition": "Still employed and senior, with a known date after which the salary, the title and the team all stop.",
+  "pressure": "The income has a stop date already fixed, and the years left to build a replacement are countable.",
+  "lines_used": [
+   "consulting",
+   "independent-director",
+   "senior-ai"
+  ],
+  "members": [
+   "professionals past fifty with retirement in sight",
+   "professionals planning a quiet retirement",
+   "senior professionals nearing retirement",
+   "senior professionals retiring in the next few years"
+  ]
+ },
+ {
+  "situation": "past forty, too senior to start over",
+  "definition": "Twenty years into a career, old enough that no one will hire them into a junior role and young enough that stopping is two decades away.",
+  "pressure": "The market prices them out of entry roles and their own ladder has no rungs left, so the middle is where they stay.",
+  "lines_used": [
+   "us-accounting",
+   "sqe",
+   "women-remote"
+  ],
+  "members": [
+   "accountants in their forties and fifties",
+   "advocates in their forties and fifties",
+   "women past fifty starting a second innings"
+  ]
+ },
+ {
+  "situation": "the ladder has stopped moving",
+  "definition": "The designation has not changed in years and the next one is not visibly on offer, whatever the work has been.",
+  "pressure": "One appraisal decides the whole year's income, and it has decided the same thing several years running.",
+  "lines_used": [
+   "hr",
+   "consulting"
+  ],
+  "members": [
+   "HR professionals in their thirties",
+   "senior professionals whose year turns on one appraisal",
+   "seniors stuck at the same designation for years"
+  ]
+ },
+ {
+  "situation": "the person everything escalates to",
+  "definition": "Fifteen or twenty years deep, they are the one the hard problems reach and the office cannot function without, on the same salary as the people who send them the problems.",
+  "pressure": "The expertise is real and priced at zero, because it is bundled into a salary that does not move when the difficulty does.",
+  "lines_used": [
+   "consulting",
+   "senior-ai"
+  ],
+  "members": [
+   "senior managers and VPs of fifteen years",
+   "the senior the whole office depends on",
+   "twenty-year seniors every hard problem escalates to"
+  ]
+ },
+ {
+  "situation": "the household runs on one salary",
+  "definition": "A senior professional whose family expenses, EMIs and school fees all rest on a single employer's payroll.",
+  "pressure": "One layoff, one restructure, and the entire household income is zero; there is no second stream behind it.",
+  "lines_used": [
+   "consulting"
+  ],
+  "members": [
+   "senior professionals living on one salary"
+  ]
+ },
+ {
+  "situation": "someone else sets the rate and the hours",
+  "definition": "What the work is worth and when it must happen are both decided by an employer, a school timetable or a family schedule, never by her.",
+  "pressure": "The price of her time is fixed by another party and has not risen, and she has no mechanism to change either number.",
+  "lines_used": [
+   "consulting",
+   "women-remote"
+  ],
+  "members": [
+   "senior women whose rate is set by someone else",
+   "women whose working hours are fixed by others",
+   "women with hours fixed by school or job"
+  ]
+ },
+ {
+  "situation": "deep into a competitive exam attempt",
+  "definition": "One or more years are being spent preparing full time for a government or academic entrance exam with a single-digit success rate.",
+  "pressure": "Each attempt costs a year with no fallback qualification, and the age limit on the exam is closing.",
+  "lines_used": [
+   "patent",
+   "sqe"
+  ],
+  "members": [
+   "GATE, CSIR-NET and GPAT aspirants",
+   "SSC and railway exam aspirants with science degrees",
+   "UGC NET and CSIR NET science aspirants",
+   "UPSC aspirants with science or engineering degrees",
+   "judiciary and UPSC aspirants"
+  ]
+ },
+ {
+  "situation": "waiting on an exam result",
+  "definition": "The exam is written and the result is months away, so there is a stretch of empty time with the outcome out of her hands.",
+  "pressure": "Months of dead time now, and if the result is bad she starts the next year with nothing added.",
+  "lines_used": [
+   "women-remote"
+  ],
+  "members": [
+   "government exam aspirants waiting on results"
+  ]
+ },
+ {
+  "situation": "before the first job",
+  "definition": "Final year or just graduated, holding a degree and no work anyone has paid for yet.",
+  "pressure": "The placement window opens on an empty CV, and the batch behind them arrives next year.",
+  "lines_used": [
+   "patent",
+   "content-writing",
+   "sqe"
+  ],
+  "members": [
+   "2025-26 science graduates with no first job",
+   "final-year students and freshers new to writing",
+   "students still in law college"
+  ]
+ },
+ {
+  "situation": "a certificate but no paid work",
+  "definition": "The internship or the enrolment is complete and the paper is in hand, but no client or employer has paid them for the work yet.",
+  "pressure": "The credential expires in value the longer it sits with no billable work behind it, and juniors qualify every year.",
+  "lines_used": [
+   "content-writing",
+   "sqe"
+  ],
+  "members": [
+   "interns finishing with only a certificate",
+   "newly enrolled advocates"
+  ]
+ },
+ {
+  "situation": "the plan-A qualification that closed",
+  "definition": "They aimed at a big professional track, medicine or CA or CPA, and it did not happen, so they are somewhere adjacent with the years already spent.",
+  "pressure": "Years and fees went into a track that ended in nothing transferable, and restarting it costs the same again.",
+  "lines_used": [
+   "patent",
+   "us-accounting"
+  ],
+  "members": [
+   "B.Sc students who missed a NEET seat",
+   "accountants who gave up on the US CPA",
+   "people who cleared CA Inter and stopped"
+  ]
+ },
+ {
+  "situation": "a degree unused in an unrelated job",
+  "definition": "They earn a living in sales, BPO or admin while the specialist degree they hold has never been used at work.",
+  "pressure": "The degree gets staler and less credible every year it is not used, while the current job builds nothing that transfers.",
+  "lines_used": [
+   "patent"
+  ],
+  "members": [
+   "sales or BPO workers holding an unused science degree"
+  ]
+ },
+ {
+  "situation": "living outside a metro",
+  "definition": "They live and intend to keep living in a small town or tier-2 or tier-3 city, where the local market sets both the work available and the price of it.",
+  "pressure": "The local rate is the ceiling, and the only way anyone here raises it is by moving, which they are not going to do.",
+  "lines_used": [
+   "us-accounting",
+   "sqe",
+   "women-remote",
+   "us-corporate-law"
+  ],
+  "members": [
+   "accountants in small towns and non-metros",
+   "accountants in small towns, no metro",
+   "lawyers in tier 2 and tier 3 cities",
+   "women in small cities and towns",
+   "women in tier-2 and tier-3 cities",
+   "women lawyers in small cities, not moving"
+  ]
+ },
+ {
+  "situation": "planning to move abroad",
+  "definition": "They intend to emigrate and need a qualification that is recognised where they are going, because the Indian one is not.",
+  "pressure": "Visa and age thresholds tighten past thirty, and the qualification takes years they have to start now.",
+  "lines_used": [
+   "sqe"
+  ],
+  "members": [
+   "lawyers over 30 wanting to migrate abroad"
+  ]
+ },
+ {
+  "situation": "already abroad on a home-country qualification",
+  "definition": "They are working overseas, in a role capped by the fact that their professional qualification is not the local one.",
+  "pressure": "The ceiling abroad is set by the licence they do not hold, and the visa clock keeps running while they sit under it.",
+  "lines_used": [
+   "sqe"
+  ],
+  "members": [
+   "Indian lawyers already working in the Gulf"
+  ]
+ },
+ {
+  "situation": "doing the job without the credential",
+  "definition": "They already perform the function daily, but have no qualification in it, so the title and the pay lag the work.",
+  "pressure": "The next role asks for the paper they do not have, and someone with the paper and less experience gets it.",
+  "lines_used": [
+   "hr"
+  ],
+  "members": [
+   "people doing HR without an HR degree"
+  ]
+ },
+ {
+  "situation": "on contract, not permanent",
+  "definition": "They do the same work as the permanent staff on a fixed-term contract, with a renewal date instead of a career.",
+  "pressure": "The contract ends on a known date and renewal is someone else's decision, made without them.",
+  "lines_used": [
+   "hr"
+  ],
+  "members": [
+   "HR professionals on contract, not permanent"
+  ]
+ },
+ {
+  "situation": "just resigned with no plan",
+  "definition": "They have left the job already, without the next thing arranged.",
+  "pressure": "The salary has stopped and savings are being spent, so whatever they build has to start paying within months.",
+  "lines_used": [
+   "content-writing"
+  ],
+  "members": [
+   "writers who just resigned with no plan"
+  ]
+ }
+]

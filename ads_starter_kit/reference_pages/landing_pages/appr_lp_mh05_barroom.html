@@ -1,0 +1,238 @@
+<!-- Deploy as /f/meta-arbitration-community-mh-first-brief -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Be ready for your first arbitration brief | LawSikho</title>
+<style>
+  :root{ --paper:#FCF7EE; --ink:#1A1613; --acc:#C1440E; --acc2:#0F5C63;
+         --line:#E6DDCD; --mut:#4A4038; --card:#FFFFFF; --accL:#F0C46A; }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:"Helvetica Neue",Arial,sans-serif;background:var(--paper);color:var(--ink);
+    font-size:18px;line-height:1.6;padding-bottom:140px}
+  .wrap{max-width:680px;margin:0 auto;padding:0 20px}
+  .top{display:flex;align-items:center;justify-content:space-between;padding:18px 0;
+    border-bottom:3px solid var(--ink)}
+  .brand{font-size:20px;font-weight:800}
+  .brand b{color:var(--acc2)}
+  .tag{font-size:12px;font-weight:800;letter-spacing:2px;color:#fff;background:var(--acc);
+    padding:6px 12px;border-radius:7px;text-transform:uppercase}
+  .k{display:inline-block;background:var(--acc2);color:#fff;
+    font-size:32px;font-weight:800;line-height:1.15;padding:12px 20px;border-radius:14px;
+    margin-top:22px;letter-spacing:-.4px}
+  h1{font-size:44px;line-height:1.05;letter-spacing:-1px;font-weight:800;margin:20px 0 0}
+  h1 em{font-style:normal;color:var(--acc2)}
+  .promise{font-size:20px;font-weight:700;margin-top:16px}
+  .promise b{color:var(--acc2)}
+  .intro{font-size:18px;font-weight:600;color:var(--mut);margin-top:12px}
+  button.cta{display:block;width:100%;background:var(--acc2);color:#fff;border:none;text-align:center;
+    font-size:22px;font-weight:800;padding:18px 28px;border-radius:14px;margin-top:20px;cursor:pointer}
+  .logis{font-size:16px;font-weight:700;margin-top:12px;color:var(--acc)}
+  .trust{font-size:14px;font-weight:600;color:var(--mut);margin-top:8px}
+  h2{font-size:27px;font-weight:800;letter-spacing:-.3px;margin:44px 0 6px}
+  h2 span{color:var(--acc2)}
+  .lead{font-size:18px;color:var(--mut);font-weight:600}
+  .anchor{margin-top:18px;background:var(--card);border:3px solid var(--acc2);border-radius:18px;
+    padding:16px 18px;text-align:center}
+  .an-l{font-size:16px;font-weight:700;color:var(--mut);background:var(--card)}
+  .an-l s{color:var(--mut)}
+  .an-p{font-size:48px;font-weight:800;color:var(--acc2);line-height:1.05;margin-top:2px;
+    background:var(--card)}
+  .an-s{font-size:14.5px;font-weight:700;color:var(--ink);margin-top:4px;background:var(--card)}
+  .stats{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+  .st{flex:1 1 28%;background:var(--card);border:2px solid var(--line);border-radius:18px;
+    padding:11px 8px;text-align:center}
+  .st .v{font-size:24px;font-weight:800;color:var(--acc);line-height:1;background:var(--card)}
+  .st .c{font-size:12.5px;font-weight:700;color:var(--mut);margin-top:5px;line-height:1.25;
+    background:var(--card)}
+  .felt{font-size:18.5px;font-weight:600;color:var(--ink);margin-top:10px;
+    border-left:6px solid var(--acc2);padding-left:14px}
+  .after{margin-top:26px;background:var(--card);border:3px solid var(--acc2);border-radius:18px;
+    padding:16px 18px}
+  .after .t{font-size:20px;font-weight:800;background:var(--card)}
+  .after p{font-size:17.5px;font-weight:600;color:var(--ink);margin-top:6px;background:var(--card)}
+  .prob{background:var(--card);border:2px solid var(--line);border-left:6px solid var(--acc2);
+    border-radius:18px;padding:14px 16px;margin-top:10px}
+  .prob .t{font-size:18px;font-weight:800;background:var(--card)}
+  .prob p{font-size:16.5px;color:var(--mut);margin-top:5px;background:var(--card)}
+  .skills{margin-top:14px;background:var(--card);border:2px solid var(--line);border-radius:18px;
+    overflow:hidden}
+  .sk{display:flex;gap:13px;align-items:baseline;padding:11px 16px;border-top:1px solid var(--line);
+    background:var(--card)}
+  .sk:first-child{border-top:none}
+  .sk .n{font-size:13px;font-weight:800;color:var(--acc2);min-width:26px;background:var(--card)}
+  .sk .s{font-size:16.5px;font-weight:600;color:var(--ink);background:var(--card)}
+  .inside{margin-top:16px;background:var(--card);border:2px solid var(--line);border-radius:18px;
+    overflow:hidden}
+  .inside .ir{display:flex;gap:16px;padding:15px 18px;border-top:1px solid var(--line);
+    background:var(--card)}
+  .inside .ir:first-child{border-top:none}
+  .inside .il{min-width:150px;font-size:13.5px;font-weight:800;letter-spacing:1.4px;
+    text-transform:uppercase;color:var(--acc);padding-top:3px}
+  .inside .it{font-size:17px;font-weight:600;color:var(--ink);background:var(--card)}
+  .price-row{background:var(--acc);color:#fff;font-size:18px;font-weight:800;padding:14px 18px}
+  .wk{background:var(--card);border:2px solid var(--line);border-left:8px solid var(--acc);
+    border-radius:14px;padding:18px 20px;margin-top:14px}
+  .wk .d{font-size:13px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--acc)}
+  .wk .t{font-size:21px;font-weight:800;margin-top:3px;background:var(--card)}
+  .wk p{font-size:17px;color:var(--mut);margin-top:6px;background:var(--card)}
+  .who{background:var(--card);border:2px solid var(--line);border-radius:14px;padding:16px 18px;
+    margin-top:12px}
+  .who .t{font-size:18.5px;font-weight:800;background:var(--card)}
+  .who p{font-size:17px;color:var(--mut);margin-top:5px;background:var(--card)}
+  .catch{font-size:18px;font-weight:800;margin-top:14px;color:var(--acc)}
+  .ladder{border:2px solid var(--line);border-radius:14px;overflow:hidden;margin-top:14px;
+    background:var(--card)}
+  .ladder .lh{background:var(--acc);color:#fff;font-size:13px;font-weight:800;letter-spacing:1.5px;
+    text-transform:uppercase;padding:12px 18px}
+  .ladder .lr{display:flex;justify-content:space-between;gap:12px;padding:13px 18px;
+    border-top:1px solid var(--line);font-size:16.5px;font-weight:600;background:var(--card)}
+  .ladder .lr span:last-child{font-weight:800;color:var(--acc);text-align:right}
+  .vary{font-size:15px;color:var(--mut);font-weight:600;margin-top:10px}
+  .refund{background:var(--card);border:3px solid var(--acc2);border-radius:14px;padding:18px 20px;
+    margin-top:16px}
+  .refund .t{font-size:20px;font-weight:800;background:var(--card)}
+  .refund p{font-size:17px;font-weight:600;color:var(--mut);margin-top:5px;background:var(--card)}
+  .final{background:var(--ink);border-radius:18px;padding:26px 24px;margin:44px 0 30px;text-align:center}
+  .final .t{background:var(--ink);color:var(--paper);font-size:24px;font-weight:800;line-height:1.25}
+  .final .t em{background:var(--ink);font-style:normal;color:var(--accL)}
+  .final button.cta{max-width:420px;margin:18px auto 0}
+  .final .l{color:var(--paper);opacity:.85;font-size:14px;font-weight:600;margin-top:10px;
+    background:var(--ink)}
+  .sticky-cta{position:fixed;bottom:0;left:0;right:0;background:var(--ink);border-top:4px solid var(--acc2);
+    padding:12px 16px;z-index:50}
+  .sticky-inner{max-width:680px;margin:0 auto;display:flex;align-items:center;gap:14px}
+  .sticky-cta .lbl{background:var(--ink);min-width:0;color:var(--paper);font-size:15px;font-weight:700;
+    line-height:1.3}
+  .sticky-cta .lbl small{display:block;color:var(--accL);font-size:12.5px;font-weight:800;
+    letter-spacing:1px;text-transform:uppercase;background:var(--ink)}
+  .sticky-cta button{width:auto;margin-top:0;font-size:17px;padding:14px 22px;border-radius:14px;
+    white-space:nowrap;background:var(--acc2);color:#fff;border:none;font-weight:800;cursor:pointer}
+
+  .m-hy{margin-top:22px}
+  .m-plate{position:relative;border-radius:16px;overflow:hidden;background:#111}
+  .m-plate img{width:100%;display:block;aspect-ratio:4/3;object-fit:cover;object-position:50% 40%}
+  .m-bub{position:absolute;background:#fff;color:#14110F;border-radius:16px;padding:12px 16px;
+    font-size:17px;font-weight:800;line-height:1.2;max-width:62%;box-shadow:0 6px 20px rgba(0,0,0,.34)}
+  .m-cap{font-size:22px;font-weight:500;line-height:1.2;letter-spacing:-.4px;margin-top:14px;
+    color:var(--ink)}
+  @media(max-width:430px){ .m-bub{font-size:13.5px;padding:9px 12px;max-width:70%}
+    .m-cap{font-size:19px} }
+  .m-bub{top:5%;left:4%}
+
+  @media(max-width:560px){
+    h1{font-size:33px}
+    .k{font-size:24px}
+    .m-cap{font-size:20px}
+    .sticky-inner{flex-direction:column;gap:8px;align-items:stretch}
+    .sticky-cta button{width:100%;min-height:48px}
+    body{padding-bottom:150px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top"><div class="brand">Law<b>Sikho</b></div><div class="tag">Arbitration</div></div>
+
+  <div class="m-hy">
+    <div class="m-plate">
+      <img src="img/barroom_lp.jpg" alt="A room full of people reacting to what one of them just said">
+      <div class="m-bub">I will call you back. I got my first arbitration brief this week.</div>
+    </div>
+    <p class="m-cap">How to create mass hysteria at the bar association.</p>
+  </div>
+  <div class="k">ADVOCATES IN THEIR FIRST YEARS OF PRACTICE</div>
+  <h1>Be ready for <em>your first arbitration brief</em>.</h1>
+  <p class="promise">We give you the <b>21 skills</b>, a drafting template for every one, and the method to run an arbitration from notice to award. Taught in <b>21 days</b>, one skill a day, with 10 live webinars.</p>
+  <p class="intro">You do not need a past arbitration to take your first one. It runs on a fixed method, and the method is taught here in the order a real matter runs.</p>
+  <div class="anchor">
+    <div class="an-l">Program value <s>&#8377;18,000</s></div>
+    <div class="an-p">&#8377;200</div>
+    <div class="an-s">One-time &middot; full access &middot; 21 days &middot; you save &#8377;17,800</div>
+  </div>
+  <div class="stats"><div class="st"><div class="v">21</div><div class="c">practice-ready skills</div></div><div class="st"><div class="v">10</div><div class="c">live webinars</div></div><div class="st"><div class="v">4</div><div class="c">expert mentors</div></div><div class="st"><div class="v">21</div><div class="c">day program</div></div><div class="st"><div class="v">&#8377;200</div><div class="c">all-inclusive</div></div></div>
+  <button class="cta" onclick="openPay()">Join for &#8377;200 &#8594;</button>
+  <div class="logis">Arbitration Skills Program &middot; 21 days &middot; 21 skills &middot; 10 live webinars</div>
+  <div class="trust">NSE Emerge-listed &middot; by LawSikho</div>
+
+  <h2>Why arbitration skills stay <span>out of reach</span></h2>
+  <p class="felt">A client mentions the arbitration clause in their contract and asks if you handle these. You say you will look into it. You know the Act, you have read the sections, and you still could not say what you would file first or in what form.</p>
+  <p class="lead">It is not that the skills are hard. It is that nobody sits you down and teaches them.</p>
+  <div class="prob"><div class="t">Nobody teaches you to draft a Procedural Order No. 1</div><p>Or what an ICC Terms of Reference has to say, or how a Redfern Schedule works. These are the documents that decide arbitrations.</p></div>
+  <div class="prob"><div class="t">Damages computation gets learned from a mistake on a live matter</div><p>Quantum experts charge lakhs. Knowing how to test their method, or present your own, is a skill you can hold before you need it.</p></div>
+  <div class="prob"><div class="t">International panels expect things Indian training never covers</div><p>Common law and civil law arbitrators want different things from counsel, and it shows in the room.</p></div>
+  <div class="prob"><div class="t">Empanelment looks like it runs on connections</div><p>DIAC, MCIA, the Delhi High Court Arbitration Centre. The criteria, the process and the documentation are all knowable, and we go through them.</p></div>
+  <div class="prob"><div class="t">Construction and FIDIC arbitration looks like a closed shop</div><p>NHAI, DMRC and PPP disputes are where the large fees sit, and they open once you know FIDIC contracts and how a DAB works.</p></div>
+  <div class="prob"><div class="t">Nobody maps how to get briefed independently</div><p>Indian and international arbitration practices brief researchers and drafters. Finding that work, pricing it and building from it is skill 14.</p></div>
+
+  <h2>What your <span>&#8377;200</span> gets you</h2>
+  <p class="lead">Everything below is included. No upsell needed to complete the 21 days.</p>
+  <div class="inside">
+    <div class="ir"><div class="il">Live sessions</div><div class="it">One skill a day for 21 days, with 10 live practitioner-led webinars on the hardest ones.</div></div>
+    <div class="ir"><div class="il">Templates you keep</div><div class="it">Procedural Order No. 1, the Redfern Schedule, witness statement format, damages sheet and the rest. 21 in all.</div></div>
+    <div class="ir"><div class="il">Daily exercises</div><div class="it">You practise each skill the day you learn it, on realistic matter facts.</div></div>
+    <div class="ir"><div class="il">Member group</div><div class="it">Ask questions between classes and share your drafts with peers on the same climb.</div></div>
+    <div class="ir"><div class="il">Certificate</div><div class="it">On completing the 21 days.</div></div>
+    <div class="price-row">All of it for &#8377;200. Refund anytime, no questions asked.</div>
+  </div>
+
+  <h2>All <span>21 skills</span>, in full</h2>
+  <p class="lead">Not topics. Tasks you will be asked to do on a real matter.</p>
+  <div class="skills"><div class="sk"><div class="n">01</div><div class="s">Arbitration clause drafting</div></div><div class="sk"><div class="n">02</div><div class="s">Pre-arbitration negotiation tactics</div></div><div class="sk"><div class="n">03</div><div class="s">Emergency arbitrator application drafting</div></div><div class="sk"><div class="n">04</div><div class="s">Procedural Order No. 1 drafting</div></div><div class="sk"><div class="n">05</div><div class="s">ICC Terms of Reference drafting</div></div><div class="sk"><div class="n">06</div><div class="s">Document management, Redfern Schedule and e-disclosure</div></div><div class="sk"><div class="n">07</div><div class="s">Opening and closing statements</div></div><div class="sk"><div class="n">08</div><div class="s">Arbitration witness statements</div></div><div class="sk"><div class="n">09</div><div class="s">Damages and quantum computation</div></div><div class="sk"><div class="n">10</div><div class="s">Mid-case strategy and Section 34</div></div><div class="sk"><div class="n">11</div><div class="s">FIDIC and construction arbitration</div></div><div class="sk"><div class="n">12</div><div class="s">Networking and visibility for arbitration lawyers</div></div><div class="sk"><div class="n">13</div><div class="s">Arbitration panel empanelment in India</div></div><div class="sk"><div class="n">14</div><div class="s">Freelancing opportunities in arbitration</div></div><div class="sk"><div class="n">15</div><div class="s">How arbitrators evaluate evidence</div></div><div class="sk"><div class="n">16</div><div class="s">Oral submissions in arbitration</div></div><div class="sk"><div class="n">17</div><div class="s">Reading and analysing arbitration awards</div></div><div class="sk"><div class="n">18</div><div class="s">Infrastructure and construction arbitration in India</div></div><div class="sk"><div class="n">19</div><div class="s">The ODR ecosystem in India</div></div><div class="sk"><div class="n">20</div><div class="s">Working with international arbitration panels</div></div><div class="sk"><div class="n">21</div><div class="s">Written arguments in arbitration proceedings</div></div></div>
+
+  <h2>The 21 skills that get you ready for your first arbitration brief</h2>
+  <p class="lead">One skill a day, in the order a real arbitration runs.</p>
+  <div class="wk"><div class="d">Days 1 to 7</div><div class="t">Foundations</div><p>What arbitration is and where the counsel work sits in every commercial contract. Notice of arbitration. Appointing the tribunal. Interim and emergency relief.</p></div>
+  <div class="wk"><div class="d">Days 8 to 14</div><div class="t">Drafting</div><p>Statement of Claim, drafted from our template. Statement of Defence. Evidence and witness statements. The Redfern schedule: the document battles where matters are won.</p></div>
+  <div class="wk"><div class="d">Days 15 to 21</div><div class="t">Hearings and the award</div><p>Witness preparation and cross-examination. Written briefs. Costs. Reading, enforcing and challenging the award. The full method, end to end.</p></div>
+
+  <h2>Built for <span>advocates in their first years of practice</span></h2>
+  <div class="who"><div class="t">You have practised in court but never inside an arbitration</div><p>Nothing you have learned is wasted. The pleadings, the evidence and the argument are the same instincts run to a different set of rules, and the rules are what we teach.</p></div>
+  <div class="who"><div class="t">Nobody in your chamber has run one either</div><p>That is the ordinary starting point in India. You learn the method here in sequence, with a template at every step, instead of waiting to be shown.</p></div>
+  <div class="who"><div class="t">You want to be ready before the first matter arrives</div><p>You practise each skill on realistic matter facts the day you learn it, so your first real brief is not your first attempt.</p></div>
+  <p class="catch">If you hold a law degree, you can start from day 1.</p>
+
+  <h2>The money <span>in the room</span></h2>
+  <p class="lead">Arbitration is where Indian commercial disputes and their budgets are moving. The counsel side of that work is what this program trains.</p>
+  <div class="ladder">
+    <div class="lh">Counsel-side arbitration, what the market shows</div>
+
+      <div class="lr"><span>MCIA caseload, 2025 annual report</span><span>up 48% in a year</span></div>
+      <div class="lr"><span>Total dispute value at MCIA alone</span><span>$257M, avg case $11.4M</span></div>
+      <div class="lr"><span>Legal-team budget, mid-size arbitration matter</span><span>&#8377;40L to &#8377;60L</span></div>
+      <div class="lr"><span>Bet-the-company matters, legal fees</span><span>&#8377;2Cr to &#8377;3Cr+</span></div>
+      <div class="lr"><span>Law-firm hiring (Vahura 2024-25)</span><span>concentrated in disputes; arbitration niche pays a premium</span></div>
+
+  </div>
+  <p class="vary">Sources: MCIA Annual Report 2025, AMLEGALS cost review, Vahura compensation trends 2024-25. Your own results depend on your effort and your market.</p>
+
+  <div class="after"><div class="t">What day 22 looks like</div><p>On day 22 you can answer that client. You know what you would file first, in what form, and what happens at every step after it.</p></div>
+
+  <div class="refund">
+    <div class="t">Refund anytime. No questions asked.</div>
+    <p>If the program is not for you, the &#8377;200 comes back. Joining is the whole risk, and it is &#8377;200.</p>
+  </div>
+
+  <div class="final">
+    <div class="t">The first brief goes to whoever can run it. <em>In 21 days that is you.</em></div>
+    <button class="cta" onclick="openPay()">Join for &#8377;200 &#8594;</button>
+    <div class="l">Live classes &middot; Template for every skill &middot; Daily exercises &middot; Certificate</div>
+  </div>
+</div>
+
+<div class="sticky-cta"><div class="sticky-inner">
+  <div class="lbl"><small>Arbitration Skills Program</small>21 days &middot; 21 skills &middot; 10 live webinars</div>
+  <button class="cta" onclick="openPay()">Join for &#8377;200 &#8594;</button>
+</div></div>
+
+<script>
+  // The GrowthX runtime binds the Cashfree checkout to the CTA whose label matches this
+  // funnel's registered ctaLabel, which must be exactly "Join for Rs 200 ->" with the rupee
+  // sign, and intercepts the click to open the modal in-page. CHECKOUT_URL is this same
+  // funnel's own modal, used only if the runtime has not bound.
+  var CHECKOUT_URL = "https://growthx.lawsikho.com/modal/meta-arbitration-community-mh-first-brief";
+  function openPay(){ window.location.href = CHECKOUT_URL; }
+</script>
+</body>
+</html>

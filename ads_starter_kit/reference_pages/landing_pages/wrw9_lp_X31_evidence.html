@@ -1,0 +1,341 @@
+<!-- Deploy as /f/women-sep05-evidence -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Numbers Behind Remote Work for Indian Women | SkillArbitrage</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#faf6ee;
+    --cream-deep:#f3ecdd;
+    --ink:#182339;
+    --ink-soft:#3c465c;
+    --red:#a6221f;
+    --rule:#d8cfba;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--cream);
+    color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size:17px;
+    line-height:1.65;
+    padding-bottom:120px;
+    overflow-x:hidden;
+  }
+  .wrap{max-width:680px;margin:0 auto;padding:0 22px;}
+  .serif{font-family:"Fraunces","Source Serif 4",Georgia,serif;}
+
+  header.masthead{border-bottom:3px solid var(--ink);padding:18px 0 14px;}
+  .brand{font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;}
+  .brand span{color:var(--red);}
+  .logistics{
+    background:var(--cream-deep);
+    border-bottom:1px solid var(--rule);
+    padding:10px 0;
+    font-size:14.5px;
+    font-weight:600;
+    color:var(--ink);
+  }
+  .hero{padding:44px 0 10px;}
+  .kicker{
+    display:inline-block;
+    background:var(--red);
+    color:#ffffff;
+    padding:10px 18px;
+    font-size:30px;
+    line-height:1.15;
+    font-weight:800;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    margin-bottom:16px;
+  }
+  h1{
+    font-family:"Fraunces",Georgia,serif;
+    font-weight:700;
+    font-size:clamp(30px,7.5vw,46px);
+    line-height:1.14;
+    margin-bottom:20px;
+  }
+  .lede{font-size:clamp(17px,4.5vw,20px);line-height:1.6;color:var(--ink-soft);margin-bottom:14px;}
+  p{margin-bottom:16px;}
+
+  .exhibit{padding:38px 0 30px;border-top:1px solid var(--rule);}
+  .ex-label{
+    color:var(--red);
+    font-size:12.5px;
+    font-weight:700;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    margin-bottom:10px;
+  }
+  .ex-num{
+    font-family:"Fraunces",Georgia,serif;
+    font-weight:700;
+    font-size:clamp(52px,15vw,96px);
+    line-height:1;
+    letter-spacing:-.01em;
+    margin-bottom:6px;
+    word-break:break-word;
+  }
+  .ex-sub{
+    font-family:"Fraunces",Georgia,serif;
+    font-size:clamp(18px,5vw,23px);
+    font-weight:600;
+    line-height:1.3;
+    margin-bottom:14px;
+  }
+  .ex-src{font-size:13.5px;color:var(--ink-soft);margin-bottom:14px;font-style:italic;}
+  .fineline{font-size:14px;color:var(--ink-soft);}
+
+  .cta-block{
+    border-top:3px solid var(--ink);
+    border-bottom:3px solid var(--ink);
+    padding:26px 0;
+    margin:36px 0;
+    text-align:center;
+  }
+  .cta-block .cta-line{font-family:"Fraunces",Georgia,serif;font-size:clamp(19px,5vw,24px);font-weight:600;margin-bottom:6px;}
+  .cta-block .cta-small{font-size:14.5px;color:var(--ink-soft);margin-bottom:16px;}
+  a.btn{
+    display:inline-block;
+    background:var(--red);
+    color:#ffffff;
+    text-decoration:none;
+    font-weight:700;
+    font-size:17px;
+    padding:15px 30px;
+    border-radius:6px;
+  }
+  a.btn:active{background:#8c1c1a;}
+
+  .offer{background:var(--cream-deep);border-top:3px solid var(--ink);padding:40px 0 34px;margin-top:36px;}
+  .offer h2{font-family:"Fraunces",Georgia,serif;font-size:clamp(26px,6.5vw,36px);line-height:1.2;margin-bottom:16px;}
+  .price{
+    font-family:"Fraunces",Georgia,serif;
+    font-size:clamp(56px,16vw,92px);
+    font-weight:700;
+    color:var(--red);
+    line-height:1;
+    margin:10px 0 4px;
+  }
+  .refund{
+    border-left:4px solid var(--red);
+    padding:10px 14px;
+    margin:20px 0;
+    font-weight:700;
+    font-size:17px;
+    background:var(--cream);
+  }
+  ul.plain{list-style:none;margin:0 0 16px;}
+  ul.plain li{padding-left:22px;position:relative;margin-bottom:10px;}
+  ul.plain li::before{content:"";position:absolute;left:4px;top:10px;width:8px;height:8px;background:var(--red);border-radius:50%;}
+
+  .trust{
+    margin:26px 0 8px;
+    padding-top:18px;
+    border-top:1px solid var(--rule);
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px 18px;
+    font-size:13.5px;
+    font-weight:700;
+    letter-spacing:.03em;
+    color:var(--ink);
+  }
+  .trust span{white-space:nowrap;}
+
+  footer{padding:26px 0 20px;font-size:13px;color:var(--ink-soft);}
+
+  .stickybar{
+    position:fixed;
+    bottom:0;left:0;right:0;
+    background:var(--ink);
+    color:#ffffff;
+    padding:10px 14px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:14px;
+    flex-wrap:wrap;
+    z-index:50;
+    box-shadow:0 -3px 12px rgba(0,0,0,.18);
+  }
+  .stickybar .bar-line{font-size:14px;font-weight:600;}
+  .stickybar a.btn{padding:11px 20px;font-size:15.5px;}
+  .sticky-inner{max-width:720px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;}
+  @media (max-width:720px){
+    .sticky-inner{flex-direction:column;align-items:stretch;gap:8px;}
+    .stickybar a.btn{display:block;width:100%;text-align:center;padding:13px 0;min-height:44px;}
+  }
+
+  @media (max-width:720px){
+    body{font-size:16.5px;}
+    .hero{padding:32px 0 8px;}
+    .exhibit{padding:30px 0 24px;}
+    .ex-num{font-size:clamp(40px,13vw,64px);}
+    .price{font-size:clamp(48px,15vw,68px);}
+    .stickybar{gap:8px;padding:9px 10px;}
+    .stickybar .bar-line{font-size:12.5px;}
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap"><div class="brand">SKILL<span>ARBITRAGE</span> &nbsp;·&nbsp; WOMEN REMOTE WORK BOOTCAMP</div></div>
+</header>
+
+<div class="logistics">
+  <div class="wrap">5 to 7 September 2026 · Saturday to Monday · 2 to 5 PM IST · 9 hours live, fully online · &#8377;10 for all 3 days</div>
+</div>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="kicker">A data story in eight exhibits</div>
+    <h1>The case for Indian women doing remote work for US small businesses, told in numbers.</h1>
+    <p class="lede">You may have heard that women in India are earning from home by working online for businesses in America. It can sound too good to be true. So this page does not tell you stories. It shows you the published numbers, one by one, and explains what each number means for a woman in India who wants to restart her work life. Virtual assistant work means keeping a small business owner's inbox, calendar, customer replies and social posts in order, from home. Paid in dollars.</p>
+    <p>Every figure below comes from a named source: government data, university research, or the published reports of large companies. Read the eight exhibits. Then decide for yourself.</p>
+    <p><strong>What we commit to: in the three live days we walk you through the work these businesses pay for, build your profile and first work sample with you, and put a written plan for reaching your first client in your hands.</strong></p>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="cta-block">
+    <div class="cta-line">3 live days. 9 hours. Online, from your home.</div>
+    <div class="cta-small">5 to 7 September · 2 to 5 PM IST · Join on your phone or laptop</div>
+    <a class="btn" href="#seat">Book my seat for &#8377;10</a>
+  </div>
+</div>
+
+<section class="exhibit">
+  <div class="wrap">
+    <div class="ex-label">Exhibit 01 · The size of the market</div>
+    <div class="ex-num serif">36.2 million</div>
+    <div class="ex-sub serif">small businesses in the United States</div>
+    <div class="ex-src">US Small Business Administration, official government data</div>
+    <p>These are not giant corporations with big HR departments. They are dentists, accountants, online shops, real estate agents, small law firms. Most have fewer than ten people. The owner does the admin work at night because there is nobody else to do it. That owner is the person who pays for remote help.</p>
+    <p>And the pool keeps growing. US Census data shows <strong>578,926 new business applications were filed in July 2026 alone</strong>. That is more than five lakh new businesses in one month, each one a possible future client for someone who can work online.</p>
+  </div>
+</section>
+
+<section class="exhibit">
+  <div class="wrap">
+    <div class="ex-label">Exhibit 02 · The problem those businesses have</div>
+    <div class="ex-num serif">36%</div>
+    <div class="ex-sub serif">of US small businesses cannot fill their open jobs</div>
+    <div class="ex-src">NFIB Small Business Jobs Report, July 2026</div>
+    <p>More than one in three small businesses in America has work waiting and nobody to do it. This is why remote work for Indians exists at all. It is not charity and it is not a trick. It is a simple shortage: they have tasks, they cannot find local people to do them, and the work can be done from anywhere with an internet connection.</p>
+  </div>
+</section>
+
+<section class="exhibit">
+  <div class="wrap">
+    <div class="ex-label">Exhibit 03 · What they do about it</div>
+    <div class="ex-num serif">75%</div>
+    <div class="ex-sub serif">of US small businesses with international staff plan to hire even more abroad</div>
+    <div class="ex-src">Gusto survey of US small businesses</div>
+    <p>The same Gusto survey found that 58% of the US small businesses hiring internationally do it because they simply cannot find workers at home. And when they look abroad, India is one of their top three source countries. So this is not a door that is closing. The businesses that already hire across borders want to do more of it, and India is already on their shortlist.</p>
+  </div>
+</section>
+
+<section class="exhibit">
+  <div class="wrap">
+    <div class="ex-label">Exhibit 04 · The trend, measured</div>
+    <div class="ex-num serif">+63.7%</div>
+    <div class="ex-sub serif">growth in one year in UK companies hiring Indians who stay in India</div>
+    <div class="ex-src">Deel, State of Global Hiring 2025</div>
+    <p>Deel is a company that handles payroll when businesses hire across countries, so it sees the real hiring numbers. Its 2025 report shows full time hiring of Indians grew 63.7% among UK companies and 24.1% among US companies in a single year. The important part: these workers did not migrate. They stayed in India, in their own homes, and the salary came to them.</p>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="cta-block">
+    <div class="cta-line">The demand is real. The next four exhibits are about you.</div>
+    <div class="cta-small">All 3 days for &#8377;10, refundable if you find them useless</div>
+    <a class="btn" href="#seat">Book my seat for &#8377;10</a>
+  </div>
+</div>
+
+<section class="exhibit">
+  <div class="wrap">
+    <div class="ex-label">Exhibit 05 · What happens when work comes home</div>
+    <div class="ex-num serif">3x</div>
+    <div class="ex-sub serif">women offered work from home were more than three times as likely to start working</div>
+    <div class="ex-src">A randomized study in India by J-PAL researchers</div>
+    <p>This is the strongest evidence on this page. Researchers ran a proper randomized study in India, the same method used to test medicines. When women were offered jobs they could do from home, they took up work at more than three times the rate. The conclusion is simple and hopeful: crores of Indian women are not unwilling to work. They are willing and able the moment the work comes to where they are.</p>
+  </div>
+</section>
+
+<section class="exhibit">
+  <div class="wrap">
+    <div class="ex-label">Exhibit 06 · Why the old route is unfair</div>
+    <div class="ex-num serif">49%</div>
+    <div class="ex-sub serif">fewer interview callbacks for women with a career break, on identical resumes</div>
+    <div class="ex-src">Ashoka University research, 2024</div>
+    <p>Researchers sent out resumes that were exactly the same except for one thing: a career break. The women with a break got about half as many callbacks. If you took years out for your children or your family and the job portals went silent, the problem was never your ability. It was a biased filter. And you are not alone: the Udaiti Foundation estimates around <strong>7 million Indian women</strong> are looking to return to work after a break. Remote clients abroad care about one thing, whether the work gets done. They do not ask about gap years.</p>
+  </div>
+</section>
+
+<section class="exhibit">
+  <div class="wrap">
+    <div class="ex-label">Exhibit 07 · What the work pays</div>
+    <div class="ex-num serif">$22<span style="font-size:.4em;">/hour</span></div>
+    <div class="ex-sub serif">average rate earned by Indian women freelancers</div>
+    <div class="ex-src">Payoneer research on global freelancers</div>
+    <p>Payoneer, a payments company that moves freelancer earnings across borders, found Indian women freelancers averaging 22 dollars per hour, up 42% since 2020, and at par with their global peers. Even better: in freelancing worldwide, women earn 92 cents for every dollar men earn, a far smaller gap than in regular salaried jobs. Online work does not know your age, your city, or your gap years. To be clear, these are market averages, not a promise: your results will vary with your hours, your skill, and your consistency.</p>
+  </div>
+</section>
+
+<section class="exhibit">
+  <div class="wrap">
+    <div class="ex-label">Exhibit 08 · The money is already flowing</div>
+    <div class="ex-num serif">$4.03 billion</div>
+    <div class="ex-sub serif">paid out to freelancers through just one platform in 2025</div>
+    <div class="ex-src">Upwork, published 2025 results</div>
+    <p>Upwork is one single website where businesses hire online workers. In 2025 it paid freelancers over 4 billion dollars, from 785,000 client businesses. And if you worry that AI will take this work away, note this from the same report: AI related work on Upwork crossed 300 million dollars a year and grew 50% in one year. AI is creating paid online work faster than it removes it, for people who learn to use it.</p>
+  </div>
+</section>
+
+<section class="offer" id="seat">
+  <div class="wrap">
+    <h2 class="serif">That is the evidence. Here is the offer.</h2>
+    <p>The Women Remote Work Bootcamp is a 3 day live online camp, built for Indian women who want to start earning from home. You join from your own home, on your phone or laptop. No travel, no institute, no one watching over your shoulder.</p>
+    <ul class="plain">
+      <li><strong>We show you the actual work</strong> US small business owners pay for, task by task, so it stops being a vague idea and becomes a concrete list.</li>
+      <li><strong>We build your profile and a work sample with you</strong>, so by the end you have something real to show a client, not just notes.</li>
+      <li><strong>We give you a step by step plan</strong> to reach your first paying client after the camp.</li>
+    </ul>
+    <p><strong>When:</strong> 5 to 7 September 2026, Saturday to Monday, 2 to 5 PM IST. 9 hours of live teaching in total.</p>
+    <div class="price serif">&#8377;10</div>
+    <p class="fineline">for all three days, everything included</p>
+    <p style="margin-top:14px;">Why charge &#8377;10 at all? Because seats are limited and a small price keeps the group serious. It filters out the casual and the careless, so the women who show up actually want to build something.</p>
+    <div class="refund">Our promise on the &#8377;10: attend all three days, and if you honestly feel they gave you nothing, just say so and we will send the &#8377;10 straight back to you. You will not be asked to justify it.</div>
+    <p><strong>What happens after you pay:</strong> you get the class joining link and an invite to the batch WhatsApp group, both delivered to you before Day 1. Open the link at 2 PM on Saturday, 5 September, and you are in the class.</p>
+    <div style="text-align:center;margin:26px 0 8px;">
+      <a class="btn" href="#seat">Book my seat for &#8377;10</a>
+    </div>
+    <div class="trust">
+      <span>NSE Emerge-listed</span>
+      <span>Recognised NSDC Training Partner</span>
+      <span>IIT Roorkee iHUB Training Partner</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Women Remote Work Bootcamp · SkillArbitrage · 5 to 7 September 2026 · Live online, 2 to 5 PM IST</div>
+</footer>
+
+<div class="stickybar"><div class="sticky-inner">
+  <div class="bar-line">5 to 7 Sep · 2 to 5 PM IST · Live online · &#8377;10</div>
+  <a class="btn" href="#seat">Book my seat for &#8377;10</a>
+</div></div>
+
+</body>
+</html>

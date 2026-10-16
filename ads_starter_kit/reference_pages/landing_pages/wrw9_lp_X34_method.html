@@ -1,0 +1,382 @@
+<!-- Deploy as /f/women-sep05-method -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The 6 Month Plan: Home to First Online Income | Women Remote Work Bootcamp</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#16305e;
+    --ink-soft:#3a5384;
+    --orange:#e8681a;
+    --paper:#fbfaf6;
+    --grid:rgba(22,48,94,0.07);
+    --card:#ffffff;
+    --line:#c9d3e6;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:'Source Sans 3',Segoe UI,Arial,sans-serif;
+    font-size:17px;
+    line-height:1.65;
+    color:var(--ink);
+    background-color:var(--paper);
+    background-image:
+      linear-gradient(rgba(22,48,94,0.07) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(22,48,94,0.07) 1px, transparent 1px);
+    background-size:28px 28px;
+    padding-bottom:96px;
+  }
+  .wrap{max-width:680px;margin:0 auto;padding:0 20px;}
+  .mono{font-family:'IBM Plex Mono',Courier New,monospace;}
+
+  /* header */
+  header{padding:36px 0 8px;}
+  .kicker{
+    font-family:'IBM Plex Mono',monospace;display:inline-block;
+    font-size:29px;line-height:1.15;letter-spacing:.05em;text-transform:uppercase;
+    background:#e8681a;color:#ffffff;padding:10px 16px;font-weight:700;margin-bottom:14px;
+  }
+  h1{font-size:34px;line-height:1.2;font-weight:800;margin-bottom:16px;}
+  .thesis{font-size:19px;color:var(--ink-soft);margin-bottom:22px;}
+
+  /* logistics box */
+  .logi{
+    background:var(--card);border:2px solid var(--ink);border-radius:10px;
+    padding:18px 20px;margin:8px 0 26px;
+    box-shadow:4px 4px 0 rgba(22,48,94,.12);
+  }
+  .logi p{margin:6px 0;font-size:16px;}
+  .logi .lab{
+    font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--orange);font-weight:600;
+    display:block;margin-bottom:4px;
+  }
+  .logi strong{font-weight:700;}
+  .price-flag{
+    display:inline-block;background:var(--orange);color:#fff;
+    font-weight:800;font-size:18px;border-radius:6px;padding:4px 12px;margin-top:8px;
+  }
+
+  h2{font-size:25px;line-height:1.3;font-weight:800;margin:38px 0 12px;}
+  h3{font-size:19px;font-weight:700;margin:18px 0 8px;}
+  p{margin:12px 0;}
+  section{padding:4px 0;}
+
+  /* route map */
+  .route{position:relative;margin:26px 0 10px;padding-left:56px;}
+  .route::before{
+    content:"";position:absolute;left:21px;top:8px;bottom:8px;width:4px;
+    background:var(--ink);border-radius:2px;
+  }
+  .station{position:relative;margin-bottom:30px;}
+  .station .dot{
+    position:absolute;left:-52px;top:0;width:46px;height:46px;border-radius:50%;
+    background:var(--card);border:3px solid var(--ink);
+    display:flex;align-items:center;justify-content:center;
+    font-family:'IBM Plex Mono',monospace;font-weight:600;font-size:15px;color:var(--ink);
+  }
+  .station.hot .dot{background:var(--orange);border-color:var(--orange);color:#fff;}
+  .station .tag{
+    font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--orange);font-weight:600;
+  }
+  .station h3{margin-top:2px;}
+  .station .card{
+    background:var(--card);border:1px solid var(--line);border-radius:10px;
+    padding:14px 16px;margin-top:8px;
+  }
+  .station .card p{margin:8px 0;font-size:16px;}
+  .out{
+    font-family:'IBM Plex Mono',monospace;font-size:13px;color:var(--ink);
+    background:rgba(232,104,26,.09);border-left:3px solid var(--orange);
+    padding:8px 10px;border-radius:0 6px 6px 0;display:block;margin-top:10px;
+  }
+  .timecost{
+    font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--ink-soft);
+    display:block;margin-top:8px;
+  }
+
+  /* CTA */
+  .cta-block{
+    background:#16305e;color:#fff;border-radius:12px;
+    padding:24px 22px;margin:30px 0;text-align:center;
+  }
+  .cta-block p{color:#dbe4f5;background:#16305e;font-size:16px;margin:0 0 14px;}
+  .btn{
+    display:inline-block;background:var(--orange);color:#fff;text-decoration:none;
+    font-weight:800;font-size:18px;padding:15px 30px;border-radius:8px;
+    box-shadow:0 3px 0 rgba(0,0,0,.25);
+  }
+  .btn:active{transform:translateY(2px);box-shadow:none;}
+  .cta-sub{font-family:'IBM Plex Mono',monospace;font-size:12px;color:#c4d0e8;margin-top:12px !important;margin-bottom:0 !important;}
+
+  /* OS section */
+  .os-card{
+    background:var(--card);border:2px solid var(--ink);border-radius:10px;
+    padding:18px 20px;margin:14px 0;
+    box-shadow:4px 4px 0 rgba(22,48,94,.12);
+  }
+  .os-card ul{list-style:none;margin:8px 0;}
+  .os-card li{padding:7px 0 7px 26px;position:relative;font-size:16px;}
+  .os-card li::before{
+    content:"";position:absolute;left:2px;top:14px;width:12px;height:12px;
+    border:3px solid var(--orange);border-radius:50%;
+  }
+
+  .math-card{
+    background:rgba(232,104,26,.07);border:1px dashed var(--orange);border-radius:10px;
+    padding:16px 18px;margin:16px 0;
+  }
+  .math-card .big{font-size:20px;font-weight:800;}
+  .vary{font-size:15px;color:var(--ink-soft);margin-top:6px;}
+
+  .evidence{
+    background:var(--card);border:1px solid var(--line);border-radius:10px;
+    padding:16px 18px;margin:14px 0;
+  }
+  .evidence .src{
+    font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--ink-soft);
+    display:block;margin-top:6px;
+  }
+
+  /* offer close */
+  #seat{scroll-margin-top:20px;}
+  .offer{
+    background:var(--card);border:3px solid var(--ink);border-radius:14px;
+    padding:26px 22px;margin:34px 0 20px;
+    box-shadow:6px 6px 0 rgba(22,48,94,.15);
+  }
+  .offer h2{margin-top:0;}
+  .offer ul{list-style:none;margin:14px 0;}
+  .offer li{padding:8px 0 8px 30px;position:relative;font-size:16px;}
+  .offer li::before{
+    content:"";position:absolute;left:4px;top:15px;width:14px;height:8px;
+    border-left:3px solid var(--orange);border-bottom:3px solid var(--orange);
+    transform:rotate(-45deg);
+  }
+  .refund{
+    background:rgba(232,104,26,.09);border-radius:8px;padding:12px 14px;
+    font-weight:600;margin:14px 0;
+  }
+
+  .trust{
+    text-align:center;margin:26px 0 14px;
+  }
+  .trust span{
+    font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--ink-soft);
+    display:inline-block;border:1px solid var(--line);border-radius:999px;
+    padding:6px 12px;margin:4px 3px;background:var(--card);
+  }
+  footer{
+    text-align:center;font-size:13px;color:var(--ink-soft);padding:10px 0 30px;
+  }
+
+  /* sticky bar */
+  .sticky-bar{
+    position:fixed;left:0;right:0;bottom:0;z-index:50;
+    background:#16305e;padding:12px 16px;
+    box-shadow:0 -3px 12px rgba(0,0,0,.18);
+  }
+  .sticky-inner{max-width:720px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;}
+  @media (max-width:720px){
+    .sticky-inner{flex-direction:column;align-items:stretch;gap:8px;}
+    .sticky-bar .btn{display:block;width:100%;text-align:center;min-height:44px;white-space:normal;}
+  }
+  .sticky-bar .bar-note{
+    color:#dbe4f5;background:#16305e;font-family:'IBM Plex Mono',monospace;font-size:12px;
+  }
+  .sticky-bar .btn{font-size:16px;padding:11px 20px;white-space:nowrap;}
+
+  @media (max-width:720px){
+    body{font-size:16px;}
+    h1{font-size:27px;}
+    h2{font-size:22px;}
+    .thesis{font-size:17px;}
+    .route{padding-left:46px;}
+    .route::before{left:17px;}
+    .station .dot{left:-46px;width:38px;height:38px;font-size:13px;}
+    .sticky-bar .bar-note{display:none;}
+    .sticky-bar .btn{width:100%;text-align:center;}
+  }
+</style>
+</head>
+<body>
+
+<header class="wrap">
+  <div class="kicker">Women Remote Work Bootcamp &middot; SkillArbitrage</div>
+  <h1>Your first online income is not luck. It is a route. Here is the whole map.</h1>
+  <p class="thesis">Women who earn from home did not stumble into it. They followed steps, in order, and each step left something real in their hands. This page shows you every station on that route, from this weekend to month six. Read it, check it, and decide if you want to walk it. Virtual assistant work means keeping a small business owner's inbox, calendar, customer replies and social posts in order, from home. Paid in dollars.</p>
+
+  <div class="logi">
+    <span class="lab">The plan starts here</span>
+    <p><strong>5, 6 and 7 September 2026</strong> (Saturday to Monday)</p>
+    <p><strong>2 PM to 5 PM IST</strong> daily &middot; 9 hours of live classes in total</p>
+    <p><strong>Fully online.</strong> You join from home, on your phone or laptop. No travel, no software to install.</p>
+    <p>Once you pay, you get the class joining link and an invite to your batch WhatsApp group, both before Day 1.</p>
+    <span class="price-flag">All 3 days for &#8377;10 only</span>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section>
+  <h2>Why we drew this as a map</h2>
+  <p>Most online courses sell you a feeling. We would rather show you a system, because a system can be inspected before you buy it. Below is the actual route we teach, station by station. For each one you can see three things: what happens there, what exists in your hands after it, and how much of your day it costs. If any station looks impossible to you, you will know before you spend even ten rupees.</p>
+  <p>One more reason we trust routes over hope. A randomized study in India found that when women were offered work they could do from home, they were more than three times as likely to start working. The wish to work was always there. What was missing was a path that fit their day. This is that path, written down.</p>
+</section>
+
+<section>
+  <h2>The route: this weekend to month six</h2>
+
+  <div class="route">
+
+    <div class="station hot">
+      <span class="dot">D1</span>
+      <span class="tag">Station 1 &middot; Saturday, 5 Sep</span>
+      <h3>Day 1: The map of work that pays</h3>
+      <div class="card">
+        <p>We walk through the online work that clients around the world actually pay for right now, and which of it suits women working from home in India. Writing, research, admin support, social media help, data work and more, with real examples of who hires and what they pay.</p>
+        <span class="out">In your hands after this: your own shortlist of 3 work types matched to what you already know.</span>
+        <span class="timecost">Time cost: 3 hours live class (2 to 5 PM)</span>
+      </div>
+    </div>
+
+    <div class="station hot">
+      <span class="dot">D2</span>
+      <span class="tag">Station 2 &middot; Sunday, 6 Sep</span>
+      <h3>Day 2: Your profile and your first work sample</h3>
+      <div class="card">
+        <p>We build with you, live, the two things a client checks before hiring anyone: a clean profile that describes you honestly, and a one page work sample that proves you can do the job. You do not watch this happen. You make yours during the class, with guidance at every step.</p>
+        <span class="out">In your hands after this: a finished profile and a one page work sample, ready to show a client.</span>
+        <span class="timecost">Time cost: 3 hours live class (2 to 5 PM)</span>
+      </div>
+    </div>
+
+    <div class="station hot">
+      <span class="dot">D3</span>
+      <span class="tag">Station 3 &middot; Monday, 7 Sep</span>
+      <h3>Day 3: Your outreach plan</h3>
+      <div class="card">
+        <p>Work does not arrive on its own, so the last day is about going to where the clients are. We show you the platforms and places where small businesses look for help, how to write a short message that gets a reply, and how to keep going politely when there is silence.</p>
+        <span class="out">In your hands after this: a written outreach plan plus your first list of 10 names to contact.</span>
+        <span class="timecost">Time cost: 3 hours live class (2 to 5 PM)</span>
+      </div>
+    </div>
+
+    <div class="station">
+      <span class="dot">W1</span>
+      <span class="tag">Station 4 &middot; The week after camp</span>
+      <h3>Week 1: First messages go out</h3>
+      <div class="card">
+        <p>You send your first messages using the scripts from Day 3. Here is the honest rule we teach: expect to send about 10 messages before the first response comes. That is normal, not failure. Knowing the number in advance is what keeps you calm at message six.</p>
+        <span class="out">In your hands after this: your first replies, and a habit of daily outreach.</span>
+        <span class="timecost">Time cost: about 1 hour a day</span>
+      </div>
+    </div>
+
+    <div class="station">
+      <span class="dot">M1</span>
+      <span class="tag">Station 5 &middot; Months 1 and 2</span>
+      <h3>Months 1 to 2: First small paid work</h3>
+      <div class="card">
+        <p>Replies turn into small paid jobs. Starting rates for new remote workers are usually 5 to 7 dollars an hour. The money matters, but the bigger prize at this station is the testimonial. Every finished job where you ask the client for two honest lines of feedback becomes proof for the next client.</p>
+        <span class="out">In your hands after this: your first earnings and your first written testimonials.</span>
+        <span class="timecost">Time cost: about 2 hours a day</span>
+      </div>
+    </div>
+
+    <div class="station">
+      <span class="dot">M3</span>
+      <span class="tag">Station 6 &middot; Months 3 to 6</span>
+      <h3>Months 3 to 6: Rates rise, work steadies</h3>
+      <div class="card">
+        <p>With testimonials on your profile, you stop being a stranger. Rates step up to 10 dollars an hour and beyond, clients come back with repeat work, and your income stops depending on one lucky message. This is the station where home work becomes a steady part of the family income.</p>
+        <span class="out">In your hands after this: repeat clients, rising rates, steady monthly work.</span>
+        <span class="timecost">Time cost: the hours you choose to give it</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="math-card">
+    <p class="big">Simple math for station six: 3 hours a day at 10 dollars an hour is roughly fifty thousand rupees a month.</p>
+    <p class="vary">Results vary with the hours you put in and how consistently you do the outreach.</p>
+  </div>
+
+  <div class="evidence">
+    <p>And the demand side of this map is real. A Gusto survey found that most US small businesses that hire internationally do it for a simple reason: they cannot find enough workers at home. They need reliable help. You can be that help from your own house.</p>
+    <span class="src">Sources: randomized study on work from home offers to women in India; Gusto survey of US small businesses.</span>
+  </div>
+
+  <div class="cta-block">
+    <p>The first three stations happen this weekend, live, for ten rupees.</p>
+    <a class="btn" href="#seat">Book my seat for &#8377;10</a>
+    <p class="cta-sub">5 to 7 Sep &middot; 2 to 5 PM IST &middot; online from home</p>
+  </div>
+</section>
+
+<section>
+  <h2>The operating system: 2 hours a day, free tools only</h2>
+  <p>A route is only useful if it fits inside your real day, between family, kitchen and everything else you already carry. So the camp also gives you the daily operating system that runs the plan.</p>
+  <div class="os-card">
+    <ul>
+      <li><strong>2 hours a day is the engine.</strong> One hour to find clients: sending messages, following up, applying. One hour to learn: sharpening the skill you shortlisted on Day 1. Not more. The plan is built for a full household, not an empty calendar.</li>
+      <li><strong>Free tools until you earn.</strong> Everything we teach runs on free plans: Notion for your portfolio, Upwork to find your first clients, and the camp's own scripts and templates for outreach. You are never asked to buy software before your first payment comes in. We say this plainly because many women fear hidden costs. There are none here.</li>
+      <li><strong>Scripts, not blank pages.</strong> You leave the camp with our message templates, follow up scripts and proposal formats. On a tired evening, you fill in a template instead of staring at an empty screen.</li>
+    </ul>
+  </div>
+  <p>This is the difference between a course and a system. A course ends when the classes end. A system tells you what to do at 9 PM on a random Tuesday in October. You will have the system.</p>
+
+  <div class="cta-block">
+    <p>Ten rupees buys the whole system: the map, the live build, the scripts.</p>
+    <a class="btn" href="#seat">Book my seat for &#8377;10</a>
+    <p class="cta-sub">Joining link + WhatsApp group sent before Day 1</p>
+  </div>
+</section>
+
+<section id="seat">
+  <div class="offer">
+    <h2>The offer, in full</h2>
+    <ul>
+      <li>3 days of live online classes: 5, 6 and 7 September, 2 to 5 PM IST, 9 hours in total</li>
+      <li>Day 1: the map of paying work and your personal shortlist of three</li>
+      <li>Day 2: your profile and one page work sample, built live with you</li>
+      <li>Day 3: your outreach plan and your first ten client names</li>
+      <li>The camp's scripts, templates and the 2 hours a day operating system</li>
+      <li>Batch WhatsApp group so you are not walking the route alone</li>
+      <li>Join from home on your phone or laptop; no travel, nothing to install</li>
+    </ul>
+    <p><strong>Price: &#8377;10 for everything above.</strong> Not per day. Ten rupees, once, for all three days.</p>
+    <div class="refund">Our promise: if you attend and feel the three days were not useful, tell us and your &#8377;10 comes back. No questions, no forms, no awkwardness.</div>
+    <p>After you pay, two things arrive before Day 1: the link to join the classes and the invite to your batch WhatsApp group. That is all you need. Come with a notebook.</p>
+    <div style="text-align:center;margin-top:18px;">
+      <a class="btn" href="#seat">Book my seat for &#8377;10</a>
+    </div>
+  </div>
+
+  <div class="trust">
+    <span>NSE Emerge-listed</span>
+    <span>Recognised NSDC Training Partner</span>
+    <span>IIT Roorkee iHUB Training Partner</span>
+  </div>
+</section>
+
+<footer>
+  Women Remote Work Bootcamp &middot; SkillArbitrage &middot; 5 to 7 September 2026, online
+</footer>
+
+</main>
+
+<div class="sticky-bar"><div class="sticky-inner">
+  <span class="bar-note">5 to 7 Sep &middot; 2 to 5 PM IST &middot; live online</span>
+  <a class="btn" href="#seat">Book my seat for &#8377;10</a>
+</div></div>
+
+</body>
+</html>

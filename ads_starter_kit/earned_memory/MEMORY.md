@@ -1,0 +1,135 @@
+# Memory index
+
+- [The user is Ruchika](user_is_ruchika.md) — "Ruchika" and "the user" are one person; never credit her words to Ramanuj
+
+- [Use real reference images, never hand-draw ad creative](feedback_ad_creative_use_real_images.md) — crop the real WhatsApp reference images instead of CSS/SVG mockups
+- [14 Aug ad clarity rules](feedback_ad_clarity_rules.md) — ICP callout size, no headline wordplay, value prop first glance, no…
+- [Vary composition, use real memes](feedback_ad_creative_vary_composition.md) — each ad in a batch needs its own layout skeleton, not one template with a…
+- [Content Writing: the 40 target ICPs](project_contentwriting_target_icps_aug21.md) — scope widened from 19 to the full 40-candidate list on 22 Aug
+- [The house ad formula](feedback_house_ad_formula.md) — two-part serif hook (statement + italic turn) and a believable artefact as…
+- [Run every gate, never a subset](feedback_run_every_gate.md) — check_all.py
+- [Landing page standard](feedback_landing_page_standard.md) — a numbered argument at ~1,600-1,800 words, not a five-section feature list
+- [Remote Women ICP test (D/S/G/N)](project_remotewomen_icp_test.md) — an ICP earns an ad only with demand + solo + gap + a trained Indian…
+- [Generalise the role, load the duties](feedback_same_craft_better_payer.md) — use "virtual assistant"/"social media manager", never a US title she has…
+- [Blind reader: always check the value prop](feedback_blind_reader_value_prop.md) — five questions every time, including "what is this offering you that you…
+- [A practising credential cannot be the ICP](feedback_credential_icp_cannot_work.md) — proven three ways for the VA camp
+- [How Meta data reaches Claude](project_meta_data_pull_path.md) — a connected Meta Ads MCP works with no setup
+- [Google Ads access path](project_google_ads_access_path.md) — Google's own read-only google-ads-mcp works via uvx (verified)
+- [Price hook, then value fast](feedback_price_hook_then_value_fast.md) — open on the Rs 10, hand straight to the value prop
+- [ICP named first, always](feedback_icp_named_first.md) — name the audience before the hook
+- [Simple technical English](feedback_simple_technical_english.md) — plain sentences, real terms kept
+- [Copy is filled in, not written](feedback_copy_is_filled_in_not_written.md) — the delivery sentence is a per-kit constant
+- [Pay charts and the CTR trap](feedback_paychart_and_ctr_traps.md) — pay-chart ads cost 2.3x campaign par in 3 product lines
+- [Ads reports: always day by day](feedback_ads_report_day_by_day.md) — every report carries a daily table: day, spend, buyers, CPP
+- [ICP is the biggest lever](feedback_icp_is_the_biggest_lever.md) — device-led ads with no ICP cost 1.22x par
+- [The broadsheet layout](feedback_broadsheet_layout.md) — newspaper face at ~43 words, three ticks, price box incl. GST, full-width…
+- [Bookkeeping reads as a step down](feedback_bookkeeping_reads_as_step_down.md) — 7 of 12 US Acc faces blind-read DOWN on "bookkeeping"
+- [Launch check: by ad, not campaign](feedback_launch_check_by_ad_not_campaign.md) — Oct Tech Law ads sat ACTIVE inside the paused Aug campaign
+- [WhatsApp Status fakes frequency](feedback_whatsapp_status_fakes_frequency.md) — freq 12-262 was Status impressions at 3-6% of spend
+- [Daily report chat style](feedback_daily_report_chat_style.md) — headline vs yesterday, free vs paid, Bootcamps/Communities tables from…
+- [Ad report: five standing requirements](feedback_ad_report_standing_requirements.md) — GA+GrowthX every time, blended/Meta/Google, lead-target pace, ICP double-down calls, quality check; no lead targets exist yet
+- [Ads report: the five columns](feedback_ads_report_columns.md) — ad, spend, buyers, CPP, link to the ad
+- [adkit, the constants card and the corpus index](project_adkit_and_corpus.md) — kits build from a shared chassis and 472 indexed past ads, not a per-kit…
+- [C8 reads only the first CSS rule](feedback_c8_reads_first_css_rule.md) — a later override ships under the 64px floor and reads as clean
+- [Ship zip: the house format](project_ship_zip_house_format.md) — six items only, manifest.json is the deploy contract, ad stems continue…
+- [Headline names the job, not the buying](feedback_headline_names_job_not_buying.md) — "read/compare/decide-whether" sells the purchase process and reads as…
+- [Only Ramanuj's approval counts](feedback_only_ramanuj_approval_counts.md) — an in-house APPROVED label is not evidence
+- [Checkers are fitted on Ramanuj's approvals + live cost](feedback_checkers_refit_basis.md) — hook_rules 72%->4%, simplicity 84%->0% false alarms
+- [LPs in one kit must differ](feedback_lps_in_a_kit_must_differ.md) — separate files is not enough
+- [Vary the design style across a wave](feedback_vary_the_design_style.md) — SOP/10 catalogues what has run
+- [Same copy, different face, 10x cost](feedback_same_copy_different_face_10x.md) — diagnose with an ad-level pull before rewriting copy
+- [Blind reader needs the whole face](feedback_blind_reader_needs_the_whole_face.md) — a three-line fold makes question 3 unanswerable by construction
+- [Blind reader unit is the first fold](feedback_blind_reader_unit_is_the_first_fold.md) — on call-out+head alone the four cheapest patent ads score 0 CLEAR
+- [A demand clause must take its object](feedback_demand_clause_must_take_the_object.md) — "the contracts US firms cannot staff" is not English, and no gate in the…
+- [The definition belongs on the page, not the face](feedback_definition_belongs_on_the_page_not_the_face.md) — face_definition=""
+- [No gate could see a vertical gap](feedback_no_gate_saw_vertical_gaps.md) — adkit/gaps.py reads PNG rows so it can be fitted on GOLDEN
+- [One class, two jobs, wrong floor](feedback_one_class_two_jobs_inherits_wrong_floor.md) — the barrier line wore .kicker and inherited C8's 56px identity floor
+- [A rule only reads as an aside](feedback_a_rule_only_reads_as_an_aside.md) — the quote bar needs a hierarchy to be subordinate within
+- [Load rate is not traffic](feedback_load_rate_is_not_traffic.md) — check buyers per click before calling a link broken
+- [How GrowthX funnel pages wire the pay button](reference_growthx_funnel_checkout.md) — CTA matched by text in bridge.js, opens /modal/<slug> in-page
+- [A contradiction is a failed test](feedback_contradiction_means_failed_test.md) — I published a "dead checkout" finding that my own buyer numbers disproved
+- [The LP must name the reader](feedback_lp_must_name_the_reader.md) — lint L6: at least one h2 carries a word from the ad's ICP line
+- [Never judge an ad on a part-day](feedback_never_judge_an_ad_on_a_part_day.md) — 7-day window, 20+ buyers, print n and the ±196/√n margin
+- [Outside doctrine: take the scoring, not the shape](feedback_outside_doctrine_take_the_scoring.md) — offer-to-campaign judged 4 Sep
+- [Ads reports route through the token](feedback_ads_reports_route_through_token.md) — pull_ads.py on the System User token, not the Ads MCP
+- [Report scripts narrow silently](feedback_report_scripts_narrow_silently.md) — an account filter or a one-currency assumption shrinks a total with no…
+- [Reruns are never advertised](feedback_reruns_are_never_advertised.md) — RE camps have never had a campaign
+- [Bootcamp dates sheet](reference_bootcamp_dates_sheet.md) — the live Google Sheet is the source of record for camp dates
+- [Blind reader is a script with blinded controls](feedback_blind_reader_is_a_script_with_controls.md) — check_all gates on it
+- [Restyle: layouts are not interchangeable](feedback_restyle_layouts_are_not_interchangeable.md) — adkit.restyle keeps the selling copy, never the chrome
+- [The CPL parser dropped a whole table](feedback_cpl_parser_dropped_a_table.md) — read a table's own header, not a heading whitelist
+- [Hypothesis field + batch restyle](feedback_hypothesis_field_and_batch_restyle.md) — every ad states a falsifiable test
+- [The worklist layout](feedback_worklist_layout.md) — first layout built from a reference image
+- [Arbitration: audience worn out, not faces](project_arbitration_audience_exhaustion.md) — unchanged June pages halved in conversion
+- [The search layout](feedback_search_layout.md) — "the search:" query bar then "the solution:" offer card, from a DTC inspo
+- [US Accounting ICP history](project_usaccounting_icp_history.md) — "Same Work, Global Clients" won Apr-Jun and was never rebuilt
+- [Split an occupation by sector and job title](feedback_split_occupation_by_sector.md) — hospital HR ran 0.77x and unlocked a demographic
+- [LP length does not predict conversion](feedback_free_camp_lps_are_short.md) — 330 pages: words/sections ~0 correlation
+- [US Accounting testimonials](reference_usaccounting_testimonials.md) — only real named stories: 3 cards on skillarbitra.ge May page (Raunak…
+- [Every statement must be sourced](feedback_every_statement_must_be_sourced.md) — US Acc shared figures (300k, 1 in 3, 5,216, pay ladder), EA-in-India and…
+- [The chat layout](feedback_chat_layout.md) — the reader's own text message, a forwarded flyer carrying the agenda and…
+- [Corporate Finance live cost](project_corporate_finance_live_cost.md) — Aug par Rs 194/purchase
+- [The venn layout](feedback_venn_layout.md) — two circles, the reader's work in one and the camp's in the other, the…
+- [GrowthX extract refresh](project_growthx_extract_refresh.md) — funnels_today.json comes from the get_leads_report MCP, not a browser
+- [The notification layout](feedback_notify_layout.md) — a visual refresh must carry a priced face's content
+- [funnels_*.json is a window, not a registry](feedback_funnels_json_is_a_window.md) — absence of a slug is a hint, never proof
+- [The closing fold was ungated](feedback_closing_fold_is_ungated.md) — every clarity gate points at the ad face
+- [Palette distance is a constraint](feedback_palette_distance_is_a_constraint.md) — one palette per ad means CIELAB dE>=12, not a different hex
+- [A clip can come from an ancestor](feedback_clip_can_come_from_an_ancestor.md) — fit F1 only compares against the canvas
+- [Offer line names the prize](feedback_offer_line_names_the_prize.md) — 'where does it say build a career in X' / 'join what': lead with the move…
+- [DPDP history and ICPs](project_dpdp_history_and_icps.md) — 37-month pull: only the Aug 2026 Rs10 camp is rankable
+- [Search layout, October rollout](project_search_layout_oct_rollout.md) — 19 search ads across 7 Oct camps to test us51
+- [No riddles in the call-out](feedback_callout_no_riddles.md) — 'largest asset is not in the portfolio' was rejected
+- [En dash counts as em dash](feedback_en_dash_counts_as_em_dash.md) — write '3 to 5 Oct'
+- [The call layout](feedback_call_layout.md) — a better opportunity is calling
+- [One LP per ad, no A/B split](feedback_one_lp_per_ad_no_ab_split.md) — an ambiguous 'keep X, rebuild as Y' means replace
+- [Newness claims must be true](feedback_newness_claims_must_be_true.md) — tie every "early" claim to a dated fact
+- [DPDP LP donors](project_dpdp_lp_donors.md) — best-converting DP pages 14.7-18.7% results/LPV (side-practice…
+- [October bootcamp scripts](reference_october_bootcamp_scripts.md) — index of every Oct camp's Day 1-3 script IDs in…
+- [Read the camp script first](feedback_read_the_script_first.md) — 'corporate finance work is not valuation': CF is raising money…
+- [Read the bootcamp script first](feedback_read_the_bootcamp_script_first.md) — camp claims must trace to the script
+- [Callouts for a half-asleep reader](feedback_half_asleep_callouts.md) — reader in 2-6 words, gain in ~10 with the field named
+- [Gender expansion leaks women-only ad sets](feedback_gender_expansion_leak.md) — Women AI reached 25% men on identical women-only ad sets
+- [The translate layout](feedback_translate_layout.md) — side-by-side "What you do now ⇄ After the bootcamp"
+- [Academic Writing Oct script facts](reference_academic_writing_oct_script_facts.md) — sourced Day 1-3 + prep sheet in docs/
+- [Heads name the asset and the money](feedback_heads_name_the_asset_and_the_money.md) — "your PhD/MSc/subject expertise can earn you dollars"
+- [NCA history](project_nca_history.md) — Canada lawyer-qualification camp 31 Oct-2 Nov 2026
+- [Style index, 23 Sep pull](project_style_index_sep23.md) — no static style has a repeatable win
+- [Senior AI history](project_seniorai_history.md) — four generations Mar/Jun/Aug/Oct 2026
+- [The calendar layout](feedback_calendar_layout.md) — the reader own week, four rows, one accent event where the client abroad…
+- [A title is not a job](feedback_a_title_is_not_a_job.md) — "become the ERP consultant"/"the operations advisor" blind-read UNCLEAR
+- [Emergence shots: describe occlusion](feedback_emergence_shot_use_occlusion.md) — "half of him is inside the screen" makes the model draw a second person
+- [Payment failures on Google funnels](project_payment_failures_google_funnels.md) — Meta 2.5% everywhere
+- [Google wave: one search face per reader](feedback_google_wave_is_one_search_face.md) — Google cannot run carousels
+- [Tech Law: non-lawyer ICPs rejected](project_techlaw_nonlawyer_icps_rejected.md) — whole wave struck 24 Sep 2026
+- [21-step LP spine is the standard](project_21_step_lp_spine.md) — every kit since 25 Sep; ID calendar rebuilt on it 28 Sep after I shipped the old spine; check newest kits, not only the docs
+- [Ramanuj's feedback: the master file](reference_ramanuj_feedback_master.md) — RAMANUJ_FEEDBACK.md at the root holds all of it
+- [Ad reports in chat only](feedback_ad_reports_in_chat_only.md) — never an Artifact or a saved report file
+- [Folder cleanup, 28 Sep](project_folder_cleanup_sep28.md) — ship folders are zips now
+- [ID: general vs specific readers](project_id_general_vs_specific.md) — general 'retired' has the ceiling (Rs 47), occupations the floor
+- [Retired readers: a second innings](feedback_retired_readers_second_innings.md) — no idle leisure rows, no 'board-ready profile' or 'too late?'
+- [Live-ads audit method](reference_live_ads_audit_method.md) — per-ad pull with creative links
+- [LP swaps, 28 Sep](project_lp_swaps_sep28.md) — 15 weak live LPs rebuilt on each campaign's best page, ads kept live; check_swap.py gates swaps; SC 6-9 PM vs sheet 2-5 PM unresolved
+- [Sheet snapshots prove time changes](reference_sheet_snapshots.md) — dated raw reads of the dates sheet in old tool-results; ACW 24-26 Oct moved 6-9 to 2-5 PM after 18 Sep; Senior AI always 2-5 PM
+- [Join button fills the full line](feedback_full_width_join_button.md) - notice faces need big_cta=True; a small footer pill was rejected 29 Sep
+- [Tech Law Oct: CPM, not conversion](project_techlaw_oct_cpm_diagnosis.md) — Rs 424 vs Aug 288; buyers/click up, CPM 255 vs IP law 119 same week; IP meme mm02 211 buyers at par
+- [The collage layout](feedback_collage_layout.md) — CF wave 3 reveal face, approved 29 Sep; call-out + 'Do X work, not just Y'
+- [The Notes layout](feedback_notes_layout.md) — iPhone Notes card, key phrase as selected text, drawn eyes; first run NCA wave 2 (nca61-70) against notice faces
+- [The film-still layout](feedback_film_still_layout.md) — generated B&W film still, two caption boxes, joke that needs no decoding; LP hero puts the exchange under the still
+- [The AirDrop layout](feedback_airdrop_layout.md) — share sheet whose ticked checklist is the real deliverables; reader in .callout, turn in .head
+- [Closing fold must name the person](feedback_closing_fold_names_person.md) — describing the work is not enough; four folds failed "who is this addressed to"
+- [Closing fold names the reader FIRST](feedback_closing_fold_names_the_reader_first.md) — open with the job title; "You already..." alone failed 6 of 20 blind closing reads
+- [launchlist is the measured design](feedback_launchlist_is_the_measured_design.md) — named-work list 0.67x vs 1.50x inside one campaign; no middle widget
+- [Headline names a career, not a chore](feedback_headline_names_career_not_chore.md) — "Write the loan proposal, not just fill the form" is a riddle; a 3/3 blind read does not prove otherwise
+- [CF Oct: the cost is climbing, the fix is built](project_cf_oct_fatigue_and_collage_win.md) — Rs 192 to Rs 365 in 5 days; cfw3_loan_consultant Rs 136 while 14 sibling faces sit starved
+- [Sentence length is readability](feedback_sentence_length_is_readability.md) — L7: body sentence <=34 words, heading <=16, fitted on the CF pages that converted
+- [Measure every colour pair, not one](feedback_measure_every_colour_pair.md) — L8: the pay button read 1.46:1 while I reported 7.1:1 for a different pair
+- [Closing lede must be self-contained](feedback_closing_lede_self_contained.md) — a pronoun that crosses the heading reads as a riddle; 9 of 20 did it
+- [DPDP wave 3: international angle](project_dpdp_wave3_international.md) — par Rs 212, newspaper beats standard twice, cross-border value prop
+- [Headlines must need no decoding](feedback_headline_needs_no_decoding.md) — wordplay, bare "the", jargon: 8 of 20 in one kit, and no gate sees it
+- [Name the statute and the buyer](feedback_name_the_statute_and_the_buyer.md) — "the Indian Act" and "a company buys" are dangling references; face says it plainly, page names it in full
+- [Name the task, not just the hours](feedback_name_the_task_not_just_the_hours.md) — 20 of 20 blind readers asked "what kind of work?"; name 2-3 concrete tasks on the face
+- [Women AI wave 10](project_womenai_wave10.md) — free camp, par Rs 36/reg; the cost rise is the PAGE (CTR up, regs/click down); strucklist 0.88x and clockband 0.93x
+- [The dark spotlit face](feedback_darkobject_layout.md) — adkit `darkobject`, Rs 108 / 0.78x par on Senior Consulting; lift accents in HLS, never blend to white
+- [ALL CAPS is not a pronoun](feedback_allcaps_is_not_a_pronoun.md) — hook_rules read the field name "IT" as "it" and blocked a Rs 92 winner
+- [Blind gates catch what no regex can](feedback_blind_gates_catch_what_regex_cannot.md) — 3 defects passed every mechanical gate clean; 13 of 20 readers found the ambiguous schedule
