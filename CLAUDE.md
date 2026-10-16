@@ -111,3 +111,6 @@ Full file was shared in chat, not committed (it holds account performance data).
 - Page rules he asked for: restructure for persuasion, 3D elements allowed, add "what the market is like" and "why now" with sourced facts framed as demand (no penalties, no pay figures on the face). Re-check the countdown against the ACE rule (no countdown) before shipping.
 - QA means: sizes, file paths, text lengths, fidelity to the supplied art, page links, layout at 360, 390 and 768 px, JavaScript off. Script: `projects/marketing-hub/meta-kit/qa_meta.py`.
 - Deliver kits as one zip plus the QA report; push to the session branch; describe any limits plainly.
+
+## Standing instruction (divyanshu, 16 Oct 2026)
+Every rule he states, in any wording ("always", "never", "dont", "remember", "from now on"), is saved here in the same session: dated, in his own words where possible, under a heading for its product or topic. If a new rule conflicts with an older one, the newer date wins and the older line is marked superseded, not deleted. Say in one line when a rule has been saved.
