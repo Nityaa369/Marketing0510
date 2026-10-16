@@ -49,8 +49,7 @@ designs are not reused. Each Google ad is rebuilt from text, to the SOP:
 5. Google Ads is not connected in this account (no API token), so cost per buyer must come from GrowthX paid seats.
 
 ## Critic's read (before Ramanuj)
-- **Who:** ads 01 to 04 and 08 target LLB holders working outside law. His 24 Sep verdict: "non-lawyer ICPs do not work
-  for tech law." His call; the Google kit builds them so the set matches Meta, not because they are cleared.
+- **Who:** passes. Targeting is lawyers and LLB holders only, so ads 01 to 04 and 08 (LLB holders working in HR, banking, content, sales and BPO) are not the non-lawyer readers Ramanuj struck on 24 Sep. One thing to confirm with him: that an LLB holder outside practice counts as a lawyer.
 - **Prize:** every headline now names the move ("into tech law", "as a tech lawyer"), better than the Meta faces,
   which say "restart" or "routes".
 - **Risks still on the landing pages (Google reviews them too):** "WhatsApp" (joining details) and "LinkedIn"

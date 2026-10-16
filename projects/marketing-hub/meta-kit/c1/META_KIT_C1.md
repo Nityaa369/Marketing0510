@@ -96,8 +96,7 @@ CTR never defends an ad. Never judge on a part day or on fewer than 20 results.
 
 ## 6. Calls only Ramanuj can make
 
-1. **Readers.** Ads 01 to 04 and 08 speak to LLB holders working outside law. His 24 Sep verdict:
-   "non-lawyer ICPs do not work for tech law." Run them, or keep only the career-break lawyers?
+1. **Readers.** Ads 01 to 04 and 08 speak to LLB holders working outside law. Targeting is Law-qualified people only, so the 24 Sep verdict ("non-lawyer ICPs do not work for tech law") should not apply. Confirm he counts LLB holders outside practice as lawyers.
 2. **Budget.** Option A (Rs 5,000 a day) or Option B (Rs 10,000 a day) for C1.
 3. **Dark faces.** 02 (navy) and 10 (dark wood) break the light-background rule.
 4. **End time.** Stop on Fri 23 Oct night, or run until Sat 24 Oct afternoon.
@@ -120,7 +119,7 @@ CTR never defends an ad. Never judge on a part day or on fewer than 20 results.
 
 | Ad | First failure | Why | Fix |
 |---|---|---|---|
-| 01 HR, 02 Banking, 03 Content, 04 Sales and ops, 08 BPO | **Who** | LLB holders working outside law. Ramanuj, 24 Sep: "non-lawyer ICPs do not work for tech law." Rule: Tech Law is lawyers only. | His call. Run as a test only with his yes, or drop and move the Rs 5,000 to C1B. |
+| 01 HR, 02 Banking, 03 Content, 04 Sales and ops, 08 BPO | **Who: passes, with one note** | Targeting is lawyers and LLB holders only (field of study Law), so these are not the non-lawyer readers Ramanuj struck on 24 Sep. The one open point is whether he counts an LLB holder working outside law as a "lawyer". | Confirm that with him once. Do not target by job title or interest outside Law. |
 | 05 Paused practice | **Prize** | Face says "Let's restart" (back to the same practice) and the chips sell "refresh skills" and "in-house". The move into tech law is not the biggest line. | Head: name the new work, e.g. "...Come back as a tech lawyer." Remove "in-house" from the chips. |
 | 06 Moved city | **Prize** | Chips are good (contract drafting, privacy). Head names a city, not the field. | Add "tech lawyer" to the head or the first chip. |
 | 07 Abroad | **Rules** | "International practice" chip risks an overclaim; Indian LLB abroad cannot practise there. | Change to "Learn privacy and tech law from where you are". |
