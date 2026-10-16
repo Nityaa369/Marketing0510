@@ -1,0 +1,114 @@
+
+## OCT
+total forms 5339 paid 3093 rate 58% funnels 85
+M | Unused LLB: $2,000+ a month | 2000 | 1477 | 74% | failed 34 | meta-tech-law-oct-unused-llb
+M | TechLaw_Video_drawer | 288 | 214 | 74% | failed 6 | meta-techlaw-bc-24-26oct2026-cbo-oct-wer
+M | Comeback Bootcamp | 234 | 184 | 79% | failed 3 | meta-comeback-bootcamp
+G | That someone can be you | 235 | 175 | 74% | failed 12 | lp2-that-someone-can-be-you
+G | Lawyers in small towns (63) | 831 | 168 | 20% | failed 91 | google-tech-law-oct-63-small-town-goog
+M | Women lawyers after a break (65) | 149 | 108 | 72% | failed 3 | meta-tech-law-oct-65-career-break
+M | 20 tasks: US paralegal $2,000+ | 150 | 106 | 71% | failed 3 | meta-tech-law-oct-20tasks-us-paralegal
+G | Lawyers in small towns (73) | 384 | 83 | 22% | failed 36 | google-tech-law-oct-73-small-town-goog
+M | Broad: become a remote tech lawyer | 92 | 72 | 78% | failed 1 | meta-tech-law-oct-broad-remote-tech-lawyer
+G | Broad: law college never taught you tech law | 112 | 43 | 38% | failed 9 | tech-law-oct-broad-law-college-goog
+M | 20 tasks: law firm tech team | 49 | 38 | 78% | failed 2 | meta-tech-law-oct-20tasks-lawfirm-tmt
+M | Junior lawyers, 1 to 3 years | 36 | 27 | 75% | failed 1 | meta-tech-law-oct-72-junior-lawyers
+G | Rerun: tech law is the hottest new practice | 45 | 23 | 51% | failed 1 | tech-law-oct-rerun-hottest-google
+M | 20 tasks: startup clients | 27 | 23 | 85% | failed 1 | meta-tech-law-oct-20tasks-startup-clients
+M | Career break lawyers video | 28 | 22 | 79% | failed 0 | tl-oct-vid-career-break
+G | 20 tasks: US paralegal $2,000+ | 26 | 20 | 77% | failed 0 | google-tech-law-oct-20tasks-us-paralegal
+M | 20 tasks: internship to job | 21 | 19 | 90% | failed 1 | meta-tech-law-oct-20tasks-internship
+M | Rerun: tech law gets new lawyers hired (carousel) | 21 | 19 | 90% | failed 0 | meta-tech-law-oct-rerun-gets-hired
+G | Skills: lawyer at an AI company | 56 | 16 | 29% | failed 4 | tech-law-oct-skills-ai-companies-google
+M | Banking and NBFC lawyers | 16 | 15 | 94% | failed 0 | meta-tech-law-oct-10-banking-lawyers
+M | Rerun: law college never taught you tech law | 16 | 14 | 88% | failed 0 | meta-tech-law-oct-rerun-law-college
+M | TL Video LLB Outside Law (15 Oct) | 23 | 12 | 52% | failed 0 | tl-oct-vid-llb-outside-law
+M | Women lawyers after a break (75) | 14 | 12 | 86% | failed 0 | meta-tech-law-oct-75-career-break
+G | Lawyers, 10 years in practice | 14 | 10 | 71% | failed 0 | tech-law-oct-19-mid-career
+G | New law graduates | 24 | 10 | 42% | failed 1 | tech-law-oct-01-fresh-graduates
+G | Banking and NBFC lawyers | 14 | 9 | 64% | failed 0 | tech-law-oct-10-banking-lawyers
+M | Lawyers returning after a break | 11 | 8 | 73% | failed 1 | meta-tech-law-oct-09-women-returning
+M | Broad carousel: 5 kinds of tech law work | 8 | 8 | 100% | failed 0 | meta-tech-law-oct-broad-carousel-5-work
+G | 20 tasks: deep tech legal job | 10 | 8 | 80% | failed 0 | google-tech-law-oct-20tasks-deeptech
+M | Rerun: tech law is the hottest new practice | 9 | 7 | 78% | failed 1 | meta-tech-law-oct-rerun-hottest
+G | 20 tasks: startup clients | 7 | 7 | 100% | failed 0 | google-tech-law-oct-20tasks-startup-clients
+G | Tech_Law_Bootcamp_Demand | 7 | 6 | 86% | failed 0 | tech-law-bootcamp-demand
+G | Broad: litigators add tech disputes | 39 | 6 | 15% | failed 5 | tech-law-oct-broad-litigators-goog
+G | Skills: lawyer at a fintech company | 14 | 6 | 43% | failed 1 | tech-law-oct-skills-fintech-google
+M | That someone can be you | 6 | 6 | 100% | failed 0 | meta-tech-law-oct-someone-like-you
+G | Comeback Bootcamp | 9 | 6 | 67% | failed 2 | index
+G | 20 tasks: law firm tech team | 6 | 6 | 100% | failed 0 | google-tech-law-oct-20tasks-lawfirm-tmt
+G | Earn in dollars from home with tech law | 24 | 6 | 25% | failed 2 | tl06-dollars-from-home
+M | TL08 Consumer Court | 8 | 6 | 75% | failed 0 | tl-oct-consumer-court
+G | Question: Kerala law graduate to remote UK job | 22 | 5 | 23% | failed 1 | tech-law-oct-broad-kerala-question-goog
+G | Lawyers, years 1 to 3 | 8 | 5 | 62% | failed 2 | tech-law-oct-02-first-three-years
+M | Skills: lawyer at an e-commerce company | 5 | 5 | 100% | failed 0 | meta-tech-law-oct-skills-ecommerce
+G | Skills: lawyer at a SaaS company | 44 | 4 | 9% | failed 5 | tech-law-oct-skills-saas-google
+G | Skills: lawyer at a biotech company | 33 | 4 | 12% | failed 6 | tech-law-oct-skills-biotech-google
+M | New law graduates | 5 | 4 | 80% | failed 1 | meta-tech-law-oct-01-fresh-graduates
+M | Broad: litigators add tech disputes | 4 | 4 | 100% | failed 0 | meta-tech-law-oct-broad-litigators
+G | Skills: lawyer at a GCC | 12 | 4 | 33% | failed 3 | tech-law-oct-skills-gcc-google
+M | Lawyers in small towns (63) | 9 | 4 | 44% | failed 0 | meta-tech-law-oct-63-small-town
+G | Tech-Law_bigtech | 4 | 3 | 75% | failed 0 | google-tech-law-bigtech
+M | Broad: international career in tech law | 4 | 3 | 75% | failed 0 | meta-tech-law-oct-broad-international
+G | Skills: lawyer at an e-commerce company | 16 | 3 | 19% | failed 2 | tech-law-oct-skills-ecommerce-google
+M | Lawyers, years 1 to 3 | 4 | 3 | 75% | failed 0 | meta-tech-law-oct-02-first-three-years
+M | Skills: lawyer at an AI company | 4 | 3 | 75% | failed 0 | meta-tech-law-oct-skills-ai-companies
+M | Skills: lawyer at a GCC | 3 | 3 | 100% | failed 0 | meta-tech-law-oct-skills-gcc
+M | TL09 Cyber IT Act | 3 | 3 | 100% | failed 0 | tl-oct-cyber-it-act
+G | Broad: international career in tech law | 23 | 2 | 9% | failed 5 | tech-law-oct-broad-international-goog
+M | Skills: lawyer at a drone company | 3 | 2 | 67% | failed 0 | meta-tech-law-oct-skills-drones
+G | Skills: lawyer at a semiconductor company | 12 | 2 | 17% | failed 1 | tech-law-oct-skills-semiconductors-google
+M | Lawyers in practice, 10 years | 2 | 2 | 100% | failed 0 | meta-tech-law-oct-19-mid-career
+M | Law firm associates | 4 | 2 | 50% | failed 0 | meta-tech-law-oct-64-firm-associates
+M | Skills: lawyer at a space tech company | 2 | 2 | 100% | failed 0 | meta-tech-law-oct-skills-space-tech
+G | Fresh law graduates (61) | 3 | 2 | 67% | failed 0 | google-tech-law-oct-61-fresh-graduates-goog
+G | Fresh law graduates (71) | 2 | 2 | 100% | failed 0 | google-tech-law-oct-71-fresh-graduates-goog
+M | TL03 Be First Not Junior | 2 | 2 | 100% | failed 0 | tl-oct-be-first-not-junior
+G | Rerun: international career in technology law | 12 | 1 | 8% | failed 1 | tech-law-oct-rerun-international-goog
+G | Litigators, 2 to 10 years | 2 | 1 | 50% | failed 0 | tech-law-oct-05-litigators
+M | Skills: lawyer at a fintech company | 2 | 1 | 50% | failed 0 | meta-tech-law-oct-skills-fintech
+M | Rerun: international career in technology law | 2 | 1 | 50% | failed 0 | meta-tech-law-oct-rerun-international
+G | 20 tasks: internship to job | 1 | 1 | 100% | failed 0 | google-tech-law-oct-20tasks-internship
+M | Skills: lawyer at a defence tech company | 1 | 1 | 100% | failed 0 | meta-tech-law-oct-skills-defence-tech
+M | 20 tasks: deep tech legal job | 1 | 1 | 100% | failed 0 | meta-tech-law-oct-20tasks-deeptech
+M | Lawyers in small towns (73) | 4 | 1 | 25% | failed 0 | meta-tech-law-oct-73-small-town
+M | TL02 Tier2 Tier3 Colleges | 1 | 1 | 100% | failed 0 | tl-oct-tier2-tier3-colleges
+G | Tech_law_macro | 1 | 1 | 100% | failed 0 | google-tech-law-macro
+M | Lawyers outside the metros | 3 | 0 | 0% | failed 0 | meta-tech-law-oct-03-outside-metros
+M | Document review teams | 2 | 0 | 0% | failed 0 | meta-tech-law-oct-23-lpo-staff
+M | Question: Kerala law graduate to remote UK job | 1 | 0 | 0% | failed 0 | meta-tech-law-oct-broad-kerala-question
+G | Broad: become a remote tech lawyer | 1 | 0 | 0% | failed 0 | tech-law-oct-broad-remote-tech-lawyer-goog
+M | Rerun: your court skills already work in tech law | 1 | 0 | 0% | failed 0 | meta-tech-law-oct-rerun-litigators
+G | In-house counsel | 1 | 0 | 0% | failed 0 | tech-law-oct-08-inhouse-nontech
+G | Skills: lawyer at a space tech company | 2 | 0 | 0% | failed 0 | tech-law-oct-skills-space-tech-google
+G | Practise tech law from your own city. Earn from US clients. | 2 | 0 | 0% | failed 1 | tl01-outside-metros
+G | You draft documents every day. Startups need documents too. | 1 | 0 | 0% | failed 0 | 11-deed-drafters
+M | TL05 Startups Need Litigators | 1 | 0 | 0% | failed 0 | tl-oct-startups-need-litigators
+G | LLB graduates in banks | 1 | 0 | 0% | failed 0 | tech-law-oct-w3-81-llb-banks
+
+## AUG
+total forms 6708 paid 2059 rate 31% funnels 23
+M | Tech-Law_hottest | 882 | 511 | 58% | failed 11 | meta-tech-law-hottest
+G | Tech-Law_hottest | 593 | 278 | 47% | failed 33 | google-tech-law-hottest
+M | lit 03 no seniors | 438 | 181 | 41% | failed 2 | meta-tech-law-lit-03-no-seniors
+G | Tech_Law_Bootcamp_whylearn | 1685 | 140 | 8% | failed 120 | tech-law-bootcamp-whylearn
+M | Tech-Law_international | 241 | 137 | 57% | failed 2 | meta-tech-law-international
+M | lit 01 disputes wave | 289 | 136 | 47% | failed 1 | meta-tech-law-lit-01-disputes-wave
+G | Tech-Law_bootcamp | 547 | 117 | 21% | failed 54 | google-tech-law-bootcamp
+G | Tech-Law_bigtech | 322 | 115 | 36% | failed 25 | google-tech-law-bigtech
+G | Tech-Law_international | 476 | 87 | 18% | failed 35 | google-tech-law-international
+M | Tech-Law_topchoice | 97 | 66 | 68% | failed 2 | meta-tech-law-topchoice
+G | Tech-Law_shapefuture | 88 | 52 | 59% | failed 1 | google-tech-law-shapefuture
+G | Tech_Law_Bootcamp_Demand | 508 | 52 | 10% | failed 40 | tech-law-bootcamp-demand
+M | Tech-Law_bootcamp | 86 | 47 | 55% | failed 6 | meta-tech-law-bootcamp
+G | Tech-Law_topchoice | 107 | 47 | 44% | failed 5 | google-tech-law-topchoice
+G | Tech_law_macro | 242 | 34 | 14% | failed 18 | google-tech-law-macro
+M | lit 02 skills transfer | 45 | 30 | 67% | failed 1 | meta-tech-law-lit-02-skills-transfer
+M | firms staffing | 33 | 9 | 27% | failed 0 | meta-tech-law-firms-staffing
+M | c9 become | 8 | 6 | 75% | failed 1 | meta-tech-law-c9-become
+M | 10 reasons | 6 | 6 | 100% | failed 0 | meta-tech-law-10-reasons
+M | Tech-Law_bigtech | 4 | 3 | 75% | failed 0 | meta-tech-law-bigtech
+M | c8 walkout | 7 | 3 | 43% | failed 0 | meta-tech-law-c8-walkout
+G | Tech-Law_reasons | 1 | 1 | 100% | failed 0 | google-tech-law-reasons
+M | Tech-Law_shapefuture | 3 | 1 | 33% | failed 0 | meta-tech-law-shapefuture
