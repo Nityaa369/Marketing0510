@@ -102,3 +102,12 @@ Full file was shared in chat, not committed (it holds account performance data).
 - **Pages:** no countdown and no invented urgency ("closes today", "seats left"); no "not for you if"; one pay button style, sticky, framed price; must work with JavaScript off (hide-on-scroll CSS only under a `js` class); `overflow-x:clip`; mobile QA with JS on and off; first fold repeats the ad's words as text; each page in a kit looks and reads different.
 - **Tech Law:** lawyers only (LLB holders count). Proven readers: unused LLB 0.83x on 1,494 leads, comeback or career break, junior lawyers. Video beat static on Tech Law (about Rs 160 against Rs 240 to 930). Phrase scarcity as "Not many lawyers do this yet".
 - **Never** let style override compliance: no job, income, licence or visa guarantee; no figures describing the viewer on a face; no co-branding; never promise a recording; every fact needs a primary source and a date.
+
+## Preferences stated in the 16 Oct 2026 Tech Law C1 session (divyanshu)
+- **Never change words on supplied creative images.** Resize only; keep the whole ad (no crop), fill the other shape with a colour wash from the ad's own edges. Verify with a pixel compare against the supplied file.
+- **Google kit = same design as Meta by default** (landscape 1200x628, square 1200x1200, portrait 960x1200). Mention the Google policy risks (arrow and button CTA, all caps, UI-like boxes) but do not alter the art. Keep the policy-safe rebuilt set as a fallback.
+- **Tech Law targeting is lawyers and LLB holders only.** LLB holders working in HR, banking, content, sales or BPO are lawyers by targeting, not the "non-lawyer ICPs" Ramanuj struck on 24 Sep. Do not re-flag them.
+- Pictures he supplies are the page hero and must be the same file as the ad (1 ad = 1 page). Pick between spare pictures by rules, and say plainly that no per-picture data exists.
+- Page rules he asked for: restructure for persuasion, 3D elements allowed, add "what the market is like" and "why now" with sourced facts framed as demand (no penalties, no pay figures on the face). Re-check the countdown against the ACE rule (no countdown) before shipping.
+- QA means: sizes, file paths, text lengths, fidelity to the supplied art, page links, layout at 360, 390 and 768 px, JavaScript off. Script: `projects/marketing-hub/meta-kit/qa_meta.py`.
+- Deliver kits as one zip plus the QA report; push to the session branch; describe any limits plainly.
