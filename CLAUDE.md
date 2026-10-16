@@ -68,6 +68,8 @@ counts.
 - **Fact-check what the user supplies too.** "Canada is the 7th best economy" was wrong: IMF
   Oct 2025 ranks it 10th; it is a G7 member. Say so plainly, then use the true version.
 - Facts and sources for NCA live in `docs/NCA_WEB_RESEARCH_2026-10-06.md`.
+- Facts for Tech Law (8th camp, 24 to 26 Oct 2026: what tech law is, what each day teaches, the paid
+  stack, proof, and the script's contradictions) live in `docs/TECH_LAW_CAMP_FACTS_2026-10-16.md`.
 - **Reference build: Data Protection wave 4 (stems 101 to 112, "email face").** Each reader is
   split by job title from a parent cell that already priced cheap (hospital staff 0.70x, KYC
   0.52x, cyber lawyers 0.85x), and each one's job already touches personal data. The face is a
