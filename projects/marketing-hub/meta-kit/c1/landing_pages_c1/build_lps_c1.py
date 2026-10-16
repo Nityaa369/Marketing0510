@@ -9,7 +9,7 @@ Writes lp_tlc1-NN.html next to this script. Pictures stay in img/.
 import re, glob, os, html as H
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-BTN = "Join the 3 live evenings for Rs 10"
+BTN = "Join all 3 days, 9 hours live, for Rs 10"
 
 # Reader-specific pieces written for the new layout (From -> To strip, redline margin note,
 # and the "you already have" line). Everything else is parsed from the original page.
@@ -480,7 +480,7 @@ def build(n, d):
     # close
     a(f'<div class="close"><div class="w"><h2>{d["close"][0]}</h2><p>{d["close"][1]}</p>{btn(href, "<small>3 live evenings · 24 to 26 Oct</small>")}</div></div>')
     a(f'<div class="disc"><div class="w"><p><b>Please read.</b> {d["disc"].replace("<b>Please read.</b>", "").strip()}</p></div></div>')
-    a(f'<div class="sticky" id="sticky"><a class="btn" href="{href}">Join for Rs 10 · refundable</a></div>')
+    a(f'<div class="sticky" id="sticky"><a class="btn" href="{href}">Join for Rs 10 · 3 days, 9 hours live</a></div>')
     a(f'<script>{JS}{EXTRA_JS}</script></body></html>')
     return "".join(out)
 

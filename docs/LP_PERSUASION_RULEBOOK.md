@@ -5,7 +5,7 @@ Saved 16 Oct 2026 on divyanshu's instruction. Ramanuj's rules still win; this ad
 ## Hard rules (never break)
 1. **Never a countdown**, timer or "starts in" widget, and never invented urgency ("closes today", "last chance", "seats left"). Show the real dates as plain text.
 2. **Dates live on the landing page** (camp days, times, price terms). Ad creatives carry no dates (Ramanuj, 13 Aug).
-3. **The button states the joining price: the full exchange.** Holy grail, always followed. The price is exclusive to joining: Rs 10 incl. GST for bootcamps, a different set price for community camps (SQE Rs 100, Contract Drafting Rs 200). Never a bare "Join now", never "Reserve my seat", never "Know more". Keep "refundable" wherever the price appears. (Wording: "Join the 3 live evenings for Rs 10" or "Join the Rs 10 bootcamp".)
+3. **The button states the joining price: the full exchange.** Holy grail, always followed. The price is exclusive to joining: Rs 10 incl. GST for bootcamps, a different set price for community camps (SQE Rs 100, Contract Drafting Rs 200). Never a bare "Join now", never "Reserve my seat", never "Know more". Keep "refundable" wherever the price appears. The price buys the whole bootcamp: **3 days, 9 hours, live.** Wording: "Join all 3 days, 9 hours live, for Rs 10" (sticky bar: "Join for Rs 10 · 3 days, 9 hours live").
 4. No hedge above a pay button. The only disclaimer is at the very end.
 5. Works with JavaScript off; one real pay URL on every button; test-buy before launch.
 

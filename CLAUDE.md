@@ -144,4 +144,4 @@ Also: dates belong on landing pages, not on ad creatives (13 Aug). The button st
 ## Hard rules saved 16 Oct 2026 (divyanshu)
 - **Never a countdown button, timer or "starts in" widget. Hard rule.** Dates go on the landing page (as plain text), not on ad creatives.
 - **More informative landing pages win trust and so more learners.** Add every persuasive element we build to every page; the list is in `docs/LP_PERSUASION_RULEBOOK.md`.
-- **Button wording is the holy grail: the button states the joining price, the full exchange,** exclusive to joining: Rs 10 incl. GST for bootcamps, a different set price for community camps. Always followed. Never a bare "Join now", never "Reserve my seat", never "Know more".
+- **Button wording is the holy grail: the button states the joining price, the full exchange,** exclusive to joining: Rs 10 incl. GST for bootcamps, a different set price for community camps. The price is for the whole bootcamp: 3 days, 9 hours, live (divyanshu, 16 Oct). Page button: "Join all 3 days, 9 hours live, for Rs 10". Always followed. Never a bare "Join now", never "Reserve my seat", never "Know more".
