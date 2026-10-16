@@ -470,7 +470,7 @@ def build(n, d):
     sec("What it costs to find out")
     a('<div class="cmp">'
       '<div><b>Figuring it out alone</b>Free, plus months of trial and error. Scattered articles and no feedback on your drafts.</div>'
-      '<div><b>A long course first</b>A large fee, paid upfront. A commitment before you know if the work suits you.</div>'
+      '<div><b>A long course first</b>A large fee, charged upfront. A commitment before you know if the work suits you.</div>'
       '<div class="us"><b>This bootcamp</b><span class="rs">Rs 10 incl. GST</span>Refundable. Three live evenings doing the work with us.</div></div>')
     a('<p><b>Risk removed.</b> The Rs 10 is refundable. Bring a laptop or phone and a notebook, and keep the three evenings free. Joining details arrive on WhatsApp and email.</p>')
     a(btn(href))

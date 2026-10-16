@@ -1,0 +1,187 @@
+{
+ "brand": {
+  "left": {
+   "type": "image",
+   "path": "logos/logo_lawsikho.png"
+  },
+  "right": {
+   "type": "label",
+   "text": "Tech Law Bootcamp"
+  }
+ },
+ "cta": "Register for ₹10",
+ "fine": "24 to 26 Oct · Sat, Sun 6 to 9 PM · Mon 7 to 10 PM IST · ₹10 incl. GST, refundable · Live only, no recordings",
+ "ads": [
+  {
+   "folder": "01_Outside_Law_LLB_Holders",
+   "slug": "tlc1_01_hr",
+   "template": "list",
+   "accent": "#13756B",
+   "icp_title": "LLB holders working in HR",
+   "icp_situation": "You read the contracts. Someone else gets to be the lawyer.",
+   "headline": "Move from HR into ",
+   "headline_accent": "tech law.",
+   "headline_font": "serif",
+   "explanation": "Tech law is the legal work tech companies need: contracts, privacy, compliance and disputes. In 3 live evenings you draft a software development agreement with us, clause by clause.",
+   "bullets": [
+    "Review employment contracts and policies like a lawyer",
+    "Draft a real agreement with the faculty",
+    "Learn privacy and workplace compliance basics"
+   ]
+  },
+  {
+   "folder": "01_Outside_Law_LLB_Holders",
+   "slug": "tlc1_02_banking",
+   "template": "list",
+   "accent": "#1D5FD0",
+   "icp_title": "LLB holders in banking",
+   "icp_situation": "You already know how money moves.",
+   "headline": "Take your banking years into ",
+   "headline_accent": "fintech law.",
+   "headline_font": "serif",
+   "explanation": "Tech law is the legal work tech companies need: contracts, privacy, compliance and disputes. In 3 live evenings you draft a software development agreement and see how tech companies run on payments.",
+   "bullets": [
+    "Draft and review financial contracts",
+    "Understand payments and compliance in plain words",
+    "See six ways tech companies make money"
+   ]
+  },
+  {
+   "folder": "01_Outside_Law_LLB_Holders",
+   "slug": "tlc1_03_content",
+   "template": "list",
+   "accent": "#5B2BD6",
+   "icp_title": "LLB holders in content",
+   "icp_situation": "You write for a living.",
+   "headline": "Draft the agreements behind ",
+   "headline_accent": "the content.",
+   "headline_font": "serif",
+   "explanation": "Tech law is the legal work tech companies need: contracts, privacy, compliance and disputes. In 3 live evenings you review a startup's terms and draft a real agreement with us.",
+   "bullets": [
+    "Draft and review content and media contracts",
+    "Understand copyright, brand deals and platform terms",
+    "Write privacy policies in plain English"
+   ]
+  },
+  {
+   "folder": "01_Outside_Law_LLB_Holders",
+   "slug": "tlc1_04_sales_ops",
+   "template": "list",
+   "accent": "#D9480F",
+   "icp_title": "LLB holders in sales and operations",
+   "icp_situation": "You know how business deals really run.",
+   "headline": "Move into tech law, behind ",
+   "headline_accent": "the deal.",
+   "headline_font": "serif",
+   "explanation": "Tech law is the legal work tech companies need: contracts, privacy, compliance and disputes. In 3 live evenings you draft a software development agreement and review vendor terms with us.",
+   "bullets": [
+    "Review and negotiate commercial contracts",
+    "Understand compliance, risk and vendor terms",
+    "Learn what a deal needs from a lawyer"
+   ]
+  },
+  {
+   "folder": "02_Career_Break_And_Moved_Lawyers",
+   "slug": "tlc1_05_back_from_break",
+   "template": "list",
+   "accent": "#B5122B",
+   "icp_title": "Lawyers back from a practice break",
+   "icp_situation": "You paused practice. You are still a lawyer.",
+   "headline": "Come back as a ",
+   "headline_accent": "tech lawyer.",
+   "headline_font": "serif",
+   "explanation": "Tech law is the legal work tech companies need: contracts, privacy, compliance and disputes. In 3 live evenings you draft and review real documents with us, from home.",
+   "bullets": [
+    "Rebuild contract drafting skills",
+    "Learn privacy and data protection basics",
+    "Work in short tasks that fit your day"
+   ]
+  },
+  {
+   "folder": "02_Career_Break_And_Moved_Lawyers",
+   "slug": "tlc1_06_moved_city",
+   "template": "list",
+   "accent": "#1D4FB8",
+   "icp_title": "Lawyers who moved to a new city",
+   "icp_situation": "Your LLB moved with you.",
+   "headline": "Practise tech law from ",
+   "headline_accent": "any city.",
+   "headline_font": "serif",
+   "explanation": "Tech law is the legal work tech companies need: contracts, privacy, compliance and disputes. In 3 live evenings you draft contracts and review privacy terms with us, online.",
+   "bullets": [
+    "Practical contract drafting",
+    "Privacy and technology law basics",
+    "Work online with startups, wherever you live"
+   ]
+  },
+  {
+   "folder": "03_Lawyers_Abroad",
+   "slug": "tlc1_07_abroad",
+   "template": "list",
+   "accent": "#1E40AF",
+   "icp_title": "Indian lawyers living abroad",
+   "icp_situation": "Your Indian LLB is still yours.",
+   "headline": "Start tech law work ",
+   "headline_accent": "from where you are.",
+   "headline_font": "serif",
+   "explanation": "Tech law is the legal work tech companies need: contracts, privacy, compliance and disputes. In 3 live evenings you draft contracts and review privacy terms with us, online.",
+   "bullets": [
+    "Build practical contract drafting skills",
+    "Learn privacy and tech law basics",
+    "Explore remote legal work from your own time zone"
+   ],
+   "note": "A legal education programme for lawyers, not an immigration, visa or document service."
+  },
+  {
+   "folder": "01_Outside_Law_LLB_Holders",
+   "slug": "tlc1_08_bpo_back_office",
+   "template": "list",
+   "accent": "#B45309",
+   "icp_title": "LLB holders in BPO and back-office roles",
+   "icp_situation": "Your law degree is sitting in a file at home.",
+   "headline": "Move from the back office into ",
+   "headline_accent": "tech law.",
+   "headline_font": "serif",
+   "explanation": "Tech law is the legal work tech companies need: contracts, privacy, compliance and disputes. In 3 live evenings you draft real clauses with us, with no court time needed.",
+   "bullets": [
+    "Learn practical contract drafting",
+    "Understand privacy and compliance",
+    "Read service terms with a lawyer's eye"
+   ]
+  },
+  {
+   "folder": "02_Career_Break_And_Moved_Lawyers",
+   "slug": "tlc1_09_returning",
+   "template": "list",
+   "accent": "#BE185D",
+   "icp_title": "Lawyers returning after a career break",
+   "icp_situation": "Your career took a break. Your training did not leave.",
+   "headline": "Return through ",
+   "headline_accent": "flexible tech law work.",
+   "headline_font": "serif",
+   "explanation": "Tech law is the legal work tech companies need: contracts, privacy, compliance and disputes. In 3 live evenings you refresh your skills and draft real documents with us.",
+   "bullets": [
+    "Refresh practical legal skills at your own pace",
+    "Learn online around your schedule",
+    "Explore remote, part-time and global legal work"
+   ]
+  },
+  {
+   "folder": "02_Career_Break_And_Moved_Lawyers",
+   "slug": "tlc1_10_left_firm",
+   "template": "list",
+   "accent": "#8A5A12",
+   "icp_title": "Lawyers who left a law firm",
+   "icp_situation": "You left the firm. You kept your training.",
+   "headline": "Draft for tech companies, ",
+   "headline_accent": "on your terms.",
+   "headline_font": "serif",
+   "explanation": "Tech law is the legal work tech companies need: contracts, privacy, compliance and disputes. In 3 live evenings you draft a software development agreement and review privacy terms with us.",
+   "bullets": [
+    "Draft software contracts with the faculty",
+    "Review privacy policies",
+    "Explore remote and part-time legal work"
+   ]
+  }
+ ]
+}

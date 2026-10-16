@@ -1,0 +1,56 @@
+{
+  "_brand_presets": {"NCA Canada (LawSikho)": {"left": {"type": "image", "path": "logos/logo_lawsikho.png"}, "right": {"type": "image", "path": "logos/logo_nca.png"}}, "Tech Law / SQE (LawSikho)": {"left": {"type": "image", "path": "logos/logo_lawsikho.png"}, "right": {"type": "label", "text": "Tech Law Bootcamp"}}, "SkillArbitrage camps (HR, Corporate Finance, Data Protection, Academic Writing)": {"left": {"type": "image", "path": "logos/logo_skillarbitrage.png"}, "right": {"type": "label", "text": "Corporate Finance Bootcamp"}}},
+  "_readme": "Pick ONE brand preset per ad (never LawSikho and SkillArbitrage on the same ad). One entry in 'ads' per source ad. Copy this file next to your assets, fill it from the source ads AFTER the policy audit, then run scripts/policy_scan.py on it before rendering. Paths (logos, photos) are relative to this file.",
+  "brand": {
+    "left":  {"type": "image", "path": "logos/logo_lawsikho.png"},
+    "right": {"type": "image", "path": "logos/logo_nca.png"}
+  },
+  "cta": "Register for ₹10",
+  "fine": "31 Oct to 2 Nov · Sat, Sun 2 to 5 PM · Mon 7 to 10 PM IST · ₹10 incl. GST, refundable · Live only, no recordings",
+  "ads": [
+    {
+      "folder": "01_Already_Practising_Lawyers_Adding_Canada",
+      "slug": "NCA_trial_court_litigators",
+      "template": "list",
+      "accent": "#1f7a6a",
+      "icp_title": "Trial court litigators in India",
+      "icp_situation": "Years of arguing in court, and Canada is on your mind.",
+      "headline": "The NCA exams can be ",
+      "headline_accent": "written from India.",
+      "headline_font": "serif",
+      "explanation": "In 3 live evenings: how Canada assesses your Indian law degree, a real Canadian law exam answer written live, and how Canadian trial practice compares with yours.",
+      "bullets": ["Your Indian LLB is the starting point", "NCA exams are online and open book", "About 2 hours a day, around your court work"]
+    },
+    {
+      "folder": "02_Banking_Lending_Professionals",
+      "slug": "cfi10_bank_rm_sme",
+      "template": "numbered",
+      "accent": "#1d4e89",
+      "brand": {"left": {"type": "image", "path": "logos/logo_skillarbitrage.png"}, "right": {"type": "label", "text": "Corporate Finance Bootcamp"}},
+      "cta": "Join all 3 evenings for ₹10",
+      "fine": "3 live evenings · 9 hours of training · 6 to 9 PM IST · Live online · No CA, CFA or MBA needed · ₹10 incl. GST, refundable",
+      "note": "Market figures from public sources. Not an income promise.",
+      "icp_title": "Bank RM with business clients?",
+      "icp_situation": "You handle 50 business clients already.",
+      "headline": "Step up into deal advisory and investment banking from the RM desk",
+      "items": [
+        ["Start from your own book", "Your clients still need equity, schemes and the next round."],
+        ["Learn the deal documents", "Teaser, deck, model, memorandum, and a live valuation."],
+        ["Add funding beyond your bank", "Schemes, NBFCs and investors."],
+        ["Take the deal advisory seat", "Merchant bankers and deal teams need people who know owners."]
+      ],
+      "explanation": "Move one floor up, into the deal advisory work your clients already need."
+    },
+    {
+      "folder": "01_Already_Practising_Lawyers_Adding_Canada",
+      "slug": "g_litigator",
+      "template": "photo",
+      "accent": "#7a1d31",
+      "photo": "photo_litigator.jpg",
+      "icp_title": "Indian litigators",
+      "icp_situation": "You have spent years in Indian courts.",
+      "headline": "Your court years count in Canada.",
+      "explanation": "Qualify through the NCA, then work toward the Canadian bar, with your court experience."
+    }
+  ]
+}
