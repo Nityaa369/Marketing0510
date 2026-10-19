@@ -69,36 +69,37 @@ F = {
  "india":   ("The written exams are taken in India.", "SQE1 and the written part of SQE2 run at Pearson VUE test centres, including six Indian cities. Only the SQE2 oral sittings require a trip to England or Wales.", "sqe.sra.org.uk, test centre locations"),
  "exempt":  ("Enrolled advocates can apply to skip SQE2.", "A qualified lawyer with at least two years of professional experience can apply to the SRA for an SQE2 exemption. If granted, it removes five half-days of assessment, the SQE2 fee and the UK trip. The SRA decides each case.", "sra.org.uk, SQE exemptions"),
  "noqwe":   ("No two years of UK work experience for you.", "Qualified lawyers do not need the two years of qualifying work experience that fresh graduates must complete.", "SRA, Qualified lawyers"),
- "sat":     ("16,200 and more candidates sat the SQE in 2024 to 2025.", "You are joining a route that thousands of lawyers already take every year.", "SRA annual assessment data, Day 0 session"),
- "forty":   ("About 40 percent of global business and financial transactions run on English law.", "Parties choose it because the case law is mature and the courts are trusted.", "Law Society, International Data Insights Report 2025, citing TheCityUK"),
- "lcia":    ("78 percent of LCIA arbitrations in 2024 were on English-law contracts.", "English law is also the single most common governing law in new ICC cases, and applies in a quarter of SIAC cases.", "Law Society report 2025; LCIA, ICC and SIAC 2024 casework"),
- "london":  ("London is the world's first-choice arbitration seat.", "34 percent of practitioners name it their preferred seat, and it was the most popular ICC venue in 2024.", "2025 International Arbitration Survey, Queen Mary University of London with White and Case"),
- "export":  ("UK legal services earn about GBP 11 billion a year abroad.", "The UK is the second largest legal market in the world, behind only the United States.", "Law Society, International Data Insights Report 2025"),
+ "sat":     ("16,200 and more candidates sat the SQE in 2024 to 2025.", "You are joining a route that thousands of lawyers already take every year.", "SRA, SQE assessment statistics 2024 to 2025"),
+ "forty":   ("About 40 percent of global business and financial transactions run on English law.", "Parties choose it because the case law is mature and the courts are trusted.", "The Law Society of England and Wales, International Data Insights Report 2025, citing TheCityUK"),
+ "lcia":    ("78 percent of LCIA arbitrations in 2024 were on English-law contracts.", "English law is also the single most common governing law in new ICC cases, and applies in a quarter of SIAC cases.", "The Law Society of England and Wales, International Data Insights Report 2025; LCIA, ICC and SIAC annual casework reports 2024"),
+ "london":  ("London is the world's first-choice arbitration seat.", "34 percent of practitioners name it their preferred seat, and it was the most popular ICC venue in 2024.", "2025 International Arbitration Survey, Queen Mary University of London and White and Case"),
+ "export":  ("UK legal services earn about GBP 11 billion a year abroad.", "The UK is the second largest legal market in the world, behind only the United States.", "The Law Society of England and Wales, International Data Insights Report 2025"),
  "hiring":  ("57 percent of UK law firms say they struggle to hire.", "56 percent of in-house teams report the same. A firm that cannot hire does not care where a qualified English-law lawyer sits.", "The Access Group, The 10 biggest challenges facing the legal profession"),
- "common":  ("You already think in common law.", "The Indian Contract Act of 1872 was drafted on English principles, and Indian tort law is largely uncodified English common law. The same cases you cite are on the SQE1 syllabus.", "Day 2 session, The Indian advantage"),
+ "common":  ("You already think in common law.", "The Indian Contract Act of 1872 was drafted on English principles, and Indian tort law is largely uncodified English common law. The same cases you cite are on the SQE1 syllabus.", "Indian Contract Act, 1872; SRA, SQE1 Assessment Specification"),
  "mcq":     ("SQE1 is 360 multiple-choice questions.", "Two papers, FLK1 and FLK2, closed book, on a computer. It rewards method, which is what a daily MCQ habit builds.", "SRA, SQE1 Assessment Specification"),
- "dubai":   ("Gulf free-zone courts work in English on common-law lines.", "The DIFC courts in Dubai run an English-language, common-law system, and apply English precedent where their own code is silent.", "Day 1 session, The Gulf"),
- "asia":    ("Singapore and Hong Kong hire English-law lawyers.", "English law is the second most common governing law at SIAC, and at the Hong Kong centre too.", "Law Society report 2025; SIAC and HKIAC 2024 casework"),
- "enforce": ("Awards under English law travel.", "Arbitral awards are enforceable in more than 170 countries under the New York Convention.", "New York Convention, Day 1 session"),
+ "dubai":   ("Gulf free-zone courts work in English on common-law lines.", "The DIFC courts in Dubai run an English-language, common-law system, and apply English precedent where their own code is silent.", "DIFC Courts, difccourts.ae"),
+ "asia":    ("Singapore and Hong Kong hire English-law lawyers.", "English law is the second most common governing law at SIAC, and at the Hong Kong centre too.", "The Law Society of England and Wales, International Data Insights Report 2025; SIAC and HKIAC annual reports 2024"),
+ "enforce": ("Awards under English law travel.", "Arbitral awards are enforceable in more than 170 countries under the New York Convention.", "UN Convention on the Recognition and Enforcement of Foreign Arbitral Awards, 1958"),
  "shortage":("The UK has fewer solicitors coming through.", "Duty solicitors fell 26 percent since 2017, 40 percent are now 55 or older, and only 6 percent are under 35. That is demand, and it is why firms look abroad.", "The Law Society, criminal duty solicitors campaign; Law Gazette"),
  "criminal":("Criminal law is one of the SQE1 subjects.", "FLK2 covers criminal law and practice. Your bail and trial work is a head start, not a handicap.", "SRA, SQE1 Assessment Specification"),
  "land":    ("Land law and property practice are on the exam.", "FLK2 covers property practice and land law. Titles, deeds and leases are familiar ground.", "SRA, SQE1 Assessment Specification"),
  "business":("Business law is the first paper.", "FLK1 covers business organisations, rules and procedures, plus contract and dispute resolution. Deal lawyers start ahead.", "SRA, SQE1 Assessment Specification"),
- "oneyear": ("Most learners pass SQE1 within about a year of starting.", "A typical plan is nine to twelve months of part-time study, around work. The next realistic window for most of this group is SQE1 in July 2027.", "Day 2 session, Your roadmap"),
+ "oneyear": ("Most learners pass SQE1 within about a year of starting.", "A typical plan is nine to twelve months of part-time study, around work. The next realistic window for most of this group is SQE1 in July 2027.", "SRA, SQE assessment dates"),
  "centres": ("You can sit the written exams in many countries.", "Pearson VUE runs the sittings at more than 100 test centres across 26 countries. Check your nearest centre on the SRA site.", "sqe.sra.org.uk, test centre locations"),
  "fee":     ("The exemption application costs GBP 265.", "That fee covers one or both exemption requests. If SQE2 is waived you avoid an assessment fee of about GBP 3,000.", "sra.org.uk, Apply for an individual SQE assessment exemption; SQE fees 2026"),
- "firstmover":("Lawyers who moved first did it from their desks.", "Our members cleared SQE1 while in practice in India, then applied for the exemption with their own work samples and reference letters.", "Day 6 Launch Lab"),
+ "firstmover":("Lawyers who moved first did it from their desks.", "Our members cleared SQE1 while in practice in India, then applied for the exemption with their own work samples and reference letters.", ""),
  "llm":     ("An LLM does not qualify you. The SQE does.", "A foreign LLM does not by itself give practising rights in England and Wales. The SQE is the route, and your degree still counts toward the entry requirement.", "SRA, Qualified lawyers"),
  "inhouse": ("In-house counsel qualify too.", "The SRA counts professional legal work experience, not only courtroom practice, toward the two years for the exemption application.", "sra.org.uk, SQE exemptions"),
- "profile": ("Firms shortlist on profile before the interview.", "Day 5 builds your international profile: the LinkedIn, the CV and the work samples that get a response from UK and Gulf firms.", "Day 5 session"),
+ "profile": ("Firms shortlist on profile before the interview.", "Day 5 builds your international profile: the LinkedIn, the CV and the work samples that get a response from UK and Gulf firms.", ""),
 }
 STORIES = {
- "sanjana": ("Sanjana Roy", "Vice President, EMEA Investment Banking Legal at Citi, London. Qualified through the programme and moved into one of the most demanding in-house roles in the City."),
- "prajwala":("Prajwala Lagali", "General Commercial counsel and Data Protection Officer at eMed Healthcare, now in the UK. Her Indian experience became the base of a UK in-house career."),
- "atif":    ("Atif Ahmed", "Admitted as a Solicitor of England and Wales in 2025."),
- "ramana":  ("Ramana Deshmukh", "Admitted as a Solicitor by the SRA in 2025."),
- "ridima":  ("Ridima Gupta", "Associate in the M&A team at Saraf and Partners. The qualification raised her standing in India before any move."),
- "nakashvir":("Nakashvir Singh Aulakh", "Cleared both FLK1 and FLK2 in his first attempt in July 2026 and obtained the SQE2 exemption. He is now awaiting admission as a Solicitor of England and Wales."),
+ "sanjana": ("Sanjana Roy, Mumbai to London", "A corporate and banking lawyer practising out of Mumbai. She joined the November 2024 batch, obtained the SQE2 exemption in February 2025 on the strength of her Indian practice, cleared SQE1 in July 2025, and moved to London. She is now Vice President in the EMEA Investment Banking and M&A legal team at Citi."),
+ "prajwala":("Prajwala K. H. Lagali, Bengaluru to the UK", "A commercial lawyer who wanted to live and work in the UK rather than service it from India. She joined the March 2024 batch, cleared SQE1 in July 2024 and obtained the SQE2 exemption in October 2024. She now lives in the UK and works as General Commercial Counsel and Data Protection Officer at eMed Healthcare."),
+ "atif":    ("Atif Ahmed, independent practice to dual-qualified solicitor", "An independent lawyer in international business law with an online practice serving clients across six continents. He joined the August 2024 batch, secured the SQE2 exemption in November 2024, cleared SQE1 in July 2025, and was formally admitted as a Solicitor of England and Wales in October 2025. He now practises as a dual-qualified lawyer, India and England and Wales."),
+ "ramana":  ("Ramana Deshmukh, Mumbai litigation to the Roll of Solicitors", "A litigation and dispute resolution lawyer in Mumbai. He joined the December 2022 batch, converted his court experience into the SQE2 exemption in December 2024, cleared SQE1 in January 2025, and was admitted as a Solicitor by the SRA in March 2025. Start to finish, under three years, while practising."),
+ "ridima":  ("Ridima Gupta, Saraf and Partners", "An associate in the M&A team at Saraf and Partners. She cleared SQE1 in July 2024 while working full time at the firm. The qualification raised her standing on cross-border work in India before any move abroad."),
+ "mili":    ("Mili Upadhyay, Gujarat High Court", "A practising advocate at the Gujarat High Court. She joined the August 2024 batch, secured the SQE2 exemption in March 2025 on her court practice, and cleared SQE1 in July 2025. She is now completing admission as a Solicitor of England and Wales, without leaving her Gujarat practice."),
+ "nakashvir":("Nakashvir Singh Aulakh, Supreme Court and Punjab and Haryana High Court", "An advocate practising before the Supreme Court of India and the Punjab and Haryana High Court, an RGNUL Patiala graduate. He joined the March 2024 batch and cleared both SQE1 papers, FLK1 and FLK2, in his first attempt in July 2026. He is applying for the SQE2 exemption on his court practice and building a dual-qualified litigation and advisory practice from India."),
 }
 
 # ---- the 20 pages ----
@@ -113,7 +114,7 @@ add(n=1, stem="litigating_advocates", var="A", ac="#14213D", soft="#E8ECF5", bg=
  invest="For Rs 100 you get seven live evenings that show you the whole route, from registration to admission, and whether the SQE2 exemption is realistic for you. That is the cheapest due diligence you will ever do on a qualification that can double the market you serve.",
  facts=["single","india","exempt","common","forty","lcia","london","hiring","noqwe","mcq","oneyear","firstmover"],
  role="For a litigating advocate the first question is the SQE2 exemption. If you are enrolled with a State Bar Council, hold practising rights in civil or criminal litigation and have two years behind you, you can apply on your own court work, with a certificate of good standing and reference letters from a senior. Day 2 walks the four gates the SRA checks. Day 6 reviews your draft reference letter line by line.",
- stories=["nakashvir","atif","sanjana"], photo="01")
+ stories=["mili","nakashvir","sanjana"], photo="01")
 add(n=2, stem="experienced_advocates", var="D", ac="#0F3D2E", soft="#E6F0EA", bg="#F7F6F0", who="For experienced advocates",
  h1="You have built a practice in India. Now add a <em>UK solicitor qualification</em> and keep the practice running.",
  lead="Your years in court are the evidence the SRA looks at for the SQE2 exemption.",
@@ -143,7 +144,7 @@ add(n=4, stem="criminal_lawyers", var="C", ac="#5B1425", soft="#F6E6EA", bg="#FB
  invest="For Rs 100 you learn whether your criminal litigation rights are the practice area the SRA accepts for the exemption. They are on the SRA's list. Seven evenings will show you how to evidence it.",
  facts=["criminal","shortage","exempt","india","single","noqwe","common","mcq","hiring","oneyear","firstmover","export"],
  role="For a criminal lawyer the SRA lists criminal litigation as one of the practice areas that can support an SQE2 exemption. Your bail applications, trials and appeals are the work samples. Day 2 explains the four gates, Day 3 tests you on an SQE1 question, Day 6 reviews your reference letter.",
- stories=["atif","ramana","nakashvir"], photo="04")
+ stories=["ramana","mili","nakashvir"], photo="04")
 add(n=5, stem="civil_consumer", var="A", ac="#1B3A8C", soft="#E6ECF9", bg="#F6F8FD", who="For civil and consumer court lawyers",
  h1="You argue contract and tort cases every month. Now become a <em>UK solicitor</em> for clients abroad.",
  lead="The contract and tort you argue every day are the SQE1 subjects you already know.",
@@ -283,7 +284,7 @@ add(n=18, stem="practice_owners", var="B", ac="#4A3320", soft="#F1E8DC", bg="#F8
  invest="Seven evenings for Rs 100, with a live Q&A on Day 7 for the questions a practice owner has: regulation, insurance, how members set up cross-border work.",
  facts=["exempt","noqwe","single","india","forty","export","hiring","enforce","common","oneyear","firstmover","fee"],
  role="For a practice owner the question is practical: who signs your reference letter when you are the senior. Day 2 and Day 6 cover that, including references from opposing counsel, judges and clients. Day 7 is live Q&A with the mentors.",
- stories=["nakashvir","ramana","sanjana"], photo="18")
+ stories=["mili","ramana","atif"], photo="18")
 add(n=19, stem="ip_data_privacy", var="D", ac="#4B2C8F", soft="#ECE6F7", bg="#F6F3FB", who="For IP and data privacy lawyers",
  h1="You advise on rules that cross borders. Now qualify in the <em>English law</em> behind much of it.",
  lead="Tech, IP and data work is global. The qualification that travels is English law.",
@@ -303,7 +304,7 @@ add(n=20, stem="smaller_cities", var="C", ac="#4D5A1E", soft="#EDF0DF", bg="#F9F
  invest="Seven evenings for Rs 100, live online, no travel, that show you a qualification your city has never limited.",
  facts=["india","single","nodegree","shortage","hiring","exempt","common","mcq","oneyear","export","profile","firstmover"],
  role="For a lawyer in a smaller city the daily rhythm matters: a reading PDF at noon, five MCQs at two, the answer key at six, a case study at four, the live session at eight. All on WhatsApp and Zoom. Day 2 confirms your nearest test centre.",
- stories=["atif","ramana","nakashvir"], photo="20")
+ stories=["mili","atif","nakashvir"], photo="20")
 
 PROG = """<ol class="steps">
 <li><b>Day 0, Orientation.</b> How the community works, the material you get, and a plain introduction to the SQE.</li>
@@ -348,7 +349,7 @@ def page(p):
     prob += '<div class="big">Why this could be the most important investment you make this year</div><p>%s</p>' % p["invest"]
     parts.append(sec("problem", "Why you, and why now", prob, "1. The problem"))
     # 2 twelve did-you-know
-    items = "".join('<li><b>%s</b>%s<div class="src">Source: %s</div></li>' % F[k] for k in p["facts"])
+    items = "".join('<li><b>%s</b>%s%s</li>' % (F[k][0], F[k][1], '<div class="src">Source: %s</div>' % F[k][2] if F[k][2] else '') for k in p["facts"])
     parts.append(sec("facts", "Did you know? 12 reasons this is worth your attention", '<ol class="facts">%s</ol>' % items, "2. Once you see it"))
     # 3 positioning, how we help, why us, stories
     INTRO = ["<p>LawSikho runs the Crack the SQE course and this low-cost entry to it: a 7-day community that puts the whole route in front of you before you spend on anything else. Two mentors run every session: Prem Deep Arora, lead mentor on SQE and strategy, and Arpana Sachdeva, community manager, who leads the orientation, the mock, the pathways and the Q&amp;A. Avlokit Yadav, counsellor, speaks to you one to one about your own roadmap.</p>",
@@ -358,7 +359,7 @@ def page(p):
 <h3>What the seven days look like</h3>%s
 <h3>What this looks like for you</h3><div class="box">%s</div>
 <h3>Members who did it</h3>%s
-<p class="src">Stories from the programme's own success record, as presented in the community. Individual experiences, not typical results.</p>""" % (PROG, p["role"], "".join('<div class="story"><b>%s.</b> %s</div>' % STORIES[s] for s in p["stories"]))
+<p class="src">Members of the LawSikho Crack the SQE programme. Individual experiences, not typical results.</p>""" % (PROG, p["role"], "".join('<div class="story"><b>%s.</b> %s</div>' % STORIES[s] for s in p["stories"]))
     parts.append(sec("us", "How we help, and why us", pos, "3. Our position"))
     # 4 bonus: the money behind English law
     BON = ["<p>This is the part most lawyers never see written down. English law is not only a qualification. It is one of Britain's largest exports, and the people delivering it are increasingly not sitting in England.</p>",
@@ -369,7 +370,7 @@ def page(p):
             "<p>The Day 1 session shows the market in detail, with the pay ranges and their sources, for each route a qualified Indian lawyer can take: UK regional firms, the Gulf, Singapore and Hong Kong, and multinational in-house teams. We do not print those ranges here, because out of context they promise more than they should.</p><p>What a second market gives you is not only income. It is time, options and a hedge against one economy. That is the investment case.</p>"][p["n"] % 3]
     bonus = BON + """
 <div class="stat"><div><strong>GBP 11bn</strong>UK legal services exports a year</div><div><strong>No. 2</strong>legal market in the world, after the US</div><div><strong>40%%</strong>of global business and financial deals under English law</div><div><strong>78%%</strong>of LCIA arbitrations on English-law contracts</div></div>
-<p class="src">Sources: Law Society, International Data Insights Report 2025 (citing TheCityUK); LCIA 2024 casework.</p>
+<p class="src">Sources: The Law Society of England and Wales, International Data Insights Report 2025 (citing TheCityUK); LCIA Annual Casework Report 2024.</p>
 """ + TAIL
     parts.append(sec("bonus", "Bonus: the money behind English law", bonus, "4. The brownie points"))
     # offer and close

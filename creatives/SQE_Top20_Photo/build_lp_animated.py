@@ -89,7 +89,7 @@ const c=document.querySelector('.card3d');if(c&&matchMedia('(hover:hover)').matc
 const st=document.querySelector('.sticky');addEventListener('scroll',()=>st.classList.toggle('show',scrollY>innerHeight*.8),{passive:true});
 """
 plane = '<svg class="plane" viewBox="0 0 48 48"><path d="M4 28L44 14L40 20L26 26L28 40L22 42L16 29L8 33Z" fill="#14213D"/></svg>'
-facts = "".join('<div class="tile rv"><span class="k">%d</span><b>%s</b>%s<div class="src">Source: %s</div></div>' % ((i+1,)+F[k]) for i,k in enumerate(p["facts"]))
+facts = "".join('<div class="tile rv"><span class="k">%d</span><b>%s</b>%s%s</div>' % (i+1, F[k][0], F[k][1], '<div class="src">Source: %s</div>' % F[k][2] if F[k][2] else '') for i,k in enumerate(p["facts"]))
 stories = "".join('<div class="story rv"><b>%s.</b> %s</div>' % STORIES[s] for s in p["stories"])
 prob = "".join('<p class="rv">%s</p>' % x for x in p["problem"])
 h1 = re.sub(r"<em>(.*?)</em>", r'<span class="r">\1</span>', p["h1"])
@@ -118,11 +118,11 @@ page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name
 <ol class="days rv"><li><b>Orientation.</b> How the community works and a plain introduction to the SQE.</li><li><b>The global opportunity.</b> Where the qualification is recognised, with sourced market data.</li><li><b>SQE decoded.</b> Routes, fees, dates, test centres and the SQE2 exemption, gate by gate.</li><li><b>Mock SQE1.</b> A live session on a syllabus topic with SQE-style questions.</li><li><b>Career pathways after SQE.</b> Firms, in-house, the Gulf, Singapore.</li><li><b>Build your international profile.</b> The CV, LinkedIn and work samples that get a reply.</li><li><b>Launch lab.</b> Your draft exemption reference letter reviewed line by line.</li><li><b>Live Q&amp;A.</b> Your questions, answered.</li></ol>
 <div class="box rv"><b>What this looks like for you.</b> {p['role']}</div>
 <h3 class="rv">Members who did it</h3>{stories}
-<p class="src rv">Stories from the programme's own success record. Individual experiences, not typical results.</p></div></section>
+<p class="src rv">Members of the LawSikho Crack the SQE programme. Individual experiences, not typical results.</p></div></section>
 
 <section><div class="wrap"><div class="n">4. The brownie points</div><h2 class="rv">Bonus: the money behind English law</h2>
 <div class="stats rv"><div><strong data-n="11" data-p="GBP " data-s="bn">0</strong><span>UK legal services exports a year</span></div><div><strong data-n="2" data-p="No. ">0</strong><span>legal market in the world, after the US</span></div><div><strong data-n="40" data-s="%">0</strong><span>of global business and financial deals under English law</span></div><div><strong data-n="78" data-s="%">0</strong><span>of LCIA arbitrations on English-law contracts</span></div></div>
-<p class="src">Sources: Law Society, International Data Insights Report 2025 (citing TheCityUK); LCIA 2024 casework.</p>
+<p class="src">Sources: The Law Society of England and Wales, International Data Insights Report 2025 (citing TheCityUK); LCIA Annual Casework Report 2024.</p>
 <p class="rv">On Day 1 the mentors walk through what that market pays and how a qualified Indian lawyer enters it: regional UK firms that cannot hire, Gulf free-zone firms, Singapore and Hong Kong practices, and international in-house teams. Salary ranges are shown with their sources in the session, because they depend on the market, the role and you.</p>
 <p class="rv">The return is four things, not one: income, time, optionality and risk control. A second market is a hedge against the first.</p></div></section>
 
