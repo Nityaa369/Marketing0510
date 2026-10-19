@@ -24,12 +24,15 @@ ID community runs in SkillArbitrage_V, which this Meta connection cannot read. I
 not in this table.
 
 **What the numbers say:**
-1. **The leak is the landing page, not the checkout.** 95 to 97 of every 100 people who load a
-   CD, Legal AI or Crim Lit page leave without starting checkout. Other communities hold 9 to 11%.
-   Once someone starts checkout, two in three pay (Contract Drafting is weakest at 56%).
-2. **Cheap clicks, low intent.** These three campaigns buy clicks cheaply (Crim Lit 28M
-   impressions in 90 days) but the page converts them at a third of the rate of the
-   smaller-audience camps. More cold ads alone will not fix a 3% page. (Inferred)
+1. **CORRECTED 19 Oct: the "landing page leak" is probably a tracking gap, not a page problem.**
+   Ad-level data shows the July ads record 10 to 12% view to checkout (cd_structure_ad 12.4%,
+   cd_contracts_grid 11.8%, One lawyer every ai 12.7%) while the August and later ads, on newer
+   funnel slugs, record 1 to 3% (cd_sprint 3.1%, cr03_legalai_toon 1.1%) at the same or lower
+   cost per buyer. The checkout event most likely does not fire on the newer pages, so the
+   campaign-level 3 to 5% is a blend. Cost per buyer is the only reliable measure until the
+   pixel is checked. (Measured numbers, Inferred cause)
+2. **Big reach, high frequency.** Crim Lit served 28M impressions in 90 days. New readers, not
+   reskins, are what these campaigns need. (Inferred)
 3. **The funnel is TOFU only.** Every live ad set is one CBO campaign per community, Advantage+
    broad, India, 18 to 65, no custom audience. The only retargeting campaign in the account
    (`[Community] RT_all-communities-`) was paused in May 2025.
@@ -85,8 +88,7 @@ Rules that bite at MOFU and BOFU:
   Strong warm pool: Data Privacy, Tech Law and US Corporate Law Rs 10 bootcamp buyers (Hypothesis).
 - **BOFU:** Rs 200 refundable, daily reading and quiz on WhatsApp, live sessions in the evening,
   what arrives after payment.
-- **Fix before more ads:** page view to checkout 4%, checkout to buy 56% (lowest of all).
-  The checkout itself may have friction. Test-buy the page.
+- **Check:** checkout to buy is 56%, the lowest of all. Test-buy the page; check the pixel.
 
 ### 3.2 AI for Legal (14 days, 21 Oct to early Nov)
 - **Learner's seat:** "I am a lawyer. Everyone says AI. I want to be the lawyer who uses it,
@@ -99,8 +101,8 @@ Rules that bite at MOFU and BOFU:
   system, a content agent, an app from their workflow. "Build" is the hook here, and it is true to
   the calendar.
 - **BOFU:** price, refundable, the 8 live sessions, what they will have built by the last day.
-- **Fix before more ads:** page view to checkout 3%, the worst of the three. No Legal AI warm
-  audience exists: create one (page viewers 30 days, checkout 14 days, buyers all time).
+- **Before MOFU and BOFU can run:** no Legal AI warm audience exists. Create one (page viewers
+  30 days, checkout 14 days, buyers all time).
 
 ### 3.3 Criminal Litigation (9 webinars, 22 Oct to 14 Nov)
 - **Learner's seat:** "I want my own criminal matters, not carrying files for a senior. Show me
@@ -113,8 +115,7 @@ Rules that bite at MOFU and BOFU:
   real documents: quashing petition, FIR complaint before the Magistrate, opposition to police
   custody, Section 63 BSA certificate, LOC.
 - **BOFU:** price, refundable, 9 webinars, evening times.
-- **Fix:** this camp has the best page (5%) and checkout (67%). Its problem is fatigue, so TOFU
-  readers matter most here.
+- **Fix:** its problem is fatigue, so TOFU readers matter most here.
 
 ### 3.4 Independent Director (30 days)
 - **Learner's seat:** "I have led teams for decades. I want a seat at a board table, with respect,
@@ -163,5 +164,4 @@ exclude each other and TOFU must exclude both.
 3. May BOFU retargeting faces carry the start date? (13 Aug rule says no dates on creatives.)
 4. The paid course each community feeds, and its price (for the post-camp step of the funnel).
 5. Next ID batch dates, and access to the SkillArbitrage_V account.
-6. Should landing page fixes (3 to 5% view to checkout) come before new ads? My read: yes for
-   Legal AI and CD.
+6. ANSWERED 19 Oct: creative first; pages are built after from past project instructions.
