@@ -1,6 +1,6 @@
 # One showcase landing page in a 3D animated style (CSS 3D tilt, parallax hero, scroll reveal, animated
 # counters, animated route). Self-contained, no libraries. Content = page 01 (litigating advocates).
-# Run: python3 build_lp_animated.py  -> landing_pages/lp_sqe_01_animated.html
+# Run: python3 build_lp_animated.py  -> landing_pages/lp_sqe_NN_<stem>_animated.html, one per ICP
 import os, re, html, importlib.util
 HERE = os.path.dirname(os.path.abspath(__file__))
 spec = importlib.util.spec_from_file_location("lps", os.path.join(HERE, "build_lps.py"))
@@ -8,19 +8,18 @@ spec = importlib.util.spec_from_file_location("lps", os.path.join(HERE, "build_l
 src = open(os.path.join(HERE, "build_lps.py")).read().split("def sec(")[0]
 ns = {"__file__": os.path.join(HERE, "build_lps.py")}; exec(src, ns)
 P, F, STORIES, PAY, DATES, PRICE, PROG = ns["P"], ns["F"], ns["STORIES"], ns["PAY"], ns["DATES"], ns["PRICE"], ns["PROG"]
-p = P[0]
 
 CSS = """*{box-sizing:border-box;margin:0;padding:0}
-:root{--ac:#14213D;--ac2:#2B4C8C;--yel:#FFD21F;--red:#E5141F;--ink:#13120F;--mut:#4B463D;--bg:#F7F8FC}
+:root{--ac:%(ac)s;--ac2:%(ac)s;--soft:%(soft)s;--yel:#FFD21F;--red:#E5141F;--ink:#13120F;--mut:#4B463D;--bg:%(bg)s}
 html{scroll-behavior:smooth}
 body{font-family:Inter,system-ui,-apple-system,'Segoe UI',sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;font-size:18px;overflow-x:hidden}
 .wrap{max-width:820px;margin:0 auto;padding:0 20px}
 /* hero: layered parallax sky, 3D tilt card */
-.hero{position:relative;min-height:min(100svh,860px);display:flex;align-items:center;overflow:hidden;background:linear-gradient(180deg,#9EC5F0 0%,#D9E9FA 45%,#F7F8FC 100%);perspective:1200px}
-.sky{position:absolute;inset:-10%;background:radial-gradient(60% 40% at 20% 20%,rgba(255,255,255,.9),transparent 60%),radial-gradient(40% 30% at 80% 30%,rgba(255,255,255,.8),transparent 60%);animation:drift 18s ease-in-out infinite alternate}
-@keyframes drift{from{transform:translate3d(-2%,0,0)}to{transform:translate3d(2%,1%,0)}}
-.plane{position:absolute;top:12%;left:-12%;width:120px;height:120px;opacity:.9;animation:fly 16s linear infinite}
-@keyframes fly{0%{transform:translate3d(0,0,0) rotate(-8deg)}100%{transform:translate3d(130vw,-18vh,0) rotate(-8deg)}}
+.hero{position:relative;min-height:min(100svh,860px);display:flex;align-items:center;overflow:hidden;background:linear-gradient(180deg,var(--soft) 0%%,#fff 55%%,var(--bg) 100%%);perspective:1200px}
+.sky{position:absolute;inset:-10%%;background:radial-gradient(60%% 40%% at 20%% 20%%,rgba(255,255,255,.9),transparent 60%%),radial-gradient(40%% 30%% at 80%% 30%%,rgba(255,255,255,.8),transparent 60%%);animation:drift 18s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translate3d(-2%%,0,0)}to{transform:translate3d(2%%,1%%,0)}}
+.plane{position:absolute;top:12%%;left:-12%%;width:120px;height:120px;opacity:.9;animation:fly 16s linear infinite}
+@keyframes fly{0%%{transform:translate3d(0,0,0) rotate(-8deg)}100%%{transform:translate3d(130vw,-18vh,0) rotate(-8deg)}}
 .hero .wrap{position:relative;z-index:2;padding-top:40px;padding-bottom:40px}
 .brand{font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--ac)}
 .who{display:inline-block;background:var(--yel);color:#111;font-weight:900;font-size:16px;letter-spacing:.04em;text-transform:uppercase;padding:9px 16px;transform:rotate(-1.5deg);margin-top:14px;box-shadow:0 6px 0 rgba(0,0,0,.08)}
@@ -28,13 +27,13 @@ h1{font-size:46px;line-height:1.06;margin-top:16px;letter-spacing:-.02em;text-tr
 h1 .r{color:var(--red)}
 .lead{font-size:21px;font-weight:600;margin-top:14px;max-width:620px}
 .card3d{margin-top:22px;transform-style:preserve-3d;transition:transform .15s ease-out;will-change:transform}
-.card3d img{width:100%;display:block;border-radius:18px;box-shadow:0 30px 60px rgba(20,33,61,.35)}
+.card3d img{width:100%%;display:block;border-radius:18px;box-shadow:0 30px 60px rgba(0,0,0,.3)}
 .card3d .tag{position:absolute;left:18px;bottom:18px;background:#fff;border-radius:12px;padding:10px 14px;font-weight:800;box-shadow:0 12px 24px rgba(0,0,0,.2);transform:translateZ(40px)}
 .card3d{position:relative}
 .cta{display:inline-flex;align-items:center;gap:12px;background:linear-gradient(180deg,#FF4A4A,#C81620);color:#fff;font-weight:900;font-size:21px;padding:18px 28px;border-radius:999px;text-decoration:none;margin-top:22px;box-shadow:0 14px 30px rgba(200,22,32,.35);transition:transform .15s}
 .cta:hover{transform:translateY(-2px) scale(1.02)}
 .cta .arrow{display:inline-block;animation:nudge 1.2s ease-in-out infinite}
-@keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(6px)}}
+@keyframes nudge{0%%,100%%{transform:translateX(0)}50%%{transform:translateX(6px)}}
 .terms{margin-top:14px;font-weight:700;color:var(--mut);font-size:15px}
 /* sections */
 section{padding:56px 0}
@@ -48,6 +47,7 @@ p+p{margin-top:12px}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:16px;perspective:900px}
 .tile{background:#fff;border-radius:16px;padding:18px 18px 18px 18px;box-shadow:0 10px 30px rgba(20,33,61,.08);transform-style:preserve-3d;transition:transform .2s;position:relative}
 .tile:hover{transform:rotateY(-4deg) rotateX(3deg) translateZ(10px)}
+.tile .k{background:var(--ac)}
 .tile .k{display:inline-flex;width:38px;height:38px;border-radius:50%;background:var(--ac);color:#fff;font-weight:900;align-items:center;justify-content:center;margin-bottom:10px}
 .tile b{display:block;font-size:18px;margin-bottom:6px}
 .tile .src{font-size:12px;color:var(--mut);margin-top:8px}
@@ -71,7 +71,7 @@ p+p{margin-top:12px}
 .src{font-size:13px;color:var(--mut);margin-top:10px}
 .close{background:linear-gradient(180deg,#FFD21F,#FFC400);padding:60px 0 130px;text-align:center}
 .close h2{font-size:38px}
-.sticky{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:3px solid var(--red);padding:10px 16px;display:flex;gap:12px;align-items:center;justify-content:center;z-index:9;transform:translateY(100%);transition:transform .3s}
+.sticky{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:3px solid var(--red);padding:10px 16px;display:flex;gap:12px;align-items:center;justify-content:center;z-index:9;transform:translateY(100%%);transition:transform .3s}
 .sticky.show{transform:none}
 .sticky span{font-weight:800;font-size:15px}
 .sticky a{background:var(--red);color:#fff;font-weight:900;padding:12px 22px;border-radius:999px;text-decoration:none;white-space:nowrap}
@@ -88,49 +88,57 @@ document.querySelectorAll('[data-n]').forEach(el=>co.observe(el));
 const c=document.querySelector('.card3d');if(c&&matchMedia('(hover:hover)').matches){c.addEventListener('mousemove',e=>{const r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;c.style.transform=`rotateY(${x*14}deg) rotateX(${-y*10}deg)`});c.addEventListener('mouseleave',()=>c.style.transform='')}
 const st=document.querySelector('.sticky');addEventListener('scroll',()=>st.classList.toggle('show',scrollY>innerHeight*.8),{passive:true});
 """
-plane = '<svg class="plane" viewBox="0 0 48 48"><path d="M4 28L44 14L40 20L26 26L28 40L22 42L16 29L8 33Z" fill="#14213D"/></svg>'
-facts = "".join('<div class="tile rv"><span class="k">%d</span><b>%s</b>%s%s</div>' % (i+1, F[k][0], F[k][1], '<div class="src">Source: %s</div>' % F[k][2] if F[k][2] else '') for i,k in enumerate(p["facts"]))
-stories = "".join('<div class="story rv"><b>%s.</b> %s</div>' % STORIES[s] for s in p["stories"])
-prob = "".join('<p class="rv">%s</p>' % x for x in p["problem"])
-h1 = re.sub(r"<em>(.*?)</em>", r'<span class="r">\1</span>', p["h1"])
-page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{html.escape(re.sub('<.*?>','',p['h1']))} · LawSikho</title><style>{CSS}</style></head><body>
-<header class="hero"><div class="sky"></div>{plane}<div class="wrap">
-<div class="brand">LawSikho · SQE Community</div>
-<div class="who">{p['who']}</div>
-<h1>{h1}</h1>
-<p class="lead">{p['lead']}</p>
-<div class="card3d"><img src="../photos/{p['photo']}.jpg" alt=""><div class="tag">Written exams in India. Practice keeps running.</div></div>
-<a class="cta" href="{PAY}">Join the SQE Community for Rs 100 <span class="arrow">&#8594;</span></a>
-<div class="terms">{DATES} · Live only, no recordings · Certificate of participation</div>
-</div></header>
+def fmt(css, d):
+    return css.replace('%%','%').replace('%','%%').replace('%%(','%(') % d
 
-<section><div class="wrap"><div class="n">1. The problem</div><h2 class="rv">Why you, and why now</h2>{prob}
-<div class="big rv">Why this could be the most important investment you make this year</div><p class="rv">{p['invest']}</p></div></section>
-
-<section class="dark"><div class="wrap"><div class="n">The route</div><h2 class="rv">Four steps, three of them from India</h2>
-<div class="route"><div class="st">SQE1, written in India</div><div class="ar">&#8594;</div><div class="st">SQE2 exemption application</div><div class="ar">&#8594;</div><div class="st">Character and suitability</div><div class="ar">&#8594;</div><div class="st">Admission to the Roll</div></div>
-<div class="box rv">The SQE is the one exam that makes you a solicitor of England and Wales. It is open to Indian advocates, and the written parts are taken in India. The SRA decides exemptions case by case.</div></div></section>
-
-<section><div class="wrap"><div class="n">2. Once you see it</div><h2 class="rv">Did you know? 12 reasons this is worth your attention</h2><div class="grid">{facts}</div></div></section>
-
-<section class="dark"><div class="wrap"><div class="n">3. Our position</div><h2 class="rv">How we help, and why us</h2>
-<p class="rv">Two mentors run every session. Prem Deep Arora, lead mentor on SQE and strategy. Arpana Sachdeva, community manager, who leads the orientation, the mock, the pathways and the Q&amp;A. Avlokit Yadav, counsellor, speaks to you one to one about your own roadmap.</p>
-<ol class="days rv"><li><b>Orientation.</b> How the community works and a plain introduction to the SQE.</li><li><b>The global opportunity.</b> Where the qualification is recognised, with sourced market data.</li><li><b>SQE decoded.</b> Routes, fees, dates, test centres and the SQE2 exemption, gate by gate.</li><li><b>Mock SQE1.</b> A live session on a syllabus topic with SQE-style questions.</li><li><b>Career pathways after SQE.</b> Firms, in-house, the Gulf, Singapore.</li><li><b>Build your international profile.</b> The CV, LinkedIn and work samples that get a reply.</li><li><b>Launch lab.</b> Your draft exemption reference letter reviewed line by line.</li><li><b>Live Q&amp;A.</b> Your questions, answered.</li></ol>
-<div class="box rv"><b>What this looks like for you.</b> {p['role']}</div>
-<h3 class="rv">Members who did it</h3>{stories}
-<p class="src rv">Members of the LawSikho Crack the SQE programme. Individual experiences, not typical results.</p></div></section>
-
-<section><div class="wrap"><div class="n">4. The brownie points</div><h2 class="rv">Bonus: the money behind English law</h2>
-<div class="stats rv"><div><strong data-n="11" data-p="GBP " data-s="bn">0</strong><span>UK legal services exports a year</span></div><div><strong data-n="2" data-p="No. ">0</strong><span>legal market in the world, after the US</span></div><div><strong data-n="40" data-s="%">0</strong><span>of global business and financial deals under English law</span></div><div><strong data-n="78" data-s="%">0</strong><span>of LCIA arbitrations on English-law contracts</span></div></div>
-<p class="src">Sources: The Law Society of England and Wales, International Data Insights Report 2025 (citing TheCityUK); LCIA Annual Casework Report 2024.</p>
-<p class="rv">On Day 1 the mentors walk through what that market pays and how a qualified Indian lawyer enters it: regional UK firms that cannot hire, Gulf free-zone firms, Singapore and Hong Kong practices, and international in-house teams. Salary ranges are shown with their sources in the session, because they depend on the market, the role and you.</p>
-<p class="rv">The return is four things, not one: income, time, optionality and risk control. A second market is a hedge against the first.</p></div></section>
-
-<section class="close"><div class="wrap"><div class="n" style="color:#111">Your next step</div><h2>Seven evenings. Rs 100. The whole route, in order.</h2>
-<p>{DATES} · {PRICE} · Live only, no recordings · Certificate of participation</p>
-<a class="cta" href="{PAY}">Join the SQE Community for Rs 100 <span class="arrow">&#8594;</span></a>
-<p class="src">After payment you get the WhatsApp group link. The first reading PDF arrives at 12 PM on Day 0.</p></div></section>
-<div class="sticky"><span>{p['who']}</span><a href="{PAY}">Join for Rs 100</a></div>
-<script>{JS}</script></body></html>"""
-out = os.path.join(HERE, "landing_pages", "lp_sqe_01_animated.html")
-open(out, "w").write(page); print(out, len(re.sub("<[^>]+>"," ",page.split("<body>")[1]).split()), "words")
+def build(p):
+    tag = re.split(r'(?<=[.])\s', p['lead'])[0]
+    plane = '<svg class="plane" viewBox="0 0 48 48"><path d="M4 28L44 14L40 20L26 26L28 40L22 42L16 29L8 33Z" fill="%s"/></svg>' % p["ac"]
+    facts = "".join('<div class="tile rv"><span class="k">%d</span><b>%s</b>%s%s</div>' % (i+1, F[k][0], F[k][1], '<div class="src">Source: %s</div>' % F[k][2] if F[k][2] else '') for i,k in enumerate(p["facts"]))
+    stories = "".join('<div class="story rv"><b>%s.</b> %s</div>' % STORIES[s] for s in p["stories"])
+    prob = "".join('<p class="rv">%s</p>' % x for x in p["problem"])
+    h1 = re.sub(r"<em>(.*?)</em>", r'<span class="r">\1</span>', p["h1"])
+    page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{html.escape(re.sub('<.*?>','',p['h1']))} · LawSikho</title><style>{fmt(CSS, dict(ac=p['ac'], soft=p['soft'], bg=p['bg']))}</style></head><body>
+    <header class="hero"><div class="sky"></div>{plane}<div class="wrap">
+    <div class="brand">LawSikho · SQE Community</div>
+    <div class="who">{p['who']}</div>
+    <h1>{h1}</h1>
+    <p class="lead">{p['lead']}</p>
+    <div class="card3d"><img src="../photos/{p['photo']}.jpg" alt=""><div class="tag">{tag}</div></div>
+    <a class="cta" href="{PAY}">Join the SQE Community for Rs 100 <span class="arrow">&#8594;</span></a>
+    <div class="terms">{DATES} · Live only, no recordings · Certificate of participation</div>
+    </div></header>
+    
+    <section><div class="wrap"><div class="n">1. The problem</div><h2 class="rv">Why you, and why now</h2>{prob}
+    <div class="big rv">Why this could be the most important investment you make this year</div><p class="rv">{p['invest']}</p></div></section>
+    
+    <section class="dark"><div class="wrap"><div class="n">The route</div><h2 class="rv">Four steps, three of them from India</h2>
+    <div class="route"><div class="st">SQE1, written in India</div><div class="ar">&#8594;</div><div class="st">SQE2 exemption application</div><div class="ar">&#8594;</div><div class="st">Character and suitability</div><div class="ar">&#8594;</div><div class="st">Admission to the Roll</div></div>
+    <div class="box rv">The SQE is the one exam that makes you a solicitor of England and Wales. It is open to Indian advocates, and the written parts are taken in India. The SRA decides exemptions case by case.</div></div></section>
+    
+    <section><div class="wrap"><div class="n">2. Once you see it</div><h2 class="rv">Did you know? 12 reasons this is worth your attention</h2><div class="grid">{facts}</div></div></section>
+    
+    <section class="dark"><div class="wrap"><div class="n">3. Our position</div><h2 class="rv">How we help, and why us</h2>
+    <p class="rv">Two mentors run every session. Prem Deep Arora, lead mentor on SQE and strategy. Arpana Sachdeva, community manager, who leads the orientation, the mock, the pathways and the Q&amp;A. Avlokit Yadav, counsellor, speaks to you one to one about your own roadmap.</p>
+    <ol class="days rv"><li><b>Orientation.</b> How the community works and a plain introduction to the SQE.</li><li><b>The global opportunity.</b> Where the qualification is recognised, with sourced market data.</li><li><b>SQE decoded.</b> Routes, fees, dates, test centres and the SQE2 exemption, gate by gate.</li><li><b>Mock SQE1.</b> A live session on a syllabus topic with SQE-style questions.</li><li><b>Career pathways after SQE.</b> Firms, in-house, the Gulf, Singapore.</li><li><b>Build your international profile.</b> The CV, LinkedIn and work samples that get a reply.</li><li><b>Launch lab.</b> Your draft exemption reference letter reviewed line by line.</li><li><b>Live Q&amp;A.</b> Your questions, answered.</li></ol>
+    <div class="box rv"><b>What this looks like for you.</b> {p['role']}</div>
+    <h3 class="rv">Members who did it</h3>{stories}
+    <p class="src rv">Members of the LawSikho Crack the SQE programme. Individual experiences, not typical results.</p></div></section>
+    
+    <section><div class="wrap"><div class="n">4. The brownie points</div><h2 class="rv">Bonus: the money behind English law</h2>
+    <div class="stats rv"><div><strong data-n="11" data-p="GBP " data-s="bn">0</strong><span>UK legal services exports a year</span></div><div><strong data-n="2" data-p="No. ">0</strong><span>legal market in the world, after the US</span></div><div><strong data-n="40" data-s="%">0</strong><span>of global business and financial deals under English law</span></div><div><strong data-n="78" data-s="%">0</strong><span>of LCIA arbitrations on English-law contracts</span></div></div>
+    <p class="src">Sources: The Law Society of England and Wales, International Data Insights Report 2025 (citing TheCityUK); LCIA Annual Casework Report 2024.</p>
+    <p class="rv">On Day 1 the mentors walk through what that market pays and how a qualified Indian lawyer enters it: regional UK firms that cannot hire, Gulf free-zone firms, Singapore and Hong Kong practices, and international in-house teams. Salary ranges are shown with their sources in the session, because they depend on the market, the role and you.</p>
+    <p class="rv">The return is four things, not one: income, time, optionality and risk control. A second market is a hedge against the first.</p></div></section>
+    
+    <section class="close"><div class="wrap"><div class="n" style="color:#111">Your next step</div><h2>Seven evenings. Rs 100. The whole route, in order.</h2>
+    <p>{DATES} · {PRICE} · Live only, no recordings · Certificate of participation</p>
+    <a class="cta" href="{PAY}">Join the SQE Community for Rs 100 <span class="arrow">&#8594;</span></a>
+    <p class="src">After payment you get the WhatsApp group link. The first reading PDF arrives at 12 PM on Day 0.</p></div></section>
+    <div class="sticky"><span>{p['who']}</span><a href="{PAY}">Join for Rs 100</a></div>
+    <script>{JS}</script></body></html>"""
+    return page
+for p in P:
+    page = build(p)
+    out = os.path.join(HERE, "landing_pages", "lp_sqe_%02d_%s_animated.html" % (p["n"], p["stem"]))
+    open(out, "w").write(page); print("%02d %s %d words" % (p["n"], p["stem"], len(re.sub("<[^>]+>"," ",page.split("<body>")[1]).split())))
