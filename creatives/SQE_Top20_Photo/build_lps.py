@@ -5,7 +5,7 @@
 import os, re, html
 HERE = os.path.dirname(os.path.abspath(__file__)); OUT = os.path.join(HERE, "landing_pages")
 PAY = "#PAYMENT_LINK_PENDING"   # BLOCKER: real GrowthX funnel URL per page, test-buy in a browser
-DATES = "[DATES: 7 evenings, 8 PM IST, to confirm]"
+DATES = "7 live evenings, 8 PM IST"
 PRICE = "Rs 100, including GST"
 
 CSS = """*{box-sizing:border-box;margin:0;padding:0}
