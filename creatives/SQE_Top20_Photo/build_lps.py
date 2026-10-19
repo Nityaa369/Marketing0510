@@ -46,6 +46,7 @@ p+p{margin-top:12px}
 .src{font-size:13px;color:var(--mut);margin-top:8px}
 .close{background:var(--soft);padding:34px 0;border:0}
 .disc{font-size:13px;color:var(--mut);padding:26px 0 110px}
+footer.pad{padding:0 0 110px}
 .disc p+p{margin-top:8px}
 .sticky{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:3px solid var(--ac);padding:10px 16px;display:flex;gap:12px;align-items:center;justify-content:center;z-index:9}
 .sticky span{font-weight:800;font-size:15px}
@@ -378,7 +379,7 @@ def page(p):
 <p class="src">%s</p></div></section>""" % (["Seven evenings. Rs 100. The whole route, in order.","Decide with the facts. Seven live evenings for Rs 100.","Your next twelve months, planned in seven evenings. Rs 100."][p["n"] % 3], DATES, PRICE, PAY,
    ["After payment you get the WhatsApp group link. The first reading PDF arrives at 12 PM on Day 0.","Pay, and the WhatsApp group link is on the confirmation screen. Day 0 starts with the orientation at 8 PM.","The join link arrives with your payment confirmation. Fill the profiling form and the counsellor calls you before Day 2."][p["n"] % 3])
     parts.append(close)
-    parts.append(DISC)
+    parts.append('<footer class="pad"></footer>')
     parts.append('<div class="sticky"><span>%s</span><a href="%s">Join for Rs 100</a></div>' % (p["who"], PAY))
     css = CSS % dict(ac=p["ac"], soft=p["soft"], bg=p["bg"], extra=VAR[p["var"]])
     title = re.sub("<.*?>", "", p["h1"])
