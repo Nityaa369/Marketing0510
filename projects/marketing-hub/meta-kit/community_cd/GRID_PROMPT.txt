@@ -1,0 +1,24 @@
+A single photographic contact sheet: exactly 20 separate square photographs arranged in a strict grid of 4 columns and 5 rows, all cells the same size, separated by straight pure white gutters about 40 pixels wide, with a pure white outer border. No text, no captions, no numbers, no logos anywhere.
+
+Every cell is a candid, realistic editorial photograph of one Indian person (Indian features and skin tones, natural Indian clothing and settings), shot at eye level with a 50mm lens, shallow depth of field, warm natural light, the face clearly visible and looking at a printed contract or agreement they are holding or reading. Each person is a different individual. Keep the person centred in the cell with space around the head so the photo can be cropped to a 4:3 frame.
+
+Cell 1 (row 1, column 1): a 22-year-old Indian woman law student in a college library at dusk, reading a printed contract held up in both hands, bookshelves and a warm desk lamp behind her.
+Cell 2 (row 1, column 2): a 25-year-old Indian man, law graduate, at a small home desk by a window in the morning, reading a stapled agreement with a pen in hand, books stacked beside him.
+Cell 3 (row 1, column 3): a 26-year-old Indian woman advocate in a white shirt and black blazer, sitting in a small chamber with law reports on shelves, reading a contract draft under a brass lamp.
+Cell 4 (row 1, column 4): a 27-year-old Indian man advocate in a white band collar and black coat, sitting on a bench in a quiet court corridor, reading a printed contract instead of a case file.
+Cell 5 (row 2, column 1): a 28-year-old Indian woman legal assistant at an office desk with neat file folders, reading a contract and marking it with a highlighter, soft office light.
+Cell 6 (row 2, column 2): a 38-year-old Indian man lawyer in his own small office with a nameplate on the desk, reading a bound commercial agreement, evening light from the window.
+Cell 7 (row 2, column 3): a 30-year-old Indian woman lawyer on the terrace room of a home in a small Indian town, laptop open beside her, reading a printed agreement, afternoon sun.
+Cell 8 (row 2, column 4): a 34-year-old Indian woman at home at a dining table in the evening, a child's school bag nearby, reading a contract with a cup of tea, warm lamp light.
+Cell 9 (row 3, column 1): a 29-year-old Indian woman in a newly set-up apartment with a few moving boxes, sitting by a window reading a printed contract, soft morning light.
+Cell 10 (row 3, column 2): a 33-year-old Indian woman in a cosy apartment abroad with a grey city skyline in the window, reading a printed agreement at a small table.
+Cell 11 (row 3, column 3): a 31-year-old Indian woman HR professional in a modern office, lanyard on, reading an employment agreement at her desk, colleagues blurred behind.
+Cell 12 (row 3, column 4): a 32-year-old Indian man in a bank office with a glass partition, shirt and tie, reading a term sheet with a calculator on the desk.
+Cell 13 (row 4, column 1): a 27-year-old Indian woman writer in a cafe-style workspace with sticky notes on the wall, reading a printed website terms document, laptop beside her.
+Cell 14 (row 4, column 2): a 30-year-old Indian man in operations at a busy open office, sleeves rolled up, reading a vendor agreement with a pen, whiteboard behind him.
+Cell 15 (row 4, column 3): a 26-year-old Indian man with a headset around his neck at a back-office workstation after his shift, reading a printed contract under a desk lamp.
+Cell 16 (row 4, column 4): a 28-year-old Indian woman at a review desk with two monitors, holding a printed contract marked with red pen edits, focused, cool office light.
+Cell 17 (row 5, column 1): a 35-year-old Indian woman company secretary in a boardroom with minute books on the table, reading a co-founder agreement.
+Cell 18 (row 5, column 2): a 45-year-old Indian man property lawyer in a traditional office with stamp papers and old files, reading a commercial lease, warm afternoon light.
+Cell 19 (row 5, column 3): a 21-year-old Indian man law intern at a law firm's library table with a college ID card on a lanyard, reading a contract with focus.
+Cell 20 (row 5, column 4): a 36-year-old Indian woman at a home study corner with a framed law degree on the wall, reading a contract on a quiet weekday afternoon.
