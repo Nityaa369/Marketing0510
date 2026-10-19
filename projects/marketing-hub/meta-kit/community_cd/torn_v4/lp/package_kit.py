@@ -10,7 +10,7 @@ ROOT = os.path.abspath(os.path.join(HERE, ".."))
 NAME = "ContractDrafting_TornPaper_LawSikho_21Oct-11Nov"
 KIT = os.path.join(ROOT, "kit", NAME)
 sys.path.insert(0, HERE)
-import build_lps, vp_data  # noqa: E402
+import build_lps, vp_data, resize_ads  # noqa: E402
 
 ICPS = json.load(open(os.path.join(ROOT, "icps.json"), encoding="utf-8"))
 CAMPAIGN = "CD_Community_TornPaper_21Oct-11Nov_Sales"
@@ -65,20 +65,23 @@ def primary(i):
 def main(copy_path):
     if os.path.isdir(KIT):
         shutil.rmtree(KIT)
-    for d in ("ads", "landing_pages"):
+    for d in ("ads", "ads_1x1", "ads_9x16", "landing_pages"):
         os.makedirs(os.path.join(KIT, d))
     subprocess.run([sys.executable, os.path.join(HERE, "build_lps.py"), copy_path,
                     os.path.join(KIT, "landing_pages")], check=True)
     ids = sorted(ICPS)
     for i in ids:
-        Image.open(os.path.join(ROOT, "out", f"cd_torn_{i}.png")).convert("RGB").save(
-            os.path.join(KIT, "ads", f"cd_{i}.jpg"), quality=88, optimize=True)
+        tmp = os.path.join(KIT, f"_cd_{i}")
+        resize_ads.make(os.path.join(ROOT, "out", f"cd_torn_{i}.png"), tmp)
+        os.replace(tmp + "_4x5.jpg", os.path.join(KIT, "ads", f"cd_{i}_4x5.jpg"))
+        os.replace(tmp + "_1x1.jpg", os.path.join(KIT, "ads_1x1", f"cd_{i}_1x1.jpg"))
+        os.replace(tmp + "_9x16.jpg", os.path.join(KIT, "ads_9x16", f"cd_{i}_9x16.jpg"))
     cs = Image.open(os.path.join(ROOT, "ship", "CONTACT_SHEET_v4.jpg")).convert("RGB")
     cs.thumbnail((1600, 1600))
     cs.save(os.path.join(KIT, "CONTACT_SHEET.jpg"), quality=78)
 
     open(os.path.join(KIT, "value_props.md"), "w", encoding="utf-8").write(
-        "# Value props, Contract Drafting Community torn-paper set\n\n" + "\n".join(vp_data.block(i) for i in ids))
+        "# Value props, Contract Drafting Community torn-paper set\n\n" + "\n".join(vp_data.block(i).replace(f"ads/cd_{i}.jpg", f"ads/cd_{i}_4x5.jpg") for i in ids))
     hk = ["# Hooks, Contract Drafting Community torn-paper set\n"]
     for i in ids:
         a = ICPS[i]
@@ -91,7 +94,9 @@ def main(copy_path):
     for i in ids:
         a = ICPS[i]
         row = {"Campaign": CAMPAIGN, "Ad set": SET_OF[i], "Locations": "India", "Age": "21 to 45",
-               "Ad name": f"CD_TP_{i}_{SHORT[i]}", "Image (2:3 feed, 1024x1536)": f"ads/cd_{i}.jpg",
+               "Ad name": f"CD_TP_{i}_{SHORT[i]}", "Image 4:5 (Feed, mobile and desktop)": f"ads/cd_{i}_4x5.jpg",
+               "Image 1:1 (Feed, Marketplace, Search, right column)": f"ads_1x1/cd_{i}_1x1.jpg",
+               "Image 9:16 (Stories, Reels)": f"ads_9x16/cd_{i}_9x16.jpg",
                "Primary text": primary(i), "Headline": HEADLINE, "Description": DESC,
                "Call to action": "Sign up", "Website URL": url(i),
                "Landing page file": f"landing_pages/lp_cd_{i}.html", "GrowthX funnel slug": f"cdtp-{i}",
@@ -100,7 +105,9 @@ def main(copy_path):
             row["Locations"] = "UAE, UK, USA, Canada, Singapore, Australia (Indian expats)"
         rows.append(row)
         man.append({"id": i, "icp": a["banner"], "hook": a["hook"], "support": a["support"], "popup": a["popup"],
-                    "ad": row["Image (2:3 feed, 1024x1536)"], "landing_page": row["Landing page file"],
+                    "ad_4x5": row["Image 4:5 (Feed, mobile and desktop)"],
+                    "ad_1x1": row["Image 1:1 (Feed, Marketplace, Search, right column)"],
+                    "ad_9x16": row["Image 9:16 (Stories, Reels)"], "landing_page": row["Landing page file"],
                     "hero_image": f"landing_pages/img/cd_{i}.jpg", "ad_set": SET_OF[i],
                     "growthx_slug": row["GrowthX funnel slug"], "website_url": row["Website URL"],
                     "button": build_lps.BTN, "meta_cta": "SIGN_UP", "headline": HEADLINE,
@@ -124,13 +131,21 @@ def main(copy_path):
     open(os.path.join(KIT, "ad_copy.md"), "w", encoding="utf-8").write("\n".join(ac))
     shutil.copy(os.path.join(HERE, "README_FOR_MEDIA_BUYER.md"), KIT)
 
-    z = os.path.join(ROOT, "kit", f"{NAME}_SEND_THIS.zip")
-    with zipfile.ZipFile(z, "w", zipfile.ZIP_DEFLATED) as zf:
-        for d, _, fs in os.walk(KIT):
-            for fn in sorted(fs):
-                p = os.path.join(d, fn)
-                zf.write(p, os.path.join(NAME, os.path.relpath(p, KIT)))
-    print("zip", z, os.path.getsize(z) // 1024, "KB")
+    for old in os.listdir(os.path.join(ROOT, "kit")):
+        if old.endswith(".zip"):
+            os.remove(os.path.join(ROOT, "kit", old))
+    extra = ("ads_1x1", "ads_9x16")
+    for tag, keep in (("1of2_Feed4x5_Pages", lambda r: not r.startswith(extra)),
+                      ("2of2_Square1x1_Stories9x16", lambda r: r.startswith(extra) or r == "README_FOR_MEDIA_BUYER.md")):
+        z = os.path.join(ROOT, "kit", f"{NAME}_{tag}_SEND_THIS.zip")
+        with zipfile.ZipFile(z, "w", zipfile.ZIP_DEFLATED) as zf:
+            for d, _, fs in os.walk(KIT):
+                for fn in sorted(fs):
+                    p = os.path.join(d, fn)
+                    rel = os.path.relpath(p, KIT)
+                    if keep(rel):
+                        zf.write(p, os.path.join(NAME, rel))
+        print("zip", z, os.path.getsize(z) // 1024, "KB")
 
 
 if __name__ == "__main__":

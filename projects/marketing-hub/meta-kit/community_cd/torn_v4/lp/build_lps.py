@@ -67,6 +67,21 @@ SESSIONS = [
     "Publishing your first article",
 ]
 
+REASONS = [
+    ("Every business runs on contracts", "Hiring, selling, renting and raising money each end in a signed agreement."),
+    ("It is legal work done at a desk", "Drafting needs the law and a laptop, not a courtroom or a cause list."),
+    ("You meet clients before the dispute", "Businesses call a drafter while they are building, not when something has gone wrong."),
+    ("It helps in every branch of law", "Litigators, in-house teams, company secretaries and property lawyers all read and write contracts."),
+    ("Your work becomes something you can show", "A clean draft is a sample you can share with a client or an employer."),
+    ("Startups need it from day one", "Founders sign co-founder agreements, ESOP plans and SAFE agreements early, often before any lawyer joins them."),
+    ("Privacy law has created new documents", "Businesses need DPDPA privacy policies and consent wording written in plain, correct language."),
+    ("Clients can be in another city or country", "UK small businesses need GDPR privacy notices, and a draft travels by email."),
+    ("AI makes a trained drafter faster", "AI can point to a missing clause. A lawyer decides what that clause should say."),
+    ("It sharpens how you think", "Drafting makes you picture what can go wrong and decide who carries each risk."),
+    ("You can start with one small document", "An NDA or a website policy is a complete piece of work on its own."),
+    ("It fits around the rest of your life", "Drafting can be done in the hours you choose, from where you live."),
+]
+
 SHARED_FAQ = [
     ("Do I need drafting experience before I join?",
      "No. Day one starts with the parts of a contract. Each later document builds on that, one a day."),
@@ -112,6 +127,10 @@ section{padding:46px 0;border-top:2px dashed rgba(28,26,23,.14)}
 .card p{font-size:17px;margin:0}
 .card .k{font:900 26px/1 'Archivo Black','Arial Black',sans-serif;color:var(--tint);display:block;margin-bottom:6px}
 .why .card{border-top:6px solid var(--tint)}
+.reasons{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:8px}
+.reasons div{background:var(--card);border:2px solid rgba(28,26,23,.16);border-left:6px solid var(--tint);border-radius:10px;padding:14px 16px}
+.reasons .k{font:900 22px/1 'Archivo Black','Arial Black',sans-serif;color:var(--red);display:block;margin-bottom:6px}
+.reasons h3{font-size:19px}.reasons p{font-size:17px;margin:0}
 .why h3{font-size:19px}
 .src{display:block;margin-top:10px;font-size:14px;font-style:italic;color:#4a453d}
 .doc{display:grid;grid-template-columns:1.4fr .8fr;gap:18px;align-items:start}
@@ -144,12 +163,20 @@ details p{margin:8px 0 0}
  .hero{grid-template-columns:1fr;gap:18px}
  .heroimg{max-width:420px}.heroimg img{transform:none}
  .cards3,.doc{grid-template-columns:1fr}
+ .reasons{grid-template-columns:1fr 1fr}
  .grid4{grid-template-columns:1fr 1fr}
  .hero h1{font-size:31px}h2{font-size:26px}.close h2{font-size:28px}
  .tape{font-size:18px}
  table{font-size:14px}th,td{padding:6px 5px}
  .btn{font-size:19px;padding:18px 12px}
 }
+@media(max-width:560px){.reasons{grid-template-columns:1fr}}
+@media(min-width:821px){.hero{padding-top:22px;gap:40px}.hero h1{font-size:34px;margin-bottom:10px}.sup{font-size:18px;margin-bottom:8px}
+ .defn{margin:10px 0;padding:10px 14px;font-size:17px}.fromto{margin:10px 0}.fromto div{padding:8px 10px;font-size:16px}
+ .facts{margin:6px 0;font-size:16px}.price{margin:8px 0;padding:8px 14px}.price .big{font-size:34px}.tape{margin-bottom:12px}
+ .heroimg{position:sticky;top:16px}
+ .hero>div:first-child{display:flex;flex-direction:column;align-items:flex-start}.hero>div:first-child>*{max-width:100%}.btn,.price,.defn,.fromto{align-self:stretch}.fromto{order:9;margin-top:14px}}
+@media(min-width:821px) and (max-width:1100px){.cards3{grid-template-columns:1fr 1fr}.grid4{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:380px){.fromto{grid-template-columns:1fr}.grid4{grid-template-columns:1fr}}
 """
 
@@ -168,7 +195,8 @@ def button(i, popup=None):
 
 
 def sec(n, title, body, cls=""):
-    return (f'<section class="{cls}"><div class="wrap"><span class="num">{n:02d}</span>'
+    # n is ignored: page() numbers the sections in page order.
+    return (f'<section class="{cls}"><div class="wrap"><span class="num">NN</span>'
             f'<h2>{e(title)}</h2>{body}</div></section>')
 
 
@@ -204,6 +232,9 @@ def page(c, n):
     why = "".join(f'<div class="card"><h3>Did you know? {e(h)}</h3><p>{e(p)}</p><span class="src">Source: {e(src)}</span></div>'
                   for h, p, src in order)
     s.append(sec(6, "Why businesses are hiring contract drafters now", f'<div class="cards3 why">{why}</div>'))
+    # 6b. Twelve reasons (divyanshu, 19 Oct): positive reasons only, no threat, no figures.
+    rs = "".join(f'<div><span class="k">{j:02d}</span><h3>{e(t)}</h3><p>{e(p)}</p></div>' for j, (t, p) in enumerate(REASONS, 1))
+    s.append(sec(0, "12 reasons why every lawyer must learn contract drafting", f'<div class="reasons">{rs}</div>'))
     # 7. The reader's role.
     pts = "".join(f'<li><b>{e(x["t"])}.</b> {e(x["p"])}</li>' for x in c["role_points"])
     s.append(sec(7, c["role_h2"], f'<p>{e(c["role_intro"])}</p><ul class="ticks">{pts}</ul>'))
@@ -264,6 +295,8 @@ def page(c, n):
     close = f"""<p>{e(c['close_lede'])}</p><p><b>21 days, {DATES}. 9 live evening sessions. {PRICE} including GST, refundable.</b></p>{button(i)}"""
     s.append(sec(19, c["close_h2"], close, "close"))
     body = "\n".join(s)
+    k = iter(range(2, 99))
+    body = re.sub(r'<span class="num">NN</span>', lambda m: f'<span class="num">{next(k):02d}</span>', body)
     disc = ("LawSikho runs this community to build practical drafting skills and show where the earning "
             "opportunities are. We do not promise any job, client or income. Sessions are live; recordings are not promised.")
     title = f"Contract Drafting Community for {a['banner'].title().replace('For ', '').replace('Llb', 'LLB').replace('Lpo', 'LPO').replace('Bpo', 'BPO').replace('Hr', 'HR')}"
