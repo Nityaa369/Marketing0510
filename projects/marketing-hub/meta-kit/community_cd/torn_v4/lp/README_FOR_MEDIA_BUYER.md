@@ -10,7 +10,7 @@ Camp: 21 Oct to 11 Nov 2026, live online, ₹200 incl. GST, refundable.
 | `ads/cd_NN_4x5.jpg` | 1080x1350, Feed on mobile and desktop. |
 | `ads_1x1/cd_NN_1x1.jpg` | 1080x1080, Feed, Marketplace, Search, right column. |
 | `ads_9x16/cd_NN_9x16.jpg` | 1080x1920, Stories and Reels. |
-| `landing_pages/lp_cd_01.html` to `lp_cd_20.html` | One page per ad, same number. Hero = the ad image in `landing_pages/img/`. |
+| `landing_pages/lp_cd_01.html` to `lp_cd_20.html` | One page per ad, same number. Hero = the ad image, embedded in the page (no separate image folder). |
 | `CD_meta_upload_sheet.csv` | One row per ad: campaign, ad set, primary text, headline, description, CTA, URL, page, slug. |
 | `ad_copy.md` | The same copy, readable. |
 | `manifest.json` | Machine-readable map of ad, page, slug, URL and copy. |

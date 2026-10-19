@@ -8,13 +8,14 @@ comparison, refund, shared FAQ and the disclaimer. Facts come only from the CD 6
 (docs/COMMUNITY_CURRICULA_Oct-Nov2026.md) and the dated sources on the why-now cards.
 Works with JavaScript off: no script at all, native <details>, CSS-only sticky bar.
 """
-import html, json, os, re, sys
+import base64, html, io, json, os, re, sys
 from PIL import Image
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ADS = os.path.join(HERE, "..", "ship")
 ICPS = json.load(open(os.path.join(HERE, "..", "icps.json"), encoding="utf-8"))
 
+HERO = {}  # ad id -> data URI of the hero picture, filled in __main__
 PRICE = "₹200"
 BTN = "Join the Contract Drafting Community for ₹200"
 STICKY = "Join for ₹200 · 21 days, live online"
@@ -216,7 +217,7 @@ def page(c, n):
 <p class="facts">LawSikho Contract Drafting Community · {DATES} · 9 live evening sessions · one document a day</p>
 <div class="price"><span class="big">{PRICE}</span><p><b>Including GST. Refundable.</b><br>All 21 days, live online.</p></div>
 {button(i, a['popup'])}
-</div><div class="heroimg"><img src="img/cd_{i}.jpg" width="480" height="720" alt="{e(a['banner'].capitalize())}: Learn the art of contract drafting"></div></div>"""
+</div><div class="heroimg"><img src="{HERO[i]}" width="480" height="720" alt="{e(a['banner'].capitalize())}: Learn the art of contract drafting"></div></div>"""
     # 2. Symptom.
     s.append(sec(2, c["symptom_h2"], "".join(f"<p>{e(p)}</p>" for p in c["symptom"])))
     # 3. Outcome.
@@ -323,11 +324,13 @@ def words(htm):
 if __name__ == "__main__":
     copy = json.load(open(sys.argv[1], encoding="utf-8"))
     out = sys.argv[2]
-    os.makedirs(os.path.join(out, "img"), exist_ok=True)
     for n, c in enumerate(sorted(copy, key=lambda x: x["id"])):
         i = c["id"]
         im = Image.open(os.path.join(ADS, f"CD_torn_{i}.jpg")).convert("RGB").resize((480, 720), Image.LANCZOS)
-        im.save(os.path.join(out, "img", f"cd_{i}.jpg"), quality=74, optimize=True, progressive=True)
+        # Embedded, so the picture shows wherever the page is opened or uploaded (one file, no img/ folder).
+        buf = io.BytesIO()
+        im.save(buf, "JPEG", quality=74, optimize=True, progressive=True)
+        HERO[i] = "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()
         h = page(c, n)
         open(os.path.join(out, f"lp_cd_{i}.html"), "w", encoding="utf-8").write(h)
         print(i, words(h), "words", len(h.encode()) // 1024, "KB")

@@ -108,7 +108,7 @@ def main(copy_path):
                     "ad_4x5": row["Image 4:5 (Feed, mobile and desktop)"],
                     "ad_1x1": row["Image 1:1 (Feed, Marketplace, Search, right column)"],
                     "ad_9x16": row["Image 9:16 (Stories, Reels)"], "landing_page": row["Landing page file"],
-                    "hero_image": f"landing_pages/img/cd_{i}.jpg", "ad_set": SET_OF[i],
+                    "hero_image": "embedded in the page", "ad_set": SET_OF[i],
                     "growthx_slug": row["GrowthX funnel slug"], "website_url": row["Website URL"],
                     "button": build_lps.BTN, "meta_cta": "SIGN_UP", "headline": HEADLINE,
                     "description": DESC, "primary_text": row["Primary text"]})

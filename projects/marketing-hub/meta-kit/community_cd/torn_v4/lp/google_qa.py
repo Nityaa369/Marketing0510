@@ -120,14 +120,14 @@ def main():
         if hrefs != {f"https://growthx.lawsikho.com/f/cdtp-{i}"}:
             F(f"{p} pay links {hrefs}")
         img = re.search(r'<img src="([^"]+)"', s).group(1)
-        if not os.path.exists(os.path.join(kit, "landing_pages", img)):
-            F(f"{p} hero image missing")
+        if not img.startswith("data:image/jpeg;base64,") or len(img) < 20000:
+            F(f"{p} hero image not embedded")
         if G.ICPS[i]["hook"] not in s.replace("&#x27;", "'"):
             F(f"{p} first fold does not carry the ad hook")
         if re.search(r"[–—]", s):
             F(f"{p} dash")
     L("- 20 Final URLs point at growthx.lawsikho.com/f/cdtp-NN with utm_source=google and utm_medium=cpc.")
-    L("- 20 pages present; each pay button links to its own funnel; each hero image is present; each first fold carries its ad's hook word for word.")
+    L("- 20 pages present; each pay button links to its own funnel; each hero picture is embedded in the page; each first fold carries its ad's hook word for word.")
     L("- Pages were also tested at 9 widths (360 to 1920 px), JavaScript on and off: no sideways scroll, no missing image, 12 reasons on every page.")
 
     L("\n## 5. Zip")

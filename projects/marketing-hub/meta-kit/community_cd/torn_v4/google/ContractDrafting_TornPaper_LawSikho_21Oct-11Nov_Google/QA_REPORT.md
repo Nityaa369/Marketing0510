@@ -76,11 +76,11 @@ These are flagged in README_GOOGLE.md and left in the art, as instructed.
 
 ## 4. Final URLs and landing pages
 - 20 Final URLs point at growthx.lawsikho.com/f/cdtp-NN with utm_source=google and utm_medium=cpc.
-- 20 pages present; each pay button links to its own funnel; each hero image is present; each first fold carries its ad's hook word for word.
+- 20 pages present; each pay button links to its own funnel; each hero picture is embedded in the page; each first fold carries its ad's hook word for word.
 - Pages were also tested at 9 widths (360 to 1920 px), JavaScript on and off: no sideways scroll, no missing image, 12 reasons on every page.
 
 ## 5. Zip
-- ContractDrafting_TornPaper_LawSikho_21Oct-11Nov_Google_SEND_THIS.zip: 105 files, 60 ad images, 17.6 MB, opens and tests clean.
+- ContractDrafting_TornPaper_LawSikho_21Oct-11Nov_Google_SEND_THIS.zip: 85 files, 60 ad images, 17.7 MB, opens and tests clean.
 
 ## Result
 ALL CHECKS PASSED
