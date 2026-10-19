@@ -1,6 +1,6 @@
 """Cut the 4x5 grid image into photos/cd_01.jpg .. cd_20.jpg.
 
-python3 crop_grid.py grid.png
+python3 crop_grid.py grid.png [prefix] [ext]   (default cd jpg)
 Finds the white gutters; falls back to equal cells if it cannot find 3 and 4 of them.
 """
 import sys
@@ -25,6 +25,8 @@ def bands(white_frac, n_needed):
 
 
 im = Image.open(sys.argv[1]).convert("RGB")
+PREFIX = sys.argv[2] if len(sys.argv) > 2 else "cd"
+EXT = sys.argv[3] if len(sys.argv) > 3 else "jpg"
 a = np.asarray(im).astype(int)
 white = (a.min(axis=2) > 238)
 W, H = im.size
@@ -50,5 +52,5 @@ for y0, y1 in ys:
     for x0, x1 in xs:
         k += 1
         cell = im.crop((x0 + 6, y0 + 6, x1 - 6, y1 - 6))
-        cell.save(f"photos/cd_{k:02d}.jpg", quality=92)
-        print(f"cd_{k:02d}", cell.size)
+        cell.save(f"photos/{PREFIX}_{k:02d}.{EXT}", quality=92)
+        print(f"{PREFIX}_{k:02d}", cell.size)
