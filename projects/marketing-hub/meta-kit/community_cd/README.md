@@ -24,3 +24,14 @@ Missing photos render as a labelled "PHOTO NN PENDING" placeholder.
   (PW env = path to node playwright). Text is set by us in HTML, so nothing is garbled.
 - The 20 PNGs were rendered and checked in the Higgsfield sandbox on 19 Oct; this environment
   cannot download from d8j0ntlcm91z4.cloudfront.net, so the PNGs are not in the repo yet.
+
+## Set 3 (19 Oct): torn-paper "Learning the Art of Contract Drafting" with the illustrated heroes
+- Format kept from divyanshu's reference: torn hole, title on torn strips with highlighter,
+  three handwritten margin notes. Hero = the set-2 character cut-out (photos/cut_NN.png from grid
+  34e3f98c...), centred in the hole on a radial wash of the ad's highlighter colour.
+- Rules layer: reader banner (approved ICP), approved hook + calendar-true supporting line,
+  CTA "Join the Contract Drafting Community · ₹200" at 38px on a vivid version of the ad's accent
+  (`bright()` in build.py, near-black accents get #FF4F1F), footer with GST and refund, no dates.
+- `python3 build.py` uses cut_NN.png when present, else a photo, else a placeholder.
+- Rendered and checked in the Higgsfield sandbox (no overflow on any of the 20); PNGs not yet in
+  the repo because d8j0ntlcm91z4.cloudfront.net is blocked here.

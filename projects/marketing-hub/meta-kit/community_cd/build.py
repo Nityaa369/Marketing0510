@@ -24,6 +24,17 @@ def on(bg):
     return "#FFFFFF" if (1.05 / (l + 0.05)) >= ((l + 0.05) / 0.05) else "#111111"
 
 
+def bright(hexc):
+    """Vivid version of the ad's accent: same hue, saturation 95%, lightness 50%."""
+    import colorsys
+    r, g, b = (int(hexc[i:i + 2], 16) / 255 for i in (1, 3, 5))
+    h, l, s = colorsys.rgb_to_hls(r, g, b)
+    if s < 0.15:  # near-black accents get the house red-orange
+        return "#FF4F1F"
+    r, g, b = colorsys.hls_to_rgb(h, 0.50, 0.95)
+    return "#%02X%02X%02X" % (round(r * 255), round(g * 255), round(b * 255))
+
+
 def torn_path(rng, x0, y0, x1, y1, step=14, amp=13):
     """Jagged closed path around a rounded blob inside the box."""
     cx, cy, rx, ry = (x0 + x1) / 2, (y0 + y1) / 2, (x1 - x0) / 2, (y1 - y0) / 2
@@ -64,19 +75,33 @@ def html(ad):
     outer = torn_path(rng, x0 - 24, y0 - 24, x1 + 24, y1 + 24, step=11, amp=16)
     inner = torn_path(rng, x0, y0, x1, y1, step=12, amp=10)
     photo = f"photos/cd_{ad['id']}.jpg"
+    cut = f"photos/cut_{ad['id']}.png"
     has_photo = os.path.exists(os.path.join(HERE, photo))
-    img = (f"<image href='../{photo}' x='{x0-40}' y='{y0-40}' width='{x1-x0+80}' height='{y1-y0+80}' "
+    if os.path.exists(os.path.join(HERE, cut)):
+        from PIL import Image
+        cw, ch = Image.open(os.path.join(HERE, cut)).size
+        fh = 500; fw = fh * cw / ch
+        if fw > 600: fw = 600; fh = fw * ch / cw
+        fx = (x0 + x1) / 2 - fw / 2; fy = 712 - fh
+        img = (f"<defs><radialGradient id='bd' cx='50%' cy='38%' r='70%'><stop offset='0' stop-color='#FFFFFF'/>"
+               f"<stop offset='1' stop-color='{ad['hi']}'/></radialGradient></defs>"
+               f"<path d='{inner}' fill='url(#bd)'/>"
+               f"<image href='../{cut}' x='{fx:.0f}' y='{fy:.0f}' width='{fw:.0f}' height='{fh:.0f}' clip-path='url(#hole)'/>")
+    else:
+      img = (f"<image href='../{photo}' x='{x0-40}' y='{y0-40}' width='{x1-x0+80}' height='{y1-y0+80}' "
            f"preserveAspectRatio='xMidYMid slice' clip-path='url(#hole)'/>") if has_photo else (
            f"<path d='{inner}' fill='#d8d2c8'/><text x='{(x0+x1)/2}' y='{(y0+y1)/2}' text-anchor='middle' "
-           f"font-family='Inter' font-weight='800' font-size='34' fill='#8a8378'>PHOTO {ad['id']} PENDING</text>")
+             f"font-family='Inter' font-weight='800' font-size='34' fill='#8a8378'>PHOTO {ad['id']} PENDING</text>")
     s1, s2 = strip_clip(rng), strip_clip(rng)
-    bt, btn = on(ad["banner_bg"]), on(ad["button"])
+    cta_bg = bright(ad["button"])
+    bt, btn = on(ad["banner_bg"]), on(cta_bg)
     notes = [n.replace("\n", "<br>") for n in ad["notes"]]
     hand = ad["hand"]
     hsz = 38 if hand == "Caveat" else 31
     hook_px = 43 if len(ad["hook"]) <= 92 else 39
     ban_px = 33 if len(ad["banner"]) <= 42 else 29
     return f"""<!doctype html><html><head><meta charset="utf-8"><style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=DM+Serif+Display&family=Fraunces:opsz,wght@144,900&family=Abril+Fatface&family=Caveat:wght@600&family=Kalam&family=Inter:wght@600;800;900&display=block');
 @font-face{{font-family:'Playfair Display';font-weight:900;src:url('../fonts/PlayfairDisplay-900.ttf')}}
 @font-face{{font-family:'DM Serif Display';font-weight:400;src:url('../fonts/DMSerifDisplay-400.ttf')}}
 @font-face{{font-family:'Fraunces';font-weight:900;src:url('../fonts/Fraunces-900.ttf')}}
@@ -101,8 +126,8 @@ svg.hole{{position:absolute;left:0;top:0}}
 .copy{{position:absolute;left:64px;right:64px;top:858px;height:268px;display:flex;flex-direction:column;justify-content:center;gap:16px;text-align:center}}
 .hook{{font:800 {hook_px}px/1.18 Inter;letter-spacing:-.6px;text-wrap:balance}}
 .support{{font:600 27px/1.3 Inter;opacity:.86;padding:0 20px;text-wrap:balance}}
-.cta{{position:absolute;left:50%;top:1150px;transform:translateX(-50%);background:{ad['button']};color:{btn};font:800 34px Inter;padding:22px 40px;border-radius:14px;
-  white-space:nowrap;box-shadow:0 8px 0 rgba(0,0,0,.2)}}
+.cta{{position:absolute;left:50%;top:1136px;transform:translateX(-50%);background:{cta_bg};color:{btn};font:900 38px Inter;padding:26px 36px;border-radius:18px;
+  white-space:nowrap;box-shadow:0 10px 0 rgba(0,0,0,.25),0 0 0 6px {cta_bg}33}}
 .foot{{position:absolute;left:0;right:0;top:1272px;text-align:center;font:600 24px Inter;letter-spacing:1.5px}}
 .note{{position:absolute;font-family:'{hand}';font-weight:{600 if hand=='Caveat' else 400};font-size:{hsz}px;line-height:1.05;color:{ad['note']};width:150px}}
 .note:after{{content:"";display:block;width:110px;height:3px;background:{ad['note']};margin-top:8px;border-radius:3px;transform:rotate(-4deg)}}
@@ -132,12 +157,12 @@ svg.hole{{position:absolute;left:0;top:0}}
 
 
 RENDER_JS = r"""
-const { chromium } = require('/opt/node22/lib/node_modules/playwright');
+const { chromium } = require(process.env.PW || '/opt/node22/lib/node_modules/playwright');
 (async () => {
   const b = await chromium.launch();
   const p = await b.newPage({ viewport: { width: 1080, height: 1350 } });
   for (const id of process.argv.slice(2)) {
-    await p.goto('file://' + __dirname + '/html/cd_art_' + id + '.html');
+    await p.goto('file://' + __dirname + '/html/cd_art_' + id + '.html', {waitUntil:'networkidle'});
     await p.evaluate(() => document.fonts.ready);
     const over = await p.evaluate(() => [...document.querySelectorAll('.copy,.banner,.cta,.note')]
       .filter(e => { const r = e.getBoundingClientRect(); return r.right > 1080 || r.left < 0 || r.bottom > 1350; })
@@ -159,5 +184,5 @@ if __name__ == "__main__":
         ids.append(ad["id"])
     js = os.path.join(HERE, "render.js")
     open(js, "w").write(RENDER_JS)
-    subprocess.run(["node", js, *ids], check=True)
+    subprocess.run(["node", js, *ids], check=True, env=dict(os.environ))
     print("rendered", len(ids))
