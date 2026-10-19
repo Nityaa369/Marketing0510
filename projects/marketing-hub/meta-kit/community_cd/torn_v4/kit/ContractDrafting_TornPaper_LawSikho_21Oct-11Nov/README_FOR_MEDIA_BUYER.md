@@ -7,9 +7,9 @@ Camp: 21 Oct to 11 Nov 2026, live online, ₹200 incl. GST, refundable.
 
 | Path | What |
 |---|---|
-| `ads/cd_NN_4x5.jpg` | 1080x1350, Feed on mobile and desktop (zip 1 of 2). |
-| `ads_1x1/cd_NN_1x1.jpg` | 1080x1080, Feed, Marketplace, Search, right column (zip 2 of 2). |
-| `ads_9x16/cd_NN_9x16.jpg` | 1080x1920, Stories and Reels (zip 2 of 2). |
+| `ads/cd_NN_4x5.jpg` | 1080x1350, Feed on mobile and desktop. |
+| `ads_1x1/cd_NN_1x1.jpg` | 1080x1080, Feed, Marketplace, Search, right column. |
+| `ads_9x16/cd_NN_9x16.jpg` | 1080x1920, Stories and Reels. |
 | `landing_pages/lp_cd_01.html` to `lp_cd_20.html` | One page per ad, same number. Hero = the ad image in `landing_pages/img/`. |
 | `CD_meta_upload_sheet.csv` | One row per ad: campaign, ad set, primary text, headline, description, CTA, URL, page, slug. |
 | `ad_copy.md` | The same copy, readable. |
@@ -48,8 +48,7 @@ Camp: 21 Oct to 11 Nov 2026, live online, ₹200 incl. GST, refundable.
   whole ad unchanged; the spare space is a wash from the ad's own paper edge. In 9:16 the button
   ends about 300 px above the bottom, clear of the Stories reply bar; Reels captions can still sit
   over it, so preview in Ads Manager before publishing.
-- The kit ships as two zips to stay under 10 MB: 1 of 2 holds the 4:5 ads, all 20 pages and the
-  documents; 2 of 2 holds the 1:1 and 9:16 ads.
+- The kit ships as one zip (about 16 MB): all three sizes, all 20 pages and the documents.
 
 ## Rules these files keep (do not edit them out)
 

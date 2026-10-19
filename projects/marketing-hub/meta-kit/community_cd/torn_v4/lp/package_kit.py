@@ -134,18 +134,14 @@ def main(copy_path):
     for old in os.listdir(os.path.join(ROOT, "kit")):
         if old.endswith(".zip"):
             os.remove(os.path.join(ROOT, "kit", old))
-    extra = ("ads_1x1", "ads_9x16")
-    for tag, keep in (("1of2_Feed4x5_Pages", lambda r: not r.startswith(extra)),
-                      ("2of2_Square1x1_Stories9x16", lambda r: r.startswith(extra) or r == "README_FOR_MEDIA_BUYER.md")):
-        z = os.path.join(ROOT, "kit", f"{NAME}_{tag}_SEND_THIS.zip")
-        with zipfile.ZipFile(z, "w", zipfile.ZIP_DEFLATED) as zf:
-            for d, _, fs in os.walk(KIT):
-                for fn in sorted(fs):
-                    p = os.path.join(d, fn)
-                    rel = os.path.relpath(p, KIT)
-                    if keep(rel):
-                        zf.write(p, os.path.join(NAME, rel))
-        print("zip", z, os.path.getsize(z) // 1024, "KB")
+    # One zip for the whole Meta kit (divyanshu, 19 Oct): all three sizes, pages and documents.
+    z = os.path.join(ROOT, "kit", f"{NAME}_Meta_SEND_THIS.zip")
+    with zipfile.ZipFile(z, "w", zipfile.ZIP_DEFLATED) as zf:
+        for d, _, fs in os.walk(KIT):
+            for fn in sorted(fs):
+                p = os.path.join(d, fn)
+                zf.write(p, os.path.join(NAME, os.path.relpath(p, KIT)))
+    print("zip", z, os.path.getsize(z) // 1024, "KB")
 
 
 if __name__ == "__main__":
