@@ -1,0 +1,41 @@
+<!doctype html><html><head><meta charset='utf-8'><style>*{box-sizing:border-box;margin:0;padding:0}
+body{width:1024px;height:1536px;overflow:hidden;font-family:'Inter Display','Inter',sans-serif}
+.card{position:relative;width:1024px;height:1536px;background:#0b1430}
+.photo{position:absolute;left:0;top:600px;width:1024px;height:800px;background-size:cover;background-position:center top}
+.top{position:absolute;left:0;top:0;width:1024px;height:640px;background:url(../source/top_cover.png);
+ -webkit-mask-image:linear-gradient(#000 0,#000 596px,transparent 640px);mask-image:linear-gradient(#000 0,#000 596px,transparent 640px)}
+.bot{position:absolute;left:0;top:1200px;width:1024px;height:336px;background:url(../source/bottom_chrome.png);-webkit-mask-image:linear-gradient(transparent 0,transparent 40px,#000 44px);mask-image:linear-gradient(transparent 0,transparent 40px,#000 44px)}
+.btn{position:absolute;left:96px;top:1243px;width:814px;height:150px;border-radius:42px;background:linear-gradient(180deg,#FF4A4A 0%,#E5141F 55%,#B30D16 100%);box-shadow:0 10px 26px rgba(0,0,0,.55),inset 0 3px 0 rgba(255,255,255,.35)}
+.ban{position:absolute;left:0;right:0;top:112px;display:flex;justify-content:center}
+.ban span{display:inline-block;background:#FFD21F;color:#0E0E12;font-weight:900;text-transform:uppercase;line-height:1;padding:14px 26px 12px;transform:rotate(-1.6deg);font-size:46px;letter-spacing:-.01em;max-width:780px;text-align:center}
+.hook{position:absolute;left:60px;right:60px;top:215px;height:238px;text-align:center;font-weight:900;text-transform:uppercase;line-height:.98;letter-spacing:-.025em;overflow:hidden}
+.l1{color:#fff;text-shadow:0 3px 0 #0a1230,0 0 14px rgba(0,0,0,.55)}
+.l2{color:#FF1F2E;margin-top:6px;-webkit-text-stroke:1.5px #fff;text-shadow:0 3px 0 #1a0a0a,0 0 14px rgba(0,0,0,.5)}
+.feats{position:absolute;left:150px;right:150px;top:470px;display:flex}
+.f{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;color:#fff;font-weight:800;font-size:19px;text-align:center;line-height:1.1;padding:0 6px;border-right:2px solid rgba(255,255,255,.5)}
+.f:last-child{border:0}
+.cta{position:absolute;left:96px;width:814px;top:1243px;height:150px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;font-weight:900;text-transform:uppercase;line-height:1;letter-spacing:-.015em}
+.cta .a{font-size:54px}.cta .b{font-size:50px;margin-top:6px}
+.usp{position:absolute;top:1432px;color:#fff;font-weight:800;font-size:22px;line-height:1.25}
+.usp small{display:block;font-weight:600;font-size:20px}
+</style></head><body><div class="card">
+<div class="photo" style="background-image:url(../photos/06.jpg)"></div>
+<div class="top"></div>
+<div class="bot"></div>
+<div class="btn"></div>
+<div class="ban"><span id="b">FOR PROPERTY AND CONVEYANCING LAWYERS</span></div>
+<div class="hook" id="hk"><div class="l1">You already work on titles and deeds.</div><div class="l2">Now become a solicitor of England and Wales.</div></div>
+<div class="feats"><div class="f"><svg viewBox="0 0 48 48" width="46" height="46"><circle cx="24" cy="24" r="17" fill="none" stroke="#FFD21F" stroke-width="4"/><ellipse cx="24" cy="24" rx="7" ry="17" fill="none" stroke="#FFD21F" stroke-width="3"/><path d="M7 24H41M10 15H38M10 33H38" stroke="#FFD21F" stroke-width="3"/></svg><span>Live 7 evenings</span></div><div class="f"><svg viewBox="0 0 48 48" width="46" height="46"><rect x="10" y="5" width="28" height="38" rx="4" fill="none" stroke="#FFD21F" stroke-width="4"/><path d="M16 17H32M16 25H32M16 33H26" stroke="#FFD21F" stroke-width="4" stroke-linecap="round"/></svg><span>Land law in SQE1</span></div><div class="f"><svg viewBox="0 0 48 48" width="46" height="46"><path d="M4 28L44 14L40 20L26 26L28 40L22 42L16 29L8 33Z" fill="#FFD21F"/></svg><span>Exams written in India</span></div><div class="f"><svg viewBox="0 0 48 48" width="46" height="46"><path d="M24 4L40 10V24C40 34 33 41 24 45C15 41 8 34 8 24V10Z" fill="none" stroke="#FFD21F" stroke-width="4"/><path d="M16 24L22 30L33 18" fill="none" stroke="#FFD21F" stroke-width="4" stroke-linecap="round"/></svg><span>Mock SQE1 and MCQs</span></div></div>
+<div class="cta"><div class="a">Join the SQE Community</div><div class="b">for ₹[PRICE] &#8594;</div></div>
+<div class="usp" style="left:178px">Format<small>Live online</small></div>
+<div class="usp" style="left:428px">Duration<small>7 days</small></div>
+<div class="usp" style="left:662px">USP<small>Refundable (incl. GST)</small></div>
+</div>
+<script>
+const hk=document.getElementById('hk'),l1=hk.querySelector('.l1'),l2=hk.querySelector('.l2');
+let s=74;function ap(){l1.style.fontSize=(s*.8)+'px';l2.style.fontSize=s+'px';}ap();
+while(hk.scrollHeight>hk.clientHeight+1&&s>34){s-=2;ap();}
+const b=document.getElementById('b');let t=46;while(b.getBoundingClientRect().width>790&&t>26){t-=2;b.style.fontSize=t+'px';}
+const bb=b.getBoundingClientRect().bottom+14;hk.style.top=bb+'px';hk.style.height=(458-bb)+'px';
+s=74;ap();while(hk.scrollHeight>hk.clientHeight+1&&s>30){s-=2;ap();}
+</script></body></html>
