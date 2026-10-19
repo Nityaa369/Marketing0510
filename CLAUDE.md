@@ -148,3 +148,7 @@ Also: dates belong on landing pages, not on ad creatives (13 Aug). The button st
 
 ## Community camps (divyanshu, 19 Oct 2026)
 - "i want you to understand what we teach in each community and we prepare ads accordingly." Every community ad and page is built from that community's own calendar (and script when supplied): the prize, the documents and the sessions named must appear in it. Curricula for CD 64-65, AI for Legal 27-28, CL 77-78 and ID 86-87 are in `docs/COMMUNITY_CURRICULA_Oct-Nov2026.md`.
+- **Scope (19 Oct):** "20 ADS EACH FOR CONTRACT DRAFTING AND LEGAL AI". Contract Drafting price confirmed Rs 200.
+- **Dates (19 Oct):** "WE CANNOT IN CREATIVE CAN GO AHEAD AND ADD IN LANDING PAGES". No dates on any community creative, BOFU retargeting included. Dates go on the landing page.
+- **Positioning (19 Oct):** never mention the paid course it leads to. "WE SELL THIS AS A NUTURE PROGRAM TO IMBIBE PRATICAL SKILLS AND OPPURTUNITY SHOWCASE FOR EARNING."
+- **Order (19 Oct):** "FIRST WE DECIDE THE CREATIVE PART". Landing pages come after: extract the instructions from past projects (LP rulebook, 21-step spine), customise per ICP and course.
