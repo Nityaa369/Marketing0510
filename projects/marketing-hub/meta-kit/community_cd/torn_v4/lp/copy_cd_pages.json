@@ -1,0 +1,1602 @@
+[
+ {
+  "id": "01",
+  "today": "Today, you study contract law for exams and wait for interview season.",
+  "after": "After 21 days, you can draft a co-founder agreement and explain every clause in it.",
+  "symptom_h2": "You know contract law well but have never drafted a contract",
+  "symptom": [
+   "Your final year is full of moot rounds, project submissions and placement forms. You can explain offer, acceptance and consideration in your sleep. Yet when an interviewer asks what you have drafted, the honest answer is a few assignments marked by a professor.",
+   "That is a normal place to stand. Colleges teach the law behind contracts, not the craft of writing one for a paying business. The good news is that the craft can be learnt in weeks. You can start before your final exams end and walk into interviews with real drafts in a folder."
+  ],
+  "outcome_h2": "Walk into your first interview with drafts already in hand",
+  "outcome": "Picture your first interview going differently. You open a folder holding a co-founder agreement, an NDA (non-disclosure agreement) and an employment agreement you drafted yourself, and you can say why each clause is there. Startups and growing businesses need people who can do exactly this, and the work tends to pay better as your skill deepens. You begin as a drafter of business contracts, not a fresher waiting to be trained.",
+  "alts_h2": "Three things final-year students usually try first",
+  "alts": [
+   {
+    "t": "Watching more lectures on contract law",
+    "p": "You learn the theory again, neatly packaged. But watching someone explain a clause is not the same as writing one, so your folder stays empty when interview season arrives."
+   },
+   {
+    "t": "Hoping an internship will teach drafting",
+    "p": "Some internships are excellent. Many keep you on research and file indexing for weeks, and you leave with a letter of thanks rather than a contract you wrote yourself."
+   },
+   {
+    "t": "Downloading sample contracts from the internet",
+    "p": "Samples show what a finished contract looks like. They do not tell you why a clause is there, or what to ask a founder before you change a single word of it."
+   }
+  ],
+  "reframe_h2": "The gap is practice, not talent or marks",
+  "reframe": "You already have the hardest part: years of reading contract law closely. What is missing is practice on real business documents and a way to show that practice. Marks prove that you can study. Interviewers and founders look for proof that you can draft. Daily drafting for 21 days changes what you can show them, not who you are.",
+  "role_h2": "What final-year law students already bring to drafting",
+  "role_intro": "Your years in law school are not wasted time. You have trained your eye on wording, read judgments that turn on a single phrase and written long answers under pressure. Those habits are the base of good drafting. Here is how each one carries over into business contracts.",
+  "role_points": [
+   {
+    "t": "You read bare acts closely",
+    "p": "Drafting is careful reading in reverse. The habit of spotting what a section leaves out helps you notice what a clause forgets to say."
+   },
+   {
+    "t": "You have studied contract law for exams",
+    "p": "Offer, consideration, breach and remedies are the bones of every agreement. Now you will see where each one sits inside a real document a business signs."
+   },
+   {
+    "t": "You write long answers against a deadline",
+    "p": "A client needs a clean first draft by a fixed date. Writing structured answers in exam halls has already trained you for that pace."
+   }
+  ],
+  "artifact_h2": "Your showcase draft: a co-founder agreement clause",
+  "artifact_intro": "Two friends start a company and split the shares equally. What happens if one of them leaves in the first year? You learn to answer that in writing, in a clause both founders can read, understand and sign.",
+  "clause_title": "Clause 6. Vesting of founder shares",
+  "clause": "6.1 The Founder Shares held by each Founder shall vest over forty-eight months, with one quarter vesting on the first anniversary of the Effective Date. 6.2 If a Founder stops working full time for the Company before that anniversary, the Company may buy back all unvested Founder Shares from that Founder at face value.",
+  "margin_note": "An interviewer may ask why the one-year cliff exists. If you can answer in plain words, you stand apart from your batch.",
+  "plan_h2": "What you do in the four weeks after the camp",
+  "plan": [
+   "Week 1: redraft your three strongest documents from the camp and keep them in one clean folder for interviews.",
+   "Week 2: write a short LinkedIn post explaining one clause of the co-founder agreement in plain words.",
+   "Week 3: use the client questions from the live session to interview a friend about their startup idea, as practice.",
+   "Week 4: publish your first article on a contract topic and share it with your placement cell and seniors."
+  ],
+  "room": [
+   "want to show drafted contracts, not only marks, at your first interview",
+   "can give one hour a day alongside final-year classes and exams",
+   "enjoy the wording of a clause more than the drama of a courtroom",
+   "would like to work with startups and businesses after you graduate"
+  ],
+  "faq": [
+   {
+    "q": "I still have final exams. Can I keep up?",
+    "a": "Each day is one short reading and a quiz on WhatsApp, which fits between classes. The nine live sessions are held in the evening. If an exam day clashes, you can finish that reading and quiz the next morning."
+   },
+   {
+    "q": "Will drafting help me in law firm interviews too?",
+    "a": "Firms and in-house teams both ask what you have drafted. A folder of your own agreements, and the ability to explain each clause, gives you something real to talk about. It does not replace preparation, but it gives you better answers."
+   },
+   {
+    "q": "I have never written a full contract. Is that a problem?",
+    "a": "No. The first day covers the parts of a contract, so you start from the structure. Each later document builds on it, one a day, with a quiz to check that you understood the clause."
+   }
+  ],
+  "buyer_line": "I am spending ₹200 and 21 days learning to draft real contracts before I graduate.",
+  "close_h2": "Final-year law students already know contract law. These 21 days add drafting you can show.",
+  "close_lede": "Join while you are still in college. You leave the camp with your own drafts, the questions to ask a founder before drafting, and a plan for the four weeks after it."
+ },
+ {
+  "id": "02",
+  "today": "Today, you hold a law degree that you are not using yet.",
+  "after": "After 21 days, you can draft the papers founders sign when they raise money.",
+  "symptom_h2": "You finished the LLB, but the degree is sitting in a drawer",
+  "symptom": [
+   "Maybe you took a year for exams, a family need or simply to think. Maybe court practice did not feel right. Either way, the degree is done, and relatives keep asking the same question: what are you doing with it now?",
+   "Your degree has not expired. Contract drafting is legal work that businesses pay for, done at a desk, and it draws on exactly what you studied. It is a practical way back into law: you start with documents, one at a time, and build a working skill from there."
+  ],
+  "outcome_h2": "Startups hire people who can draft, not people who hold degrees",
+  "outcome": "A founder raising seed money does not ask which college you went to. They ask whether you can draft the SAFE (simple agreement for future equity), the term sheet and the ESOP (employee stock option plan) their investors expect. Once you can, your degree becomes a working skill. This is a career that grows with the companies you serve, and earnings can rise as your work deepens.",
+  "alts_h2": "Three things graduates without a practice often try",
+  "alts": [
+   {
+    "t": "Preparing for judiciary or other exams again",
+    "p": "Exams can be a fine path, but they can take years. Meanwhile your drafting skill stays exactly where it was on graduation day, and you still have no work to show."
+   },
+   {
+    "t": "Applying to every legal job listing",
+    "p": "Most listings ask for experience you have not had a chance to gain. Without drafted work to show, your application looks like every other one in the pile."
+   },
+   {
+    "t": "Taking unrelated work while you decide",
+    "p": "A job outside law pays the bills and teaches useful habits. But each month away makes the return feel harder, even though your legal training is still there."
+   }
+  ],
+  "reframe_h2": "Your degree is enough; what is missing is a drafting portfolio",
+  "reframe": "Nothing is wrong with your effort or your ability. Startups simply buy evidence. A founder wants to see a SAFE you drafted and hear you explain the valuation cap in plain words. That is a positioning problem, and practice solves it. Daily drafting gives you the documents, and the live sessions show you how founders are found and pitched.",
+  "role_h2": "What law graduates bring before they ever practise",
+  "role_intro": "Not practising does not mean starting from zero. You spent years learning how obligations are created, enforced and broken. Founders need exactly that understanding, written down clearly. Three things you already carry make the move shorter than it looks from where you sit today.",
+  "role_points": [
+   {
+    "t": "You know the basics of company law",
+    "p": "Shares, directors and shareholder rights were in your syllabus. Founder documents such as co-founder agreements and ESOPs are built on those same ideas."
+   },
+   {
+    "t": "You can research a legal question",
+    "p": "When a founder asks whether a clause will hold up, you know how to check. That habit turns a plain draft into advice they can rely on."
+   },
+   {
+    "t": "You have hours you can use now",
+    "p": "With no court calendar fixed for you, you can give each daily lesson real attention and finish all 21 days with steady focus."
+   }
+  ],
+  "artifact_h2": "Your first investor document: a SAFE agreement clause",
+  "artifact_intro": "A startup takes money today and promises the investor shares later. The SAFE records when that happens and at what price. You learn to draft the clause that decides it, and to explain it to a founder in two minutes.",
+  "clause_title": "Clause 3. Conversion on equity financing",
+  "clause": "3.1 If the Company issues preferred shares in an Equity Financing before this Agreement ends, the Purchase Amount shall convert into preferred shares. 3.2 The number of shares issued shall equal the Purchase Amount divided by the lower of (a) the Valuation Cap Price and (b) the price per share paid by new investors, less the Discount Rate.",
+  "margin_note": "Founders often skim the valuation cap. Practise explaining it to a friend in two plain sentences before you show anyone this draft.",
+  "plan_h2": "Your first four weeks after the camp",
+  "plan": [
+   "Week 1: pick your best founder documents, the SAFE, term sheet and ESOP, and polish them into a sample set.",
+   "Week 2: build a short list of early startups from the Y Combinator lists shown in the live session.",
+   "Week 3: send a few polite, specific notes to founders on that list, each offering a review of one document.",
+   "Week 4: post an article explaining SAFEs in plain words, and change your LinkedIn headline to say you draft contracts."
+  ],
+  "room": [
+   "hold an LLB and want to use it for paid legal work",
+   "prefer writing documents at a desk to waiting on court dates",
+   "are curious about how startups raise money and give away shares",
+   "want a clear, practical first step back into law"
+  ],
+  "faq": [
+   {
+    "q": "I graduated a while ago. Have I forgotten too much?",
+    "a": "The camp starts with the parts of a contract and builds up one document a day. The daily quiz shows you what you remember and what to reread. Legal training usually comes back faster once you start using it."
+   },
+   {
+    "q": "I know nothing about startup funding. Will I follow the SAFE and term sheet days?",
+    "a": "Yes. Each document comes with a short reading that explains the business reason first, then the clauses. You will know what a founder is trying to achieve before you draft a single word."
+   },
+   {
+    "q": "What if I decide drafting is not for me?",
+    "a": "The ₹200 fee is refundable, as the refund section on this page explains. Even if you stop early, you leave with a clearer view of what business clients need from a lawyer."
+   }
+  ],
+  "buyer_line": "I am putting my law degree to work: ₹200 for 21 days of drafting the contracts startups sign.",
+  "close_h2": "Law graduates already understand the law. These 21 days add the documents founders need.",
+  "close_lede": "Your degree is ready. Spend three weeks drafting the papers startups use when they raise money and hire people, and learn where founders can be found and how to pitch them."
+ },
+ {
+  "id": "03",
+  "today": "Today, you have your enrolment and wait for your first real brief.",
+  "after": "After 21 days, you can draft the vendor and service contracts businesses sign.",
+  "symptom_h2": "You are enrolled, but your own clients have not arrived yet",
+  "symptom": [
+   "Your enrolment is done and the coat is ready. Now comes the slow part: long days at court, small matters passed on by seniors, and a lot of waiting for your item to be called.",
+   "Waiting is not a sign that you chose wrong. Court practice takes years to build. Contract drafting can run alongside it from your first month, because businesses sign agreements all year and they look for advocates outside the courtroom too. A desk, a laptop and the right practice are enough to begin."
+  ],
+  "outcome_h2": "A first practice built on business clients, not court waiting",
+  "outcome": "Picture a first practice where your clients are small businesses: a bakery chain, a software startup, a logistics firm. You draft their NDAs (non-disclosure agreements), employment agreements and vendor contracts. That is a better start to a career: the same law you trained in, paid for by businesses that need it, with income that can grow as your practice grows.",
+  "alts_h2": "Three ways new advocates usually try to get started",
+  "alts": [
+   {
+    "t": "Waiting for a senior to pass on work",
+    "p": "Seniors do share matters, but usually the small ones, and on their schedule. You learn a lot, yet your own practice stays tied to someone else's calendar."
+   },
+   {
+    "t": "Printing visiting cards and telling relatives",
+    "p": "Word of mouth helps, but relatives mostly bring property and family disputes. Businesses that need contracts rarely hear about a new advocate this way."
+   },
+   {
+    "t": "Taking any matter that walks in",
+    "p": "Saying yes to everything keeps you busy. It also spreads you thin, so you never become known for one kind of work that businesses go looking for."
+   }
+  ],
+  "reframe_h2": "New advocates need a clear specialty, not more hours in court",
+  "reframe": "You are not short of effort. You are short of a clear answer to one question: what do you do? An advocate who says 'I draft contracts for startups and small businesses' is easier to find and easier to hire. The 21 days give you that answer, the drafts to back it and the pitch to share it.",
+  "role_h2": "What newly enrolled advocates already have going for them",
+  "role_intro": "Being new is useful in contract work. Your training is fresh, you can sign as an advocate and your calendar still has room. Here is what you already hold, and how each piece helps you draft for business clients from the first week.",
+  "role_points": [
+   {
+    "t": "Fresh knowledge of the Contract Act",
+    "p": "Your exam preparation is recent. Clauses on breach, indemnity and termination will feel familiar, so you can spend your energy on wording instead of theory."
+   },
+   {
+    "t": "Standing as an enrolled advocate",
+    "p": "Business owners feel more at ease when an enrolled advocate drafts their agreement. Your enrolment adds weight to every draft you send out."
+   },
+   {
+    "t": "Hours not yet booked by court work",
+    "p": "Early in practice, some days are light. Those hours can go into the daily lesson and into listing the businesses you would like to approach."
+   }
+  ],
+  "artifact_h2": "Your first business document: a vendor service agreement",
+  "artifact_intro": "Most small businesses hire vendors: a cleaning agency, a software developer, a delivery partner. You learn to draft the agreement that says what the vendor must deliver, and what the business can do when the vendor falls short.",
+  "clause_title": "Clause 5. Service levels and remedies",
+  "clause": "5.1 The Vendor shall perform the Services to the standards set out in Schedule B. 5.2 If the Vendor misses a Service Level in any calendar month, the Client may deduct the service credit shown in Schedule B from the next invoice. 5.3 Three such misses within six months entitle the Client to end this Agreement on fifteen days' written notice.",
+  "margin_note": "Shop owners understand a deduction from an invoice. Write it so they can follow it at a glance, and they will trust the whole contract.",
+  "plan_h2": "Four weeks after the camp, step by step",
+  "plan": [
+   "Week 1: write a one-line description of your practice that names contract drafting for small businesses and startups.",
+   "Week 2: list local businesses and startups you could approach, using the methods from the pitching session.",
+   "Week 3: redraft the vendor agreement and NDA from the camp into samples you are proud to show.",
+   "Week 4: publish your first article and rebuild your LinkedIn profile around contract work for businesses."
+  ],
+  "room": [
+   "are newly enrolled and want work that does not depend on hearing dates",
+   "like the idea of businesses as your first regular clients",
+   "can spare an hour each evening around your court days",
+   "want a specialty you can name in one sentence"
+  ],
+  "faq": [
+   {
+    "q": "Can I keep going to court during the 21 days?",
+    "a": "Yes. The daily reading and quiz arrive on WhatsApp, and the nine live sessions are held in the evening, after court hours. You do not have to step away from your chamber to take part."
+   },
+   {
+    "q": "How will I find businesses that need contracts?",
+    "a": "Three live sessions cover this: listing your first gig on an online services marketplace, pitching startups directly using Y Combinator lists and Apollo, and building a LinkedIn profile that makes you known for contracts. You learn the methods; the outreach is yours."
+   },
+   {
+    "q": "I have only drafted pleadings. Is contract drafting very different?",
+    "a": "The skills overlap more than you might expect. Pleadings taught you precision and structure. Contracts ask for the same care, but you plan for what might go wrong instead of arguing about what already did."
+   }
+  ],
+  "buyer_line": "I am spending ₹200 on 21 days to build my first practice around contracts for businesses.",
+  "close_h2": "Newly enrolled advocates already have their enrolment. These 21 days add a practice area businesses need.",
+  "close_lede": "Start your practice with work that businesses need all year. Draft one document a day, learn how to pitch startups and leave with a plan for your first month after the camp."
+ },
+ {
+  "id": "04",
+  "today": "Today, you spend long days in court corridors waiting for your matter.",
+  "after": "After 21 days, you can draft commercial leases and SaaS agreements at your own desk.",
+  "symptom_h2": "Your days go to corridors, cause lists and waiting for your item",
+  "symptom": [
+   "You reach court early, check the cause list and wait. Some days your matter is called at noon; some days it is adjourned. Evenings go to your senior's applications, and Sundays to research.",
+   "This training is valuable. You are learning how disputes really unfold. The question is whether you also want work that runs on your own hours, from a desk, for businesses that need contracts before any dispute begins. That work can sit alongside your chamber, not replace it, and it uses the reasoning you sharpen in court every day."
+  ],
+  "outcome_h2": "Desk work on your own hours, alongside the corridor",
+  "outcome": "Imagine finishing court by four and spending the evening on a commercial lease for a restaurant owner, or a SaaS agreement (software sold as a service) for a startup. The work is quiet, planned and done on your schedule. Over time, contract drafting can become a second line of income and then a practice of its own, built on the same legal reasoning you use in court.",
+  "alts_h2": "Three things junior litigators usually try first",
+  "alts": [
+   {
+    "t": "Asking the senior for more matters",
+    "p": "More matters means more hours in the same corridor. You gain experience, but your time and earnings stay set by the chamber's calendar rather than by your own."
+   },
+   {
+    "t": "Ghost drafting petitions for other chambers",
+    "p": "It fills your evenings and pays a little. But it is the same courtroom work at the same rate, with someone else's name on the filing."
+   },
+   {
+    "t": "Planning to move to a law firm someday",
+    "p": "Firm jobs can be good, but moving means leaving the practice you have started to build. So the plan keeps getting postponed because the gap feels too wide."
+   }
+  ],
+  "reframe_h2": "Contract work needs a new skill, not more hours",
+  "reframe": "You already work hard. Adding more court hours will not change where your income comes from. A second skill aimed at a different buyer will: businesses signing leases, vendor contracts and software agreements. Litigators who draft bring a useful instinct, because they have watched weak contracts fall apart. What you need is practice on those documents, not a new temperament.",
+  "role_h2": "What junior advocates in litigation already bring to contracts",
+  "role_intro": "Court work trains you in exactly what a careful drafter needs. You have watched agreements argued over line by line, and you have learnt to read a document the way the other side will. That experience is an asset. These three habits carry straight to the desk.",
+  "role_points": [
+   {
+    "t": "You have seen contracts fail in court",
+    "p": "You know which vague words lead to disputes. When you draft, you can close those gaps before a client ever needs someone to argue them."
+   },
+   {
+    "t": "You draft under tight deadlines",
+    "p": "Filing an application overnight has taught you speed with accuracy. A business that needs its lease ready by Friday will value that pace."
+   },
+   {
+    "t": "You can calm anxious clients",
+    "p": "Litigants come to you worried. A business owner signing a large lease feels much the same, and your clear explanation of each clause is part of the service."
+   }
+  ],
+  "artifact_h2": "Your desk document: a commercial lease clause",
+  "artifact_intro": "A restaurant signs a nine year lease for its first outlet. The rent rises every three years, and neither side wants to walk away early. You learn to draft the escalation and lock in clauses so both sides know the numbers from the first day.",
+  "clause_title": "Clause 4. Rent escalation and lock in",
+  "clause": "4.1 The monthly Rent shall increase by fifteen percent at the end of every three years from the Rent Commencement Date. 4.2 Neither party may terminate this Lease during the first thirty-six months (the Lock In Period), except for a material breach not cured within thirty days of written notice.",
+  "margin_note": "You have seen escalation fights reach court. Writing the percentage and the date plainly is how you keep this one out of it.",
+  "plan_h2": "Four weeks after the camp, around your court days",
+  "plan": [
+   "Week 1: set two fixed evenings a week for contract work and protect them the way you protect a hearing date.",
+   "Week 2: redraft the commercial lease and the vendor agreement from the camp into clean samples you can show.",
+   "Week 3: list a drafting service on an online services marketplace, following the steps from the live session.",
+   "Week 4: update your LinkedIn profile so it names contract drafting next to your litigation work."
+  ],
+  "room": [
+   "practise in a litigation chamber and want some work on your own hours",
+   "have seen badly drafted agreements argued in court and want to write better ones",
+   "can give one evening hour a day after court rises",
+   "want to keep your chamber and add a second line of work"
+  ],
+  "faq": [
+   {
+    "q": "Will this clash with my court timings?",
+    "a": "The daily reading and quiz come on WhatsApp, so you can do them between matters or on the train home. The nine live sessions are held in the evening, after court rises for the day."
+   },
+   {
+    "q": "Will my senior mind if I take contract work?",
+    "a": "That depends on your chamber, and you know it best. One sensible route is to practise drafting on your own time first, then speak to your senior once the work takes a clear shape."
+   },
+   {
+    "q": "I have only drafted pleadings. Can I write a commercial lease?",
+    "a": "Yes. Pleadings already taught you structure and precise wording. The camp starts with the parts of a contract, so you learn how an agreement is built before you draft the lease, the SaaS agreement and the vendor contract."
+   }
+  ],
+  "buyer_line": "I am spending ₹200 and 21 evenings learning contract work I can do from my desk, alongside court.",
+  "close_h2": "Junior advocates in litigation already know how contracts fail. These 21 days teach you to draft them well.",
+  "close_lede": "Keep your chamber and your court days. Add a desk skill that businesses pay for, practised one document a day, with live evening sessions on how to reach the businesses that need it."
+ },
+ {
+  "id": "05",
+  "today": "Today, you prepare files and first drafts for a lawyer to sign.",
+  "after": "After 21 days, you can find an NDA's red flags and draft the fix yourself.",
+  "symptom_h2": "You do much of the work, but another name goes on the draft",
+  "symptom": [
+   "You index the files, pull the precedents and often type the first version of the agreement. The lawyer reads it, changes a few lines and signs. The client thanks the lawyer, and the next file lands on your desk.",
+   "You hold an LLB, so you are a lawyer by training. The distance between you and the person signing is shorter than it looks: a few documents drafted from scratch, the habit of checking every clause for risk, and the confidence to put your own name on the draft."
+  ],
+  "outcome_h2": "From preparing the files to signing as the drafter",
+  "outcome": "Picture a business sending you their NDA (non-disclosure agreement) and asking what is wrong with it. You run it through an AI tool, spot the missing clauses, then write the fix in your own words and sign as the drafter. That is a better career built on the craft you already practise, now paid for directly by businesses, with earnings that can rise as your skill does.",
+  "alts_h2": "Three paths paralegals with an LLB often try first",
+  "alts": [
+   {
+    "t": "Waiting for the firm to promote you",
+    "p": "Promotions in support roles are slow and often capped. You can do excellent work for years and still be the person who prepares, not the person who drafts."
+   },
+   {
+    "t": "Doing the same work, only faster",
+    "p": "Speed earns praise, but it keeps you in the same chair. Typing a lawyer's changes quickly is not the same as deciding what those changes should be."
+   },
+   {
+    "t": "Learning AI tools on your own",
+    "p": "AI can find gaps in a contract in seconds. Without knowing why a clause matters, though, you cannot tell which flag is serious or how to fix it well."
+   }
+  ],
+  "reframe_h2": "Your LLB already makes you a lawyer; drafting makes it visible",
+  "reframe": "You do not lack ability. You have spent years close to real agreements. What is missing is the step from preparing to deciding: choosing the words, explaining the risk and owning the draft. That step is practice and positioning. The daily documents give you the practice, and the live sessions on LinkedIn and pitching give you the positioning.",
+  "role_h2": "What paralegals with an LLB already bring to drafting",
+  "role_intro": "You have been near contracts every working day. You know how a matter moves from first instruction to final signature. That inside view is an asset most beginners take years to build, and three parts of it carry straight into drafting under your own name.",
+  "role_points": [
+   {
+    "t": "You know how real deal files are organised",
+    "p": "You have seen what a complete file holds. When you draft, you will already know which schedules, annexures and definitions a business will ask for."
+   },
+   {
+    "t": "You have read many lawyers' redlines",
+    "p": "Every change a lawyer made to your first draft was a lesson. You already know their usual fixes; now you will learn the reasons behind them."
+   },
+   {
+    "t": "Your LLB lets you draft as the lawyer",
+    "p": "Your degree is what lets you draft as the lawyer rather than the assistant. The camp adds the drafting practice that the degree was always meant to lead to."
+   }
+  ],
+  "artifact_h2": "Your first fix: an NDA with its red flags found by AI",
+  "artifact_intro": "In the live sessions you use AI to find missing clauses and red flags in real agreements. On NDA day you apply that to a one sided NDA, then write the clause it lacks. Here is one an AI review often flags as missing.",
+  "clause_title": "Clause 8. Return and destruction of information",
+  "clause": "8.1 Within ten days of a written request, or on termination of this Agreement, the Receiving Party shall return or destroy all Confidential Information and every copy of it. 8.2 An authorised officer of the Receiving Party shall confirm in writing that this has been done. 8.3 This Clause 8 survives termination of this Agreement.",
+  "margin_note": "AI flagged this as missing. Knowing why it matters, and writing it cleanly, is the part a business pays a drafter for.",
+  "plan_h2": "Your four weeks after the camp",
+  "plan": [
+   "Week 1: redraft three camp documents, including the NDA, entirely in your own words as your sample work.",
+   "Week 2: practise the AI red flag review on two public sample contracts and write a fix for each flag.",
+   "Week 3: rewrite your LinkedIn profile so it says you draft contracts, using the session on being known for contracts.",
+   "Week 4: list a contract review service on an online services marketplace, following the steps from the live session."
+  ],
+  "room": [
+   "hold an LLB and want your own name on the drafts you write",
+   "already handle contracts at work and want to decide the wording yourself",
+   "are curious how AI spots gaps in a contract, and want to fix them yourself",
+   "can give an hour a day after office"
+  ],
+  "faq": [
+   {
+    "q": "I work full time at a firm. Can I manage this?",
+    "a": "Yes. The daily lesson is a short reading and a quiz on WhatsApp, and the nine live sessions are in the evening. Most of it fits into your commute and one hour after office."
+   },
+   {
+    "q": "Do I need to know AI tools already?",
+    "a": "No. The live sessions show you, step by step, how to use AI to find missing clauses and red flags. The more important skill is judging which flags matter, and the daily documents build that."
+   },
+   {
+    "q": "Can I take outside drafting work while I am employed?",
+    "a": "Check your employment contract and your firm's policy first, since some firms set limits on outside work. You can use the 21 days purely to build the skill and a sample set, and decide later how to use it."
+   }
+  ],
+  "buyer_line": "I am spending ₹200 on 21 days to draft contracts myself, as the lawyer, not just prepare them.",
+  "close_h2": "Paralegals with an LLB already know how contracts are built. These 21 days teach you to draft them yourself.",
+  "close_lede": "You are closer to drafting than it feels. Learn one document a day, use AI to check your work and leave with drafts that carry your own name."
+ },
+ {
+  "id": "06",
+  "today": "Today, you meet most clients after something has already gone wrong.",
+  "after": "After 21 days, you can draft the contracts founders sign before they start working together.",
+  "symptom_h2": "Your clients usually call you once the deal has gone bad",
+  "symptom": [
+   "You run your own practice. You know the district court, the legal notices, the recovery suits and the late night calls from a worried client. Most of that work begins with a contract someone signed without a lawyer reading it first.",
+   "That history is worth a lot. You have seen exactly where agreements break: vague payment terms, no exit clause, ownership of work never written down. Startups and growing businesses want a lawyer who has watched those breaks happen and can draft around them before anyone signs."
+  ],
+  "outcome_h2": "Become the lawyer founders call before they sign",
+  "outcome": "Drafting work starts earlier in a business relationship, and it repeats. A founder who trusts your co-founder agreement comes back for the vendor contract, the employment agreement and the SaaS (software sold as a service) agreement. You keep your practice and add a second kind of client, one who pays for prevention rather than repair. Over time, the drafting side can become the larger and steadier part of your income.",
+  "alts_h2": "Three things small practice lawyers try first",
+  "alts": [
+   {
+    "t": "Taking more matters of the same kind",
+    "p": "More recovery suits and notices fill the diary, but the clients still arrive after the damage. The work stays reactive, and each fee depends on how long the dispute runs."
+   },
+   {
+    "t": "Downloading contract formats from the internet",
+    "p": "A format gives you headings, not judgement. You cannot explain to a founder why each clause is there, so you hesitate to offer the draft as your own work."
+   },
+   {
+    "t": "Waiting for referrals from existing clients",
+    "p": "Your existing clients send you people with disputes, because that is what they know you for. Referrals repeat your current practice; they rarely bring a startup founder to your door."
+   }
+  ],
+  "reframe_h2": "Your skill is fine; founders simply do not see you yet",
+  "reframe": "You already read contracts closely, because you read them for a living when they fail. The gap is not talent or hard work. Founders do not know you draft, and you have not yet practised the startup documents they ask for. Positioning and practice close that gap, and both can be built in 21 days.",
+  "role_h2": "What a small practice already gives you as a drafter",
+  "role_intro": "Running your own practice means you already handle clients, fees and deadlines on your own. Most new drafters have to learn that part from scratch. You only need to add the documents startups use and a clear way to show founders that you draft them.",
+  "role_points": [
+   {
+    "t": "You have seen contracts fail in court",
+    "p": "You know which missing words start a dispute. That makes your drafts sharper, because you write each clause to stop the argument you have already watched happen."
+   },
+   {
+    "t": "You already talk to clients directly",
+    "p": "There is no partner between you and the client. You can ask a founder the right questions before drafting, which session 4 practises on a co-founder agreement."
+   },
+   {
+    "t": "You set your own fees and hours",
+    "p": "You decide what to charge and when to work. Drafting fits around hearings, and a fee for each document is a model you can set up yourself."
+   }
+  ],
+  "artifact_h2": "Draft an IP licence clause a founder can rely on",
+  "artifact_intro": "Startups license software, designs and content all the time, often on a handshake. In the community you draft the IP (intellectual property) licensing clause, and learn the questions that decide its scope, term and payment.",
+  "clause_title": "Clause 9. Licence of intellectual property",
+  "clause": "9.1 The Licensor grants the Licensee a non-exclusive, non-transferable licence to use the Licensed Software in India for the Term, solely for the Licensee's internal business. 9.2 The Licensee shall pay the royalty set out in Schedule 2 within 15 days of each invoice. 9.3 All rights not expressly granted remain with the Licensor.",
+  "margin_note": "You have argued over vague licences in court. Here, scope, territory and term are written down before anyone signs, so that argument never starts.",
+  "plan_h2": "What the four weeks after the community can look like",
+  "plan": [
+   "Week 1: Turn your best community draft into a clean sample you can show a founder on your phone.",
+   "Week 2: Update your LinkedIn profile so it says you draft startup contracts, as practised in session 8.",
+   "Week 3: Use the startup lists from session 6 to write to a handful of founders near you.",
+   "Week 4: Publish a short article on one clause founders often skip, using the method from session 9."
+  ],
+  "room": [
+   "run your own practice and want clients who call before the deal, not after.",
+   "have drafted notices and replies but want to draft the original agreement.",
+   "want a second line of work that sits alongside your hearings.",
+   "are ready to speak to startup founders as their contract lawyer."
+  ],
+  "faq": [
+   {
+    "q": "I already have a busy court practice. Will I find the time?",
+    "a": "The daily reading is short and comes on WhatsApp, with a quiz you can finish between hearings. The 9 live online sessions are in the evening, after court hours, so your practice does not need to pause."
+   },
+   {
+    "q": "My clients are local traders, not startups. Does that matter?",
+    "a": "No. Your local clients also sign leases, vendor contracts and employment agreements, and the community covers those. Sessions 6 and 8 show how to reach startup founders directly, so you can add them alongside the clients you have."
+   },
+   {
+    "q": "I have never drafted for a startup. Where do I begin?",
+    "a": "You begin with the parts of a contract on day one, then move one document at a time. By the time you reach the SAFE (simple agreement for future equity) and the term sheet, you already know how each clause is built."
+   }
+  ],
+  "buyer_line": "I am adding startup contract drafting to my practice. It is ₹200 for 21 days, mostly in the evenings.",
+  "close_h2": "Small practice lawyers already know how deals fail. These 21 days teach them to draft deals that hold.",
+  "close_lede": "Join the community, draft one startup document a day, and practise pitching it to founders. You keep your practice and add clients who come to you before they sign."
+ },
+ {
+  "id": "07",
+  "today": "Today, you practise in your city, and most of your clients live nearby.",
+  "after": "After 21 days, you can draft a privacy policy a UK small business can publish.",
+  "symptom_h2": "Good legal work in a smaller city often stays local",
+  "symptom": [
+   "You practise in a city where you know the courts, the clerks and many of your clients by name. The work is steady, and your reputation is real. Yet the matters are mostly local, and so are the fees.",
+   "Contract drafting does not need a courtroom. A startup in Bengaluru or a shop owner in Leeds needs a clear document, and you can send it from your own desk. Your city stays your home, while your client list grows past its borders."
+  ],
+  "outcome_h2": "Draft for clients in Bengaluru and the UK from home",
+  "outcome": "Drafting lets you serve businesses that pay for documents by the piece, wherever they are. A Bengaluru startup needs terms of use and an employment agreement. A UK small business needs a privacy policy written to the GDPR (the EU and UK data protection law). You draft both from your city, and your income can grow with the kind of client, not the size of your town.",
+  "alts_h2": "Three things lawyers in smaller cities often try first",
+  "alts": [
+   {
+    "t": "Moving to a metro for a firm job",
+    "p": "A metro firm brings bigger matters, but also high rent, a long commute and a junior desk. Many lawyers cannot leave family or an established practice for that trade."
+   },
+   {
+    "t": "Waiting for big local clients",
+    "p": "A few larger businesses exist in every city, but they already have their lawyers. Waiting for them to switch to you leaves your practice exactly where it was."
+   },
+   {
+    "t": "Lowering fees to win more local matters",
+    "p": "Cutting fees fills the diary with the same kind of work at a lower rate. It adds hours to your week without changing who your clients are."
+   }
+  ],
+  "reframe_h2": "Distance is not the gap; being visible to distant clients is",
+  "reframe": "A founder in Bengaluru cannot tell whether a lawyer works in Indore or Indiranagar, and does not need to. What founders look for is a sample draft, a clear profile and a direct message. Those come from positioning and practice. Your city was never the obstacle; nobody outside it had seen your drafting yet.",
+  "role_h2": "What practising in a smaller city already gives you",
+  "role_intro": "Lawyers in smaller cities often handle a wider spread of matters than metro juniors do. You have met the client, drafted the reply, filed the papers and followed up yourself. That range carries straight into drafting for businesses far away.",
+  "role_points": [
+   {
+    "t": "You handle every kind of matter",
+    "p": "Property, family, recovery and small business disputes all pass your desk. Each one taught you how agreements are read, and that wide view helps when you draft from a blank page."
+   },
+   {
+    "t": "You earn trust in person",
+    "p": "In a smaller city, clients judge you face to face. The same plain, patient manner works well on a video call with a founder who wants a simple explanation."
+   },
+   {
+    "t": "Your cost of living is lower",
+    "p": "A lower monthly cost means you can price drafting fairly for small businesses and still keep it worthwhile. That makes the first few client conversations easier to start."
+   }
+  ],
+  "artifact_h2": "Draft a GDPR privacy policy for a UK small business",
+  "artifact_intro": "Session 5 is about reaching UK small businesses with a GDPR-compliant privacy policy. You learn what data a small shop or agency collects, how a policy should explain it to customers, and how to offer the finished draft.",
+  "clause_title": "Section 4. How we use your personal data",
+  "clause": "We use your name, email address and order details only to process your orders, answer your questions and send updates you have asked for. Our lawful basis is the performance of our contract with you. We keep this data for six years after your last order, then delete it securely.",
+  "margin_note": "A bakery in Manchester needs this section as much as a Bengaluru app does. You can write it well from your own city.",
+  "plan_h2": "Four weeks after the community, step by step",
+  "plan": [
+   "Week 1: Finish one UK privacy policy sample and one startup terms of use sample, both on your own letterhead.",
+   "Week 2: Set up a LinkedIn profile that shows you draft for startups and UK businesses, using session 8.",
+   "Week 3: Write to a short list of UK small businesses using the outreach method from session 5.",
+   "Week 4: Contact Bengaluru founders from the startup lists covered in session 6, with your sample attached."
+  ],
+  "room": [
+   "practise outside the metros and want clients from beyond your own city.",
+   "want work that reaches Bengaluru and the UK without moving house.",
+   "are comfortable writing clear English for a business reader.",
+   "would rather add a desk practice than leave your local one."
+  ],
+  "faq": [
+   {
+    "q": "Will a Bengaluru or UK client trust a lawyer from a smaller city?",
+    "a": "Clients judge a clear sample and a clear profile. Sessions 8 and 9 cover a LinkedIn profile and a first published article, so founders can see your drafting before they ever ask where you live."
+   },
+   {
+    "q": "My days are unpredictable. Can I keep up with the schedule?",
+    "a": "The daily reading and quiz arrive on WhatsApp, so you can open them on your phone at any hour. Only the 9 live online sessions are fixed, and they are held in the evening."
+   },
+   {
+    "q": "I have never worked with UK law. Is that a problem?",
+    "a": "The community teaches the GDPR privacy policy from the basics, including what data a small business collects and how to explain it. You also practise finding gaps with AI tools, so you can check a draft before sending it."
+   }
+  ],
+  "buyer_line": "I am learning to draft contracts for startups and UK businesses from home. It costs ₹200 for 21 days.",
+  "close_h2": "Lawyers in smaller cities already know their clients well. These 21 days add clients far beyond the city.",
+  "close_lede": "Read one lesson a day, attend the evening sessions and draft from your own desk. Your city stays the same, and the businesses you can reach grow wider."
+ },
+ {
+  "id": "08",
+  "today": "Today, you are ready to work again, and your law degree is waiting.",
+  "after": "After 21 days, you can draft contracts and workplace policies for businesses from home.",
+  "symptom_h2": "You stepped back for your family, and now you want back in",
+  "symptom": [
+   "You took time away to care for a child, a parent or a home. Those years asked a lot of you, and you gave it. Now the days have some room again, and you are thinking about your career.",
+   "Going back to a court or a firm desk may not fit your hours. Contract drafting fits better. It is quiet, careful desk work done on a laptop, and businesses need it every week. Your legal training is still there; it only needs fresh practice."
+  ],
+  "outcome_h2": "Return as a contract drafting lawyer who works from home",
+  "outcome": "A drafting lawyer works on documents, not on a cause list. You can draft an employment agreement after the school run and send it by evening. Startups and small businesses pay for each document they need, so you choose how much work to take on. As your confidence and client list grow, your income can grow with them, at a pace your home allows.",
+  "alts_h2": "Three ways women lawyers often try to restart",
+  "alts": [
+   {
+    "t": "Applying to firms for a full-time role",
+    "p": "Firm roles expect long office hours and often ask about the gap first. Even a good offer may not leave room for the family that still needs you."
+   },
+   {
+    "t": "Taking on typing or data entry work",
+    "p": "Work like this is flexible, but it does not use your law degree. It pays for time, not skill, and it rarely leads back to legal practice."
+   },
+   {
+    "t": "Reading law updates on your own",
+    "p": "Reading keeps you informed, but it does not give you a finished draft to show anyone. Without drafting real documents, it is hard to feel ready to quote a fee."
+   }
+  ],
+  "reframe_h2": "Your break did not take away your skill",
+  "reframe": "A family break does not erase what you learnt in law school or in practice. What you need is a short spell of daily drafting, so the habit returns, and a clear way to tell businesses you are available. Those are practice and positioning. Neither depends on how long you were away.",
+  "role_h2": "What women lawyers returning after a family break already bring",
+  "role_intro": "Years at home teach skills that drafting needs. You planned, budgeted, negotiated with schools, hospitals and contractors, and kept track of every detail. You also kept your law degree. Together, those make you a careful, patient drafter.",
+  "role_points": [
+   {
+    "t": "You manage many tasks without dropping one",
+    "p": "Running a home means remembering dates, payments and promises. A contract is that same list written formally, and you will spot a missing date or payment term quickly."
+   },
+   {
+    "t": "You have read household contracts closely",
+    "p": "Rental agreements, school admission forms and insurance policies have passed through your hands. You already read fine print as a user, which helps you write it clearly as a drafter."
+   },
+   {
+    "t": "You know what working from home needs",
+    "p": "You understand quiet hours, shared devices and family interruptions. That helps when you draft a remote work monitoring policy that is fair to both employer and employee."
+   }
+  ],
+  "artifact_h2": "Draft a remote work monitoring policy in your first weeks",
+  "artifact_intro": "The employment agreement lesson includes a remote work monitoring policy. Businesses with staff working from home need one that is clear and fair. You learn what it should allow, what it must explain to staff, and how it sits beside the employment agreement.",
+  "clause_title": "Policy 3. Monitoring of work devices",
+  "clause": "3.1 The Company may monitor activity on Company-issued laptops during working hours only, to protect its systems and client data. 3.2 The Company will not access personal devices, private messages or cameras. 3.3 Employees will be told in writing what is monitored, why, and for how long records are kept.",
+  "margin_note": "You know what working from home feels like. Write rules that respect the employee's home as much as the employer's data.",
+  "plan_h2": "A gentle four-week plan after the community",
+  "plan": [
+   "Week 1: Choose the two community drafts you liked most and polish them into samples you are proud to share.",
+   "Week 2: Update your LinkedIn profile to say you are back and drafting contracts, using session 8.",
+   "Week 3: List your first drafting service on an online services marketplace, as shown in session 3.",
+   "Week 4: Write your first short article about a policy you drafted, following the steps in session 9."
+  ],
+  "room": [
+   "took a break for family and want to use your law degree again.",
+   "want legal work that fits around school hours and home.",
+   "can read one short lesson a day on your phone.",
+   "want to start small, with one document at a time."
+  ],
+  "faq": [
+   {
+    "q": "I have been away from law for years. Will I keep up?",
+    "a": "The community starts with the parts of a contract on the first day and builds one document at a time. Each day has a short reading and a quiz, so you rebuild the habit gently."
+   },
+   {
+    "q": "Can I take part with children at home?",
+    "a": "Yes. The reading and quiz come on WhatsApp, so you can do them whenever the house is quiet. The 9 live online sessions are in the evening, and you can join from your phone or laptop."
+   },
+   {
+    "q": "What if I am not confident with AI tools?",
+    "a": "Two sessions show, step by step, how AI helps find missing clauses and red flags. You use it only as a checking aid while you do the drafting yourself, so no earlier experience with these tools is needed."
+   }
+  ],
+  "buyer_line": "I am restarting my legal career by learning contract drafting from home. It is ₹200 for 21 days, refundable.",
+  "close_h2": "Women lawyers returning after a break already have the training. These 21 days bring back the drafting habit.",
+  "close_lede": "One short lesson a day, a quick quiz and evening sessions you can join from home. Start your comeback one document at a time, at a pace your family allows."
+ },
+ {
+  "id": "09",
+  "today": "Today, you live in a new city, away from the court you knew.",
+  "after": "After 21 days, you can draft employment agreements and other business contracts for clients anywhere.",
+  "symptom_h2": "Marriage moved you to a new city, and your practice stayed behind",
+  "symptom": [
+   "You built contacts, learnt a bench and knew which clerk to ask. Then marriage brought a move, and that local knowledge did not travel with you. Starting again in a new court can feel like starting from zero.",
+   "Contract drafting works differently. A contract is written at a desk and often signed by email. A startup in Pune or Hyderabad cares about your draft, not about which court you appeared in. Your training moved with you; only the courtroom stayed behind."
+  ],
+  "outcome_h2": "Become a contract drafting lawyer who can work from any city",
+  "outcome": "A drafting practice is portable. Clients find you online, documents go by email, and meetings happen on video. If your family moves again, the practice moves too. Businesses keep needing employment agreements, vendor contracts and NDAs (non-disclosure agreements), so the work builds a client list that belongs to you, with income that can grow wherever you live.",
+  "alts_h2": "Three things lawyers who moved after marriage usually try",
+  "alts": [
+   {
+    "t": "Starting again in the local courts",
+    "p": "A new court means new judges, new clerks and new local practice. Building a name there takes years, and another family move would reset it all over again."
+   },
+   {
+    "t": "Joining a local firm as a junior",
+    "p": "A firm desk gives structure, but it often puts an experienced lawyer back at the start. The hours also tie you to one office in one city."
+   },
+   {
+    "t": "Keeping the old practice going by travel",
+    "p": "Some lawyers return to the old city for hearings. The travel costs money and time, and family life in the new city quietly pays the price."
+   }
+  ],
+  "reframe_h2": "The work you can do did not change when you moved",
+  "reframe": "Your legal reasoning, your English and your attention to detail all came with you. What changed is that court practice depends on place, and drafting does not. The gap is choosing a portable kind of legal work and practising its documents until you can offer them with confidence. Positioning and practice decide the next step.",
+  "role_h2": "What lawyers who moved cities after marriage already bring",
+  "role_intro": "Moving cities forces you to rebuild, and that habit helps here. You have already set up a home, found new services and learnt new systems. Building a drafting practice asks for the same steady effort, applied this time to your law degree.",
+  "role_points": [
+   {
+    "t": "Your court experience shows where contracts fail",
+    "p": "Whatever matters you handled in your old city, you saw agreements argued over. That memory helps you draft employment terms that are clear about notice, pay and duties."
+   },
+   {
+    "t": "You know two cities, not one",
+    "p": "Old colleagues in your former city and new neighbours in this one can both introduce you. A portable practice can serve people you know in either place."
+   },
+   {
+    "t": "You are used to starting fresh",
+    "p": "You have already rebuilt your routines once. Learning one new document a day for 21 days is a smaller, more structured version of what you have done."
+   }
+  ],
+  "artifact_h2": "Draft an employment agreement that works for any employer",
+  "artifact_intro": "Every business that hires needs an employment agreement. In the community you draft one in full, covering probation, notice and confidentiality, plus a remote work monitoring policy, so it suits a team in any city.",
+  "clause_title": "Clause 6. Termination and notice",
+  "clause": "6.1 After probation, either party may end this Agreement by giving the other 30 days' written notice, or salary in lieu of notice. 6.2 The Company may end this Agreement without notice for gross misconduct, as defined in Schedule 1. 6.3 On leaving, the Employee shall return all Company property and documents.",
+  "margin_note": "This clause reads the same in Pune or Patna. Write it once, and write it well, and it serves employers wherever you live.",
+  "plan_h2": "Four weeks after the community, in your new city",
+  "plan": [
+   "Week 1: Turn your employment agreement and one other community draft into clean samples you can email.",
+   "Week 2: Tell former colleagues and contacts in your old city that you now draft contracts for businesses.",
+   "Week 3: Rewrite your LinkedIn profile as a contract drafting lawyer, using the approach from session 8.",
+   "Week 4: Write to startup founders from the lists covered in session 6, introducing your drafting service."
+  ],
+  "room": [
+   "moved cities after marriage and miss using your legal training every day.",
+   "want legal work that does not depend on one local court.",
+   "would like a practice that can move with your family.",
+   "are ready to rebuild, starting with one document a day."
+  ],
+  "faq": [
+   {
+    "q": "I know nobody in my new city. Where would drafting clients come from?",
+    "a": "Drafting clients are not limited to your city. Sessions 3, 6 and 8 show how to list a service online, pitch startups directly and build a LinkedIn profile, so people can find you from anywhere."
+   },
+   {
+    "q": "My earlier work was mostly litigation. Is that enough to start drafting?",
+    "a": "Yes, it is a strong base. The community starts from the parts of a contract and builds up, and your experience of disputes helps you see which terms need to be written clearly."
+   },
+   {
+    "q": "Can I keep up while still settling into a new home?",
+    "a": "The daily reading and quiz come on WhatsApp, so you can fit them into any gap in the day. The 9 live online sessions are in the evening, after the day's errands are done."
+   }
+  ],
+  "buyer_line": "I am learning contract drafting so my legal work can move with us. It costs ₹200 for 21 days.",
+  "close_h2": "Lawyers who moved cities after marriage already have the training. These 21 days make it portable.",
+  "close_lede": "Draft one document a day, join the evening sessions and learn how founders find drafting lawyers online. If another move comes, your practice can come along with you."
+ },
+ {
+  "id": "10",
+  "today": "Today, you live abroad, and your Indian law degree sits mostly unused.",
+  "after": "After 21 days, you can draft privacy policies under Indian and UK data protection law.",
+  "symptom_h2": "You moved abroad with family, and your legal career paused",
+  "symptom": [
+   "Your family moved for a job, a study place or a new life, and you went too. Practising law in a new country often means new exams and new rules. So your Indian training waits on the shelf.",
+   "Drafting for businesses does not need you to stand in a local court. Indian startups need contracts and privacy policies, and so do small businesses in the UK. You can draft for both from your kitchen table, in whatever time zone you now live."
+  ],
+  "outcome_h2": "Draft for businesses in India and the UK from wherever you live",
+  "outcome": "Your Indian law degree becomes useful again. You draft privacy policies under the DPDPA (Digital Personal Data Protection Act) for Indian startups, and under the GDPR (the EU and UK data protection law) for UK small businesses. Work arrives by email and goes back by email. Time zones can even help, since a draft can be ready when an Indian founder wakes up. Income can grow as your client list does.",
+  "alts_h2": "Three paths Indian lawyers abroad often try first",
+  "alts": [
+   {
+    "t": "Qualifying again in the new country",
+    "p": "Local qualification can take years of exams and fees. It may suit some lawyers, but it puts all earning from law on hold for a long stretch."
+   },
+   {
+    "t": "Taking a job outside law",
+    "p": "A local job pays the bills and gives a routine, but your legal training goes unused. Each year away makes a return to law feel harder."
+   },
+   {
+    "t": "Waiting to move back to India",
+    "p": "Some plan to restart once they return home. That date often moves, and the years in between pass with no legal work on your record."
+   }
+  ],
+  "reframe_h2": "Your location is not the obstacle; your positioning is",
+  "reframe": "Indian founders and UK small business owners rarely meet their drafting lawyer in person. They look for a sample, a profile and a clear offer. You already have the training to write their documents. What you need is daily practice on the right documents and a way to be seen by the businesses that need them.",
+  "role_h2": "What Indian lawyers living abroad already bring to drafting",
+  "role_intro": "Living abroad gives you more than a different address. You see how businesses outside India operate, how they speak to customers and what they expect from paperwork. That view helps when you draft for clients in two countries at once.",
+  "role_points": [
+   {
+    "t": "You understand two markets at once",
+    "p": "You know how Indian businesses work, and you now see how foreign ones work. That helps you explain GDPR terms to an Indian founder selling into Europe."
+   },
+   {
+    "t": "Your hours can suit two time zones",
+    "p": "Depending on where you live, your morning or evening overlaps with India or the UK. You can hold client calls in either and draft in between."
+   },
+   {
+    "t": "You use English every day abroad",
+    "p": "Daily life in another country sharpens plain, clear written English. Privacy policies must be easy for ordinary customers to read, so that habit is directly useful."
+   }
+  ],
+  "artifact_h2": "Draft matching DPDPA and GDPR privacy policies",
+  "artifact_intro": "The community teaches a DPDPA-compliant privacy policy, and session 5 shows how to reach UK small businesses with a GDPR-compliant one. You learn how the two laws differ, so one business selling in both countries can get both policies.",
+  "clause_title": "Section 6. Your rights over your personal data",
+  "clause": "You may ask us to see, correct or erase the personal data we hold about you. You may also withdraw your consent at any time, without affecting processing done before that. Send your request to our grievance officer at the email address below. We will reply within the time the applicable law requires.",
+  "margin_note": "An Indian founder with UK customers needs both laws covered in this section. From abroad, you can see both sides clearly.",
+  "plan_h2": "Four weeks after the community, across time zones",
+  "plan": [
+   "Week 1: Prepare one DPDPA privacy policy and one GDPR privacy policy as samples for a single imaginary business.",
+   "Week 2: Set up a LinkedIn profile that says you draft for India and UK businesses, following session 8.",
+   "Week 3: Write to UK small businesses using the method from session 5, during their working hours.",
+   "Week 4: Contact Indian founders from the startup lists covered in session 6, and publish your first article."
+  ],
+  "room": [
+   "moved abroad with family and want your Indian law degree in use again.",
+   "want legal work you can do from any country and time zone.",
+   "enjoy clear writing and the careful reading of terms.",
+   "would like clients in India and the UK at the same time."
+  ],
+  "faq": [
+   {
+    "q": "The live sessions run in the Indian evening. Will that suit my time zone?",
+    "a": "That depends on where you live. The daily reading and quiz come on WhatsApp, so you can do them at any hour. Check the session timings on this page against your local time before you join."
+   },
+   {
+    "q": "How will Indian founders find me if I live abroad?",
+    "a": "Founders look online first. Session 8 covers a LinkedIn profile that makes you known for contracts, session 9 your first article, and session 6 how to pitch startups directly. Your location is one line on that profile."
+   },
+   {
+    "q": "I have not practised for some years. Where will I start?",
+    "a": "You start with the parts of a contract on the first day, then add one document a day. A short reading and a quiz each day rebuild the habit well before you reach the privacy policies."
+   }
+  ],
+  "buyer_line": "I am using my Indian law degree again, drafting for India and UK businesses from here. It is ₹200 for 21 days.",
+  "close_h2": "Indian lawyers living abroad already hold a useful degree. These 21 days put it back to work.",
+  "close_lede": "Read one lesson a day, join the live online sessions when your time zone allows, and practise the privacy policies two countries need. Your family stays where it is, and your practice can begin."
+ },
+ {
+  "id": "11",
+  "today": "Today, you issue offer letters and HR policies that someone else drafted.",
+  "after": "After 21 days, you can draft an employment agreement and a non-compete clause yourself.",
+  "symptom_h2": "You send out the letters, but the drafting happens elsewhere",
+  "symptom": [
+   "Every week you release offer letters, update the leave policy and answer questions about notice periods. You know which clause new joiners ask about and which one managers misread. When a document needs real changes, though, it goes to an outside firm or a senior counsel.",
+   "That is a strong place to start from. You hold an LLB and you already see how employment documents work in daily life. What you want now is the drafting desk: writing the agreement, not only sending it. Companies pay a lawyer for that, and you are closer to the role than you may think."
+  ],
+  "outcome_h2": "Become the lawyer companies hire to draft their people documents",
+  "outcome": "Startups and growing companies need employment agreements, ESOP (employee stock option plan) documents, remote work monitoring policies and confidentiality terms. Many do not have a lawyer on staff for this. A lawyer who understands both the law and the HR floor can draft these well and speak the founder's language. That is a better career on the same craft, with businesses as the payer, and earning can grow as your work gets known.",
+  "alts_h2": "Three things HR professionals with an LLB often try first",
+  "alts": [
+   {
+    "t": "A course in HR analytics",
+    "p": "Useful for a promotion inside HR, but analytics keeps you on the people side of the table. Companies still send the agreement itself to a lawyer, and you remain the one forwarding it."
+   },
+   {
+    "t": "Reading the labour codes at night",
+    "p": "Evening reading builds knowledge, yet nobody hires you for knowing sections by heart. Without drafting practice and work to show, the reading stays private and the job title stays the same."
+   },
+   {
+    "t": "Asking to shadow the legal team",
+    "p": "A kind manager may let you sit in on reviews. You learn by watching, but you rarely hold the pen, and the drafts carry another lawyer's name when they go out."
+   }
+  ],
+  "reframe_h2": "Your gap is practice and positioning, not ability",
+  "reframe": "You have the degree and you already handle these documents every week. What is missing is repeated drafting under guidance and a way for businesses to see you as a drafting lawyer. Both can be built. Twenty-one days of one document a day, plus sessions on reaching clients, give you drafts to show and a profile that says what you do.",
+  "role_h2": "What you bring from HR to contract drafting",
+  "role_intro": "HR work has trained you in things many fresh drafters lack. You know how people read a policy, where disagreements start, and what a manager actually needs from a clause. These habits carry straight into drafting. Here is how each one helps.",
+  "role_points": [
+   {
+    "t": "You know the employee lifecycle",
+    "p": "From offer to exit, you have seen every stage. That helps you draft notice, probation and termination clauses that match how companies really run."
+   },
+   {
+    "t": "You hear the questions people ask",
+    "p": "Joiners ask what a clause means. Those questions show you where wording is unclear, so your drafts can answer them before anyone needs to ask."
+   },
+   {
+    "t": "You already work with founders and managers",
+    "p": "You know how to explain a policy to a busy manager. The same skill helps when you take instructions from a founder before drafting."
+   }
+  ],
+  "artifact_h2": "In week one you draft a non-compete clause for an employer",
+  "artifact_intro": "The non-compete day comes early. You write the clause, test it against the facts of a role you know well, and then fit it into a full employment agreement a few days later.",
+  "clause_title": "Clause 11. Non-compete and non-solicitation",
+  "clause": "11.1 During the term of employment, the Employee shall not engage in any business that competes with the Company, directly or indirectly, without prior written consent. 11.2 For twelve months after the employment ends, the Employee shall not solicit any client or employee of the Company with whom the Employee dealt in the last year of service.",
+  "margin_note": "You have explained notice periods to joiners for years. See how the ban covers the job period, and only soliciting continues after exit.",
+  "plan_h2": "What you can do in the four weeks after the program",
+  "plan": [
+   "Week one: redraft the employment agreement from the program for a company size you know, and keep the draft as a work sample.",
+   "Week two: set up a LinkedIn profile that says you draft employment and HR documents for startups.",
+   "Week three: list one clear drafting service, such as an offer letter and policy pack, on an online services marketplace.",
+   "Week four: shortlist startups from public lists, as shown in the sessions, and send short notes offering one drafted document."
+  ],
+  "room": [
+   "already issue offer letters or HR policies and want to write them yourself",
+   "hold an LLB and want your degree to show in your daily work",
+   "can give a short reading each day and some evenings to live sessions",
+   "want to work with startups that need people documents drafted well"
+  ],
+  "faq": [
+   {
+    "q": "Can I do this alongside a full-time HR job?",
+    "a": "Yes, the program is built for working people. The daily reading and quiz arrive on WhatsApp and take a short time. The live online sessions run in the evening, after most office hours."
+   },
+   {
+    "q": "Will my HR experience count, or will I be starting from zero?",
+    "a": "You start from the parts of a contract, so nothing is skipped. Your HR years still help a lot, because you already know how employment documents get used, questioned and changed once they are signed."
+   },
+   {
+    "q": "Will I learn how to find companies that need this work?",
+    "a": "Yes. Sessions cover listing your first gig on an online services marketplace, pitching startups directly from public lists, and building a LinkedIn profile known for contracts. These show you how to reach clients; what follows depends on your own effort."
+   }
+  ],
+  "buyer_line": "I already send these documents out at work; for ₹200 and 21 days, I am learning to draft them as a lawyer.",
+  "close_h2": "LLB holders in HR already issue offer letters. These 21 days teach you to draft them.",
+  "close_lede": "Your HR years are the starting point, not something to leave behind. Join for ₹200, read and draft daily on your phone, and finish with documents that show companies you can write them."
+ },
+ {
+  "id": "12",
+  "today": "Today, you see money move into businesses, while lawyers draft the deal papers.",
+  "after": "After 21 days, you can draft a term sheet and the investment papers around it.",
+  "symptom_h2": "You understand the money, but the paperwork is written by others",
+  "symptom": [
+   "Your days involve loan files, credit notes, company accounts or investment products. You can read a balance sheet and you know what a lender or investor checks first. Yet when a startup raises money or signs a deal, the documents behind the transfer are drafted by a lawyer outside the bank.",
+   "Your banking experience is a real asset here. You hold an LLB and you think in terms of risk, conditions and repayment, which is how deal papers are built. You want to move from watching the deal to drafting the documents that make the deal binding."
+  ],
+  "outcome_h2": "Become the lawyer who drafts the papers behind a funding round",
+  "outcome": "Founders raising money need a term sheet, a SAFE (simple agreement for future equity), an ESOP (employee stock option plan) and warranties from the company. A lawyer who understands how investors think about money is useful at that table. This is a better career on your legal training, paid by startups and businesses, and the earning direction rises as your drafting gets known.",
+  "alts_h2": "Three moves bankers with an LLB often try first",
+  "alts": [
+   {
+    "t": "Moving to the bank's legal department",
+    "p": "A good step, but the legal team mostly handles the bank's own documents and recoveries. You would review standard forms, not draft papers for founders who are raising money."
+   },
+   {
+    "t": "A finance qualification on top of the LLB",
+    "p": "Another exam deepens your finance knowledge, yet it moves you further toward analysis. The documents that close a funding round still need a lawyer who drafts, and that part stays untouched."
+   },
+   {
+    "t": "Reading about startup funding online",
+    "p": "Articles explain what a term sheet is. They do not make you draft one, check its clauses or answer a founder's questions, so the knowledge never becomes work anyone pays for."
+   }
+  ],
+  "reframe_h2": "What stands between you and deal drafting is practice",
+  "reframe": "You already understand valuation talk, conditions and risk. You are not short of effort or intelligence. The missing pieces are drafting the documents yourself, again and again, and presenting yourself to founders as a lawyer who does this. A daily document and live sessions on pitching startups and building a LinkedIn profile cover exactly those two pieces.",
+  "role_h2": "How your banking years help you draft deal papers",
+  "role_intro": "Bankers read documents for what can go wrong with money. That instinct is the core of good drafting. Your experience with due diligence, sanction conditions and covenants gives you a head start on the clauses founders and investors argue about most.",
+  "role_points": [
+   {
+    "t": "You read conditions precedent every day",
+    "p": "Sanction letters list what must happen before money moves. A term sheet and a SAFE work the same way, so the structure feels familiar from your first draft."
+   },
+   {
+    "t": "You know what an investor checks",
+    "p": "You have seen lenders ask for financials, approvals and disclosures. Representations and warranties clauses are those checks written as promises, and you will recognise each one."
+   },
+   {
+    "t": "You can talk numbers with founders",
+    "p": "Founders often feel lost when valuation and dilution come up. You can explain the money side calmly, which makes your drafting advice easier for them to trust."
+   }
+  ],
+  "artifact_h2": "You draft a term sheet for a startup raising its first round",
+  "artifact_intro": "On term sheet day you write the key commercial terms of an investment: amount, valuation basis, investor rights and exclusivity. Other days add the SAFE, the ESOP and the warranties the company gives.",
+  "clause_title": "Clause 9. Exclusivity",
+  "clause": "9.1 For forty-five days from the date of this Term Sheet, the Company and the Founders shall not solicit, negotiate or accept any investment offer from any person other than the Investor. 9.2 This clause and the confidentiality clause are binding; all other terms are subject to definitive agreements.",
+  "margin_note": "Like a lock-in on a loan offer. Most of a term sheet is non-binding, so mark clearly which clauses bind the parties.",
+  "plan_h2": "A four-week plan to put the drafting to use",
+  "plan": [
+   "Week one: polish your term sheet and SAFE drafts from the program into two clean work samples.",
+   "Week two: write a LinkedIn profile headline saying you draft funding documents for early-stage startups.",
+   "Week three: build a short list of funded startups using public accelerator lists and Apollo, as shown live.",
+   "Week four: write to founders offering a review of their term sheet or ESOP paperwork, then follow up politely."
+  ],
+  "room": [
+   "work in a bank or lender and hold an LLB",
+   "enjoy the deal side of banking more than the operations side",
+   "want to draft funding papers for startups, not only read them",
+   "are ready to draft one document a day for 21 days"
+  ],
+  "faq": [
+   {
+    "q": "I have not drafted since law school. Can I keep up?",
+    "a": "Yes. Day one covers the parts of a contract, so you rebuild from the base. Each day's reading is short and comes on WhatsApp with a quiz, and the funding documents arrive after the foundations."
+   },
+   {
+    "q": "Do I need to understand startup valuation in depth?",
+    "a": "No. Your banking sense of money and risk is more than enough to start. The program focuses on drafting the clauses, and the live sessions explain how founders and investors use them."
+   },
+   {
+    "q": "Can I join while working banking hours?",
+    "a": "The daily reading fits a commute or lunch break. The nine live online sessions run in the evening, so you can attend after branch or office hours without taking leave."
+   }
+  ],
+  "buyer_line": "I see deals funded every day at the bank; for ₹200 over 21 days, I am learning to draft the papers myself.",
+  "close_h2": "LLB holders in banking already understand how money moves. These 21 days add drafting the deal papers.",
+  "close_lede": "Join for ₹200 and spend three weeks drafting the documents that sit behind a funding round. Your banking judgement stays with you; the drafting is the new part."
+ },
+ {
+  "id": "13",
+  "today": "Today, you write blogs, scripts or copy, and lawyers write the legal pages.",
+  "after": "After 21 days, you can draft website terms, privacy policies and a cookie policy yourself.",
+  "symptom_h2": "You write all day, yet the legal pages go to someone else",
+  "symptom": [
+   "You write product pages, newsletters, scripts or social posts, often on tight deadlines. Clients trust you with their voice. But when a brand launches a website or app, the terms and conditions and the privacy policy are handed to a lawyer, even though you hold an LLB.",
+   "Your writing is the best asset you could bring to drafting. Contracts and policies are writing with legal consequences, and clear sentences make them easier to follow and to enforce. You want your law degree and your writing skill to finally sit in the same job."
+  ],
+  "outcome_h2": "Become the lawyer who writes the policies online businesses publish",
+  "outcome": "Every D2C (direct to consumer) brand, app and online store needs terms and conditions, a privacy policy under the DPDPA (Digital Personal Data Protection Act) and a cookie policy. Those pages work best when a lawyer who writes clearly drafts them. You would be paid by businesses for legal drafting, a better career on your own training, with earnings moving upward as your work gets known.",
+  "alts_h2": "Three routes content writers with an LLB often try first",
+  "alts": [
+   {
+    "t": "Writing legal blogs for law firms",
+    "p": "You get closer to law, but the brief is still marketing. The firm's lawyers draft the client documents, and your byline sits on articles rather than on agreements."
+   },
+   {
+    "t": "Moving into a content lead role",
+    "p": "A bigger team and a bigger title, yet the work is still campaigns and calendars. Your law degree stays on the shelf while your writing serves the brand."
+   },
+   {
+    "t": "Copying policy pages from other websites",
+    "p": "Some writers are asked to adjust a policy taken from another site. That teaches nothing about what the clauses must say for this business, and it is not the lawyer's work you want."
+   }
+  ],
+  "reframe_h2": "You already write well, so the gap is legal drafting practice",
+  "reframe": "Talent for words is not your problem. What you have not had is daily practice writing documents that bind people, and a way for businesses to see you as their drafting lawyer. Twenty-one days of one document a day, plus a session on publishing your first legal article, give you both drafts and a public voice.",
+  "role_h2": "Why content writing is a strong base for drafting",
+  "role_intro": "Drafting is writing for a reader who may one day disagree with you, so every word must hold. Writers who already think about their reader have a head start. Here is what your content work brings to contracts and policies from your first draft.",
+  "role_points": [
+   {
+    "t": "You write for a specific reader",
+    "p": "Briefs taught you to ask who reads the page. A privacy policy is read by customers and, later, by lawyers on the other side. Knowing your reader helps you write for both."
+   },
+   {
+    "t": "You edit without mercy",
+    "p": "Cutting a blog to its word count is good training. Contracts improve the same way when every vague word and repeated idea is removed."
+   },
+   {
+    "t": "You understand how websites work",
+    "p": "You have seen sign-up forms, cookie banners and checkout pages from the inside. That helps you draft terms and policies that match what the website really does."
+   }
+  ],
+  "artifact_h2": "You draft website terms and a cookie policy for an online store",
+  "artifact_intro": "On the e-commerce day you draft terms and conditions for an online store. On cookie policy day you explain, in plain words, what the site collects and why. A later session shows how to publish your first article.",
+  "clause_title": "Section 4. Cookies we use",
+  "clause": "4.1 We use essential cookies to keep you signed in and to remember items in your cart. These cannot be switched off. 4.2 We use analytics cookies only if you agree through the cookie banner. You may withdraw consent at any time from the Cookie Settings link at the bottom of every page.",
+  "margin_note": "Plain words for a real customer, the skill you already use daily. Each cookie type needs a purpose and an easy way to refuse.",
+  "plan_h2": "Four weeks of steps once the program ends",
+  "plan": [
+   "Week one: turn your website terms and cookie policy drafts into a tidy work sample for an imagined D2C brand.",
+   "Week two: publish your first legal article, explaining one clause of a privacy policy in plain English.",
+   "Week three: update your LinkedIn profile so it says you draft terms and policies for online businesses.",
+   "Week four: run the AI review method from the program on three live websites and note what each one misses."
+  ],
+  "room": [
+   "write content for a living and hold an LLB",
+   "want your writing to carry legal weight, not only marketing weight",
+   "enjoy explaining hard ideas in plain words to ordinary readers",
+   "want online businesses to come to you for their legal pages"
+  ],
+  "faq": [
+   {
+    "q": "Is legal drafting too different from content writing?",
+    "a": "The rules differ, but the habits overlap. You will learn defined terms, obligations and how clauses fit together, starting from the parts of a contract. Your habit of clear, reader-first sentences helps from the first day."
+   },
+   {
+    "q": "Will I have to write long, dense documents?",
+    "a": "Some documents are long, but the program teaches one at a time, a day each. The aim is drafts that are precise and readable, which is where your editing habit pays off."
+   },
+   {
+    "q": "Does the program help me get my writing seen?",
+    "a": "Yes. One live session is on publishing your first article, and another is on a LinkedIn profile that makes you known for contracts. Both help people find your work; what follows depends on you."
+   }
+  ],
+  "buyer_line": "I have written for brands for years; for ₹200 and 21 days, I am learning to write the legal pages they publish.",
+  "close_h2": "LLB holders in content already write for a living. These 21 days add legal drafting.",
+  "close_lede": "Your writing habit is the head start. Join for ₹200, take one document a day on your phone, and end with legal pages you drafted yourself."
+ },
+ {
+  "id": "14",
+  "today": "Today, you run deals and vendors, and a lawyer drafts the contracts.",
+  "after": "After 21 days, you can draft a SaaS agreement and a vendor service agreement.",
+  "symptom_h2": "You help close deals, then wait for the contract to come back",
+  "symptom": [
+   "You chase leads, manage vendors or keep operations moving. You know the pricing, the delivery dates and what the client was promised on the call. Then the deal stops while the contract goes to legal, and you see terms written by someone who never met the customer.",
+   "That inside view is valuable. You hold an LLB, and you understand what each side actually wants from a deal. You want to be the lawyer who turns those promises into clear clauses, rather than the person waiting for the draft to return."
+  ],
+  "outcome_h2": "Become the lawyer who drafts the contracts behind every sale",
+  "outcome": "Software companies need SaaS (software sold as a service) agreements. Growing businesses need vendor service agreements and commercial leases. A lawyer who has sat in sales or operations drafts terms that work in practice, not only on paper. You would be paid by businesses for drafting, a better career built on your law degree, and earnings can rise as your drafting reputation grows.",
+  "alts_h2": "Three things sales and operations people with an LLB often try",
+  "alts": [
+   {
+    "t": "Becoming a contract manager",
+    "p": "Tracking renewals and approvals keeps you near contracts, but you mostly route documents and chase signatures. The drafting still happens elsewhere, so your law degree barely gets used."
+   },
+   {
+    "t": "Taking on a bigger sales target",
+    "p": "A larger territory means more pressure and more calls. You get better at selling, yet you stay outside the documents that decide what was actually sold."
+   },
+   {
+    "t": "Learning a CRM or operations tool",
+    "p": "Tool skills help with reporting and promotions inside your team. They do not teach you to write an indemnity clause, which is the work a business pays a lawyer for."
+   }
+  ],
+  "reframe_h2": "Drafting practice is the missing piece, not more hustle",
+  "reframe": "You already work hard and understand commercial deals. Effort has never been your problem. What you lack is hands-on drafting of the contracts you see every quarter, and a clear position as a lawyer who drafts them. Daily documents and live sessions on reaching clients through a marketplace, LinkedIn and direct pitches close that gap.",
+  "role_h2": "What sales and operations work gives a contract drafter",
+  "role_intro": "Many contract disagreements begin with a gap between what was sold and what was written. You have seen that gap from the inside. That experience makes you a practical drafter, and here is where you will notice it most.",
+  "role_points": [
+   {
+    "t": "You know what was promised on the call",
+    "p": "You remember uptime promises, delivery dates and discounts agreed in meetings. That helps you write a scope and service levels that match the real deal."
+   },
+   {
+    "t": "You handle vendors and timelines",
+    "p": "Operations work shows you where suppliers slip. Vendor service agreements need clear deliverables, acceptance and exit terms, and you already know why each one matters."
+   },
+   {
+    "t": "You speak the language of business teams",
+    "p": "Sales heads and finance teams trust people who understand targets. You can take their instructions quickly and turn them into clauses they actually read."
+   }
+  ],
+  "artifact_h2": "You draft a SaaS agreement for a software company's customers",
+  "artifact_intro": "On SaaS day you draft the subscription terms between a software company and its business customers. You set out access, fees, service levels and renewal. The vendor service agreement and commercial lease follow on their own days.",
+  "clause_title": "Clause 5. Service levels",
+  "clause": "5.1 The Provider shall make the Platform available for at least 99.5 percent of each calendar month, excluding scheduled maintenance notified forty-eight hours in advance. 5.2 If availability falls below this level, the Customer shall receive service credits as set out in Schedule 2, as its sole remedy for the shortfall.",
+  "margin_note": "You have heard sales promise near-perfect uptime. Write the number the team can really meet, and say what the customer gets if availability slips.",
+  "plan_h2": "How to use the four weeks after the program",
+  "plan": [
+   "Week one: redraft your SaaS agreement for a product you have sold or supported, and save it as a sample.",
+   "Week two: list a contract drafting service for small software companies on an online services marketplace.",
+   "Week three: change your LinkedIn headline to say you draft commercial contracts for growing businesses.",
+   "Week four: reach out to startups from public lists with a short note offering to draft one agreement."
+  ],
+  "room": [
+   "work in sales, business development or operations and hold an LLB",
+   "have watched deals wait on contracts and want to draft them yourself",
+   "prefer commercial work to courtroom work and want contracts as your field",
+   "can spend a few minutes daily on a reading and a quiz"
+  ],
+  "faq": [
+   {
+    "q": "I have never drafted a full contract. Where do I start?",
+    "a": "You start with the parts of a contract on the first day. Each later document builds on that base, so by SaaS day you know where the definitions, obligations and exit terms belong."
+   },
+   {
+    "q": "My shifts and targets are unpredictable. Can I keep up?",
+    "a": "The reading and quiz come on WhatsApp, so you can do them whenever your day allows. The live online sessions are in the evening. If a target week gets busy, the daily readings stay on your phone to finish later."
+   },
+   {
+    "q": "Will knowing sales help me find drafting work?",
+    "a": "It helps you talk to founders and business heads in their own terms. The sessions show how to list your first gig, pitch startups directly and build a LinkedIn profile; the outcome depends on your follow-through."
+   }
+  ],
+  "buyer_line": "I help close deals every month; for ₹200 and 21 days, I am learning to draft the contracts behind them.",
+  "close_h2": "LLB holders in sales and operations already see how deals close. These 21 days add drafting the contracts.",
+  "close_lede": "Your commercial sense comes with you into drafting. Join for ₹200, work through one document a day, and finish with contracts you drafted for the kind of deals you know."
+ },
+ {
+  "id": "15",
+  "today": "Today, you run careful process work in a back office every shift.",
+  "after": "After 21 days, you can draft contracts from their parts up to a joint development agreement.",
+  "symptom_h2": "You studied law, and your daily work is process and accuracy",
+  "symptom": [
+   "Your shift may cover data checks, claims, documentation, customer queries or reporting for clients in India or abroad. Many of your days begin and end on a fixed schedule. You follow a process, meet quality scores and catch errors others miss. That steady work has taught you discipline.",
+   "Your LLB is still there, and so is the lawyer you trained to be. Process discipline is exactly what careful drafting needs. You want work that uses your law degree again, drafting the contracts businesses sign, and you can start from the basics without feeling behind."
+  ],
+  "outcome_h2": "Become the contract drafting lawyer you trained to be",
+  "outcome": "Businesses and startups need NDAs (non-disclosure agreements), service agreements, intellectual property (IP) licensing clauses and joint development agreements for shared projects, drafted carefully. A lawyer with process discipline and an eye for errors suits that work. This is a better career on the degree you already hold, with businesses paying for legal drafting, and earning can move upward as your drafts get known.",
+  "alts_h2": "Three paths back-office professionals with an LLB often try",
+  "alts": [
+   {
+    "t": "Waiting for a team lead promotion",
+    "p": "A promotion brings a bigger team and more reports, but the work stays in the same process. Your legal training still does not show up anywhere in your day."
+   },
+   {
+    "t": "Applying to law firm vacancies cold",
+    "p": "Firms ask for drafting samples and recent legal work. Without either, applications from a back-office role often go unanswered, and the gap feels wider each time."
+   },
+   {
+    "t": "Planning to restart with a long course later",
+    "p": "Waiting for the perfect time to study again keeps getting pushed back by shifts and family. Meanwhile the degree goes unused and confidence in drafting fades."
+   }
+  ],
+  "reframe_h2": "You need practice and a fresh starting point, not a second degree",
+  "reframe": "Nothing about your ability has changed since law school. You simply have not drafted for a while, and nobody yet sees you as a drafting lawyer. Both can be fixed with practice. Starting from the parts of a contract and adding one document a day rebuilds the skill, and the live sessions show you how to present your work.",
+  "role_h2": "What BPO and back-office work brings to drafting",
+  "role_intro": "Back-office work rewards the same habits that make a drafter reliable. You check details, follow a defined process and document everything. Those habits do not disappear when you switch to contracts. They make your drafts tidier from the start.",
+  "role_points": [
+   {
+    "t": "You catch errors others miss",
+    "p": "Quality checks trained your eye. In drafting, the same eye spots a wrong cross-reference, a missing defined term or a date that does not match."
+   },
+   {
+    "t": "You work to a checklist",
+    "p": "Processes run on steps. Contracts do too: parties, recitals, definitions, obligations, exit. Your comfort with structure helps you build a document in the right order."
+   },
+   {
+    "t": "You have served demanding clients",
+    "p": "Meeting service levels for clients teaches you what they expect from a supplier. That understanding helps when you draft service agreements and the obligations inside them."
+   }
+  ],
+  "artifact_h2": "You start with the parts of a contract and build up",
+  "artifact_intro": "Day one breaks a contract into its parts. Each day adds a document, from NDAs to service agreements, until you draft a joint development agreement, where two companies build something together and must agree who owns the result.",
+  "clause_title": "Clause 8. Ownership of developed IP",
+  "clause": "8.1 Each Party retains ownership of the intellectual property it owned before the Effective Date. 8.2 Intellectual property created jointly under this Agreement shall be owned by both Parties in equal shares. 8.3 Neither Party shall license jointly owned intellectual property to a third party without the prior written consent of the other Party.",
+  "margin_note": "Your habit of checking every field matters here. Separate what each side brought from what they built together, or ownership gets confused.",
+  "plan_h2": "Steps for the four weeks after you finish",
+  "plan": [
+   "Week one: redraft your joint development agreement and NDA from the program, checking each against the parts of a contract.",
+   "Week two: build a LinkedIn profile that names your LLB and the contracts you can now draft.",
+   "Week three: list one drafting service, such as an NDA for small businesses, on an online services marketplace.",
+   "Week four: write your first short article on one clause you learned, and share the article with your network."
+  ],
+  "room": [
+   "hold an LLB and work in a BPO, KPO or back-office team",
+   "want your law degree back at the centre of your work",
+   "like careful, detailed work and want to bring that care to contracts",
+   "would rather start from the basics than pretend to remember everything"
+  ],
+  "faq": [
+   {
+    "q": "I graduated years ago. Have I forgotten too much?",
+    "a": "The program starts with the parts of a contract, so you rebuild from the base rather than recall old notes. The daily reading and quiz refresh one idea at a time, at a pace that fits a working shift."
+   },
+   {
+    "q": "I work night or rotating shifts. Can I still attend?",
+    "a": "The reading and quiz arrive on WhatsApp, so you can do them on any break. The live online sessions run in the evening; plan your week around the sessions you can attend live."
+   },
+   {
+    "q": "Will a back-office background look odd to clients?",
+    "a": "Clients look at whether your drafts are clear and correct. The sessions show you how to present your LLB and your new drafting work on LinkedIn and in a first article, so your work speaks first."
+   }
+  ],
+  "buyer_line": "I studied law to be a lawyer; for ₹200 and 21 days, I am drafting contracts again, one document a day.",
+  "close_h2": "BPO and back-office professionals with an LLB already work with precision. These 21 days add contract drafting.",
+  "close_lede": "Your degree is ready for its next use. Join for ₹200, start from the parts of a contract, and finish with drafts that show the lawyer you trained to be."
+ },
+ {
+  "id": "16",
+  "today": "Today, you review contracts other lawyers drafted, line by line, against a checklist.",
+  "after": "After 21 days, you can draft the clauses you now only check, from a blank page.",
+  "symptom_h2": "You spot the weak clause in seconds, but someone else wrote it",
+  "symptom": [
+   "Your day runs on review queues. You read a contract, mark the missing indemnity, flag the odd governing law clause and send it back. Some weeks the queue never ends. You are fast and accurate, and your team relies on that.",
+   "That eye is valuable. Yet the drafting happens somewhere else, by a lawyer who talks to the client and shapes the deal. You want to be that lawyer. You know which clauses fail and why. The good news is that reviewing has already trained most of what drafting needs."
+  ],
+  "outcome_h2": "Become the lawyer who writes the contract first",
+  "outcome": "A drafting lawyer sits closer to the client. Startups and growing businesses need someone to turn a deal into clear terms before anyone signs. That person asks the questions, chooses the clauses and owns the document. Your review habit becomes the quality check you run on your own drafts. Over time, this kind of work tends to pay better than queue review, because businesses value the person who shapes the deal.",
+  "alts_h2": "Three things LPO reviewers often try first",
+  "alts": [
+   {
+    "t": "Asking for drafting work inside the LPO",
+    "p": "Some teams do move reviewers to drafting, but those slots are small and slow to open. You stay inside the same review workflow, waiting for a turn that may not come."
+   },
+   {
+    "t": "Downloading sample contracts and editing them",
+    "p": "Samples teach you what a finished contract looks like. They do not teach you why each clause is there, so you cannot defend a choice when a client asks."
+   },
+   {
+    "t": "Reading commentaries on contract law",
+    "p": "Books explain doctrine well. They rarely put a blank page in front of you, a client brief beside it, and ask you to write the clause yourself by evening."
+   }
+  ],
+  "reframe_h2": "The gap is practice at the blank page, not skill",
+  "reframe": "You do not lack knowledge or effort. You have spent years reading clauses closely. What is missing is the habit of starting from nothing, and being seen as the person who drafts. That comes from writing one document a day, learning in live sessions how clients and partners think, and showing your drafts where businesses can find them.",
+  "role_h2": "What your LPO review work already gives you",
+  "role_intro": "LPO work is not a detour. It has trained you in the exact habits clients pay a drafter for: speed, precision and a nose for risk in the small print. Here is how each one carries across when you sit down to write your own contract.",
+  "role_points": [
+   {
+    "t": "You know where contracts break",
+    "p": "You have flagged vague payment terms and one-sided indemnities many times. When you draft, you avoid those traps in the first version instead of the third."
+   },
+   {
+    "t": "You read to a checklist",
+    "p": "A review checklist is a drafting checklist turned around. Each item you mark today becomes a clause you write on purpose, in the order the parties expect."
+   },
+   {
+    "t": "You work to deadlines for foreign clients",
+    "p": "LPO teams serve overseas clients on tight timelines. That discipline helps when a founder needs a non-disclosure agreement (NDA) or vendor contract turned around by tomorrow."
+   }
+  ],
+  "artifact_h2": "You will write a warranties clause, not just review one",
+  "artifact_intro": "One document you practise is the representations and warranties clause. You have checked many of these. Now you decide what the supplier promises, what is left out and how long each promise lasts after delivery.",
+  "clause_title": "Clause 9. Representations and Warranties",
+  "clause": "9.1 The Supplier represents and warrants to the Customer that, on the Effective Date: (a) it is duly incorporated and validly existing; (b) it has full authority to enter into this Agreement; and (c) the Services will be performed with reasonable skill and care, in line with good industry practice. 9.2 These warranties survive for twelve months after delivery.",
+  "margin_note": "You have flagged missing survival periods in review. Here you set one yourself. That single line is where a reviewer becomes the drafter.",
+  "plan_h2": "Your four weeks after the camp",
+  "plan": [
+   "Week 1: redraft the NDA and the SaaS (software sold as a service) agreement from the camp, using your review checklist as the test.",
+   "Week 2: write a short LinkedIn post on one clause you flag often in review, and how you would draft it instead.",
+   "Week 3: turn the client questions from the co-founder session into a one-page intake form for small businesses.",
+   "Week 4: list a contract drafting service on an online services marketplace, following the steps shown in the live session."
+  ],
+  "room": [
+   "read contracts all day and want to start writing them yourself",
+   "can spot a bad clause quickly but have never drafted one from scratch",
+   "want work where you speak to the client, not just the queue",
+   "hold an LLB and want your review experience to count toward a drafting career"
+  ],
+  "faq": [
+   {
+    "q": "Will my LPO shift clash with the live sessions?",
+    "a": "The live sessions run in the evening, and the daily reading and quiz arrive on WhatsApp, so you can finish them on a break. If a shift runs late, you still have that day's document to draft in your own time."
+   },
+   {
+    "q": "I only review. Can I really draft from a blank page?",
+    "a": "You already know what a finished clause should say, which is the hard part. The community starts from the parts of a contract and adds one document a day, so the drafting habit builds step by step rather than all at once."
+   },
+   {
+    "q": "What if my review work covers only one contract type?",
+    "a": "Many reviewers see the same few agreements on repeat. The community widens that range on purpose: employment agreements, privacy policies, term sheets, SaaS agreements, IP licensing and more, so your practice covers what startups and businesses ask for."
+   }
+  ],
+  "buyer_line": "I check contracts for a living. For ₹200 and 21 days, I am learning to write them.",
+  "close_h2": "LPO reviewers already know a good contract by sight. These 21 days teach you to write one.",
+  "close_lede": "Bring the eye you built in review. Leave with drafts of your own, a clearer plan for reaching business clients, and a LinkedIn profile that says you draft contracts."
+ },
+ {
+  "id": "17",
+  "today": "Today, you keep board minutes, registers and filings in order for a company.",
+  "after": "After 21 days, you can draft the founder and investor papers that come before your filings.",
+  "symptom_h2": "You file the decisions, but founders ask others to draft them",
+  "symptom": [
+   "As a company secretary, you know a company from the inside. You record the allotments, prepare the resolutions and keep the registers clean. Board meetings run smoothly because of you. When shares change hands, the paperwork reaches your desk.",
+   "Yet the documents that create those changes are usually drafted before you see them. The co-founder agreement, the funding papers and the stock option plan come from another lawyer. You hold an LLB and understand share structure better than most. You want to be the one founders call first."
+  ],
+  "outcome_h2": "Become the lawyer founders call before they raise money",
+  "outcome": "Startups need clear papers at every stage: who owns what, how founders leave, how employees get stock and how investors come in. A lawyer who drafts these sits at the founder's table, not after the event. Your secretarial knowledge of share capital and approvals makes those drafts sound. Work that shapes the deal generally pays better than routine record keeping, and it grows as the company grows.",
+  "alts_h2": "Three routes company secretaries often try first",
+  "alts": [
+   {
+    "t": "Taking on filings for more companies",
+    "p": "Extra filings add income but keep you in the same role. Founders still see you as the person who records decisions, not the lawyer who drafts the agreements behind them."
+   },
+   {
+    "t": "Reading sample shareholder agreements online",
+    "p": "Samples show the shape of a deal. They do not show which clause protects which founder, so you cannot explain a choice when a client pushes back on it."
+   },
+   {
+    "t": "Waiting for an in-house legal role to open",
+    "p": "Internal legal openings for secretaries are rare and slow. Meanwhile your drafting skill stays untested, and nobody outside your company sees what you can really do."
+   }
+  ],
+  "reframe_h2": "Your gap is drafting practice, not legal knowledge",
+  "reframe": "You already know the Companies Act, share classes and approval routes. The gap is that you have not drafted the agreements founders sign, and founders do not yet know you can. Daily practice with one document at a time, plus a clear way to show your work, closes that gap. The effort and the talent are already in place.",
+  "role_h2": "What company secretaries already bring to founder contracts",
+  "role_intro": "Your secretarial training is a strong base for startup drafting. Founder and investor documents are full of share capital, vesting, board seats, consent rights and approvals, which is ground you already cover every week. Here is how that knowledge carries over directly.",
+  "role_points": [
+   {
+    "t": "You know the share capital table",
+    "p": "Cap tables, allotments and transfers are your daily work. That makes ESOP (employee stock option plan) pools and dilution clauses feel familiar from your first draft."
+   },
+   {
+    "t": "You know what the board must approve",
+    "p": "Reserved matters and consent rights in a co-founder agreement or term sheet mirror the approvals you already track. You can draft them so they work in practice."
+   },
+   {
+    "t": "You write formal, precise language",
+    "p": "Resolutions and minutes have trained you to write without ambiguity. Contracts reward exactly that habit, especially in vesting schedules, exit terms and investor rights."
+   }
+  ],
+  "artifact_h2": "You draft a co-founder agreement and an ESOP vesting clause",
+  "artifact_intro": "In the community you practise the co-founder agreement and the ESOP on separate days. The clause below joins them: what happens to a founder's shares when that founder leaves before vesting is complete.",
+  "clause_title": "Clause 6. Founder Vesting and Leaver Terms",
+  "clause": "6.1 The Founder's Shares shall vest monthly over forty-eight months from the Effective Date, subject to a twelve-month cliff. 6.2 If the Founder ceases to be engaged by the Company before full vesting, the Company may buy back the unvested Shares at their face value within ninety days of the leaving date.",
+  "margin_note": "You will record this buyback in the register later. Drafting it first means the board approval and the filing match what the founders agreed.",
+  "plan_h2": "Four weeks after the camp, step by step",
+  "plan": [
+   "Week 1: redraft the co-founder agreement from the camp, adding a leaver clause that matches the share structure you know.",
+   "Week 2: draft a short term sheet and a SAFE (simple agreement for future equity), then compare how each treats investors.",
+   "Week 3: update your LinkedIn headline and post one note on founder vesting, as shown in the profile session.",
+   "Week 4: use the startup outreach method from the camp to write to founders found on Y Combinator lists."
+  ],
+  "room": [
+   "keep a company's registers and want to draft the agreements behind them",
+   "hold an LLB and want founder contracts to sit beside your secretarial work",
+   "already explain share capital to founders and want to draft their papers too",
+   "want a career closer to the founder's table and funding decisions"
+  ],
+  "faq": [
+   {
+    "q": "Do I need startup experience to join?",
+    "a": "No. The community starts from the parts of a contract and builds one document a day. Your work with share capital and approvals gives you a head start when the founder and investor documents arrive later in the program."
+   },
+   {
+    "q": "Will this sit alongside my secretarial job or practice?",
+    "a": "Yes. The daily reading and quiz come on WhatsApp, and the live online sessions run in the evening. You can keep your current work and add drafting practice around it without taking leave."
+   },
+   {
+    "q": "Is this about filings and record keeping again?",
+    "a": "No. You know filings well already. These 21 days focus on drafting the agreements themselves: co-founder agreements, ESOPs, SAFEs, term sheets, SaaS (software sold as a service) agreements and more, plus how to reach startups that need them."
+   }
+  ],
+  "buyer_line": "I already keep company records. For ₹200, I am spending 21 days learning to draft founder contracts too.",
+  "close_h2": "Company secretaries already know how companies are built. These 21 days add the contracts founders sign.",
+  "close_lede": "Your registers, resolutions and share records are the foundation. Add co-founder agreements, ESOP clauses and investor papers, so founders can bring you in before they raise money."
+ },
+ {
+  "id": "18",
+  "today": "Today, you draft sale deeds, leave and licence agreements and leases for property clients.",
+  "after": "After 21 days, you can draft commercial leases, vendor contracts and joint development agreements.",
+  "symptom_h2": "You draft property papers well and want business clients too",
+  "symptom": [
+   "Your practice runs on sale deeds, title checks and registration. Families and buyers trust you with the biggest purchase of their lives. You know stamp duty, encumbrances and the exact wording a sub-registrar accepts. Your drafting is careful because property mistakes are costly.",
+   "But the same clients often own shops, offices and small companies. When they sign a vendor contract or a software agreement, they go to someone else. You already draft for a living. You want your drafting to reach the businesses those families run. The step across is shorter than it looks."
+  ],
+  "outcome_h2": "Become the lawyer businesses call for commercial contracts",
+  "outcome": "Commercial drafting lets you serve a client every year, not once per property. A business needs a lease for its office, contracts with vendors, an employment agreement for staff and terms for its website. You can become the lawyer on call for all of them. Repeat business work tends to pay more steadily than one-off conveyancing, and it builds on the drafting discipline you already have.",
+  "alts_h2": "Three things property lawyers often try first",
+  "alts": [
+   {
+    "t": "Taking more conveyancing files",
+    "p": "More sale deeds keep the practice busy, but each client leaves after registration. That work does not create the ongoing business relationships that commercial contracts do, year after year."
+   },
+   {
+    "t": "Copying a commercial format from the internet",
+    "p": "A downloaded format gives you clause headings. It does not tell you how a lock-in period or a service level should read for this client, so you hesitate to sign off."
+   },
+   {
+    "t": "Referring business work to a corporate firm",
+    "p": "Referring keeps the client happy for now. It also teaches the client that a different lawyer handles their business, and that habit is hard to reverse later."
+   }
+  ],
+  "reframe_h2": "You already draft. The gap is the document type.",
+  "reframe": "Your skill is not the problem. You draft precise, enforceable documents every week. What is missing is practice with the clauses businesses use: service levels, limitation of liability, intellectual property and termination. A short daily routine that moves you from leases into these documents closes the gap. Your clients already trust you; they just do not know you do this work.",
+  "role_h2": "What conveyancing lawyers already carry into commercial drafting",
+  "role_intro": "Property work is drafting at its most careful. Every boundary, payment instalment and possession date has to be exact, or registration stops. That training is the base commercial clients want, and three parts of it transfer almost unchanged into business contracts.",
+  "role_points": [
+   {
+    "t": "Leases are already your territory",
+    "p": "A commercial lease uses the rent, deposit and lock-in ideas you know, with added fit-out, signage and permitted use clauses. It is the natural first step."
+   },
+   {
+    "t": "You know staged payments and possession",
+    "p": "Joint development agreements split built area and pay landowners in stages. Your sale deed and possession experience makes those clauses easier to draft correctly."
+   },
+   {
+    "t": "Clients already trust your signature",
+    "p": "Shop owners and builders who used you for property already know your work. Offering them a lease or a vendor contract is an easy conversation to start."
+   }
+  ],
+  "artifact_h2": "You draft a commercial lease, then a joint development agreement",
+  "artifact_intro": "You start where you are strongest. The commercial lease builds on your leave and licence work. Later, the joint development agreement brings in landowners, builders and shared built area, a document many property clients will recognise.",
+  "clause_title": "Clause 4. Lock-in and Fit-out Period",
+  "clause": "4.1 The Tenant shall have a rent-free fit-out period of sixty days from the Handover Date. 4.2 Neither party may terminate this Lease during the first thirty-six months (the Lock-in Period), except for material breach not cured within thirty days of written notice. 4.3 After the Lock-in Period, either party may terminate on ninety days' notice.",
+  "margin_note": "You know lock-ins from residential leases. A business tenant cares more about the fit-out period, so they read this clause first.",
+  "plan_h2": "What you do in the four weeks after the camp",
+  "plan": [
+   "Week 1: redraft the commercial lease from the camp for a shop or office client you already serve.",
+   "Week 2: draft a vendor service agreement for a builder's supplier, using the questions from the client session.",
+   "Week 3: outline a joint development agreement and test it against a project you have handled before.",
+   "Week 4: publish one LinkedIn article on commercial leases, following the steps from the final session."
+  ],
+  "room": [
+   "draft sale deeds and leases and want commercial clients as well",
+   "want each property client to come back for business contracts",
+   "already know registration and stamp duty and want new document types",
+   "want a practice with yearly business clients, not only one-off transactions"
+  ],
+  "faq": [
+   {
+    "q": "I only do property work. Is commercial drafting too far from that?",
+    "a": "No. Leases sit in both worlds, so the community gives you a familiar start. From there you move one document a day into vendor contracts, SaaS (software sold as a service) agreements, IP licensing and joint development agreements."
+   },
+   {
+    "q": "Can I keep my conveyancing practice running during these 21 days?",
+    "a": "Yes. The daily reading and quiz arrive on WhatsApp and take little time. The live online sessions run in the evening, after registration offices close, so your daytime practice carries on as usual."
+   },
+   {
+    "q": "How would I find business clients for this work?",
+    "a": "Some sessions cover exactly that: listing a service on an online marketplace, pitching startups directly and building a LinkedIn profile known for contracts. You learn the methods; how far you take them is up to you."
+   }
+  ],
+  "buyer_line": "I already draft property papers. For ₹200 and 21 days, I am adding business contracts to my practice.",
+  "close_h2": "Property lawyers already draft with care. These 21 days carry that care into commercial contracts.",
+  "close_lede": "Start with the commercial lease you almost know, and build from there into vendor, software and development agreements. Your existing clients run businesses that need these papers."
+ },
+ {
+  "id": "19",
+  "today": "Today, you intern, read files and wait for a chance to draft something real.",
+  "after": "After 21 days, you can draft common business contracts and show them on LinkedIn.",
+  "symptom_h2": "Your internship gives you research tasks, and you want drafting work",
+  "symptom": [
+   "Internships teach a lot. You research case law, proofread notices and sit in on client calls. You notice how seniors structure each agreement. Some weeks you get a small clause to check, and you enjoy that more than anything else.",
+   "But drafting usually goes to associates, so your CV lists research and little else. You want proof that you can write a contract, not only read one. You already have the curiosity. College is a good time to build that proof, because you have evenings, energy and time before your first job begins."
+  ],
+  "outcome_h2": "Start becoming a contract drafting lawyer while still in college",
+  "outcome": "Contract drafting is work that businesses and startups of every size pay for. If you learn it early, you can graduate with your own drafts, a clear specialism and a profile that shows both. That gives you more to talk about at internships and interviews. Over time, drafting for businesses tends to pay better than general support work, and you can start building toward it now.",
+  "alts_h2": "Three things interning law students often try first",
+  "alts": [
+   {
+    "t": "Collecting more internships",
+    "p": "Another internship adds a line to your CV. If the work is research again, you finish with the same skills and still no drafted documents to show anyone."
+   },
+   {
+    "t": "Moot courts and essay competitions",
+    "p": "Moots sharpen argument and research, which is useful for court. They rarely ask you to draft a contract that a business would actually sign and use."
+   },
+   {
+    "t": "Waiting for the contracts paper in final year",
+    "p": "The contract law paper teaches doctrine and case law. Exams test what the law says, not whether you can write a clean clause for a client."
+   }
+  ],
+  "reframe_h2": "You need drafted work to show, not more marks",
+  "reframe": "Your marks and internships already show effort. What employers and clients look for is evidence that you can draft. That evidence comes from regular practice on real document types and a place to show it. One document a day and a LinkedIn profile built around contracts do more for your positioning than another research task.",
+  "role_h2": "What law students doing internships already have",
+  "role_intro": "You are closer to drafting than you think. Your classes, your internships and your free evenings give you the three things a beginner drafter needs most. Here is how each one helps you from the very first day of the community.",
+  "role_points": [
+   {
+    "t": "You study contract law right now",
+    "p": "Offer, acceptance, consideration and breach are fresh in your mind. Drafting turns those rules into clauses, so your syllabus becomes practical almost at once."
+   },
+   {
+    "t": "You see real files at internships",
+    "p": "Every agreement you proofread is a free example. Once you know the parts of a contract, you start reading those files the way a drafter does."
+   },
+   {
+    "t": "You have time and a phone",
+    "p": "The daily reading and quiz come on WhatsApp, and sessions are in the evening. A student timetable fits this better than a full-time job does."
+   }
+  ],
+  "artifact_h2": "Your first lesson is the parts of a contract",
+  "artifact_intro": "The first day covers how a contract is built: parties, recitals, definitions, operative clauses, boilerplate and signatures. Once you see the structure, every later document is easier. Here is a recitals and definitions block of the kind you write first.",
+  "clause_title": "Recitals and Clause 1. Definitions",
+  "clause": "WHEREAS the Company develops mobile software and wishes to engage the Consultant to provide design services; NOW THEREFORE the parties agree as follows. 1.1 \"Deliverables\" means the designs listed in Schedule A. 1.2 \"Effective Date\" means the date on which both parties sign this Agreement.",
+  "margin_note": "In exams you define terms inside answers. In a contract, a clear definition stops an argument years later. Practise these first.",
+  "plan_h2": "Four weeks after the camp, alongside college",
+  "plan": [
+   "Week 1: pick your three best drafts from the camp and clean them up for a portfolio folder.",
+   "Week 2: rewrite your LinkedIn headline and About section around contract drafting, using the profile session.",
+   "Week 3: publish your first article on one clause you drafted, following the steps from the last session.",
+   "Week 4: show your drafts to your internship supervisor and ask for a drafting task on the next file."
+  ],
+  "room": [
+   "are interning and want drafting work, not only research and proofreading",
+   "want your CV and LinkedIn to show contracts you have actually drafted",
+   "enjoy the contracts paper and want to see how businesses use it",
+   "want a clear specialism before your final year ends"
+  ],
+  "faq": [
+   {
+    "q": "Will the evening sessions clash with my classes or internship?",
+    "a": "The live online sessions are in the evening, after most college and internship hours. The reading and quiz come on WhatsApp each day, so you can finish them between lectures or on your commute."
+   },
+   {
+    "q": "I have not studied company law yet. Can I still follow?",
+    "a": "Yes. The community begins with the parts of a contract and explains each document in plain terms. Topics like an ESOP (employee stock option plan) or a SAFE (simple agreement for future equity) are introduced when you reach them, not assumed."
+   },
+   {
+    "q": "Is ₹200 worth it on a student budget?",
+    "a": "It costs about a couple of coffees for 21 days of daily lessons and live sessions, and it is refundable. You decide after seeing the work whether contract drafting is the path you want."
+   }
+  ],
+  "buyer_line": "It is ₹200 for 21 days. I want to finish college with contracts I drafted myself, not just internship letters.",
+  "close_h2": "Law students doing internships already see real files. These 21 days teach you to draft them.",
+  "close_lede": "Use your college years to build drafting skill, a portfolio of practice documents and a LinkedIn profile that shows them. Start with the parts of a contract and add one document a day."
+ },
+ {
+  "id": "20",
+  "today": "Today, you have law firm experience, a family to care for, and want legal work again.",
+  "after": "After 21 days, you can draft startup contracts again and know how to reach clients directly.",
+  "symptom_h2": "You left the firm for family, but kept the lawyer's eye",
+  "symptom": [
+   "You did good work at the firm. You handled agreements, sat on calls with partners and learned how deals are negotiated. That experience is still yours. Then family needed you more, and you made that choice with care.",
+   "Now you want legal work again, on terms that fit your home. Going back to firm hours may not be the answer. You still read a contract and see what is missing. That skill has not gone anywhere. It only needs a refresh and a new way to find clients."
+  ],
+  "outcome_h2": "Come back as a lawyer with your own clients",
+  "outcome": "Instead of a desk at a firm, you can build a drafting practice around startups and small businesses. They need co-founder agreements, employment contracts, privacy policies and vendor terms, and many prefer a lawyer they can call directly. You choose the clients and the hours. With time and steady effort, this kind of practice can pay better than a junior return to a firm.",
+  "alts_h2": "Three things lawyers returning to work often try first",
+  "alts": [
+   {
+    "t": "Applying to firms again",
+    "p": "Firms value your experience but often expect the same long hours and office days. The role rarely bends around school runs or care at home, however good you are."
+   },
+   {
+    "t": "Taking short review tasks online",
+    "p": "Short review tasks bring some income and keep you reading. They do not build a client base of your own or a reputation as the lawyer who drafts."
+   },
+   {
+    "t": "Waiting until the children are older",
+    "p": "Waiting feels sensible, yet each month adds distance from your last draft. A little practice each day keeps your skills current without disturbing home life."
+   }
+  ],
+  "reframe_h2": "Your return needs positioning, not proof that you can work",
+  "reframe": "Your ability was proven at the firm. The gap is how clients find you now that you are not behind a firm's name. That is a positioning task: a fresh set of drafts, a profile that says contracts, and a clear way to reach founders. Practice and visibility close that gap; talent was never the question.",
+  "role_h2": "What lawyers who left a law firm already bring back",
+  "role_intro": "Firm years leave habits that independent clients value highly. You know how a partner reviews a draft, how deadlines feel and how negotiations move. These carry straight into running your own drafting work from home, starting with three in particular.",
+  "role_points": [
+   {
+    "t": "You know how partners think",
+    "p": "One session covers how law firm partners and in-house counsel think. You lived that, and it helps you write drafts that senior readers accept quickly."
+   },
+   {
+    "t": "You have handled real negotiations",
+    "p": "You have seen clauses traded on calls. That makes it easier to draft a first version that already expects what the other side will ask for."
+   },
+   {
+    "t": "You know client service",
+    "p": "Firm training taught you to answer quickly, explain clearly and keep records. Startups notice those habits, especially from a lawyer working directly with them."
+   }
+  ],
+  "artifact_h2": "You prepare a client questions checklist for a co-founder agreement",
+  "artifact_intro": "Before you draft, you ask. One live session covers the questions to put to a client before a co-founder agreement. Your checklist becomes the first thing you send any founder, and it shows them you think ahead.",
+  "clause_title": "Client Intake. Co-founder Agreement Questions",
+  "clause": "1. How is equity split today, and what is that split based on? 2. Should founder shares vest, and over what period? 3. What happens if one founder leaves within the first year? 4. Who decides on hiring, spending and new investors? 5. How will a deadlock between founders be resolved?",
+  "margin_note": "At the firm, a partner asked these for you. Now you ask them yourself, and founders hear an experienced lawyer from the first call.",
+  "plan_h2": "Your four weeks after the camp, at home pace",
+  "plan": [
+   "Week 1: refresh your three strongest camp drafts and save them as a clean portfolio you can share.",
+   "Week 2: update LinkedIn to say you draft contracts for startups, mentioning your firm years plainly.",
+   "Week 3: write to founders from Y Combinator lists and Apollo, using the pitching method from the camp.",
+   "Week 4: publish a short article on co-founder agreements so founders who find you can see your thinking."
+  ],
+  "room": [
+   "left a law firm for family and want legal work on your own terms",
+   "want clients of your own rather than a return to firm hours",
+   "can give an hour a day and an evening session to restart",
+   "still read contracts sharply and want to draft them again"
+  ],
+  "faq": [
+   {
+    "q": "I have been away for some time. Will I keep up?",
+    "a": "The community starts from the parts of a contract and adds one document a day, so you rebuild at a steady pace. Newer topics, like a DPDPA (Digital Personal Data Protection Act) privacy policy, are taught from the beginning."
+   },
+   {
+    "q": "Can I fit this around children and home?",
+    "a": "The reading and quiz arrive on WhatsApp, so you can do them whenever the house is quiet. The live online sessions are in the evening, and each one is a single session, not a full day."
+   },
+   {
+    "q": "How would I find clients without a firm behind me?",
+    "a": "Several sessions cover this: listing a service on an online marketplace, pitching startups directly, reaching UK small businesses and building a LinkedIn profile. You learn the methods here; the pace at which you use them is yours to set."
+   }
+  ],
+  "buyer_line": "I left the firm for our family. For ₹200 and 21 days, I am rebuilding my practice on my own hours.",
+  "close_h2": "Lawyers who left a firm for family already have the training. These 21 days add a way to reach your own clients.",
+  "close_lede": "Refresh your drafting one document a day, learn how founders think about legal help, and set up a profile that tells startups you are back and drafting."
+ }
+]
