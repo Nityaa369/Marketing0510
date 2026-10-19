@@ -145,3 +145,6 @@ Also: dates belong on landing pages, not on ad creatives (13 Aug). The button st
 - **Never a countdown button, timer or "starts in" widget. Hard rule.** Dates go on the landing page (as plain text), not on ad creatives.
 - **More informative landing pages win trust and so more learners.** Add every persuasive element we build to every page; the list is in `docs/LP_PERSUASION_RULEBOOK.md`.
 - **Button wording is the holy grail: the button states the joining price, the full exchange,** exclusive to joining: Rs 10 incl. GST for bootcamps, a different set price for community camps. The price is for the whole bootcamp: 3 days, 9 hours, live (divyanshu, 16 Oct). Page button: "Join all 3 days, 9 hours live, for Rs 10". Always followed. Never a bare "Join now", never "Reserve my seat", never "Know more".
+
+## Community camps (divyanshu, 19 Oct 2026)
+- "i want you to understand what we teach in each community and we prepare ads accordingly." Every community ad and page is built from that community's own calendar (and script when supplied): the prize, the documents and the sessions named must appear in it. Curricula for CD 64-65, AI for Legal 27-28, CL 77-78 and ID 86-87 are in `docs/COMMUNITY_CURRICULA_Oct-Nov2026.md`.
