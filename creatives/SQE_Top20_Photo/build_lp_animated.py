@@ -1,7 +1,11 @@
 # One showcase landing page in a 3D animated style (CSS 3D tilt, parallax hero, scroll reveal, animated
 # counters, animated route). Self-contained, no libraries. Content = page 01 (litigating advocates).
 # Run: python3 build_lp_animated.py  -> landing_pages/lp_sqe_NN_<stem>_animated.html, one per ICP
-import os, re, html, importlib.util
+import os, re, html, base64, importlib.util
+def img_uri(n):
+    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'photos', n + '.jpg'), 'rb') as f:
+        return 'data:image/jpeg;base64,' + base64.b64encode(f.read()).decode()
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 spec = importlib.util.spec_from_file_location("lps", os.path.join(HERE, "build_lps.py"))
 # import the content without re-running the file writes: exec only the data part
@@ -104,7 +108,7 @@ def build(p):
     <div class="who">{p['who']}</div>
     <h1>{h1}</h1>
     <p class="lead">{p['lead']}</p>
-    <div class="card3d"><img src="../photos/{p['photo']}.jpg" alt=""><div class="tag">{tag}</div></div>
+    <div class="card3d"><img src="{img_uri(p['photo'])}" alt=""><div class="tag">{tag}</div></div>
     <a class="cta" href="{PAY}">Join the SQE Community for Rs 100 <span class="arrow">&#8594;</span></a>
     <div class="terms">{DATES} · Live only, no recordings · Certificate of participation</div>
     </div></header>

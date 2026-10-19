@@ -2,7 +2,11 @@
 # 1 problem and why this is the investment, 2 twelve "did you know" reasons, 3 positioning and stories,
 # 4 bonus: the money behind English law, then the offer and the only disclaimer at the end.
 # Facts: Day 0, Day 1 and Day 2 decks of the SQE community (sources named on the page). Run: python3 build_lps.py
-import os, re, html
+import os, re, html, base64
+def img_uri(n):
+    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'photos', n + '.jpg'), 'rb') as f:
+        return 'data:image/jpeg;base64,' + base64.b64encode(f.read()).decode()
+
 HERE = os.path.dirname(os.path.abspath(__file__)); OUT = os.path.join(HERE, "landing_pages")
 PAY = "#PAYMENT_LINK_PENDING"   # BLOCKER: real GrowthX funnel URL per page, test-buy in a browser
 DATES = "7 live evenings, 8 PM IST"
@@ -327,7 +331,7 @@ def sec(k, title, body, n=None):
     return '<section><!-- %s --><div class="wrap">%s<h2>%s</h2>%s</div></section>' % (k, nn, title, body)
 
 def page(p):
-    img = '<img src="../photos/%s.jpg" alt="">' % p["photo"]
+    img = '<img src="%s" alt="">' % img_uri(p["photo"])
     head_inner = """<div class="brand">LawSikho · SQE Community</div>
 <div class="who">%(who)s</div>
 <h1>%(h1)s</h1>
