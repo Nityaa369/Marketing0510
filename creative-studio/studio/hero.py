@@ -2,6 +2,10 @@
 
 Backends
   mflux        Local, free. Runs the MFLUX command line tool on an Apple Silicon Mac.
+  hf_space     Free public demo of the same model on Hugging Face (Tongyi-MAI/Z-Image-Turbo
+               Space), called over the network with gradio_client. Works from any machine,
+               including this cloud session. Shared GPU: queues and quotas apply, and the
+               prompt leaves your machine.
   placeholder  Draws a labelled stand-in with Pillow, so the pipeline can be tested
                anywhere. Never ship a placeholder poster.
 """
@@ -87,8 +91,10 @@ def generate_hero(
         _placeholder(out, row_id, gen["width"], gen["height"], seed_value)
     elif backend == "mflux":
         _run_mflux(out, prompt, gen["width"], gen["height"], seed_value)
+    elif backend == "hf_space":
+        _run_hf_space(out, prompt, gen["width"], gen["height"], seed_value)
     else:
-        raise HeroError(f"Unknown hero backend '{backend}' (use mflux or placeholder)")
+        raise HeroError(f"Unknown hero backend '{backend}' (use mflux, hf_space or placeholder)")
 
     if not out.exists():
         raise HeroError(f"{backend} finished but wrote no image at {out}")
@@ -99,7 +105,7 @@ def generate_hero(
         {
             "row_id": row_id,
             "backend": backend,
-            "model": os.environ.get("STUDIO_MODEL", DEFAULT_MODEL) if backend == "mflux" else None,
+            "model": {"mflux": os.environ.get("STUDIO_MODEL", DEFAULT_MODEL), "hf_space": HF_SPACE}.get(backend),
             "prompt": prompt,
             "seed": seed_value,
             "size": size,
@@ -134,6 +140,51 @@ def _run_mflux(out: Path, prompt: str, width: int, height: int, seed: int) -> No
     if proc.returncode != 0:
         tail = (proc.stderr or proc.stdout or "").strip().splitlines()[-15:]
         raise HeroError("mflux failed:\n" + "\n".join(tail))
+
+
+HF_SPACE = "Tongyi-MAI/Z-Image-Turbo"
+# the Space only offers fixed sizes, under these exact labels; the closest aspect ratio is
+# picked and the poster crops the hero to its box anyway
+HF_SPACE_SIZES = [
+    "1024x1024 ( 1:1 )", "1152x896 ( 9:7 )", "896x1152 ( 7:9 )", "1152x864 ( 4:3 )", "864x1152 ( 3:4 )",
+    "1248x832 ( 3:2 )", "832x1248 ( 2:3 )", "1280x720 ( 16:9 )", "720x1280 ( 9:16 )", "1344x576 ( 21:9 )",
+    "576x1344 ( 9:21 )", "1536x1024 ( 3:2 )", "1024x1536 ( 2:3 )", "1536x864 ( 16:9 )", "864x1536 ( 9:16 )",
+]
+
+
+def hf_space_resolution(width: int, height: int) -> str:
+    want = width / height
+
+    def ratio(label: str) -> float:
+        w, h = label.split()[0].split("x")
+        return int(w) / int(h)
+
+    return min(HF_SPACE_SIZES, key=lambda label: (abs(ratio(label) - want), -int(label.split("x")[0])))
+
+
+def _run_hf_space(out: Path, prompt: str, width: int, height: int, seed: int) -> None:
+    try:
+        from gradio_client import Client
+    except ImportError as exc:
+        raise HeroError("gradio_client is missing: pip install gradio_client") from exc
+    space = os.environ.get("STUDIO_HF_SPACE", HF_SPACE)
+    try:
+        client = Client(space, hf_token=os.environ.get("HF_TOKEN") or None, verbose=False)
+        result = client.predict(
+            prompt=prompt,
+            resolution=hf_space_resolution(width, height),
+            seed=seed % 2_147_483_647,
+            steps=int(os.environ.get("STUDIO_STEPS", "8")),
+            shift=3.0,
+            random_seed=False,
+            gallery_images=[],
+            api_name="/generate",
+        )
+        path = result[0][0]["image"]["path"]
+    except Exception as exc:  # noqa: BLE001 - network, queue and quota errors all end up here
+        raise HeroError(f"Hugging Face Space '{space}' failed: {exc}") from exc
+    with Image.open(path) as im:
+        im.convert("RGB").save(out)
 
 
 def _placeholder(out: Path, row_id: str, width: int, height: int, seed: int) -> None:

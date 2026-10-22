@@ -22,7 +22,7 @@ def main() -> int:
     p.add_argument("--row", help="row id in --sheet")
     p.add_argument("--seed", type=int)
     p.add_argument("--template", default="ncacanada")
-    p.add_argument("--backend", choices=["mflux", "placeholder"], help="default: STUDIO_HERO_BACKEND or mflux")
+    p.add_argument("--backend", choices=["mflux", "hf_space", "placeholder"], help="default: STUDIO_HERO_BACKEND or mflux")
     p.add_argument("--force", action="store_true", help="regenerate even if an identical image exists")
     a = p.parse_args()
 

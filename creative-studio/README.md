@@ -64,6 +64,13 @@ RAM guide: 24 GB+ keep `STUDIO_QUANTIZE=8`; 16 GB set `STUDIO_QUANTIZE=4` in `.e
 8 GB use `--small` and expect slow runs. Time per image depends on the chip; the batch log
 records the real seconds for every image (`outputs/logs/`).
 
+**No Mac at hand (cloud session, office PC):** `STUDIO_HERO_BACKEND=hf_space` (or
+`--backend hf_space`) calls the free public demo of the same model on Hugging Face
+(`Tongyi-MAI/Z-Image-Turbo` Space) instead of running it locally. Any machine works, nothing
+to download. Trade-offs: a shared GPU with queues and daily quotas, fixed output sizes (the
+closest aspect ratio is used), and the prompt leaves your machine. Set `HF_TOKEN` in `.env`
+for a higher quota.
+
 **Intel Mac or no model yet:** `bash scripts/setup_mac.sh --posters-only`, put photos in
 `assets/hero_images/`, fill the `hero_image` column, run step 6. To test the pipeline with
 labelled stand-in images: `python scripts/generate_batch.py --sheet data/icps_template.xlsx --backend placeholder`.

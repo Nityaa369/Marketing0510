@@ -16,7 +16,7 @@ def main() -> int:
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--sheet", required=True)
     p.add_argument("--template", default="ncacanada")
-    p.add_argument("--backend", choices=["mflux", "placeholder"], help="default: STUDIO_HERO_BACKEND or mflux")
+    p.add_argument("--backend", choices=["mflux", "hf_space", "placeholder"], help="default: STUDIO_HERO_BACKEND or mflux")
     p.add_argument("--only", nargs="+", help="only these row ids")
     p.add_argument("--limit", type=int, help="only the first N rows")
     p.add_argument("--force", action="store_true", help="redo posters even if unchanged (heroes are reused unless prompt/seed changed)")
