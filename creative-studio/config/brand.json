@@ -1,0 +1,100 @@
+{
+  "_note": "Brand + camp facts used by every template. Edit here, not in code. Facts must match the live dates sheet before launch.",
+  "brand_name": "LawSikho",
+  "logo_file": "assets/logos/lawsikho_logo.png",
+  "colors": {
+    "cream": "#FBF5E9",
+    "ink": "#111111",
+    "red": "#C8102E",
+    "red_dark": "#9E0C24",
+    "white": "#FFFFFF",
+    "highlight": "#FFE14D"
+  },
+  "fonts": {
+    "_note": "Files are looked up in assets/fonts/ first (run scripts/fetch_fonts.sh), then in system font folders. 'variation' picks a weight inside a variable font.",
+    "banner": {
+      "files": [
+        "Anton-Regular.ttf"
+      ],
+      "variation": null
+    },
+    "headline": {
+      "files": [
+        "PlayfairDisplay[wght].ttf",
+        "PlayfairDisplay-Black.ttf"
+      ],
+      "variation": "Black"
+    },
+    "headline_italic": {
+      "files": [
+        "PlayfairDisplay-Italic[wght].ttf",
+        "PlayfairDisplay-BlackItalic.ttf"
+      ],
+      "variation": "Black"
+    },
+    "body": {
+      "files": [
+        "Inter[opsz,wght].ttf",
+        "Inter-Bold.ttf",
+        "Inter-Bold.otf"
+      ],
+      "variation": "Bold"
+    },
+    "cta": {
+      "files": [
+        "Anton-Regular.ttf"
+      ],
+      "variation": null
+    },
+    "fallback": [
+      "DejaVuSans-Bold.ttf",
+      "Arial Bold.ttf",
+      "Helvetica.ttc"
+    ]
+  },
+  "programs": {
+    "ncacanada": {
+      "program_name": "NCA Canada Bootcamp",
+      "journey_tab": "Start your Canadian Legal Practice journey",
+      "dates": "31 Oct to 2 Nov 2026",
+      "days": 3,
+      "hours": 9,
+      "price": "₹10",
+      "price_frame_required": [
+        "3 days",
+        "9 hours"
+      ],
+      "terms_line": "₹10 incl. GST · refundable · live only · 31 Oct to 2 Nov 2026",
+      "red_words": [
+        "Canada",
+        "Canadian",
+        "NCA"
+      ]
+    }
+  },
+  "banned_phrases": [
+    "100% pass",
+    "no chance of failing",
+    "guaranteed",
+    "closes today",
+    "last day",
+    "assesses",
+    "aids",
+    "almost no competition",
+    "competition is really low",
+    "lawyer without leaving India",
+    "three evenings",
+    "8 lakhs a month",
+    "top 10%"
+  ],
+  "required_phrase_rules": [
+    {
+      "pattern": "(?i)\\bcanadian practice\\b",
+      "message": "Say \"Canadian Legal Practice\", never \"Canadian practice\"."
+    },
+    {
+      "pattern": "[–—]",
+      "message": "No em or en dashes on a face (repo CLAUDE.md rule). Write 'to' instead."
+    }
+  ]
+}

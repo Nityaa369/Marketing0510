@@ -1,0 +1,39 @@
+{
+  "_note": "Fixed NCA Canada poster layout. All boxes are in BASE pixels (1080 x 1350, Meta 4:5) and are multiplied by 'scale' on export. Change copy in the spreadsheet; change geometry here.",
+  "program": "ncacanada",
+  "canvas": {"width": 1080, "height": 1350, "scale": 2, "background": "cream"},
+  "header": {"box": [0, 0, 1080, 74], "text_size": 26, "logo_height": 44},
+  "banner": {
+    "box": [0, 74, 1080, 196],
+    "fill": "red",
+    "text_color": "white",
+    "default_text": "ALL {icp}, DO YOU RELATE?",
+    "max_size": 82, "min_size": 40, "max_lines": 1, "padding_x": 40
+  },
+  "hero": {"box": [40, 216, 1040, 726], "radius": 28, "border": 6, "border_color": "ink", "maple_badge": true},
+  "headline": {
+    "box": [48, 744, 1032, 948],
+    "color": "ink", "accent_color": "red",
+    "max_size": 64, "min_size": 34, "max_lines": 3, "line_spacing": 1.08, "align": "center"
+  },
+  "supporting": {
+    "box": [60, 954, 1020, 1060],
+    "color": "red",
+    "max_size": 34, "min_size": 22, "max_lines": 3, "line_spacing": 1.18, "align": "center"
+  },
+  "journey_tab": {"box": [190, 1068, 890, 1122], "fill": "white", "text_color": "red", "outline": "red", "max_size": 30, "min_size": 18},
+  "cta_bar": {
+    "box": [0, 1112, 1080, 1318],
+    "fill": "red",
+    "text_color": "white",
+    "line1_max": 92, "line1_min": 48,
+    "line2_max": 34, "line2_min": 20,
+    "min_area_share": 0.15
+  },
+  "footer": {"box": [0, 1318, 1080, 1350], "text_size": 20, "color": "ink"},
+  "hero_generation": {
+    "width": 1344, "height": 688,
+    "style_prefix": "Editorial photograph, warm natural light, cream and deep red colour palette, shallow depth of field, ",
+    "style_suffix": ", authentic Indian legal professional, realistic skin, dignified and hopeful mood, no text, no letters, no words, no signage, no logos, no watermark"
+  }
+}

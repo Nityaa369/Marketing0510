@@ -1,0 +1,26 @@
+[project]
+name = "lawsikho-creative-studio"
+version = "0.1.0"
+description = "Local-first ad creative studio: free hero images on Apple Silicon + exact-copy posters at scale"
+requires-python = ">=3.10"
+dependencies = [
+  "pillow>=10.3",
+  "pandas>=2.1",
+  "openpyxl>=3.1",
+  "huggingface_hub>=0.24",
+]
+
+[project.optional-dependencies]
+# Apple Silicon only: MLX-based local image generation (MIT licence)
+mac = ["mflux>=0.10"]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["studio"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
