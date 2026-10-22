@@ -1,0 +1,29 @@
+# environment + secrets
+.venv/
+.env
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# never commit model weights or caches
+*.safetensors
+*.ckpt
+*.bin
+*.gguf
+models/
+.cache/
+
+# generated images and run state
+outputs/**
+!outputs/**/
+!outputs/**/.gitkeep
+assets/hero_images/*
+!assets/hero_images/.gitkeep
+
+# fonts are downloaded by scripts/fetch_fonts.sh
+assets/fonts/*
+!assets/fonts/.gitkeep
+assets/references/*
+!assets/references/.gitkeep
+.DS_Store
