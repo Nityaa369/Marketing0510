@@ -16,7 +16,7 @@ COLUMNS = {
     "id": "Unique short id, used in file names (e.g. nca01_new_grads)",
     "campaign": "Campaign name for the media buyer",
     "icp": "Reader name as it appears in the banner (e.g. NEW LAW GRADS)",
-    "banner": "Optional. Full banner text. Blank = template default 'ALL {icp}, DO YOU RELATE?'",
+    "banner": "Optional. Full banner text. Blank = template default '{icp} WANTING CANADIAN LEGAL PRACTICE'",
     "headline": "The big line. Wrap a phrase in *asterisks* to set it in red italic",
     "supporting": "One plain supporting line under the headline",
     "cta": "Button text. Must contain JOIN NOW",

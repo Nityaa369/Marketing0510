@@ -12,7 +12,7 @@ def check(data, program, layout):
 def test_good_row_passes_and_gets_defaults(good_row, program, layout):
     row = check(good_row, program, layout)
     assert row.ok, row.errors
-    assert row.data["banner"] == "ALL NEW LAW GRADS, DO YOU RELATE?"
+    assert row.data["banner"] == "NEW LAW GRADS WANTING CANADIAN LEGAL PRACTICE"
     assert "3 days" in row.data["price_line"] and "9 hours" in row.data["price_line"]
     assert row.data["journey_tab"] == "Start your Canadian Legal Practice journey"
 

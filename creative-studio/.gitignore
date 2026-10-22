@@ -21,11 +21,9 @@ outputs/**
 assets/hero_images/*
 !assets/hero_images/.gitkeep
 
-# fonts are downloaded by scripts/fetch_fonts.sh; logos are added locally
+# fonts are downloaded by scripts/fetch_fonts.sh
 assets/fonts/*
 !assets/fonts/.gitkeep
-assets/logos/*
-!assets/logos/.gitkeep
 assets/references/*
 !assets/references/.gitkeep
 .DS_Store

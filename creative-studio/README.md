@@ -77,7 +77,7 @@ approve every line before launch) and a `READ_ME` tab. Columns:
 |---|---|---|
 | `id` | yes | file name, letters/numbers/`_`/`-` |
 | `campaign` | yes | for the media buyer |
-| `icp` | yes | reader name; banner becomes **ALL {ICP}, DO YOU RELATE?** unless `banner` is filled |
+| `icp` | yes | reader name; the ICP line becomes **{ICP} WANTING CANADIAN LEGAL PRACTICE 🍁** unless `banner` is filled |
 | `headline` | yes | the big line; wrap a phrase in `*asterisks*` for red italic. Canada/Canadian/NCA are always red |
 | `supporting` | yes | one plain line, set in red (never grey) |
 | `cta` | yes | must contain JOIN NOW |
@@ -90,7 +90,8 @@ Change copy in the sheet and re-run: only changed rows are redone. Change brand 
 
 ## What the NCA template enforces
 
-- Red ICP banner, white text, one line, auto-sized.
+- Header: the LawSikho | NCA CANADA BOOTCAMP lockup (`assets/logos/lawsikho_nca_lockup.png`, from the owl ad).
+- ICP line: yellow highlighter, Anton, "{READER} WANTING CANADIAN LEGAL PRACTICE" + maple leaf, one line, auto-sized.
 - Pop-out **Start your Canadian Legal Practice journey** tab over a full-width red bar:
   **JOIN NOW AT ONLY ₹10 / for all 3 days · 9 hours of knowledge-enriching sessions**.
   The bar is 15.3% of the poster; rendering fails below 15%.
@@ -101,8 +102,8 @@ Change copy in the sheet and re-run: only changed rows are redone. Change brand 
   em or en dashes, CTA without JOIN NOW, duplicate ids.
 - Text that cannot fit at the minimum size fails with `text overflow in '<field>'`
   instead of being cut off. Output size is checked after export (2160 x 2700 PNG, 4:5).
-- No logo has been supplied, so the header uses a typeset "LawSikho" wordmark and every
-  poster warns about it. Drop the official file at `assets/logos/lawsikho_logo.png`.
+- The lockup is cropped from an existing ad (797 px wide), so it is slightly upscaled on the
+  2x export. Replace it with a higher-resolution original at the same path when you have one.
 - Posters made from placeholder heroes are flagged in the report and on the contact sheet.
 
 ## Failures and re-runs
@@ -124,9 +125,10 @@ creative-studio/
 │                                generate_hero, render_poster, generate_batch, create_contact_sheet,
 │                                make_sample_sheet
 ├── tests/                       pytest: validation, poster, hero command, batch + re-runs
-├── assets/{logos,fonts,references,hero_images}/   local only, not committed
+├── assets/logos/                 NCA lockup (committed)
+├── assets/{fonts,references,hero_images}/   local only, not committed
 └── outputs/{individual_ads,contact_sheets,logs}/  local only, not committed
 ```
 
 Git never receives model weights (they live in `~/.cache/huggingface`), generated images,
-fonts, logos or `.env`. Run tests with `pytest`.
+fonts or `.env`. Run tests with `pytest`.

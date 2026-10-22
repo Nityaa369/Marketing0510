@@ -2,15 +2,16 @@
   "_note": "Fixed NCA Canada poster layout. All boxes are in BASE pixels (1080 x 1350, Meta 4:5) and are multiplied by 'scale' on export. Change copy in the spreadsheet; change geometry here.",
   "program": "ncacanada",
   "canvas": {"width": 1080, "height": 1350, "scale": 2, "background": "cream"},
-  "header": {"box": [0, 0, 1080, 74], "text_size": 26, "logo_height": 44},
+  "header": {"box": [0, 0, 1080, 100], "text_size": 26, "logo_height": 80},
   "banner": {
-    "box": [0, 74, 1080, 196],
-    "fill": "red",
-    "text_color": "white",
-    "default_text": "ALL {icp}, DO YOU RELATE?",
-    "max_size": 82, "min_size": 40, "max_lines": 1, "padding_x": 40
+    "box": [0, 100, 1080, 238],
+    "fill": "highlight",
+    "text_color": "ink",
+    "default_text": "{icp} WANTING CANADIAN LEGAL PRACTICE",
+    "maple_leaf": true,
+    "max_size": 76, "min_size": 34, "max_lines": 2, "padding_x": 30, "line_spacing": 1.04
   },
-  "hero": {"box": [40, 216, 1040, 726], "radius": 28, "border": 6, "border_color": "ink", "maple_badge": true},
+  "hero": {"box": [40, 254, 1040, 732], "radius": 28, "border": 6, "border_color": "ink", "maple_badge": true},
   "headline": {
     "box": [48, 744, 1032, 948],
     "color": "ink", "accent_color": "red",

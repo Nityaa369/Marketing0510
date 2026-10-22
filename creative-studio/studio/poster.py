@@ -125,35 +125,48 @@ def render_poster(row: dict, hero_path: str | Path, out_path: str | Path, templa
 
     # header: logo file if supplied, else typeset wordmark (flagged as placeholder)
     hx0, hy0, hx1, hy1 = L["header"]["box"]
-    logo = ROOT / brand["logo_file"]
+    logo_file = program.get("logo_file", brand["logo_file"])
+    logo = ROOT / logo_file
     if logo.exists():
+        # lockup (LawSikho | maple | program name) centred across the header
         with Image.open(logo) as lg:
-            lg = lg.convert("RGBA")
+            lg = lg.convert("RGB")
             lh = L["header"]["logo_height"] * s
-            lg = lg.resize((int(lg.width * lh / lg.height), lh))
-            canvas.paste(lg, (40 * s, int((hy0 + hy1) / 2 * s - lh / 2)), lg)
+            lw = min(int(lg.width * lh / lg.height), (hx1 - hx0 - 80) * s)
+            lh = int(lg.height * lw / lg.width)
+            lg = lg.resize((lw, lh), Image.LANCZOS)
+            # the lockup has its own off-white ground: let the poster cream show through it
+            ground = Image.new("RGB", lg.size, c(L["canvas"]["background"]))
+            light = lg.convert("L").point(lambda v: 255 if v > 232 else 0)
+            lg = Image.composite(ground, lg, light)
+            canvas.paste(lg, (int((W * s - lw) / 2), int((hy0 + hy1) / 2 * s - lh / 2)))
     else:
-        report.warnings.append(f"no logo at {brand['logo_file']}; using a typeset wordmark placeholder")
+        report.warnings.append(f"no logo at {logo_file}; using a typeset wordmark placeholder")
         f = font("headline", 34 * s)
         d.text((40 * s, (hy0 + hy1) / 2 * s), brand["brand_name"], font=f, fill=c("ink"), anchor="lm")
-    right = rich_words(
+    right = None if logo.exists() else rich_words(
         f"{program['program_name']} · {program['dates']}", "body", "body", c("ink"), c("red"), red_words
     )
-    size, lines = fit_words(right, [hx1 / 2 - 40, hy0, hx1 - 40, hy1], L["header"]["text_size"], 14, 1, 1, s, "header")
-    x_end = (hx1 - 40) * s
-    w = _width(lines[0], size, s)
-    draw_lines(d, lines, size, [x_end / s - w / s, hy0, hx1 - 40, hy1], s, 1, align="left")
+    if right:
+        size, lines = fit_words(right, [hx1 / 2 - 40, hy0, hx1 - 40, hy1], L["header"]["text_size"], 14, 1, 1, s, "header")
+        w = _width(lines[0], size, s) / s
+        draw_lines(d, lines, size, [hx1 - 40 - w, hy0, hx1 - 40, hy1], s, 1, align="left")
 
     # ICP banner
     B = L["banner"]
     d.rectangle(_box(B["box"], s), fill=c(B["fill"]))
-    banner_words = [Word(t, "banner", c(B["text_color"])) for t in row["banner"].upper().split()]
+    banner_words = rich_words(row["banner"].upper(), "banner", "banner", c(B["text_color"]), c("red"), red_words)
     bx0, by0, bx1, by1 = B["box"]
+    leaf = 64 if B.get("maple_leaf") else 0
     size, lines = fit_words(
-        banner_words, [bx0 + B["padding_x"], by0 + 8, bx1 - B["padding_x"], by1 - 8],
-        B["max_size"], B["min_size"], B["max_lines"], 1.0, s, "banner",
+        banner_words, [bx0 + B["padding_x"], by0 + 8, bx1 - B["padding_x"] - leaf, by1 - 8],
+        B["max_size"], B["min_size"], B["max_lines"], B.get("line_spacing", 1.0), s, "banner",
     )
-    draw_lines(d, lines, size, [bx0, by0, bx1, by1], s, 1.0)
+    text_w = max(_width(line, size, s) for line in lines) / s
+    tx0 = (bx0 + bx1 - text_w - leaf) / 2
+    draw_lines(d, lines, size, [tx0, by0, tx0 + text_w, by1], s, B.get("line_spacing", 1.0))
+    if leaf:
+        draw_maple_leaf(d, (int((tx0 + text_w + leaf / 2 + 6) * s), int((by0 + by1) / 2 * s)), int(size * 0.42 * s), c("red"))
     report.font_sizes["banner"] = size
 
     # hero

@@ -40,7 +40,7 @@ def create_contact_sheet(
         with Image.open(path) as im:
             sheet.paste(im.convert("RGB").resize((tw, th), Image.LANCZOS), (x, y))
         d.rectangle([x, y, x + tw - 1, y + th - 1], outline=color("ink"), width=2)
-        limit = 22 if label in flagged else 34
+        limit = 18 if label in flagged else 34
         text = label if len(label) <= limit else label[: limit - 1] + "…"
         d.text((x, y + th + 10), text, font=label_font, fill=color("ink"))
         if label in flagged:

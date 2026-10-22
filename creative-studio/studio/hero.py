@@ -168,8 +168,9 @@ def _placeholder(out: Path, row_id: str, width: int, height: int, seed: int) -> 
     d = ImageDraw.Draw(im)
     label = f"PLACEHOLDER HERO · {row_id}"
     f = font("body", max(18, height // 24))
-    d.rectangle([0, 0, d.textlength(label, font=f) + 40, f.size + 24], fill=(255, 255, 255))
-    d.text((20, 12), label, font=f, fill=(0, 0, 0))
+    top = height // 3
+    d.rectangle([0, top, d.textlength(label, font=f) + 40, top + f.size + 24], fill=(255, 255, 255))
+    d.text((20, top + 12), label, font=f, fill=(0, 0, 0))
     im.save(out)
 
 
